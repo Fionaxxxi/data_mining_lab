@@ -35,11 +35,16 @@ Set-Location D:\data_lab\scenic_lab1
 
 若本环境已经存在，跳过create，直接执行清洗入口。`requirements.txt`只列本项目实际脚本依赖；报告构建另外使用python-docx/lxml。下载与清洗不需要API密钥。
 
+## 官网爬虫与材料准备
+
+`src/crawl_official.py`使用Python标准库urllib.request和BeautifulSoup定向采集三个官方页面。运行命令为`& D:\miniconda3\envs\dm_scenic_lab\python.exe src\crawl_official.py`。程序设置25秒超时、最多两次尝试，校验路线正文后才保存HTML；结果为`data/raw/official_routes.jsonl`，真实请求记录为`data/source/crawl_manifest.json`。黄山和九寨沟成功采集；张家界请求TLS失败，保留人工节选。失败、快照解析、人工补充均与本次成功下载区分。`--offline`只解析已保存材料，其日志单独保存，不覆盖在线采集日志。
+
 ## 从完整分片重建选中原始材料
 
 本机`data/source`已保存约597 MB的两个Parquet分片，SHA-256见manifest.json。提交精简包不重复打包大分片，但保留所有18条选中原文；需要独立验证抽样来源时，按`data/source/DOWNLOAD.md`下载两个精确文件并校验哈希，再执行：
 
 ```powershell
+& D:\miniconda3\envs\dm_scenic_lab\python.exe src\crawl_official.py
 & D:\miniconda3\envs\dm_scenic_lab\python.exe src\prepare_data.py
 & D:\miniconda3\envs\dm_scenic_lab\python.exe src\run_lab1.py
 ```

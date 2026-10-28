@@ -1,7 +1,6 @@
-"""Load fixed corpus records and manually selected official passages; no crawler."""
+"""Load fixed corpus records and official documents produced by crawl_official.py."""
 from pathlib import Path
-import json, hashlib,re
-from bs4 import BeautifulSoup
+import json, hashlib
 import pyarrow.parquet as pq
 ROOT=Path(__file__).resolve().parents[1]
 URL='https://modelscope.cn/datasets/BAAI/IndustryCorpus2'
@@ -32,26 +31,13 @@ for p in sorted((ROOT/'data/source').glob('*.parquet')):
    local+=1
  offset+=local
 assert len(rows)==15
-# Official Huangshan: original HTML body paragraphs, Q20 only.
-s=BeautifulSoup((ROOT/'data/source/official_huangshan.html').read_bytes(),'html.parser')
-script=s.find('script',string=lambda x:x and 'var data=' in x)
-payload=json.loads(re.search(r'var data=(\[.*?\]);',script.string,re.S).group(1))
-body=BeautifulSoup(payload[0]['data']['content'],'html.parser')
-ps=body.find_all('p'); start=next(i for i,p in enumerate(ps) if '20.清明假期' in p.get_text());end=next(i for i,p in enumerate(ps[start+1:],start+1) if '21.黄山' in p.get_text())
-raw='\n'.join(str(p) for p in ps[start:end])
-rows.append(base('HS-O01','黄山','官方路线','黄山旅游官方平台','https://wap.huangshan.com.cn/detail/strategy/fjqlyzx',raw,
- title='黄山风景区清明假期常见旅游咨询 第20问路线节选',source_record_id='fjqlyzx-Q20',source_file='official_huangshan.html',source_row_index=None,quality_score=None,provenance_status='景区官方平台；已保存HTML快照',classification_basis='官方旅游平台发布的路线推荐；一份指南可含多条候选线路',scope_note='历史清明咨询路线，仅作文本挖掘材料，非2026年开放与票务承诺'))
-# Jiuzhaigou: capture only the one-day-tour passage, from the live saved page.
-s=BeautifulSoup((ROOT/'data/source/official_jiuzhai.html').read_bytes(),'html.parser')
-h=s.find(string=lambda x:x and x.strip()=='一日精华游')
-anchor=h.find_parent('div',class_='g-content')
-raw=str(anchor)
-assert '沟口乘车' in raw and '13:30' in raw
-rows.append(base('JZG-O01','九寨沟','官方路线','九寨沟风景名胜区管理局','https://www.jiuzhai.com/intelligent-service/way-of-play',raw,
- title='游玩方式 一日精华游节选',source_record_id='way-of-play-one-day',source_file='official_jiuzhai.html',source_row_index=None,quality_score=None,provenance_status='景区官方网站；已保存HTML快照',classification_basis='景区管理局官方网站的一日精华游推荐',scope_note='保留原文时间，包括末段17:00起点早于前段终点的疑似时间重叠，不擅自修订'))
-raw=(ROOT/'data/raw/official_zhangjiajie_excerpt.txt').read_text(encoding='utf-8')
-rows.append(base('ZJJ-O01','张家界','官方路线','湖南省文化和旅游厅','https://whhlyt.hunan.gov.cn/whhlyt/wldhlylx/202208/t20220816_27584140.html',raw,
- title='直达武陵源 乐享张家界 武陵源自驾一日游节选',source_record_id='t20220816_27584140-one-day',source_file='official_zhangjiajie_excerpt.txt',source_row_index=None,quality_score=None,provenance_status='官方页面检索阅读核验；人工摘录，未取得HTML快照',classification_basis='省文旅厅官网发布，文末署名武陵源区委旅游工作委员会办公室',scope_note='网页发布日期2022-08-16，文末署名日期2021-09-18；日期均保留在来源说明中，不视为2026年路线更新'))
+# Official documents are produced by the independent crawler.
+official_path = ROOT / 'data/raw/official_routes.jsonl'
+if not official_path.exists():
+ raise FileNotFoundError('Run python src/crawl_official.py first (or --offline for saved snapshots)')
+official = [json.loads(line) for line in official_path.read_text(encoding='utf-8').splitlines()]
+assert {r['doc_id'] for r in official} == {'HS-O01', 'JZG-O01', 'ZJJ-O01'}
+rows.extend(official)
 rows.sort(key=lambda r:r['doc_id'])
 (ROOT/'data/raw/selected_raw.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in rows),encoding='utf-8')
 dump(ROOT/'data/source/manifest.json',dict(dataset=URL,revision_observed='228165f30a56b40ca8aea38d88ba58046a2428ea',acquired_date='2026-10-28',files=manifest,total_scanned=offset,selected=SELECT,selection_note='探索性目的抽样，非随机抽样；按正文主题与行程信息复核筛选；原网页URL缺失不编造'))

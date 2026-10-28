@@ -1,0 +1,74 @@
+{
+  "started_at": "2026-10-28T19:49:26+08:00",
+  "mode": "online",
+  "tool": "Python urllib.request + BeautifulSoup",
+  "timeout_seconds": 25,
+  "max_attempts": 2,
+  "requests": [
+    {
+      "status": "downloaded",
+      "final_url": "https://wap.huangshan.com.cn/detail/strategy/fjqlyzx",
+      "content_type": "text/html; charset=utf-8",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-10-28T19:49:26+08:00",
+          "http_status": 200,
+          "result": "success"
+        }
+      ],
+      "bytes": 71832,
+      "sha256": "b42ad32b083d420f4ee711be0ab1009f6957e602d2857d10b313323747579299",
+      "doc_id": "HS-O01",
+      "source_url": "https://wap.huangshan.com.cn/detail/strategy/fjqlyzx",
+      "used_source_file": "official_huangshan.html",
+      "extracted_chars": 2768,
+      "extracted_sha256": "0fc2bf52723df35011c1d380aa421bdc28cee4fe835fd370d350997d003d8bf1"
+    },
+    {
+      "status": "downloaded",
+      "final_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "content_type": "text/html; charset=utf-8",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-10-28T19:49:29+08:00",
+          "http_status": 200,
+          "result": "success"
+        }
+      ],
+      "bytes": 86853,
+      "sha256": "d5c98d9aea9909d985c506c824d05bdabc733641f3273e5521a90877e1a89523",
+      "doc_id": "JZG-O01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "used_source_file": "official_jiuzhai.html",
+      "extracted_chars": 2607,
+      "extracted_sha256": "c401c8c0cebe54d5a4b9cbf74f581bc1ae005360ef5c012b7d47db93815348c5"
+    },
+    {
+      "status": "failed",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-10-28T19:49:42+08:00",
+          "result": "failed",
+          "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1018)>"
+        },
+        {
+          "attempt": 2,
+          "started_at": "2026-10-28T19:49:46+08:00",
+          "result": "failed",
+          "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1018)>"
+        }
+      ],
+      "doc_id": "ZJJ-O01",
+      "source_url": "https://whhlyt.hunan.gov.cn/whhlyt/wldhlylx/202208/t20220816_27584140.html",
+      "fallback": "manual_excerpt",
+      "used_source_file": "official_zhangjiajie_excerpt.txt",
+      "extracted_chars": 205,
+      "extracted_sha256": "9671d3b7569354f683be6614815baf4b9612f0f48dee833a701576caf2343481"
+    }
+  ],
+  "downloaded_pages": 2,
+  "official_documents": 3
+}

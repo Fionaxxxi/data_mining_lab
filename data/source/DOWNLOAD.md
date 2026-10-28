@@ -2,7 +2,7 @@
 
 数据集：BAAI/IndustryCorpus2，ModelScope master。2026-10-28观察到仓库提交228165f30a56b40ca8aea38d88ba58046a2428ea；复核时应比较manifest.json中的SHA-256，不能仅凭文件名确认相同版本。
 
-仅下载两个指定文件，未遍历旅游网站，未编写爬虫。以下为精确文件下载URL：
+语料分片按以下两个固定文件URL下载。官网路线由`src/crawl_official.py`定向爬取，采集方式和运行入口见README.md。
 
 https://modelscope.cn/api/v1/datasets/BAAI/IndustryCorpus2/repo?Revision=master&FilePath=tourism_geography%2Fchinese%2Fhigh%2Frank_00130.parquet
 
