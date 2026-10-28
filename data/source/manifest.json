@@ -1,0 +1,46 @@
+{
+  "dataset": "https://modelscope.cn/datasets/BAAI/IndustryCorpus2",
+  "revision_observed": "228165f30a56b40ca8aea38d88ba58046a2428ea",
+  "acquired_date": "2026-10-28",
+  "files": [
+    {
+      "file": "rank_00130.parquet",
+      "rows": 21401,
+      "bytes": 92283628,
+      "sha256": "42dcb608010bb98f932c3801fedb69921b53486f51ee56c7dbbf33e8c9e62d96",
+      "dataset_path": "tourism_geography/chinese/high/rank_00130.parquet"
+    },
+    {
+      "file": "rank_00712.parquet",
+      "rows": 187404,
+      "bytes": 504544442,
+      "sha256": "94ee207029e5c2f41fbb224e2ed40d9372fe80b33a6912bf4cc5117e05f23120",
+      "dataset_path": "tourism_geography/chinese/middle/rank_00712.parquet"
+    }
+  ],
+  "total_scanned": 208805,
+  "selected": {
+    "黄山": [
+      22371,
+      26300,
+      39623,
+      55788,
+      112521
+    ],
+    "九寨沟": [
+      21748,
+      38314,
+      45961,
+      70708,
+      97333
+    ],
+    "张家界": [
+      12043,
+      37937,
+      79780,
+      119817,
+      200430
+    ]
+  },
+  "selection_note": "探索性目的抽样，非随机抽样；按正文主题与行程信息复核筛选；原网页URL缺失不编造"
+}

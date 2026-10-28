@@ -1,0 +1,59 @@
+{
+  "input_records": 18,
+  "output_records": 18,
+  "rejected": [],
+  "counts": [
+    {
+      "scenic": "黄山",
+      "official_documents": 1,
+      "travel_documents": 5
+    },
+    {
+      "scenic": "九寨沟",
+      "official_documents": 1,
+      "travel_documents": 5
+    },
+    {
+      "scenic": "张家界",
+      "official_documents": 1,
+      "travel_documents": 5
+    }
+  ],
+  "original_chars": 77960,
+  "clean_chars": 72774,
+  "changed_records": 13,
+  "rule_occurrences": {
+    "html_removed": 2,
+    "fullwidth_ascii_normalized": 3,
+    "whitespace_or_noise_normalized": 13,
+    "image_placeholder_removed": 10,
+    "web_tail_removed": 7,
+    "author_credit_removed": 1,
+    "metadata_line_removed": 1
+  },
+  "checks": {
+    "required_missing": {
+      "doc_id": 0,
+      "scenic": 0,
+      "text_type": 0,
+      "source_name": 0,
+      "source_url": 0,
+      "original_text": 0,
+      "clean_text": 0
+    },
+    "missing_original_web_url": 15,
+    "duplicate_doc_ids": 0,
+    "exact_duplicate_clean_text": 0,
+    "near_duplicate_pairs_threshold_0_8": [],
+    "remaining_html": 0,
+    "replacement_characters": 0,
+    "whitespace_format_violations": 0,
+    "idempotence_failures": 0,
+    "remaining_known_promotional_tails": 0,
+    "sufficient_per_scenic": true
+  },
+  "python": "3.11.18",
+  "executable": "D:\\miniconda3\\envs\\dm_scenic_lab\\python.exe",
+  "scan_manifest": "data/source/manifest.json",
+  "limitation": "语料原平台URL缺失；游记分类为内容判断；18条目的抽样不能代表整体旅游语料；历史费用、开放状态与不当行为不应直接用于Agent建议"
+}

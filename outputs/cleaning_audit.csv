@@ -1,0 +1,19 @@
+﻿doc_id,scenic,text_type,original_chars,clean_chars,changed,rules,review_notes
+HS-O01,黄山,官方路线,2768,903,True,"{""html_removed"": 1, ""fullwidth_ascii_normalized"": 1, ""whitespace_or_noise_normalized"": 1}",
+HS-T01,黄山,游客游记,1618,1518,True,"{""image_placeholder_removed"": 10, ""whitespace_or_noise_normalized"": 1}",
+HS-T02,黄山,游客游记,1075,1075,False,{},
+HS-T03,黄山,游客游记,2274,2274,False,{},historical_or_inappropriate_behaviour_not_recommendation
+HS-T04,黄山,游客游记,2062,1745,True,"{""web_tail_removed"": 1, ""whitespace_or_noise_normalized"": 1}",historical_or_inappropriate_behaviour_not_recommendation
+HS-T05,黄山,游客游记,2887,2887,False,{},historical_or_inappropriate_behaviour_not_recommendation
+JZG-O01,九寨沟,官方路线,2607,836,True,"{""html_removed"": 1, ""fullwidth_ascii_normalized"": 1, ""whitespace_or_noise_normalized"": 1}",
+JZG-T01,九寨沟,游客游记,10059,9883,True,"{""web_tail_removed"": 1, ""whitespace_or_noise_normalized"": 1}",historical_or_inappropriate_behaviour_not_recommendation
+JZG-T02,九寨沟,游客游记,2426,2391,True,"{""whitespace_or_noise_normalized"": 1}",historical_or_inappropriate_behaviour_not_recommendation
+JZG-T03,九寨沟,游客游记,6876,6845,True,"{""whitespace_or_noise_normalized"": 1}",
+JZG-T04,九寨沟,游客游记,6007,5763,True,"{""web_tail_removed"": 1, ""whitespace_or_noise_normalized"": 1}",
+JZG-T05,九寨沟,游客游记,15874,15514,True,"{""web_tail_removed"": 2, ""whitespace_or_noise_normalized"": 1}",
+ZJJ-O01,张家界,官方路线,205,204,True,"{""fullwidth_ascii_normalized"": 1, ""whitespace_or_noise_normalized"": 1}",
+ZJJ-T01,张家界,游客游记,1589,1589,False,{},
+ZJJ-T02,张家界,游客游记,1468,1468,False,{},
+ZJJ-T03,张家界,游客游记,8986,8901,True,"{""web_tail_removed"": 1, ""author_credit_removed"": 1, ""whitespace_or_noise_normalized"": 1}",
+ZJJ-T04,张家界,游客游记,4762,4594,True,"{""web_tail_removed"": 1, ""whitespace_or_noise_normalized"": 1}",
+ZJJ-T05,张家界,游客游记,4417,4384,True,"{""metadata_line_removed"": 1, ""whitespace_or_noise_normalized"": 1}",historical_or_inappropriate_behaviour_not_recommendation

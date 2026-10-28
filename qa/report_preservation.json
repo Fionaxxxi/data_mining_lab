@@ -1,0 +1,9 @@
+{
+  "template_sha256": "7d713b5cf9d070589eb4dc80a93b34e8d98e630d0534a170f2b9e62b2aedede4",
+  "changed_package_parts": [
+    "word/document.xml"
+  ],
+  "unchanged_package_parts": 29,
+  "output": "D:\\data_lab\\scenic_lab1\\report\\探索性实验报告_已填实验一.docx",
+  "scope": "Only experiment 1 content; cover, grading, contribution, chapters 2-8 unchanged"
+}
