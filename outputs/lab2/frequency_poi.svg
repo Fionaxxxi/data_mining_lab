@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="645" viewBox="0 0 900 645">
+<rect width="100%" height="100%" fill="white"/>
+<text x="28" y="42" font-size="24" font-family="Microsoft YaHei, sans-serif">POI 实体词频（规范名，前15）</text>
+<text x="28" y="95" font-size="17" font-family="Microsoft YaHei, sans-serif">九寨沟</text>
+<rect x="220" y="78" width="585" height="23" fill="#2374ab"/>
+<text x="814" y="96" font-size="16">147</text>
+<text x="28" y="130" font-size="17" font-family="Microsoft YaHei, sans-serif">张家界</text>
+<rect x="220" y="113" width="322" height="23" fill="#2374ab"/>
+<text x="551" y="131" font-size="16">81</text>
+<text x="28" y="165" font-size="17" font-family="Microsoft YaHei, sans-serif">黄山</text>
+<rect x="220" y="148" width="191" height="23" fill="#2374ab"/>
+<text x="420" y="166" font-size="16">48</text>
+<text x="28" y="200" font-size="17" font-family="Microsoft YaHei, sans-serif">五花海</text>
+<rect x="220" y="183" width="183" height="23" fill="#2374ab"/>
+<text x="412" y="201" font-size="16">46</text>
+<text x="28" y="235" font-size="17" font-family="Microsoft YaHei, sans-serif">天子山</text>
+<rect x="220" y="218" width="159" height="23" fill="#2374ab"/>
+<text x="388" y="236" font-size="16">40</text>
+<text x="28" y="270" font-size="17" font-family="Microsoft YaHei, sans-serif">五彩池</text>
+<rect x="220" y="253" width="151" height="23" fill="#2374ab"/>
+<text x="380" y="271" font-size="16">38</text>
+<text x="28" y="305" font-size="17" font-family="Microsoft YaHei, sans-serif">镜海</text>
+<rect x="220" y="288" width="135" height="23" fill="#2374ab"/>
+<text x="364" y="306" font-size="16">34</text>
+<text x="28" y="340" font-size="17" font-family="Microsoft YaHei, sans-serif">诺日朗</text>
+<rect x="220" y="323" width="123" height="23" fill="#2374ab"/>
+<text x="352" y="341" font-size="16">31</text>
+<text x="28" y="375" font-size="17" font-family="Microsoft YaHei, sans-serif">沟口</text>
+<rect x="220" y="358" width="119" height="23" fill="#2374ab"/>
+<text x="348" y="376" font-size="16">30</text>
+<text x="28" y="410" font-size="17" font-family="Microsoft YaHei, sans-serif">长海</text>
+<rect x="220" y="393" width="119" height="23" fill="#2374ab"/>
+<text x="348" y="411" font-size="16">30</text>
+<text x="28" y="445" font-size="17" font-family="Microsoft YaHei, sans-serif">诺日朗瀑布</text>
+<rect x="220" y="428" width="99" height="23" fill="#2374ab"/>
+<text x="328" y="446" font-size="16">25</text>
+<text x="28" y="480" font-size="17" font-family="Microsoft YaHei, sans-serif">箭竹海</text>
+<rect x="220" y="463" width="88" height="23" fill="#2374ab"/>
+<text x="317" y="481" font-size="16">22</text>
+<text x="28" y="515" font-size="17" font-family="Microsoft YaHei, sans-serif">熊猫海</text>
+<rect x="220" y="498" width="88" height="23" fill="#2374ab"/>
+<text x="317" y="516" font-size="16">22</text>
+<text x="28" y="550" font-size="17" font-family="Microsoft YaHei, sans-serif">武陵源</text>
+<rect x="220" y="533" width="88" height="23" fill="#2374ab"/>
+<text x="317" y="551" font-size="16">22</text>
+<text x="28" y="585" font-size="17" font-family="Microsoft YaHei, sans-serif">天门山</text>
+<rect x="220" y="568" width="84" height="23" fill="#2374ab"/>
+<text x="313" y="586" font-size="16">21</text>
+</svg>

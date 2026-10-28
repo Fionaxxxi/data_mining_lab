@@ -1,0 +1,19 @@
+{
+  "baseline_mentions": 2345,
+  "baseline_by_type": {
+    "POI": 1415,
+    "TRANSPORT": 381,
+    "TIME": 549
+  },
+  "refined_mentions": 2015,
+  "refined_by_type": {
+    "POI": 1177,
+    "TRANSPORT": 381,
+    "TIME": 457
+  },
+  "changes": [
+    "Excluded out-of-scope neighboring cities and unrelated attractions from POI lexicon",
+    "Tightened hour and duration regex to avoid 一点 in degree expressions and 二天 inside 第二天",
+    "Included expressions such as 6点45 and 下午三点半"
+  ]
+}

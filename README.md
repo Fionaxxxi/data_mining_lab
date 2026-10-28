@@ -1,4 +1,17 @@
-# 数据挖掘实验一
+# 数据挖掘课程实验
+
+## 实验二 游览步骤的实体识别
+
+实验二已使用实验一的 `outputs/cleaned_data.jsonl` 完成三类实体识别。代码、规则说明和结果见 `src/lab2_entities.py`、`实验二报告.md`、`outputs/lab2/`。本次在 `D:\uniproject\data_mining` 下建立独立 Python 3.11 虚拟环境；实验二仅使用标准库，无需安装额外依赖。运行：
+
+```powershell
+& D:\uniproject\data_mining\.venv\Scripts\python.exe src\lab2_entities.py
+& D:\uniproject\data_mining\.venv\Scripts\python.exe qa\check_lab2.py
+```
+
+`entities.json` / `entities.csv` 记录每次出现的类型、规范名、来源和清洗文本内的字符位置；`stats.json`、`iteration.json` 与三张 SVG 词频图支持报告中的统计和规则迭代。若在其他电脑运行，可以用 Python 3.11 创建本项目专用虚拟环境后执行同样的两个脚本。
+
+## 实验一 数据采集与预处理
 
 项目仓库：https://github.com/Fionaxxxi/data_mining_lab 。后续数据挖掘课程实验统一在本仓库继续。
 
