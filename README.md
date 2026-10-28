@@ -37,7 +37,7 @@ Set-Location D:\data_lab\scenic_lab1
 
 ## 官网爬虫与材料准备
 
-`src/crawl_official.py`使用Python标准库urllib.request和BeautifulSoup定向采集三个官方页面。运行命令为`& D:\miniconda3\envs\dm_scenic_lab\python.exe src\crawl_official.py`。程序设置25秒超时、最多两次尝试，校验路线正文后才保存HTML；结果为`data/raw/official_routes.jsonl`，真实请求记录为`data/source/crawl_manifest.json`。黄山和九寨沟成功采集；张家界请求TLS失败，保留人工节选。失败、快照解析、人工补充均与本次成功下载区分。`--offline`只解析已保存材料，其日志单独保存，不覆盖在线采集日志。
+`src/crawl_official.py`使用Python标准库urllib.request和BeautifulSoup定向采集三个官方发布页面。运行命令为`& D:\miniconda3\envs\dm_scenic_lab\python.exe src\crawl_official.py`。程序设置25秒超时、每个URL最多两次尝试，支持同篇官方机构路线的备用发布地址，校验正文后才保存HTML；结果为`data/raw/official_routes.jsonl`，真实请求记录为`data/source/crawl_manifest.json`。黄山、九寨沟和张家界共3份路线均成功采集并保存HTML；张家界实际采集地址为武陵源新闻网的官方机构署名原发页面。实际URL、发布机构、请求时间和哈希均入库，失败尝试同样记录。`--offline`只解析已保存材料，其日志单独保存，不覆盖在线采集日志。
 
 ## 从完整分片重建选中原始材料
 
@@ -59,7 +59,7 @@ prepare_data.py按已复核的记录位置精确提取，不随机抽样。全�
 
 - 黄山：https://wap.huangshan.com.cn/detail/strategy/fjqlyzx ，第20问，保留HTML快照及原内容字段。
 - 九寨沟：https://www.jiuzhai.com/intelligent-service/way-of-play ，一日精华游节选，保留HTML快照。
-- 张家界：https://whhlyt.hunan.gov.cn/whhlyt/wldhlylx/202208/t20220816_27584140.html ，一日游节选，官方页面阅读核验后人工摘录；直接下载TLS失败，未宣称有完整HTML快照。页面发布日期2022-08-16，文末署名2021-09-18。
+- 张家界：https://www.wlynews.cn/content/2021/09/18/10178438.html ，武陵源区委旅游工作委员会办公室署名发布的一日游路线，日期2021-09-18，保留完整HTML快照。省文旅厅同文页面为配置中的首选地址，连接失败时爬虫使用此原发页面。
 
 数据整理日期2026-10-28。历史票价、逃票/翻越封闭设施/投喂野生动物等原文描述不是现行事实或推荐行为，不宜直接传入旅游Agent。九寨沟官方文末时间段存在重叠，原样保留并在报告分析。张家界游记中包括外围行程，下游须区分武陵源、天门山、凤凰古城等范围。
 

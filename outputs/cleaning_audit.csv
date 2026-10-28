@@ -11,7 +11,7 @@ JZG-T02,九寨沟,游客游记,2426,2391,True,"{""whitespace_or_noise_normalized
 JZG-T03,九寨沟,游客游记,6876,6845,True,"{""whitespace_or_noise_normalized"": 1}",
 JZG-T04,九寨沟,游客游记,6007,5763,True,"{""web_tail_removed"": 1, ""whitespace_or_noise_normalized"": 1}",
 JZG-T05,九寨沟,游客游记,15874,15514,True,"{""web_tail_removed"": 2, ""whitespace_or_noise_normalized"": 1}",
-ZJJ-O01,张家界,官方路线,205,204,True,"{""fullwidth_ascii_normalized"": 1, ""whitespace_or_noise_normalized"": 1}",
+ZJJ-O01,张家界,官方路线,201,201,True,"{""fullwidth_ascii_normalized"": 1}",
 ZJJ-T01,张家界,游客游记,1589,1589,False,{},
 ZJJ-T02,张家界,游客游记,1468,1468,False,{},
 ZJJ-T03,张家界,游客游记,8986,8901,True,"{""web_tail_removed"": 1, ""author_credit_removed"": 1, ""whitespace_or_noise_normalized"": 1}",

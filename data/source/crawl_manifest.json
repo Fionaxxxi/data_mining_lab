@@ -1,24 +1,28 @@
 {
-  "started_at": "2026-10-28T19:49:26+08:00",
+  "started_at": "2026-10-28T19:56:52+08:00",
   "mode": "online",
   "tool": "Python urllib.request + BeautifulSoup",
   "timeout_seconds": 25,
-  "max_attempts": 2,
+  "max_attempts_per_url": 2,
   "requests": [
     {
       "status": "downloaded",
       "final_url": "https://wap.huangshan.com.cn/detail/strategy/fjqlyzx",
+      "source_name": "黄山旅游官方平台",
+      "record_id": "fjqlyzx-Q20",
+      "scope_note": "历史清明咨询路线，仅作文本挖掘材料，非2026年开放与票务承诺",
       "content_type": "text/html; charset=utf-8",
       "attempts": [
         {
           "attempt": 1,
-          "started_at": "2026-10-28T19:49:26+08:00",
+          "request_url": "https://wap.huangshan.com.cn/detail/strategy/fjqlyzx",
+          "started_at": "2026-10-28T19:56:52+08:00",
           "http_status": 200,
           "result": "success"
         }
       ],
       "bytes": 71832,
-      "sha256": "b42ad32b083d420f4ee711be0ab1009f6957e602d2857d10b313323747579299",
+      "sha256": "56f564a8959f4ae9d7b12e91aaeea66ed668cc8050810e96ee1d1c5d564940ae",
       "doc_id": "HS-O01",
       "source_url": "https://wap.huangshan.com.cn/detail/strategy/fjqlyzx",
       "used_source_file": "official_huangshan.html",
@@ -28,17 +32,21 @@
     {
       "status": "downloaded",
       "final_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "source_name": "九寨沟风景名胜区管理局",
+      "record_id": "way-of-play-one-day",
+      "scope_note": "保留原文时间，包括末段17:00起点早于前段终点的疑似时间重叠，不擅自修订",
       "content_type": "text/html; charset=utf-8",
       "attempts": [
         {
           "attempt": 1,
-          "started_at": "2026-10-28T19:49:29+08:00",
+          "request_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+          "started_at": "2026-10-28T19:56:56+08:00",
           "http_status": 200,
           "result": "success"
         }
       ],
       "bytes": 86853,
-      "sha256": "d5c98d9aea9909d985c506c824d05bdabc733641f3273e5521a90877e1a89523",
+      "sha256": "5a81813637ba056aa54f2497ff517fa93f3e293bf351f6626518c09db945cb7f",
       "doc_id": "JZG-O01",
       "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
       "used_source_file": "official_jiuzhai.html",
@@ -46,29 +54,51 @@
       "extracted_sha256": "c401c8c0cebe54d5a4b9cbf74f581bc1ae005360ef5c012b7d47db93815348c5"
     },
     {
-      "status": "failed",
+      "status": "downloaded",
+      "final_url": "https://www.wlynews.cn/content/2021/09/18/10178438.html",
+      "source_name": "武陵源区委旅游工作委员会办公室（武陵源新闻网）",
+      "record_id": "10178438-one-day",
+      "scope_note": "官方机构署名路线，发布于2021-09-18；作为历史文本挖掘材料，不视为2026年路线更新",
+      "content_type": "text/html",
       "attempts": [
         {
           "attempt": 1,
-          "started_at": "2026-10-28T19:49:42+08:00",
+          "request_url": "https://whhlyt.hunan.gov.cn/whhlyt/wldhlylx/202208/t20220816_27584140.html",
+          "started_at": "2026-10-28T19:57:04+08:00",
           "result": "failed",
           "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1018)>"
         },
         {
           "attempt": 2,
-          "started_at": "2026-10-28T19:49:46+08:00",
+          "request_url": "https://whhlyt.hunan.gov.cn/whhlyt/wldhlylx/202208/t20220816_27584140.html",
+          "started_at": "2026-10-28T19:57:08+08:00",
           "result": "failed",
           "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1018)>"
+        },
+        {
+          "attempt": 1,
+          "request_url": "https://www.wlynews.cn/content/2021/09/18/10178438.html",
+          "started_at": "2026-10-28T19:57:13+08:00",
+          "result": "failed",
+          "error": "TimeoutError: The read operation timed out"
+        },
+        {
+          "attempt": 2,
+          "request_url": "https://www.wlynews.cn/content/2021/09/18/10178438.html",
+          "started_at": "2026-10-28T19:57:46+08:00",
+          "http_status": 200,
+          "result": "success"
         }
       ],
+      "bytes": 25328,
+      "sha256": "8fefe514a89de366b7c16bbdfdc660580a52826f7a72e7371e08ff0fa0da8c80",
       "doc_id": "ZJJ-O01",
       "source_url": "https://whhlyt.hunan.gov.cn/whhlyt/wldhlylx/202208/t20220816_27584140.html",
-      "fallback": "manual_excerpt",
-      "used_source_file": "official_zhangjiajie_excerpt.txt",
-      "extracted_chars": 205,
-      "extracted_sha256": "9671d3b7569354f683be6614815baf4b9612f0f48dee833a701576caf2343481"
+      "used_source_file": "official_zhangjiajie.html",
+      "extracted_chars": 201,
+      "extracted_sha256": "029c48c038492f6454a377a646e61108af40582f71d99f28956194810d7da331"
     }
   ],
-  "downloaded_pages": 2,
+  "downloaded_pages": 3,
   "official_documents": 3
 }

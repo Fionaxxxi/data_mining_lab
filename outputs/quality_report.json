@@ -19,13 +19,13 @@
       "travel_documents": 5
     }
   ],
-  "original_chars": 77960,
-  "clean_chars": 72774,
+  "original_chars": 77956,
+  "clean_chars": 72771,
   "changed_records": 13,
   "rule_occurrences": {
     "html_removed": 2,
     "fullwidth_ascii_normalized": 3,
-    "whitespace_or_noise_normalized": 13,
+    "whitespace_or_noise_normalized": 12,
     "image_placeholder_removed": 10,
     "web_tail_removed": 7,
     "author_credit_removed": 1,
