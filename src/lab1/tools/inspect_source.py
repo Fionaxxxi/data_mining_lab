@@ -1,7 +1,7 @@
 from pathlib import Path
 import json,re,collections
 import pyarrow.parquet as pq
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[3]
 p=ROOT/'data/source/rank_00130.parquet'
 t=pq.read_table(p)
 print(t.schema)

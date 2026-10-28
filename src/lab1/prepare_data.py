@@ -2,7 +2,7 @@
 from pathlib import Path
 import json, hashlib
 import pyarrow.parquet as pq
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[2]
 URL='https://modelscope.cn/datasets/BAAI/IndustryCorpus2'
 SELECT={
  '黄山':[22371,26300,39623,55788,112521],
@@ -34,7 +34,7 @@ assert len(rows)==15
 # Official documents are produced by the independent crawler.
 official_path = ROOT / 'data/raw/official_routes.jsonl'
 if not official_path.exists():
- raise FileNotFoundError('Run python src/crawl_official.py first (or --offline for saved snapshots)')
+ raise FileNotFoundError('Run python src/lab1/crawl_official.py first (or --offline for saved snapshots)')
 official = [json.loads(line) for line in official_path.read_text(encoding='utf-8').splitlines()]
 assert {r['doc_id'] for r in official} == {'HS-O01', 'JZG-O01', 'ZJJ-O01'}
 rows.extend(official)

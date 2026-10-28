@@ -1,10 +1,11 @@
-"""Fill only experiment 1 in the supplied DOCX, preserving all other ZIP parts."""
+"""Archived Word report generator; not part of the current Markdown workflow."""
 from pathlib import Path
 from copy import deepcopy
 import json,zipfile,hashlib,re
 from lxml import etree as E
-ROOT=Path(__file__).resolve().parents[1]
-TEMPLATE=ROOT/'report/template_original.docx'
+ROOT=Path(__file__).resolve().parents[2]
+ARCHIVE=Path(__file__).resolve().parent
+TEMPLATE=ARCHIVE/'report/template_original.docx'
 q=json.loads((ROOT/'outputs/quality_report.json').read_text(encoding='utf-8'))
 rows=[json.loads(x) for x in (ROOT/'outputs/cleaned_data.jsonl').read_text(encoding='utf-8').splitlines()]
 by={r['doc_id']:r for r in rows}
@@ -85,7 +86,7 @@ for title,parts in sections:
    _,caption,heads,data=part;md +=[caption,'','| '+' | '.join(heads)+' |','| '+' | '.join(['---']*len(heads))+' |']
    md+=['| '+' | '.join(row)+' |' for row in data];md+=['']
   else:md +=[part,'']
-(ROOT/'report/实验一可粘贴内容.md').write_text('\n'.join(md),encoding='utf-8')
+(ARCHIVE/'report/实验一可粘贴内容.md').write_text('\n'.join(md),encoding='utf-8')
 W='http://schemas.openxmlformats.org/wordprocessingml/2006/main';NS={'w':W}
 def tag(x):return '{'+W+'}'+x
 with zipfile.ZipFile(TEMPLATE) as z:
@@ -151,12 +152,12 @@ with zipfile.ZipFile(TEMPLATE) as z:
  assert not any(n.xpath('.//w:sectPr',namespaces=NS) for n in list(body)[a:b])
  for n in list(body)[a:b]:body.remove(n)
  for i,n in enumerate(new):body.insert(a+i,n)
- out=ROOT/'report/探索性实验报告_已填实验一.docx'
+ out=ARCHIVE/'report/探索性实验报告_已填实验一.docx'
  with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED) as zz:
   for info in z.infolist():zz.writestr(deepcopy(info),E.tostring(xml,xml_declaration=True,encoding='UTF-8',standalone=True) if info.filename=='word/document.xml' else z.read(info.filename))
  with zipfile.ZipFile(out) as zz:
   unchanged=[i.filename for i in z.infolist() if i.filename!='word/document.xml' and z.read(i.filename)==zz.read(i.filename)]
   assert len(unchanged)==len(z.infolist())-1
  proof=dict(template_sha256=hashlib.sha256(TEMPLATE.read_bytes()).hexdigest(),changed_package_parts=['word/document.xml'],unchanged_package_parts=len(unchanged),output=str(out),scope='Only experiment 1 content; cover, grading, contribution, chapters 2-8 unchanged')
- (ROOT/'qa/report_preservation.json').write_text(json.dumps(proof,ensure_ascii=False,indent=2),encoding='utf-8')
+ (ARCHIVE/'qa/report_preservation.json').write_text(json.dumps(proof,ensure_ascii=False,indent=2),encoding='utf-8')
 print(out)

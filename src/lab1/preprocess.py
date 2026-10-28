@@ -4,7 +4,7 @@ from collections import Counter
 from difflib import SequenceMatcher
 import csv,json,re,html,unicodedata,hashlib,sys,platform
 from bs4 import BeautifulSoup
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/'outputs'; OUT.mkdir(exist_ok=True)
 META=re.compile(r'^\s*(?:\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}|来源\s*[:：]|原标题\s*[:：]|\[责任编辑[:：]|作者系|指导老师[:：]|地址[:：].*电话[:：])')
 TAILS=['[责任编辑:','[责任编辑：','本篇游记共含','特别声明:以上文章','特别声明：以上文章',

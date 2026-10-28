@@ -1,6 +1,6 @@
 """Collect three fixed official route pages and preserve verifiable source evidence.
 
-Usage: python src/crawl_official.py [--offline]
+Usage: python src/lab1/crawl_official.py [--offline]
 No login, search-result scraping, or website traversal is performed.
 """
 from __future__ import annotations
@@ -16,7 +16,7 @@ from urllib.request import Request, urlopen
 
 from bs4 import BeautifulSoup
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / 'data/source'
 RAW = ROOT / 'data/raw'
 TARGETS = [

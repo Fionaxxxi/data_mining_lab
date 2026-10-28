@@ -1,85 +1,71 @@
 # 数据挖掘课程实验
 
-## 实验二 游览步骤的实体识别
+仓库：[Fionaxxxi/data_mining_lab](https://github.com/Fionaxxxi/data_mining_lab)。正式代码按实验编号分目录，报告采用Markdown。
 
-实验二已使用实验一的 `outputs/cleaned_data.jsonl` 完成三类实体识别。代码、规则说明和结果见 `src/lab2_entities.py`、`实验二报告.md`、`outputs/lab2/`。本次在 `D:\uniproject\data_mining` 下建立独立 Python 3.11 虚拟环境；实验二仅使用标准库，无需安装额外依赖。运行：
+## 从这里开始
 
-```powershell
-& D:\uniproject\data_mining\.venv\Scripts\python.exe src\lab2_entities.py
-& D:\uniproject\data_mining\.venv\Scripts\python.exe qa\check_lab2.py
-```
+| 实验 | 代码目录 | 报告 | 结果位置 | 一键运行 |
+|---|---|---|---|---|
+| 一：数据采集与预处理 | [src/lab1/](src/lab1/) | [实验一报告.md](实验一报告.md) | `outputs/cleaned_data.*`及质量检查文件 | `.\run.ps1 -Lab 1` |
+| 二：实体识别 | [src/lab2/](src/lab2/) | [实验二报告.md](实验二报告.md) | `outputs/lab2/` | `.\run.ps1 -Lab 2` |
 
-`entities.json` / `entities.csv` 记录每次出现的类型、规范名、来源和清洗文本内的字符位置；`stats.json`、`iteration.json` 与三张 SVG 词频图支持报告中的统计和规则迭代。若在其他电脑运行，可以用 Python 3.11 创建本项目专用虚拟环境后执行同样的两个脚本。
+`run.ps1 -Lab all`按一、二顺序执行。实验一默认使用已保存原文离线清洗，不重新爬取网站；实验二运行后自动检查实体位置和代表性案例。
 
-## 实验一 数据采集与预处理
+## 每个脚本负责什么
 
-项目仓库：https://github.com/Fionaxxxi/data_mining_lab 。后续数据挖掘课程实验统一在本仓库继续。
+| 位置 | 职责 | 何时使用 |
+|---|---|---|
+| `src/lab1/crawl_official.py` | 请求官方路线页面，解析正文，保存HTML及真实采集记录 | 需要重新采集官网路线时 |
+| `src/lab1/prepare_data.py` | 从Parquet中提取15篇选定游记，合并3份官方路线 | 需要重建原始输入时 |
+| `src/lab1/preprocess.py` | 批量清洗18份材料，导出CSV/JSONL及质量检查结果 | 实验一正式处理入口 |
+| `src/lab1/tools/inspect_source.py` | 查看首个分片字段及候选材料 | 可选探索工具，日常复跑不需要 |
+| `src/lab1/tools/scan_candidates.py` | 对两个分片进行候选初筛 | 可选探索工具，日常复跑不需要 |
+| `src/lab2/entities.py` | 识别POI、交通、时间实体，保存位置、统计、迭代结果及词频图 | 实验二正式处理入口 |
+| `src/lab2/check.py` | 检查实体与原文位置、来源覆盖及正反案例 | 实验二检查入口 |
+| `archive/lab1/` | 旧Word生成代码、模板、草稿、截图和旧压缩包 | 历史归档，不参与正常实验运行 |
 
-**当前报告以根目录的[实验一报告.md](实验一报告.md)为准。** `report/`、`qa/`、评分核对文档及压缩包为此前草稿或验证记录，按“上传文件夹全部内容”的要求保留，其中部分旧统计未随最终Markdown更新。最新数据与统计以`outputs/`为准。原始Parquet和大候选集通过Git LFS保存，克隆后执行`git lfs pull`获取完整数据。
+## 环境与运行
 
-已完成黄山、九寨沟、张家界三个景区的数据准备、清洗、结构化与质量检查。最终18条记录，每个景区1份官方指南和5篇游客游记。官方指南可能包含多条路线，记录数按文档计算。
-
-## 先看这些文件
-
-- `report/探索性实验报告_已填实验一.docx`：在原报告模板副本中填写了1.1—1.5节。封面、小组贡献、教师评分、实验2—7及总结保持原模板内容，尚不是全课程最终报告。
-- `report/实验一可粘贴内容.md`：对应章节的可复制文字。
-- `outputs/cleaned_data.csv`、`outputs/cleaned_data.jsonl`：同一份18条规范数据，保留原文和清洗正文。
-- `outputs/quality_report.json`、`cleaning_audit.csv`、`before_after_samples.json`：统计、逐条规则审计与对比。
-- `outputs/source_index.csv`：来源、原记录ID、分片行号及官方URL。
-
-## 环境与离线复现
-
-本机环境：`D:\miniconda3\envs\dm_scenic_lab`，Python 3.11.18。不要使用base或其他项目环境。
+本项目统一使用`D:\miniconda3\envs\dm_scenic_lab`，不要使用base或其他项目的环境。实验二只用Python标准库，也使用同一个项目Conda环境。
 
 ```powershell
 Set-Location D:\data_lab\scenic_lab1
-& D:\miniconda3\envs\dm_scenic_lab\python.exe .\src\run_lab1.py
+.\run.ps1 -Lab 1
+.\run.ps1 -Lab 2
 ```
 
-此命令只读取已保留的`data/raw/selected_raw.jsonl`，不联网、不需要下载完整数据集，会重新生成outputs中的清洗结果及统计。正文CSV采用UTF-8 BOM，内嵌换行符合CSV引号转义规则。若用Excel导入，请把source_record_id列指定为文本，避免长整数精度丢失。
-
-另一台电脑可在自己的D盘Miniconda目录中新建本项目独立环境：
+环境尚不存在时：
 
 ```powershell
 & D:\miniconda3\Scripts\conda.exe create --prefix D:\miniconda3\envs\dm_scenic_lab python=3.11 pip -y
 & D:\miniconda3\envs\dm_scenic_lab\python.exe -m pip install -r requirements.txt
-& D:\miniconda3\envs\dm_scenic_lab\python.exe src\run_lab1.py
 ```
 
-若本环境已经存在，跳过create，直接执行清洗入口。`requirements.txt`只列本项目实际脚本依赖；报告构建另外使用python-docx/lxml。下载与清洗不需要API密钥。
-
-## 官网爬虫与材料准备
-
-`src/crawl_official.py`使用Python标准库urllib.request和BeautifulSoup定向采集三个官方发布页面。运行命令为`& D:\miniconda3\envs\dm_scenic_lab\python.exe src\crawl_official.py`。程序设置25秒超时、每个URL最多两次尝试，支持同篇官方机构路线的备用发布地址，校验正文后才保存HTML；结果为`data/raw/official_routes.jsonl`，真实请求记录为`data/source/crawl_manifest.json`。黄山、九寨沟和张家界共3份路线均成功采集并保存HTML；张家界实际采集地址为武陵源新闻网的官方机构署名原发页面。实际URL、发布机构、请求时间和哈希均入库，失败尝试同样记录。`--offline`只解析已保存材料，其日志单独保存，不覆盖在线采集日志。
-
-## 从完整分片重建选中原始材料
-
-本机`data/source`已保存约597 MB的两个Parquet分片，SHA-256见manifest.json。提交精简包不重复打包大分片，但保留所有18条选中原文；需要独立验证抽样来源时，按`data/source/DOWNLOAD.md`下载两个精确文件并校验哈希，再执行：
+需要完整重走实验一的采集和材料准备时，依次执行：
 
 ```powershell
-& D:\miniconda3\envs\dm_scenic_lab\python.exe src\crawl_official.py
-& D:\miniconda3\envs\dm_scenic_lab\python.exe src\prepare_data.py
-& D:\miniconda3\envs\dm_scenic_lab\python.exe src\run_lab1.py
+$py = 'D:\miniconda3\envs\dm_scenic_lab\python.exe'
+& $py src\lab1\crawl_official.py
+& $py src\lab1\prepare_data.py
+.\run.ps1 -Lab 1
 ```
 
-prepare_data.py按已复核的记录位置精确提取，不随机抽样。全局筛选索引是两个分片连接后的索引，最终输出source_row_index是各自分片内从0计的行号。`scan_candidates.py`用于记录初筛过程，非自动判定游记真实性的分类器。源码中的候选检查脚本不是网站爬虫。
+爬虫支持`--offline`：只解析现有快照，不发起请求，也不计为一次新的成功下载。在线请求记录在`data/source/crawl_manifest.json`，离线日志单独保存。
 
-## 来源与限制
+## 数据与实验衔接
 
-主数据源：https://modelscope.cn/datasets/BAAI/IndustryCorpus2 。使用旅游/地理中文high与middle各一个分片，不使用Hugging Face镜像替代数据源。
+| 目录或文件 | 内容 |
+|---|---|
+| `data/source/` | 两个原始Parquet分片、三个官方页面HTML及来源/采集记录 |
+| `data/raw/selected_raw.jsonl` | 实验一选中的18份原始材料 |
+| `outputs/cleaned_data.jsonl` | 实验一清洗结果，也是实验二及后续实验的统一文本输入 |
+| `outputs/quality_report.json` | 实验一数据数量、缺失、重复、格式及幂等检查 |
+| `outputs/cleaning_audit.csv` | 实验一逐条清洗审计 |
+| `outputs/lab2/entities.json`、`entities.csv` | 实验二实体、规范名、来源和字符位置 |
+| `outputs/lab2/stats.json`、`iteration.json`、`frequency_*.svg` | 实验二统计、规则迭代和三类词频图 |
 
-原语料只有text、_id、industry_type和质量指标，没有原网页URL。15篇游记的原URL如实留空，通过分片、行号和_id追溯；游记身份为内容判断，未认证原作者。以官方页面补充3份指南，混合来源已注明：
+数据路径保持稳定；代码目录调整不改变清洗文本及实体位置。大分片和候选JSONL通过Git LFS保存，克隆后执行`git lfs pull`获取完整数据。
 
-- 黄山：https://wap.huangshan.com.cn/detail/strategy/fjqlyzx ，第20问，保留HTML快照及原内容字段。
-- 九寨沟：https://www.jiuzhai.com/intelligent-service/way-of-play ，一日精华游节选，保留HTML快照。
-- 张家界：https://www.wlynews.cn/content/2021/09/18/10178438.html ，武陵源区委旅游工作委员会办公室署名发布的一日游路线，日期2021-09-18，保留完整HTML快照。省文旅厅同文页面为配置中的首选地址，连接失败时爬虫使用此原发页面。
+数据来自[BAAI/IndustryCorpus2](https://modelscope.cn/datasets/BAAI/IndustryCorpus2)旅游地理中文分片，以及黄山、九寨沟官网和武陵源官方机构署名发布的路线。15篇游记缺少原网页URL，保留原记录ID、分片和行号，不编造来源；历史票价、开放状态和不当行为描述不能直接用作当前旅游建议。
 
-数据整理日期2026-10-28。历史票价、逃票/翻越封闭设施/投喂野生动物等原文描述不是现行事实或推荐行为，不宜直接传入旅游Agent。九寨沟官方文末时间段存在重叠，原样保留并在报告分析。张家界游记中包括外围行程，下游须区分武陵源、天门山、凤凰古城等范围。
-
-使用LLM辅助候选内容复核与报告整理；未声称学生已完成个人操作或人工标注。三人姓名、学号、贡献比例须按实际补填，不能直接把本报告当作全课程报告提交。
-
-## 验证与文件对应
-
-run_lab1.py实际验证：每景区1+5；关键字段无空白；SHA-256完全去重；同景区同类型SequenceMatcher近重复阈值0.80；残留HTML、U+FFFD、空白格式；清洗幂等；真实官方记录中的箭头和时间保留；CSV读回正文与JSONL一致。近重复算法只做提示，未计算语义重复。
-
-报告数值来自quality_report.json；逐条改动见cleaning_audit.csv。未发生的规则命中没有伪造成真实清洗问题。数据中原文错误不自动改写，不能以形式检查通过代替内容事实核验。
+`archive/lab1/`中的材料保留了早期文件及旧统计；查看正式实验内容请使用根目录两份Markdown报告和`outputs/`。以后新增实验按`src/lab3/`、`src/lab4/`等编号继续组织。
