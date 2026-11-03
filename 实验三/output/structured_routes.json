@@ -1,0 +1,207 @@
+[
+  {
+    "scenic": "故宫",
+    "source": "整理自故宫博物院官网导览(dpm.org.cn，爬虫已抓取首页开放信息)",
+    "url": "https://www.dpm.org.cn/Home.html",
+    "text": "故宫中轴线一日游推荐路线：午门 → 太和殿 → 中和殿 → 保和殿 → 乾清宫 → 交泰殿 → 坤宁宫 → 御花园 → 神武门。全程步行约3小时。建议上午08:30从午门入宫，先沿中轴线参观外朝前三殿；中午在乾清宫广场附近休息；下午参观内廷后三宫与御花园，16:00前由神武门出宫。",
+    "detected_format": "arrow_chain",
+    "expected_format": "arrow_chain",
+    "steps": [
+      {
+        "step_no": 1,
+        "time_period": "上午",
+        "spot": "午门(入口)",
+        "activity": "参观",
+        "raw_segment": "故宫中轴线一日游推荐路线：午门"
+      },
+      {
+        "step_no": 2,
+        "time_period": "上午",
+        "spot": "太和殿",
+        "activity": "参观",
+        "raw_segment": "太和殿"
+      },
+      {
+        "step_no": 3,
+        "time_period": "上午",
+        "spot": "中和殿",
+        "activity": "参观",
+        "raw_segment": "中和殿"
+      },
+      {
+        "step_no": 4,
+        "time_period": "上午",
+        "spot": "保和殿",
+        "activity": "参观",
+        "raw_segment": "保和殿"
+      },
+      {
+        "step_no": 5,
+        "time_period": "上午",
+        "spot": "乾清宫",
+        "activity": "参观",
+        "raw_segment": "乾清宫"
+      },
+      {
+        "step_no": 6,
+        "time_period": "上午",
+        "spot": "交泰殿",
+        "activity": "参观",
+        "raw_segment": "交泰殿"
+      },
+      {
+        "step_no": 7,
+        "time_period": "上午",
+        "spot": "坤宁宫",
+        "activity": "参观",
+        "raw_segment": "坤宁宫"
+      },
+      {
+        "step_no": 8,
+        "time_period": "上午",
+        "spot": "御花园",
+        "activity": "参观",
+        "raw_segment": "御花园"
+      },
+      {
+        "step_no": 9,
+        "time_period": "上午",
+        "spot": "神武门(出口)",
+        "activity": "参观",
+        "raw_segment": "神武门。全程步行约3小时。建议上午08:30从午门入宫，先沿中轴线参观外朝前三殿；中午在乾清宫广场附近休息；下午参观内廷后三宫与御花园，16:00前由神武门出宫"
+      }
+    ]
+  },
+  {
+    "scenic": "颐和园",
+    "source": "整理自颐和园官网导览",
+    "url": "https://www.summerpalace-china.com/",
+    "text": "颐和园东宫门入园一日游路线：1.仁寿殿；2.玉澜堂；3.乐寿堂；4.长廊(邀月门→排云门)；5.排云殿；6.佛香阁；7.苏州街；8.北宫门出园。建议上午先登万寿山，中午在长廊附近用餐，下午沿昆明湖畔漫步至十七孔桥。",
+    "detected_format": "numbered",
+    "expected_format": "numbered",
+    "steps": [
+      {
+        "step_no": 1,
+        "time_period": "上午",
+        "spot": "仁寿殿",
+        "activity": "参观",
+        "raw_segment": "仁寿殿"
+      },
+      {
+        "step_no": 2,
+        "time_period": "上午",
+        "spot": "玉澜堂",
+        "activity": "参观",
+        "raw_segment": "玉澜堂"
+      },
+      {
+        "step_no": 3,
+        "time_period": "上午",
+        "spot": "乐寿堂",
+        "activity": "参观",
+        "raw_segment": "乐寿堂"
+      },
+      {
+        "step_no": 4,
+        "time_period": "上午",
+        "spot": "长廊",
+        "activity": "参观",
+        "raw_segment": "长廊(邀月门→排云门)"
+      },
+      {
+        "step_no": 5,
+        "time_period": "上午",
+        "spot": "排云殿",
+        "activity": "参观",
+        "raw_segment": "排云殿"
+      },
+      {
+        "step_no": 6,
+        "time_period": "上午",
+        "spot": "佛香阁",
+        "activity": "参观",
+        "raw_segment": "佛香阁"
+      },
+      {
+        "step_no": 7,
+        "time_period": "上午",
+        "spot": "苏州街",
+        "activity": "参观",
+        "raw_segment": "苏州街"
+      },
+      {
+        "step_no": 8,
+        "time_period": "上午",
+        "spot": "北宫门(出口)",
+        "activity": "出园",
+        "raw_segment": "北宫门出园"
+      }
+    ]
+  },
+  {
+    "scenic": "西湖",
+    "source": "整理自杭州西湖风景名胜区官方导览",
+    "url": "https://westlake.hangzhou.gov.cn/",
+    "text": "西湖经典环湖一日游：上午从断桥出发，经白堤步行至孤山；中午在楼外楼用餐；下午游曲院风荷，乘船横渡西湖至三潭印月，上岸后走苏堤南段；傍晚到花港观鱼，登雷峰塔看日落。",
+    "detected_format": "time_segmented",
+    "expected_format": "time_segmented",
+    "steps": [
+      {
+        "step_no": 1,
+        "time_period": "上午",
+        "spot": "断桥",
+        "activity": "步行",
+        "raw_segment": "从断桥出发，经白堤步行至孤山；"
+      },
+      {
+        "step_no": 2,
+        "time_period": "上午",
+        "spot": "白堤",
+        "activity": "步行",
+        "raw_segment": "从断桥出发，经白堤步行至孤山；"
+      },
+      {
+        "step_no": 3,
+        "time_period": "上午",
+        "spot": "孤山",
+        "activity": "步行",
+        "raw_segment": "从断桥出发，经白堤步行至孤山；"
+      },
+      {
+        "step_no": 4,
+        "time_period": "下午",
+        "spot": "曲院风荷",
+        "activity": "乘船",
+        "raw_segment": "游曲院风荷，乘船横渡西湖至三潭印月，上岸后走苏堤南段；"
+      },
+      {
+        "step_no": 5,
+        "time_period": "下午",
+        "spot": "西湖",
+        "activity": "乘船",
+        "raw_segment": "游曲院风荷，乘船横渡西湖至三潭印月，上岸后走苏堤南段；"
+      },
+      {
+        "step_no": 6,
+        "time_period": "下午",
+        "spot": "三潭印月",
+        "activity": "乘船",
+        "raw_segment": "游曲院风荷，乘船横渡西湖至三潭印月，上岸后走苏堤南段；"
+      },
+      {
+        "step_no": 7,
+        "time_period": "下午",
+        "spot": "苏堤",
+        "activity": "乘船",
+        "raw_segment": "游曲院风荷，乘船横渡西湖至三潭印月，上岸后走苏堤南段；"
+      },
+      {
+        "step_no": 8,
+        "time_period": "下午",
+        "spot": "雷峰塔",
+        "activity": "登",
+        "raw_segment": "到花港观鱼，登雷峰塔看日落。"
+      }
+    ]
+  }
+]

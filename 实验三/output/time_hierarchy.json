@@ -1,0 +1,185 @@
+[
+  {
+    "scenic": "故宫",
+    "format": "arrow_chain",
+    "periods": [
+      {
+        "period": "上午",
+        "steps": [
+          {
+            "step_no": 1,
+            "spot": "午门(入口)",
+            "activity": "参观"
+          },
+          {
+            "step_no": 2,
+            "spot": "太和殿",
+            "activity": "参观"
+          },
+          {
+            "step_no": 3,
+            "spot": "中和殿",
+            "activity": "参观"
+          }
+        ]
+      },
+      {
+        "period": "中午",
+        "steps": [
+          {
+            "step_no": 4,
+            "spot": "保和殿",
+            "activity": "参观"
+          },
+          {
+            "step_no": 5,
+            "spot": "乾清宫",
+            "activity": "参观"
+          },
+          {
+            "step_no": 6,
+            "spot": "交泰殿",
+            "activity": "参观"
+          }
+        ]
+      },
+      {
+        "period": "下午",
+        "steps": [
+          {
+            "step_no": 7,
+            "spot": "坤宁宫",
+            "activity": "参观"
+          },
+          {
+            "step_no": 8,
+            "spot": "御花园",
+            "activity": "参观"
+          },
+          {
+            "step_no": 9,
+            "spot": "神武门(出口)",
+            "activity": "参观"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scenic": "颐和园",
+    "format": "numbered",
+    "periods": [
+      {
+        "period": "上午",
+        "steps": [
+          {
+            "step_no": 1,
+            "spot": "仁寿殿",
+            "activity": "参观"
+          },
+          {
+            "step_no": 2,
+            "spot": "玉澜堂",
+            "activity": "参观"
+          },
+          {
+            "step_no": 3,
+            "spot": "乐寿堂",
+            "activity": "参观"
+          }
+        ]
+      },
+      {
+        "period": "中午",
+        "steps": [
+          {
+            "step_no": 4,
+            "spot": "长廊",
+            "activity": "参观"
+          },
+          {
+            "step_no": 5,
+            "spot": "排云殿",
+            "activity": "参观"
+          }
+        ]
+      },
+      {
+        "period": "下午",
+        "steps": [
+          {
+            "step_no": 6,
+            "spot": "佛香阁",
+            "activity": "参观"
+          },
+          {
+            "step_no": 7,
+            "spot": "苏州街",
+            "activity": "参观"
+          },
+          {
+            "step_no": 8,
+            "spot": "北宫门(出口)",
+            "activity": "出园"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scenic": "西湖",
+    "format": "time_segmented",
+    "periods": [
+      {
+        "period": "上午",
+        "steps": [
+          {
+            "step_no": 1,
+            "spot": "断桥",
+            "activity": "步行"
+          },
+          {
+            "step_no": 2,
+            "spot": "白堤",
+            "activity": "步行"
+          },
+          {
+            "step_no": 3,
+            "spot": "孤山",
+            "activity": "步行"
+          },
+          {
+            "step_no": 5,
+            "spot": "西湖",
+            "activity": "乘船"
+          }
+        ]
+      },
+      {
+        "period": "下午",
+        "steps": [
+          {
+            "step_no": 4,
+            "spot": "曲院风荷",
+            "activity": "乘船"
+          },
+          {
+            "step_no": 6,
+            "spot": "三潭印月",
+            "activity": "乘船"
+          },
+          {
+            "step_no": 7,
+            "spot": "苏堤",
+            "activity": "乘船"
+          },
+          {
+            "step_no": 8,
+            "spot": "雷峰塔",
+            "activity": "登"
+          }
+        ]
+      }
+    ]
+  }
+]
