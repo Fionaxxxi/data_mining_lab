@@ -16,13 +16,13 @@
     {
       "id": "HS-T01:1059",
       "status": "resolved",
-      "gold": "������",
+      "gold": "莲花峰",
       "gold_start": 1055,
       "gold_end": 1058,
       "gold_type": "POI",
-      "prediction": "������",
+      "prediction": "莲花峰",
       "correct": true,
-      "note": "ǰ����ʽ����"
+      "note": "前句显式景点"
     },
     {
       "id": "HS-T01:1089",
@@ -31,20 +31,20 @@
       "gold_start": null,
       "gold_end": null,
       "gold_type": "event",
-      "prediction": "��ɽ",
+      "prediction": "黄山",
       "correct": null,
-      "note": "��һ·ָ��ǰ�г�Ƭ�����޼���������д�"
+      "note": "这一路指当前行程片段且无简短连续先行词"
     },
     {
       "id": "HS-T01:1105",
       "status": "resolved",
-      "gold": "����",
+      "gold": "挑夫",
       "gold_start": 1102,
       "gold_end": 1104,
       "gold_type": "person",
-      "prediction": "����",
+      "prediction": "挑夫",
       "correct": true,
-      "note": "����н�����"
+      "note": "辛苦承接挑夫"
     },
     {
       "id": "HS-T01:1154",
@@ -53,53 +53,53 @@
       "gold_start": null,
       "gold_end": null,
       "gold_type": "object",
-      "prediction": "��ɽ",
+      "prediction": "黄山",
       "correct": null,
-      "note": "����ƿ��ţ��Ӧǰ�ĺ�ţ������ƿ��������ͬ�����д�"
+      "note": "这两瓶红牛对应前文红牛买了两瓶但无连续同形先行词"
     },
     {
       "id": "HS-T02:444",
       "status": "resolved",
-      "gold": "����ʯ",
+      "gold": "飞来石",
       "gold_start": 394,
       "gold_end": 397,
       "gold_type": "POI",
-      "prediction": "����ʯ",
+      "prediction": "飞来石",
       "correct": true,
-      "note": "������������ʯ"
+      "note": "正在描述飞来石"
     },
     {
       "id": "HS-T02:541",
       "status": "resolved",
-      "gold": "����ʯ",
+      "gold": "飞来石",
       "gold_start": 526,
       "gold_end": 529,
       "gold_type": "POI",
-      "prediction": "����ʯ",
+      "prediction": "飞来石",
       "correct": true,
-      "note": "ʯ����������"
+      "note": "石体描述连续"
     },
     {
       "id": "HS-T02:604",
       "status": "resolved",
-      "gold": "������",
+      "gold": "光明顶",
       "gold_start": 600,
       "gold_end": 603,
       "gold_type": "POI",
-      "prediction": "������",
+      "prediction": "光明顶",
       "correct": true,
-      "note": "�յ��Ϲ�����"
+      "note": "刚登上光明顶"
     },
     {
       "id": "HS-T02:677",
       "status": "resolved",
-      "gold": "������",
+      "gold": "光明顶",
       "gold_start": 600,
       "gold_end": 603,
       "gold_type": "POI",
-      "prediction": "������",
+      "prediction": "光明顶",
       "correct": true,
-      "note": "�˴����ճ��ص�Ϊ������"
+      "note": "此处看日出地点为光明顶"
     },
     {
       "id": "HS-T02:1060",
@@ -110,7 +110,7 @@
       "gold_type": "noncoref",
       "prediction": null,
       "correct": true,
-      "note": "������Ϊ�޶�������Ƕ����ص㹲ָ"
+      "note": "那雅兴为限定短语而非独立地点共指"
     },
     {
       "id": "JZG-T02:366",
@@ -119,9 +119,9 @@
       "gold_start": null,
       "gold_end": null,
       "gold_type": "place",
-      "prediction": "�ϻ���",
+      "prediction": "老虎海",
       "correct": null,
-      "note": "����ָ�������򵫱߽粻��"
+      "note": "这里指游览区域但边界不明"
     },
     {
       "id": "JZG-T02:597",
@@ -130,9 +130,9 @@
       "gold_start": null,
       "gold_end": null,
       "gold_type": "place",
-      "prediction": "Ϭţ��",
+      "prediction": "犀牛海",
       "correct": null,
-      "note": "ͼ��Ƭ���޷�ȷ������������կ����ǰ���۾���"
+      "note": "图文片段无法确定这里是树正寨还是前述观景点"
     },
     {
       "id": "JZG-T02:1222",
@@ -143,29 +143,29 @@
       "gold_type": "noncoref",
       "prediction": null,
       "correct": true,
-      "note": "�����Ǵ�������"
+      "note": "其它是词内字形"
     },
     {
       "id": "JZG-T02:1459",
       "status": "resolved",
-      "gold": "����̲�ٲ�",
+      "gold": "珍珠滩瀑布",
       "gold_start": 1401,
       "gold_end": 1406,
       "gold_type": "POI",
-      "prediction": "����̲�ٲ�",
+      "prediction": "珍珠滩瀑布",
       "correct": true,
-      "note": "ǰ�Ľ�������̲�ٲ�"
+      "note": "前文介绍珍珠滩瀑布"
     },
     {
       "id": "JZG-T02:1670",
       "status": "resolved",
-      "gold": "·��",
+      "gold": "路口",
       "gold_start": 1661,
       "gold_end": 1663,
       "gold_type": "place",
-      "prediction": "·��",
+      "prediction": "路口",
       "correct": true,
-      "note": "�۹⳵ͣ��·��"
+      "note": "观光车停在路口"
     },
     {
       "id": "JZG-T02:1850",
@@ -174,20 +174,20 @@
       "gold_start": null,
       "gold_end": null,
       "gold_type": "group",
-      "prediction": "��ʳ�",
+      "prediction": "五彩池",
       "correct": null,
-      "note": "��2�������ָ��������ʳ��Ҳ������������д�"
+      "note": "这2个景点合指长海与五彩池且不构成连续先行词"
     },
     {
       "id": "JZG-T02:1931",
       "status": "resolved",
-      "gold": "��ʳ�",
+      "gold": "五彩池",
       "gold_start": 1899,
       "gold_end": 1902,
       "gold_type": "POI",
-      "prediction": "��ʳ�",
+      "prediction": "五彩池",
       "correct": true,
-      "note": "ͼ�Ķ������Ϊ��ʳ�"
+      "note": "图文段落标题为五彩池"
     },
     {
       "id": "JZG-T02:1937",
@@ -198,29 +198,29 @@
       "gold_type": "noncoref",
       "prediction": null,
       "correct": true,
-      "note": "����Ϊ��������"
+      "note": "其它为词内字形"
     },
     {
       "id": "ZJJ-T01:75",
       "status": "resolved",
-      "gold": "�żҽ�",
+      "gold": "张家界",
       "gold_start": 48,
       "gold_end": 51,
       "gold_type": "POI",
-      "prediction": "�żҽ����ξ���",
+      "prediction": "张家界旅游景区",
       "correct": false,
-      "note": "ǰ���żҽ�"
+      "note": "前文张家界"
     },
     {
       "id": "ZJJ-T01:150",
       "status": "resolved",
-      "gold": "�żҽ���Ȼ�羰��",
+      "gold": "张家界自然风景区",
       "gold_start": 103,
       "gold_end": 111,
       "gold_type": "POI",
-      "prediction": "�żҽ���Ȼ�羰��",
+      "prediction": "张家界自然风景区",
       "correct": true,
-      "note": "ǰ��羰��"
+      "note": "前句风景区"
     },
     {
       "id": "ZJJ-T01:195",
@@ -229,75 +229,75 @@
       "gold_start": null,
       "gold_end": null,
       "gold_type": "metalinguistic",
-      "prediction": "�żҽ���Ȼ�羰��",
+      "prediction": "张家界自然风景区",
       "correct": null,
-      "note": "����ָ�����������е��÷�"
+      "note": "这里指界字在名称中的用法"
     },
     {
       "id": "ZJJ-T01:288",
       "status": "resolved",
-      "gold": "��������",
+      "gold": "湘西地区",
       "gold_start": 229,
       "gold_end": 233,
       "gold_type": "place",
-      "prediction": "��������",
+      "prediction": "湘西地区",
       "correct": true,
-      "note": "ǰ����������"
+      "note": "前文湘西地区"
     },
     {
       "id": "ZJJ-T01:327",
       "status": "resolved",
-      "gold": "��������",
+      "gold": "湘西地区",
       "gold_start": 229,
       "gold_end": 233,
       "gold_type": "place",
-      "prediction": "��������",
+      "prediction": "湘西地区",
       "correct": true,
-      "note": "ǰ��������������"
+      "note": "前文所述湘西土地"
     },
     {
       "id": "ZJJ-T01:371",
       "status": "cataphora",
-      "gold": "���ڹ�����δʶ",
+      "gold": "养在闺中人未识",
       "gold_start": 374,
       "gold_end": 381,
       "gold_type": "work",
-      "prediction": "�żҽ�",
+      "prediction": "张家界",
       "correct": null,
-      "note": "��������������ƪ֮��"
+      "note": "文章名出现在那篇之后"
     },
     {
       "id": "ZJJ-T01:417",
       "status": "resolved",
-      "gold": "��ӹ�ع����ֳ�",
+      "gold": "大庸县国有林场",
       "gold_start": 405,
       "gold_end": 412,
       "gold_type": "place",
-      "prediction": "��ӹ�ع����ֳ�",
+      "prediction": "大庸县国有林场",
       "correct": true,
-      "note": "ǰ��д���ص�"
+      "note": "前文写生地点"
     },
     {
       "id": "ZJJ-T01:675",
       "status": "resolved",
-      "gold": "����Դ����",
+      "gold": "武陵源景区",
       "gold_start": 669,
       "gold_end": 674,
       "gold_type": "POI",
-      "prediction": "����Դ����",
+      "prediction": "武陵源景区",
       "correct": true,
-      "note": "�Ͼ侰��"
+      "note": "上句景区"
     },
     {
       "id": "ZJJ-T01:694",
       "status": "resolved",
-      "gold": "����Դ����",
+      "gold": "武陵源景区",
       "gold_start": 669,
       "gold_end": 674,
       "gold_type": "POI",
-      "prediction": "����Դ����",
+      "prediction": "武陵源景区",
       "correct": true,
-      "note": "ͬ�γн�"
+      "note": "同段承接"
     },
     {
       "id": "ZJJ-T01:806",
@@ -306,42 +306,42 @@
       "gold_start": null,
       "gold_end": null,
       "gold_type": "place",
-      "prediction": "��ʯկ",
+      "prediction": "黄石寨",
       "correct": null,
-      "note": "�������ָ�żҽ��ǰ�����ľ�������"
+      "note": "这里可能指张家界或前述核心景区集合"
     },
     {
       "id": "ZJJ-T01:850",
       "status": "resolved",
-      "gold": "�żҽ�",
+      "gold": "张家界",
       "gold_start": 844,
       "gold_end": 847,
       "gold_type": "POI",
-      "prediction": "�żҽ�",
+      "prediction": "张家界",
       "correct": true,
-      "note": "���������żҽ�"
+      "note": "句首主语张家界"
     },
     {
       "id": "ZJJ-T01:1054",
       "status": "resolved",
-      "gold": "�żҽ��Ͽ�����ξ���",
+      "gold": "张家界大峡谷旅游景区",
       "gold_start": 1019,
       "gold_end": 1029,
       "gold_type": "POI",
-      "prediction": "�żҽ��Ͽ�����ξ���",
+      "prediction": "张家界大峡谷旅游景区",
       "correct": true,
-      "note": "ǰ�����������þ���"
+      "note": "前句正在游览该景区"
     },
     {
       "id": "ZJJ-T01:1554",
       "status": "resolved",
-      "gold": "����ɽ",
+      "gold": "天门山",
       "gold_start": 1488,
       "gold_end": 1491,
       "gold_type": "POI",
-      "prediction": "����ɽ",
+      "prediction": "天门山",
       "correct": true,
-      "note": "ǰ��δ����������ɽ"
+      "note": "前文未能游览天门山"
     }
   ]
 }
