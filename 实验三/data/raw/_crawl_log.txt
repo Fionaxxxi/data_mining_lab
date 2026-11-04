@@ -1,9 +1,0 @@
-[crawl] https://www.dpm.org.cn/Home.html
-   -> ok, 正文段 76, 旅游相关段 50
-[crawl] https://www.summerpalace-china.com/
-   -> 失败/被拦截: https://www.summerpalace-china.com/
-[crawl] https://ct.ctrip.com/
-   -> ok, 正文段 97, 旅游相关段 7
-[crawl] https://www.zhihu.com/
-   -> ok, 正文段 6, 旅游相关段 0
-[crawl] 完成: 成功 3/4, 输出 -> C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\data\raw\crawled_pages.json
