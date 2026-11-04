@@ -9,11 +9,11 @@ ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'outputs' / 'lab4'
 OUT.mkdir(parents=True, exist_ok=True)
 IDS = ('HS-T01', 'HS-T02', 'JZG-T02', 'ZJJ-T01')
-PRON = re.compile('����|����|����|���|�Ƕ�|��|��|��')
-SENT = re.compile(r'[^������!?��;\.\n]+[������!?��;\.]?')
-PEOPLE = ('�ο�', '����', '����', 'ͬ��', '����')
-GENERIC_PLACE = re.compile(r'(?:(?:[\u4e00-\u9fff]{2,6})(?:����|�����ֳ�|��Ȼ�羰��|���ξ���)|·��)')
-MOTION = re.compile(r'����|����|����|����|ǰ��|����|��|ס��')
+PRON = re.compile('那里|他们|它们|这儿|那儿|它|这|那')
+SENT = re.compile(r'[^。！？!?；;\.\n]+[。！？!?；;\.]?')
+PEOPLE = ('游客', '导游', '朋友', '同伴', '挑夫')
+GENERIC_PLACE = re.compile(r'(?:(?:[\u4e00-\u9fff]{2,6})(?:地区|国有林场|自然风景区|旅游景区)|路口)')
+MOTION = re.compile(r'登上|游览|到达|到了|前往|来到|在|住在')
 
 
 def detect(doc):
@@ -34,7 +34,7 @@ def detect(doc):
 
 def skip_reason(text, start, token):
     following = text[start + len(token):start + len(token) + 1]
-    if token in ('��', '��') and following in '��Щ����ô���ο�����ʱ��':
+    if token in ('这', '那') and following in '个些样次么条段颗张天时边':
         return 'modifier_with_classifier'
     return None
 
@@ -42,33 +42,33 @@ def skip_reason(text, start, token):
 def predict(row, text, entities):
     start = row['pronoun_start']
     pronoun = row['pronoun']
-    if pronoun == '��' and start > 0 and text[start - 1] == '��':
+    if pronoun == '它' and start > 0 and text[start - 1] == '其':
         return None
-    if pronoun == '��' and text[start:start + 3] == '������':
+    if pronoun == '那' and text[start:start + 3] == '那雅兴':
         return None
-    if pronoun == '����':
+    if pronoun == '他们':
         pool = [e for e in entities if e['end'] <= start and e['type'] == 'person']
-    elif pronoun in ('����', '���', '�Ƕ�'):
+    elif pronoun in ('那里', '这儿', '那儿'):
         pool = [e for e in entities if e['end'] <= start and e['type'] in ('place', 'ordinary_place')]
     else:
         pool = [e for e in entities if e['end'] <= start and e['type'] != 'person']
     pool = [e for e in pool if start - e['end'] <= 220]
     if not pool:
         return None
-    # In "A �� B ��ȣ�����...", B is the comparison target, not the
-    # continuing subject A. Prefer the closest entity before ��.
+    # In "A 与 B 相比，但它...", B is the comparison target, not the
+    # continuing subject A. Prefer the closest entity before 与.
     recent = text[max(0, start - 80):start]
-    compare = list(re.finditer(r'��[^������\n]{0,25}���', recent))
-    if compare and pronoun == '��':
+    compare = list(re.finditer(r'与[^。！？\n]{0,25}相比', recent))
+    if compare and pronoun == '它':
         boundary = max(0, start - 80) + compare[-1].start()
         topics = [e for e in pool if e['end'] <= boundary and boundary - e['end'] <= 60]
         if topics:
             return max(topics, key=lambda e: e['end'])
-    # In a description "A ��...����...����", the descriptive subject is
+    # In a description "A 是...，在...这里", the descriptive subject is
     # usually A, even when a broader region occurs inside the description.
-    if pronoun in ('��', '����', '���', '�Ƕ�'):
+    if pronoun in ('这', '那里', '这儿', '那儿'):
         segment = text[max(0, start - 130):start]
-        descriptions = list(re.finditer(r'��[^������\n]{0,90}��[^������\n]{0,30}$', segment))
+        descriptions = list(re.finditer(r'是[^。！？\n]{0,90}在[^。！？\n]{0,30}$', segment))
         if descriptions:
             boundary = max(0, start - 130) + descriptions[-1].start()
             subjects = [e for e in pool if e['end'] <= boundary and boundary - e['end'] <= 20]
@@ -80,13 +80,13 @@ def predict(row, text, entities):
         score = -distance
         # A destination in the recent narrative is more salient than a place
         # mentioned only as a comparison or as a geographic modifier.
-        if MOTION.search(prefix) and prefix.rstrip().endswith(('����', '����', '����', '����', 'ǰ��', '����', '��', 'ס��')):
+        if MOTION.search(prefix) and prefix.rstrip().endswith(('登上', '游览', '到达', '到了', '前往', '来到', '在', '住在')):
             score += 45
-        if prefix.endswith(('��', '��', '��', '���')):
+        if prefix.endswith(('与', '和', '比', '相比')):
             score -= 75
-        if entity['text'] in ('��ɽ', '��կ��', '�żҽ�') and text[entity['end']:entity['end'] + 2] in ('�ڶ�', '��һ', '���'):
+        if entity['text'] in ('黄山', '九寨沟', '张家界') and text[entity['end']:entity['end'] + 2] in ('第二', '第一', '最高'):
             score -= 65
-        if entity['type'] == 'ordinary_place' and pronoun in ('����', '����', '���', '�Ƕ�', '��'):
+        if entity['type'] == 'ordinary_place' and pronoun in ('这里', '那里', '这儿', '那儿', '这'):
             score += 12
         return (score, entity['end'])
     return max(pool, key=rank)
@@ -100,19 +100,19 @@ def build_entities(doc_id, text, lab2):
     for match in GENERIC_PLACE.finditer(text):
         value = match.group()
         start_pos = match.start()
-        for separator in ('ȥ', '��', '����', 'ǰ��', '����'):
+        for separator in ('去', '到', '游览', '前往', '来到'):
             if separator in value:
                 cut = value.rfind(separator) + len(separator)
                 start_pos += cut
                 value = value[cut:]
-        if value.endswith(('��Ȼ�羰��', '���ξ���')):
+        if value.endswith(('自然风景区', '旅游景区')):
             for known in sorted((e for e in entities if e['end'] <= match.end() and e['start'] >= start_pos), key=lambda e: e['start']):
-                if text[known['end']:match.end()] in ('��Ȼ�羰��', '���ξ���'):
+                if text[known['end']:match.end()] in ('自然风景区', '旅游景区'):
                     value = text[known['start']:match.end()]
                     start_pos = known['start']
                     break
         entities.append({'text': value, 'start': start_pos, 'end': match.end(), 'type': 'ordinary_place'})
-    for match in re.finditer('�ο�|����|����|ͬ��|����', text):
+    for match in re.finditer('游客|导游|朋友|同伴|挑夫', text):
         entities.append({'text': match.group(), 'start': match.start(), 'end': match.end(), 'type': 'person'})
     return entities
 
@@ -153,7 +153,12 @@ def main():
         writer.writerow(['id', 'gold_antecedent', 'gold_start', 'gold_end', 'gold_type', 'status', 'note'])
         for row in rows:
             writer.writerow([row['id'], '', '', '', '', 'unreviewed', ''])
-    annotations = list(csv.DictReader((OUT / 'gold.csv').open(encoding='utf-8-sig')']]['clean_text']
+    annotations = list(csv.DictReader((OUT / 'gold.csv').open(encoding='utf-8-sig')))
+    by_id = {r['id']: r for r in rows}
+    evaluated = []
+    for gold in annotations:
+        row = by_id[gold['id']]
+        doc_text = docs[row['doc_id']]['clean_text']
         if gold['status'] == 'resolved':
             assert doc_text[int(gold['gold_start']):int(gold['gold_end'])] == gold['gold_antecedent']
         if gold['status'] == 'uncertain':
