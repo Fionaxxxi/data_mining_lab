@@ -1,0 +1,9 @@
+id,gold_antecedent,gold_start,gold_end,gold_type,status,note
+HS-T01:1059,������,1055,1058,POI,resolved,ǰ����ȷ˵���������ǻ�ɽ��߷�
+HS-T01:1105,����,1102,1104,person,resolved,���ǳнӲ����ο��������е�����
+HS-T02:444,����ʯ,394,397,POI,resolved,������������������ʯ
+HS-T02:604,������,600,603,POI,resolved,����Ϊ�յ��ϵĹ�����
+JZG-T02:366,,,,,uncertain,���������߽粻����ȷ
+JZG-T02:1222,,,,,noncoref,�������޶��ʵ�һ���ֲ��ǿ��������
+ZJJ-T01:75,�żҽ�,48,51,POI,resolved,ǰ����ȷ̸���żҽ�
+ZJJ-T01:694,����Դ����,669,674,POI,resolved,�˴�ԭ�ĳ�����Դ����
