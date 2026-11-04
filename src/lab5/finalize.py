@@ -29,7 +29,7 @@ def make_record(doc, condition, advice, rule, note, around=None):
             'condition_start': c, 'condition_end': c + len(condition), 'advice': advice,
             'advice_start': a, 'advice_end': a + len(advice), 'condition_type': condition_type(condition),
             'traveler_type': traveler_type(condition + ' ' + advice), 'rule': rule, 'review_note': note,
-            'needs_context_resolution': bool(re.search(r'��(?:��|��|��|��)|��(?:��|��)|����|����|����', advice)),
+            'needs_context_resolution': bool(re.search(r'这(?:条|个|里|儿)|那(?:里|个)|走这|到这|以上', advice)),
             'source_excerpt': text[max(0, c - 35):min(len(text), a + len(advice) + 35)]}
 
 

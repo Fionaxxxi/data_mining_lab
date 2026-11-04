@@ -1,250 +1,290 @@
-{"doc_id": "HS-O01", "sentence_start": 535, "reason": "no_explicit_condition_pair", "fragment": "����·����Ȼ������ǰɽ����,�����Ա����·�ϵ�ӵ��,��ʡ����ʱ��,�ֿ����澫��������"}
-{"doc_id": "HS-T01", "sentence_start": 1007, "reason": "no_explicit_condition_pair", "fragment": "\"����û����ô������,��Ϊ��֪���Ѿ��쵽ɽ����) ��ӭ������������ָ·����һֱ�����ַ����߿���ȥ������,���ǻ�ɽ����߷�,��������˵2��Сʱ׼�ܵ�,����������·��,��һ·���οͺܶ�,���кܶ�����,������ĺ�����,����ɽ������;������һ·ЪϢ������,������ƿˮ��������10��һƿ��ţ������ƿ,�������ƿ��ţ������������ɽ��."}
-{"doc_id": "HS-T02", "sentence_start": 547, "reason": "no_action", "fragment": "������,������\"���ҷ�\"."}
-{"doc_id": "HS-T02", "sentence_start": 547, "reason": "no_action", "fragment": "������,������\"���ҷ�\"."}
-{"doc_id": "HS-T02", "sentence_start": 547, "reason": "no_explicit_condition_pair", "fragment": "��������,������\"���ҷ�\"."}
-{"doc_id": "HS-T02", "sentence_start": 1032, "reason": "no_explicit_condition_pair", "fragment": " ����˵ҹ�������ڱ�������;�̨����������,�������Ƕ�û��������,���ڱ����ﻹ���䰡."}
-{"doc_id": "HS-T03", "sentence_start": 926, "reason": "no_action", "fragment": "������Ŀ�ĵ���5վ·֮��,��ͨ��ֻ����һվ,������������һվ����������һվ���Ķ�,����Ҳδ��Ӱ��̫��,�������������������о��������,ȱ���������Ҫ����Ϣ,̫�������������ж���,����ѡ����ȥ���������·."}
-{"doc_id": "HS-T03", "sentence_start": 926, "reason": "no_action", "fragment": "������Ŀ�ĵ���5վ·֮��,��ͨ��ֻ����һվ,������������һվ����������һվ���Ķ�,����Ҳδ��Ӱ��̫��,�������������������о��������,ȱ���������Ҫ����Ϣ,̫�������������ж���,����ѡ����ȥ���������·."}
-{"doc_id": "HS-T03", "sentence_start": 926, "reason": "no_explicit_condition_pair", "fragment": " ����ǰ��,���˺ڻ���, �ּ�·��, ��ɽ��·���е㲻̫�������������Ŀ�ĵ���5վ·֮��,��ͨ��ֻ����һվ,������������һվ����������һվ���Ķ�,����Ҳδ��Ӱ��̫��,�������������������о��������,ȱ���������Ҫ����Ϣ,̫�������������ж���,����ѡ����ȥ���������·."}
-{"doc_id": "HS-T03", "sentence_start": 1142, "reason": "no_action", "fragment": "�����ͷ���Ǳ���, 3."}
-{"doc_id": "HS-T03", "sentence_start": 1142, "reason": "no_action", "fragment": "�����ͷ���Ǳ���, 3."}
-{"doc_id": "HS-T03", "sentence_start": 1142, "reason": "no_explicit_condition_pair", "fragment": " ��������˵,���������ߴ�Ż���4�����·,�����ͷ���Ǳ���, 3."}
-{"doc_id": "HS-T03", "sentence_start": 1744, "reason": "no_explicit_condition_pair", "fragment": " ��������������ٺ�,���ĵ�С��ιʳ�ĳ���,�����Ǹ������軹����ְ��ƺ������Էǳ���,����Ӧ���ǵ���һ��С����,���Ǿ��ǻ��ڳ�������س�,���ǵ���һ����,���Ƿ�����,��Ҫ��Ϊ���ǵĺ������������ЩС����."}
-{"doc_id": "HS-T03", "sentence_start": 2136, "reason": "no_explicit_condition_pair", "fragment": " ���ڵ��������,���Ʊ��ݵķ�����һ���е�Ƕȵ�ʯ��·,����������,��Ȼ��ʱ������Ӧ�ú���������ô��������."}
-{"doc_id": "HS-T04", "sentence_start": 506, "reason": "no_explicit_condition_pair", "fragment": "��ɽ����5Ԫһ������������,�������Ͽ����ڷ絲��,ð�ŷ���ż���ó������������Ƭ."}
-{"doc_id": "HS-T04", "sentence_start": 579, "reason": "no_explicit_condition_pair", "fragment": "��������,���ĸϵ��������и��ֱ���,������������,������������,���ֵ����������Ķ�,ֻҪ����һ�ŷ�����������."}
-{"doc_id": "HS-T05", "sentence_start": 618, "reason": "no_explicit_condition_pair", "fragment": "��������22:35�ֵ�,ʱ�仹��,���Ǿ�ȥ��Ʊ��,��̽һ��ʲôʱ������򵽹���ؼҵ�Ʊ,��֪����վ,������ǰʮһ����,�Ȼ�վҪ��һ��."}
-{"doc_id": "HS-T05", "sentence_start": 770, "reason": "hypothetical_or_retrospective", "fragment": "�������һ��ð����������ˮ,�Ǽ�ֱ���˼�һ������."}
-{"doc_id": "HS-T05", "sentence_start": 770, "reason": "hypothetical_or_retrospective", "fragment": "�������һ��ð����������ˮ,�Ǽ�ֱ���˼�һ������."}
-{"doc_id": "HS-T05", "sentence_start": 770, "reason": "no_explicit_condition_pair", "fragment": "��������,�����ǵ�ɽ·��,����������Ϣ,�������һ��ð����������ˮ,�Ǽ�ֱ���˼�һ������."}
-{"doc_id": "HS-T05", "sentence_start": 815, "reason": "no_explicit_condition_pair", "fragment": "����,�����ַ���,ζȫ����c��Сƿ��,���Ķ����ָкܺ�,������ʱ���¶��ҷ��㴧������,����Ҫ����ƿ���ϱ�ע���ǿ���ѭ��ʹ��5��,����Ƕ������бر���Ʒ."}
-{"doc_id": "HS-T05", "sentence_start": 1144, "reason": "no_explicit_condition_pair", "fragment": "��ɽ�������һ�����ָ������ͬ�ĵط�,�����ʮ����,һ��Ҫ�����:��ɽ��Ҳ������Ϫ,��������ɽ�Ľ�ͨ��Ŧ,����һ���οͶ�ֻ�ǰ�����Ϊһ����תվ;"}
-{"doc_id": "HS-T05", "sentence_start": 1216, "reason": "no_explicit_condition_pair", "fragment": "��ɽ����,һ��ָ������������,Ҳ������ָ����Ҳ��������;"}
-{"doc_id": "HS-T05", "sentence_start": 1244, "reason": "no_explicit_condition_pair", "fragment": "��ɽ��ָ̫ƽ��,λ�ڻ�ɽ�Ա�,���¿����ĵ���,���������ȥܽ�عȷ������Լ���ɽ�ı���."}
-{"doc_id": "HS-T05", "sentence_start": 1963, "reason": "no_explicit_condition_pair", "fragment": "����ľ�ɫ���ǿ���ֵ��Ʊ�۵�,��Ȼ�Ƕ��콵ˮ��С,�����ٲ���ˮ��������,�������ٲ���Ե���Կ�������ı���,��ˮ����ӳ��Ȥ."}
-{"doc_id": "HS-T05", "sentence_start": 2195, "reason": "no_explicit_condition_pair", "fragment": "�Ⱥ��ʱ��ѧ��һ����֪ʶ,̫ƽ�����ų��������������ʽ����,��֮ǰ���żҽ�����ɽ�������ƺ�����,��ô�������\"����ʽ\"������,һ����������������������һȦһȦ��ѭ����,����������һ��������ֻ��һ������,��ȥ��������,һ������������,�Ϳ���ͬʱ����."}
-{"doc_id": "HS-T05", "sentence_start": 2320, "reason": "no_explicit_condition_pair", "fragment": "������Ҳ�ǿ���ͬʱ������ʮ���˵Ĵ�����."}
-{"doc_id": "HS-T05", "sentence_start": 2697, "reason": "no_action", "fragment": "�����һƬů�����ں���һ˿˿����������,���ĺ�."}
-{"doc_id": "HS-T05", "sentence_start": 2697, "reason": "no_action", "fragment": "�����һƬů�����ں���һ˿˿����������,���ĺ�."}
-{"doc_id": "HS-T05", "sentence_start": 2697, "reason": "no_explicit_condition_pair", "fragment": "һ·��ɽʱ����,�����ܶ�,ͣ��������һ�������׾�����,���ʱ��,�����һƬů�����ں���һ˿˿����������,���ĺ�."}
-{"doc_id": "HS-T05", "sentence_start": 2757, "reason": "no_explicit_condition_pair", "fragment": "��������ά��ʮ����Сʱ,��������ر�."}
-{"doc_id": "JZG-O01", "sentence_start": 713, "reason": "no_explicit_condition_pair", "fragment": "һ�����������������Ҫ��,���������կ���ĵ�һ�����Ͽ��Ժú���Ϣ,�ڶ��������꾰��֮��,����ȥ���;�կ����Ǽԭ��̬�ġ����ա�����,���鲻һ����������顣"}
-{"doc_id": "JZG-T01", "sentence_start": 119, "reason": "no_explicit_condition_pair", "fragment": "����ȥ���⼸��,��կ���¶���1~12���϶�,��ɽ�ϵ����¿϶���0������,�����ڳ�����ɽ�Ͼ��ĵ�������ˮ��ͷ����µ�ˮ������Χ�Ĳ��Ͻ��˺��ı��ľ�ͷ,����,���޷������Ǳ����,��Ǯ����Ӧ��������ץ����ȥ,��������������Ҳ����̫������."}
-{"doc_id": "JZG-T01", "sentence_start": 237, "reason": "no_action", "fragment": "ֻҪ��ץ�����ѵ�������,����Ҳ�ܼ��Ḻ��."}
-{"doc_id": "JZG-T01", "sentence_start": 237, "reason": "no_action", "fragment": "ֻҪ��ץ�����ѵ�������,����Ҳ�ܼ��Ḻ��."}
-{"doc_id": "JZG-T01", "sentence_start": 237, "reason": "no_explicit_condition_pair", "fragment": "����,���ܾ�կ�ĺ�����Խϵ�,������γ�Ƚϵ�,̫��ֱ��,�������»��Ǹо��Ƚ���,����ֻҪ��ץ�����ѵ�������,����Ҳ�ܼ��Ḻ��."}
-{"doc_id": "JZG-T01", "sentence_start": 300, "reason": "modal_as_condition_or_late_action", "fragment": "������Ͻ���,ɽ�ϵ����»��Ǻܵ͵�,ջ���϶�������˪,��·һ��ҪС��,��ʱ����ʾ����һ�����׵���Ҫ��,���������ץסջ���ߵ�����,���û������,ץ��������Ҳ�Ǳ����̹�."}
-{"doc_id": "JZG-T01", "sentence_start": 300, "reason": "modal_as_condition_or_late_action", "fragment": "������Ͻ���,ɽ�ϵ����»��Ǻܵ͵�,ջ���϶�������˪,��·һ��ҪС��,��ʱ����ʾ����һ�����׵���Ҫ��,���������ץסջ���ߵ�����,���û������,ץ��������Ҳ�Ǳ����̹�."}
-{"doc_id": "JZG-T01", "sentence_start": 300, "reason": "no_action", "fragment": "���û������,ץ��������Ҳ�Ǳ����̹�."}
-{"doc_id": "JZG-T01", "sentence_start": 480, "reason": "no_explicit_condition_pair", "fragment": "�ڳɶ�,����Ľ��ǰȥ�������ܵ���������С��,��ô˵��,Ӧ��˵��ʢ��֮��,��ʵ�Ѹ�."}
-{"doc_id": "JZG-T01", "sentence_start": 615, "reason": "no_explicit_condition_pair", "fragment": "�����ڽ����ֳ�����������(�����Ժ�ȷʵ�Ƚ�����),������,�ͷ�,����,��Ϻ,���������񳦷ۺʹ����㻹����,�����Ļ����Ͼ��ǳ��˳�ζ��,�˷��˲���."}
-{"doc_id": "JZG-T01", "sentence_start": 792, "reason": "no_explicit_condition_pair", "fragment": "���ֵ��������ܵ�ȥ���˵�����(�������������)."}
-{"doc_id": "JZG-T01", "sentence_start": 1224, "reason": "no_action", "fragment": "��������۵�������Ҫ̱���ڵصĻ�����ȫ�����߹�ȥ��(���Ǿ��ϵ���,���˳��⻹û�ѱ����ӱ����������͵���)"}
-{"doc_id": "JZG-T01", "sentence_start": 1224, "reason": "no_action", "fragment": "��������۵�������Ҫ̱���ڵصĻ�����ȫ�����߹�ȥ��(���Ǿ��ϵ���,���˳��⻹û�ѱ����ӱ����������͵���)"}
-{"doc_id": "JZG-T01", "sentence_start": 1786, "reason": "no_action", "fragment": "���ס��һ����û��ˮ��,��Ϊ��һ������Һ������,Ŀǰ�޷��˽���"}
-{"doc_id": "JZG-T01", "sentence_start": 1786, "reason": "no_action", "fragment": "���ס��һ����û��ˮ��,��Ϊ��һ������Һ������,Ŀǰ�޷��˽���"}
-{"doc_id": "JZG-T01", "sentence_start": 1786, "reason": "no_explicit_condition_pair", "fragment": "�ݸ��˼�����������ϼ�������,����ǳ�����,����Ҫ���󴲷�,ֻ��һ��ס�ݸ��˼�,����ס�ݸ�ĥ��(�����෴,�Ҽǲ�����,�����ڶ����Ҿ�������,�����������ҽ�����Ĺ�����Ա˵������������,���ס��һ����û��ˮ��,��Ϊ��һ������Һ������,Ŀǰ�޷��˽���!"}
-{"doc_id": "JZG-T01", "sentence_start": 1912, "reason": "no_action", "fragment": "ֻҪ100Ԫ��ȷ��������ֵ,����ȷ���ҵ��������ָ���,��ס��ȥ�ŷ��������ϵĲݸ��˼ҵ���Ƭ���Ĳ���һ������."}
-{"doc_id": "JZG-T01", "sentence_start": 1912, "reason": "no_action", "fragment": "ֻҪ100Ԫ��ȷ��������ֵ,����ȷ���ҵ��������ָ���,��ס��ȥ�ŷ��������ϵĲݸ��˼ҵ���Ƭ���Ĳ���һ������."}
-{"doc_id": "JZG-T01", "sentence_start": 1912, "reason": "no_explicit_condition_pair", "fragment": "�͹۵�˵,������һ���羰��,����һ���õ�,һ��ֻҪ100Ԫ��ȷ��������ֵ,����ȷ���ҵ��������ָ���,��ס��ȥ�ŷ��������ϵĲݸ��˼ҵ���Ƭ���Ĳ���һ������."}
-{"doc_id": "JZG-T01", "sentence_start": 2975, "reason": "no_explicit_condition_pair", "fragment": "�ر�ע��:���Ǿ�����ʱ��Ŀ���,�������ɶ���ֱ��ס��������,������������ɶ�."}
-{"doc_id": "JZG-T01", "sentence_start": 3014, "reason": "no_action", "fragment": "����Ӿ�կ��������ɶ��Ļ�,�����Ͼ�Ҫ�˷�һ�����ϵ�ס��,���ҴӾ�կ����һ�㶼������,��̫���ܳ�ȥ���,��������һ��,��Ͳ��ò��ڳɶ�ס��������."}
-{"doc_id": "JZG-T01", "sentence_start": 3014, "reason": "no_action", "fragment": "����Ӿ�կ��������ɶ��Ļ�,�����Ͼ�Ҫ�˷�һ�����ϵ�ס��,���ҴӾ�կ����һ�㶼������,��̫���ܳ�ȥ���,��������һ��,��Ͳ��ò��ڳɶ�ס������e_start": 4728, "reason": "modal_as_condition_or_late_action", "fragment": "������ԵĻ�,�������������,��Ҫ���������ø�һЩ,�����Ϳ����ڳ��Ͽ���«έ���м�������,�����ӱ���������,����ȥ���ܿ����뵵�����,��ϧ���ǳ���̫��,������û������,���ν�������������,��ϧ��."}
-{"doc_id": "JZG-T01", "sentence_start": 4728, "reason": "modal_as_condition_or_late_action", "fragment": "������ԵĻ�,�������������,��Ҫ���������ø�һЩ,�����Ϳ����ڳ��Ͽ���«έ���м�������,�����ӱ���������,����ȥ���ܿ����뵵�����,��ϧ���ǳ���̫��,������û������,���ν�������������,��ϧ��."}
-{"doc_id": "JZG-T01", "sentence_start": 4728, "reason": "modal_as_condition_or_late_action", "fragment": "������ԵĻ�,�������������,��Ҫ���������ø�һЩ,�����Ϳ����ڳ��Ͽ���«έ���м�������,�����ӱ���������,����ȥ���ܿ����뵵�����,��ϧ���ǳ���̫��,������û������,���ν�������������,��ϧ��."}
-{"doc_id": "JZG-T01", "sentence_start": 4728, "reason": "modal_as_condition_or_late_action", "fragment": "������ԵĻ�,�������������,��Ҫ���������ø�һЩ,�����Ϳ����ڳ��Ͽ���«έ���м�������,�����ӱ���������,����ȥ���ܿ����뵵�����,��ϧ���ǳ���̫��,������û������,���ν�������������,��ϧ��."}
-{"doc_id": "JZG-T01", "sentence_start": 4728, "reason": "no_explicit_condition_pair", "fragment": "����,�ϳ���������ԵĻ�,�������������,��Ҫ���������ø�һЩ,�����Ϳ����ڳ��Ͽ���«έ���м�������,�����ӱ���������,����ȥ���ܿ����뵵�����,��ϧ���ǳ���̫��,������û������,���ν�������������,��ϧ��."}
-{"doc_id": "JZG-T01", "sentence_start": 4833, "reason": "no_explicit_condition_pair", "fragment": "������;�����һվͣ����Ҷկ,�辰̲���ڸ���,���������³�."}
-{"doc_id": "JZG-T01", "sentence_start": 5047, "reason": "no_explicit_condition_pair", "fragment": "����ŵ��������վ�ͻᵽ����,ǿ�ҽ����վ�³�."}
-{"doc_id": "JZG-T01", "sentence_start": 5275, "reason": "no_action", "fragment": "���Ҫ����������,ֻ�ܴ�ԭʼɭ����ջ������,�����ǲ�ֵ�õ�."}
-{"doc_id": "JZG-T01", "sentence_start": 5275, "reason": "no_action", "fragment": "���Ҫ����������,ֻ�ܴ�ԭʼɭ����ջ������,�����ǲ�ֵ�õ�."}
-{"doc_id": "JZG-T01", "sentence_start": 5275, "reason": "no_explicit_condition_pair", "fragment": "�����Ǹ���󲿶�һֱ����ԭʼɭ��,��������,���ǵ�������,���Һ���Ҳ������ɶ�羰,��;�ķ��ݺ�,��캣�����϶�û��ɶ��ͷ,Ҳ����ͣ����,���Ҫ����������,ֻ�ܴ�ԭʼɭ����ջ������,�����ǲ�ֵ�õ�."}
-{"doc_id": "JZG-T01", "sentence_start": 5434, "reason": "unresolved_reference", "fragment": "����ŵ��µĻ�,���鲻��ǧ��ԭʼɭ����."}
-{"doc_id": "JZG-T01", "sentence_start": 5434, "reason": "unresolved_reference", "fragment": "����ŵ��µĻ�,���鲻��ǧ��ԭʼɭ����."}
-{"doc_id": "JZG-T01", "sentence_start": 5434, "reason": "no_explicit_condition_pair", "fragment": "����ŵ��µĻ�,���鲻��ǧ��ԭʼɭ����."}
-{"doc_id": "JZG-T01", "sentence_start": 5723, "reason": "no_explicit_condition_pair", "fragment": "�������߿����ǱȽϷ���һЩ,����ʱ��ؿ���ͣһͣ,̧ͷ�����ټ�����,�о���ò�����."}
-{"doc_id": "JZG-T01", "sentence_start": 5804, "reason": "no_explicit_condition_pair", "fragment": "���ǵ��廨����Լ������11��������,�廨�����ĸ��۾�̨,˳��ջ���߿���һһ����."}
-{"doc_id": "JZG-T01", "sentence_start": 6219, "reason": "modal_as_condition_or_late_action", "fragment": "���������ջ��,Ҳ����ȥŵ�����ٲ������ˮ���Ļ�,ֱ��˳��·�����ڷ�����Ҳ���Ե����Ǹ��۾�̨."}
-{"doc_id": "JZG-T01", "sentence_start": 6219, "reason": "modal_as_condition_or_late_action", "fragment": "���������ջ��,Ҳ����ȥŵ�����ٲ������ˮ���Ļ�,ֱ��˳��·�����ڷ�����Ҳ���Ե����Ǹ��۾�̨."}
-{"doc_id": "JZG-T01", "sentence_start": 6219, "reason": "no_explicit_condition_pair", "fragment": "��ŵ��������վ�³�,����ջ��ǰ��ŵ�����ٲ�,��ŵ�����ٲ��Ķ���Ĺ�·������һ���۾�̨,���������ջ��,Ҳ����ȥŵ�����ٲ������ˮ���Ļ�,ֱ��˳��·�����ڷ�����Ҳ���Ե����Ǹ��۾�̨."}
-{"doc_id": "JZG-T01", "sentence_start": 6447, "reason": "no_explicit_condition_pair", "fragment": "�������ٲ�������ջ����ĥ��."}
-{"doc_id": "JZG-T01", "sentence_start": 6461, "reason": "no_explicit_condition_pair", "fragment": "��ĥ���ϵ���·��ǰȥ˳�Ź�·ջ���߿��Ժܺõ����͵�����Ⱥ��."}
-{"doc_id": "JZG-T01", "sentence_start": 6911, "reason": "no_explicit_condition_pair", "fragment": "��ջ���ϵ������������Բ�����."}
-{"doc_id": "JZG-T01", "sentence_start": 7083, "reason": "no_explicit_condition_pair", "fragment": "Ȼ����˳��ԭ·���ع�·,�˳�ǰ���廨��,��Ҫ���ڹ����Ͽ������廨��ս�³����ع�·�����߿��Ե��ϻ���,���Կ��廨����ȫ��,���Գ˳������廨��ս�³���;�ֱ������,һ���߻�һ�������Ƿ���ɽ���п����ϵ���ɽ����ջ����,��ת���������,�����ڹ�·�ı����г�Լ���׵�ջ��,��ͷ��һ���۾�̨."}
-{"doc_id": "JZG-T01", "sentence_start": 7223, "reason": "no_explicit_condition_pair", "fragment": "������۾�̨��ȷ���Ը���廨��,�����ҵ�����޷�����ȫ��,����һֱ�ڻ�������ط��Ƿ���Ǵ�˵�е��ϻ���,������ͬ�������ʵ���Ҳ��ֻһ��."}
-{"doc_id": "JZG-T01", "sentence_start": 7951, "reason": "no_explicit_condition_pair", "fragment": "�º�ſ���,�����辰̲����һ��С·���Դ�ջ��ͬ����·�ϵ�."}
-{"doc_id": "JZG-T01", "sentence_start": 8174, "reason": "no_explicit_condition_pair", "fragment": "1,ʱ������,Ӧ�ÿ�������ͨ��������ͬ�ĳ�����ת,��ɶ�,�����������."}
-{"doc_id": "JZG-T01", "sentence_start": 8210, "reason": "no_explicit_condition_pair", "fragment": "��������һ���������ط�."}
-{"doc_id": "JZG-T01", "sentence_start": 8222, "reason": "no_explicit_condition_pair", "fragment": "��Ȼ,���ʱ�����ֻ���Ǻ����λ."}
-{"doc_id": "JZG-T01", "sentence_start": 8240, "reason": "no_explicit_condition_pair", "fragment": "2,����������ת������,Ȼ����ǰ����կ��,���˾��������İ��Ÿ�Ϊ����һЩ."}
-{"doc_id": "JZG-T01", "sentence_start": 8277, "reason": "no_action", "fragment": "����ǵڶ����ֱ������կ��,���ڳɶ�ס�ĵ�һ�����Ͼ�û���κ�������."}
-{"doc_id": "JZG-T01", "sentence_start": 8277, "reason": "no_action", "fragment": "����ǵڶ����ֱ������կ��,���ڳɶ�ס�ĵ�һ�����Ͼ�û���κ�������."}
-{"doc_id": "JZG-T01", "sentence_start": 8277, "reason": "no_explicit_condition_pair", "fragment": "���������ǹ����ɶ�סһ�����ϵڶ���ͷɾ�կ��,����ϸ�о���,���Ǿ����ڳɶ�ס��������,��������ִ�,�ڶ����������ɶ�,������������ǰ����կ��,����ǵڶ����ֱ������կ��,���ڳɶ�ס�ĵ�һ�����Ͼ�û���κ�������."}
-{"doc_id": "JZG-T01", "sentence_start": 8384, "reason": "no_explicit_condition_pair", "fragment": "3,��ѡ��ǰ����կ���ķɻ�������,����ѡ���Լ9���Ժ�ķɻ�."}
-{"doc_id": "JZG-T01", "sentence_start": 8469, "reason": "no_action", "fragment": "һ�������ɻ����,�ȵ�ʱ��Ҳ��Щ."}
-{"doc_id": "JZG-T01", "sentence_start": 8469, "reason": "no_action", "fragment": "һ�������ɻ����,�ȵ�ʱ��Ҳ��Щ."}
-{"doc_id": "JZG-T01", "sentence_start": 8469, "reason": "no_explicit_condition_pair", "fragment": "ѡ����һ��ķɻ�,һ��������ڳɶ�����Ϣһ��,һ�������ɻ����,�ȵ�ʱ��Ҳ��Щ."}
-{"doc_id": "JZG-T01", "sentence_start": 8555, "reason": "no_explicit_condition_pair", "fragment": "��Ҫע�����,�ǳ�����������,������."}
-{"doc_id": "JZG-T01", "sentence_start": 8574, "reason": "unresolved_reference", "fragment": "����Ƿ������Ļ�,����Ҫע��5���Ժ��û�����е�������."}
-{"doc_id": "JZG-T01", "sentence_start": 8574, "reason": "unresolved_reference", "fragment": "����Ƿ������Ļ�,����Ҫע��5���Ժ��û�����е�������."}
-{"doc_id": "JZG-T01", "sentence_start": 8574, "reason": "no_explicit_condition_pair", "fragment": "����Ƿ������Ļ�,����Ҫע��5���Ժ��û�����е�������."}
-{"doc_id": "JZG-T01", "sentence_start": 8603, "reason": "no_explicit_condition_pair", "fragment": "4,����ȥ��ʱ�򾰹۵���ά��,ֻ�дӻ��������ſڵ�ӭ������һ��,����,������������ʱһ��Ҫ��ӭ���������ߵ����۵���,�������ʳ�����һ·��������Ȼ��ζ."}
-{"doc_id": "JZG-T01", "sentence_start": 8679, "reason": "no_explicit_condition_pair", "fragment": "����������Ͻ�,Ҳ��Ӧ�ý�ʡ�»�������Ʊ���ν���կ��."}
-{"doc_id": "JZG-T01", "sentence_start": 8920, "reason": "no_explicit_condition_pair", "fragment": "������˵һ��ƫ��:���˽�����ڶ�����,Ӧ�������õ�."}
-{"doc_id": "JZG-T01", "sentence_start": 8970, "reason": "no_explicit_condition_pair", "fragment": "�˳���λ�òο��ҵĵ�ͼ,�����ж�����һ��Ӧ�����ڳ��ӵ���һ��."}
-{"doc_id": "JZG-T01", "sentence_start": 9002, "reason": "no_explicit_condition_pair", "fragment": "7,�����ص�Ӧ�÷�������,����,��һ��Ӧ���³��ľ�����Ǿ���."}
-{"doc_id": "JZG-T01", "sentence_start": 9034, "reason": "no_explicit_condition_pair", "fragment": "���Լ������Ƚ����ŵ�,�����˾�����˳�ǰ����һ������,�³����˳��ջ��һֱ��,�ߵ��廨��,��ʱ������Ӧ�õ�������."}
-{"doc_id": "JZG-T01", "sentence_start": 9226, "reason": "no_explicit_condition_pair", "fragment": "��һ��ѡ���������廨����,���Կ������廨��һ��ɹ�õ�̫���Ĺ۾�̨�ϳԸ���."}
-{"doc_id": "JZG-T01", "sentence_start": 9300, "reason": "no_explicit_condition_pair", "fragment": "����廨��,��������ջ������è���ͼ���."}
-{"doc_id": "JZG-T01", "sentence_start": 9341, "reason": "no_explicit_condition_pair", "fragment": "����������������û�ж���,�о�û��ʲô�ر����ɫ,����Ҳûע���Ƿ��г�վ,��������Ȥ��tx�ϳ�������ѯ�ʺ���������."}
-{"doc_id": "JZG-T01", "sentence_start": 9465, "reason": "no_explicit_condition_pair", "fragment": "8,�ڶ�������������������Ȥ�ľ�������һ��,���Կ�����ǰһ�첻ͬ��·��."}
-{"doc_id": "JZG-T01", "sentence_start": 9503, "reason": "no_explicit_condition_pair", "fragment": "������ǰ�ص�ŵ����,�Ӵ�ǰ������۹�,�����ֻ�г�������ʳ�ֵ��һ��,���Կ����ڳ��������,�о��ü���."}
-{"doc_id": "JZG-T01", "sentence_start": 9556, "reason": "no_action", "fragment": "����������߾���ջ��,��������Ĺ�ϵ,��ջ���Ͽ����������ľ�ɫ,��Ȼ,�����ǰһ��úõ����˾���,�ڶ��������һ����ȫ��ͬ�ķ��,��ջ��Ҳ��һ��������ѡ��,�����˷ǳ���."}
-{"doc_id": "JZG-T01", "sentence_start": 9556, "reason": "no_action", "fragment": "�����ǰһ��úõ����˾���,�ڶ��������һ����ȫ��ͬ�ķ��,��ջ��Ҳ��һ��������ѡ��,�����˷ǳ���."}
-{"doc_id": "JZG-T01", "sentence_start": 9741, "reason": "no_explicit_condition_pair", "fragment": "�����ҵ�����ǽ�����,�����Է���һ�Ŀ���,���Լ����˲���aa���,��,������ʵ����̫�ѵ���,�ڳɶ��ҾͰ���ĵ�ظ�����һ��,�������ڳɶ���һ��С�����й��������ڵ��,�������˵ɶһ�ڱ�����ǿ,����ʹ�õľ�������,Ӧ�������ڸ���һ��ǿ!"}
-{"doc_id": "JZG-T02", "sentence_start": 436, "reason": "no_explicit_condition_pair", "fragment": "��Щ������Դ�����·��ߵ�ջ������,�ǶȲ�һ��,���͵��ķ羰Ҳ�ǲ�һ����Ŷ\n"}
-{"doc_id": "JZG-T02", "sentence_start": 753, "reason": "no_explicit_condit3", "sentence_start": 348, "reason": "no_action", "fragment": "ֻҪ38Ԫ, ʵ��ֵ̫��."}
-{"doc_id": "JZG-T03", "sentence_start": 348, "reason": "no_explicit_condition_pair", "fragment": "11:30�ھƵ긽��һ���ܲ����۽�XX������С������,��ʱ����ʱ�仹��,����ֻ����������,��������ȫ���һ����(���Ƿ���Ա�Ƽ���),����,�о�ζ���ü���,ͷһ�ٷ��������ζ, ��֪�����Գɶ���ӡ���ּ��˼���,ֱ����LG�ŵ�����ס�����뿪ʱ�ŷ���ֻҪ38Ԫ, ʵ��ֵ̫��."}
-{"doc_id": "JZG-T03", "sentence_start": 1146, "reason": "no_explicit_condition_pair", "fragment": "��ʱ��ɫ����,���˵��ҵ�һ�����������Եķ���,���ּǲ�����,�Ǵӿ���վ��Ʊ�����ų�ȥ,����·,�ῴ��һ��Ժ��,һ��С���°�,��ȥ�Ϳ���һ��¥,��������￴�����700Ԫ/��,һ�ʼ۸�120Ԫ/��,����80Ԫס��,����24Сʱ��Ӧ��ˮ,���ṩ����̺,��������ɾ�,��Ϊ�����������,���˺���,����Ա�󶼵�����������,�����������Ľ���,��˵����"}
-{"doc_id": "JZG-T03", "sentence_start": 1644, "reason": "no_explicit_condition_pair", "fragment": "������,�Һ�LG �������һ�ſи���,���Ǵӳɶ�����,����̫����,ûʱ���,ֻ�öԸ�һ��,�������������λ�ϵĶ���һ�ԶԵ��꾭�ο�,�̲�ס��������̸,ԭ�����ǰ˸�����ȥ������,һ���Ϻ���,һ�Ա�����,һ��������,������һ���人��,���ϵر�,�����г���ͬ,����8��9���ξ�կ(��ʾ:�����ڼ䲻�ܰ������ν���, 10��8�տ�ʼ����)."}
-{"doc_id": "JZG-T03", "sentence_start": 2101, "reason": "no_explicit_condition_pair", "fragment": "�ҷ����ҵ���λ��������Ϲ۾���õ�λ��,���������Ǳ�,�������Դ��Ա߻����ԴӺ�����;�ɫ,����̫����̫�Ҹ���!"}
-{"doc_id": "JZG-T03", "sentence_start": 3000, "reason": "no_action", "fragment": "���ûʱ����Բ���ȥ,û̫����˼."}
-{"doc_id": "JZG-T03", "sentence_start": 3000, "reason": "no_action", "fragment": "���ûʱ����Բ���ȥ,û̫����˼."}
-{"doc_id": "JZG-T03", "sentence_start": 3000, "reason": "unresolved_reference", "fragment": "���ûʱ����Բ���ȥ"}
-{"doc_id": "JZG-T03", "sentence_start": 3000, "reason": "no_explicit_condition_pair", "fragment": "����С·�ֻ�,���ûʱ����Բ���ȥ,û̫����˼."}
-{"doc_id": "JZG-T03", "sentence_start": 3109, "reason": "modal_as_condition_or_late_action", "fragment": "���Ҫ���а�Ҳ��,40Ԫ/��,����Ҫ�ȵ�3:30����,���ο���ɽǰ�Ͷ���Ʊ, ���Ա����������ɽ����ܳ���,���ǵİ����ڷ�Խѩɽ��ʱ��Ҫ��ͣ��������,ͬ����·,�ƺ���ʧ��,����һ������,��������,��������,������˳��,�����ĵ��˺���5588�׵�ѩ����."}
-{"doc_id": "JZG-T03", "sentence_start": 3109, "reason": "modal_as_condition_or_late_action", "fragment": "���Ҫ���а�Ҳ��,40Ԫ/��,����Ҫ�ȵ�3:30����,���ο���ɽǰ�Ͷ���Ʊ, ���Ա����������ɽ����ܳ���,���ǵİ����ڷ�Խѩɽ��ʱ��Ҫ��ͣ��������,ͬ����·,�ƺ���ʧ��,����һ������,��������,��������,������˳��,�����ĵ��˺���5588�׵�ѩ����."}
-{"doc_id": "JZG-T03", "sentence_start": 3109, "reason": "no_explicit_condition_pair", "fragment": "���Ҫ���а�Ҳ��,40Ԫ/��,����Ҫ�ȵ�3:30����,���ο���ɽǰ�Ͷ���Ʊ, ���Ա����������ɽ����ܳ���,���ǵİ����ڷ�Խѩɽ��ʱ��Ҫ��ͣ��������,ͬ����·,�ƺ���ʧ��,����һ������,��������,��������,������˳��,�����ĵ��˺���5588�׵�ѩ����."}
-{"doc_id": "JZG-T03", "sentence_start": 3235, "reason": "no_explicit_condition_pair", "fragment": "����һ��������Һ���,����ߴߴ�����ؽ�����ͣ,˾��ʦ��Ҳ�����������ǵĺ�����."}
-{"doc_id": "JZG-T03", "sentence_start": 3877, "reason": "no_explicit_condition_pair", "fragment": "������������,ˮ����Կ���,����������Щ��,���Կ���һЩ���Ŵ���Ͳ�����Ǽܵķ�����,����Ľ,����ľ�ɫ���Ǹǵ�."}
-{"doc_id": "JZG-T03", "sentence_start": 4360, "reason": "no_explicit_condition_pair", "fragment": "�ǵ�һ��Ҫ��һ��Ӵ!"}
-{"doc_id": "JZG-T03", "sentence_start": 4370, "reason": "no_explicit_condition_pair", "fragment": "Ȼ���������Ź�·�ϵ��ϻ���,��������廨����ȫ��,����������ĵ��廨���еĿ�ȸ,����ָ��100, ����֮��������һ���ȸջ��,Ȼ��������̲������̲�ٲ�,������������ʱ,ˮ�����������ҫ��,����һ��������,������!"}
-{"doc_id": "JZG-T03", "sentence_start": 4653, "reason": "no_action", "fragment": "�����ջ���Ϳ�����ŵ����Ⱥ����,�����ٲ��������еĳ������������ǹ���,����ǽ�ʡ��������ѷ�����"}
-{"doc_id": "JZG-T03", "sentence_start": 4653, "reason": "no_action", "fragment": "�����ջ���Ϳ�����ŵ����Ⱥ����,�����ٲ��������еĳ������������ǹ���,����ǽ�ʡ��������ѷ�����"}
-{"doc_id": "JZG-T03", "sentence_start": 4653, "reason": "no_explicit_condition_pair", "fragment": "��ȷ��·Ӧ���ǴӾ��������µ�ŵ�������ĺ�ֱ�ӻ��˵������ĳ�,ȥ���������廨����ص�ŵ��������վ,�ع�·�µ�ŵ�����ٲ�,�ǵ�Ҫ�ع�·�°�,�����ջ���Ϳ�����ŵ����Ⱥ����,�����ٲ��������еĳ������������ǹ���,����ǽ�ʡ��������ѷ�����!"}
-{"doc_id": "JZG-T03", "sentence_start": 5697, "reason": "no_explicit_condition_pair", "fragment": "�Թ����,���Ź�·������,�ӹ�·�Ͽ��Կ��������ٲ���ȫ��,Ҫ����ջ�������ĺ�."}
-{"doc_id": "JZG-T03", "sentence_start": 6435, "reason": "no_explicit_condition_pair", "fragment": " Ҫȥ��կ������һ��Ҫ�ǵô����·�,�����²��,��ů�ܱ�Ҫ,Ҫ�������˾�̫ɨ����."}
-{"doc_id": "JZG-T03", "sentence_start": 6479, "reason": "no_action", "fragment": "���������,�ڳ���ǰһ�ܿ�ʼ���ú쾰��,����ŵ�Ͽ�����,Ч���ܺ�,�ݵ�����˵,����ԭ��Ӧ�Ժ쾰��������Ч��."}
-{"doc_id": "JZG-T03", "sentence_start": 6479, "reason": "no_action", "fragment": "���������,�ڳ���ǰһ�ܿ�ʼ���ú쾰��,����ŵ�Ͽ�����,Ч���ܺ�,�ݵ�����˵,����ԭ��Ӧ�Ժ쾰��������Ч��."}
-{"doc_id": "JZG-T03", "sentence_start": 6479, "reason": "no_explicit_condition_pair", "fragment": " ���������,�ڳ���ǰһ�ܿ�ʼ���ú쾰��,����ŵ�Ͽ�����,Ч���ܺ�,�ݵ�����˵,����ԭ��Ӧ�Ժ쾰��������Ч��."}
-{"doc_id": "JZG-T03", "sentence_start": 6537, "reason": "unresolved_reference", "fragment": "��������������Ϻ�ӻ�������,��һ��Ҫ����������Ʒ."}
-{"doc_id": "JZG-T03", "sentence_start": 6537, "reason": "unresolved_reference", "fragment": "��������������Ϻ�ӻ�������,��һ��Ҫ����������Ʒ."}
-{"doc_id": "JZG-T03", "sentence_start": 6537, "reason": "no_explicit_condition_pair", "fragment": " ׼������ߺͷ�ɹ˪,��ô�һ��̫��ñ,��������������Ϻ�ӻ�������,��һ��Ҫ����������Ʒ."}
-{"doc_id": "JZG-T03", "sentence_start": 6641, "reason": "no_action", "fragment": "���Ҫ���ز���Ҫ�ھ�����,�ܹ�,���ɶ��ĳ�������,ʲô����õ�,���Ҽ۸���������б���."}
-{"doc_id": "JZG-T03", "sentence_start": 6641, "reason": "no_action", "fragment": "���Ҫ���ز���Ҫ�ھ�����,�ܹ�,���ɶ��ĳ�������,ʲô����õ�,���Ҽ۸���������б���."}
-{"doc_id": "JZG-T03", "sentence_start": 6761, "reason": "no_explicit_condition_pair", "fragment": "�����������������ο�������,10Ԫһƿ,���ﻹ������Ѵ������."}
-{"doc_id": "JZG-T03", "sentence_start": 6796, "reason": "no_explicit_condition_pair", "fragment": " �ھ����ﾡ���Դ�����,�����ж��Ƚ�����,Ҳ��ʡʱ��ͽ�Ǯ."}
-{"doc_id": "JZG-T03", "sentence_start": 6826, "reason": "no_explicit_condition_pair", "fragment": "�������ʳ���ˮ�ܹ�,�ǵ�Ҫ�Լ���ˮ."}
-{"doc_id": "JZG-T04", "sentence_start": 217, "reason": "no_explicit_condition_pair", "fragment": "���������������������,���˳�վ��������������λ�ڽ�ű�����������;��ά˹�Ƿ���Ԣ,�����ǳ��о���˫���׷�,����¶�����ʮ���ӵľ���,�ҷ������ֱ�ӹ��ͽ���,�Լ۱ȷǳ�֮��."}
-{"doc_id": "JZG-T04", "sentence_start": 714, "reason": "no_explicit_condition_pair", "fragment": "���ڼ�������Ͽ�����Լ��������ʷ,�����������Զ�����������һ�������������ʶ,��ϧ����ʱ������,ֻ�ҴҲι���һ¥�ļ���չ��."}
-{"doc_id": "JZG-T04", "sentence_start": 1877, "reason": "no_explicit_condition_pair", "fragment": "���ò�˵,��è������Ҽ�������ɰ�������,�������һ�´����޺���."}
-{"doc_id": "JZG-T04", "sentence_start": 2076, "reason": "no_explicit_condition_pair", "fragment": "��խ���ӹ�������е�����,����ȥ����԰�ȸ���,�ſڳ���62·ֱ�ӿ��Ե���."}
-{"doc_id": "JZG-T04", "sentence_start": 2114, "reason": "no_explicit_condition_pair", "fragment": "��������������԰��һ���Ƚ������Ĳ��,ռ������ܴ�,Χ��԰�ڵĺ�����������,���������һ������һ������,������ᵽ�ɶ��������е�����,����Ȥ�Ļ�����������һ�²ɶ�."}
-{"doc_id": "JZG-T04", "sentence_start": 2686, "reason": "no_explicit_condition_pair", "fragment": "ϲ����ʷ�Ļ������ѿ��Ժúù�һ��."}
-{"doc_id": "JZG-T04", "sentence_start": 2752, "reason": "no_explicit_condition_pair", "fragment": "���ڵ�һЩ���ҿ��Թۿ��������."}
-{"doc_id": "JZG-T04", "sentence_start": 2845, "reason": "no_explicit_condition_pair", "fragment": "�������,���Ǿ����Ҹ��ط����½���з�,�����ڵ����İ��������ǲ��������������������,�������֮ǰ�Ե����ִ�������,��һ����������Ĵ����������պú�ֱ�ӷ��������������,��������Ϊ�����ӵ�������."}
-{"doc_id": "JZG-T04", "sentence_start": 3330, "reason": "no_explicit_condition_pair", "fragment": "��������һ���м�;���е�app,������Զ��ɶ���կ�����صİ�ʿ,��ǰһ��������ֻ���ѡλ,������ƱҲ�������Ϲ���,���������ܶ�ط�����������ȡƱ��,���Ҵ�����Ƶ궼�г���������������ſ�."}
-{"doc_id": "JZG-T04", "sentence_start": 3489, "reason": "no_explicit_condition_pair", "fragment": "������������ʮСʱ,��;��ͣ��������Ϣ���ϲ���,��կ��߲������ڶ���˽�˽���,����ͳһ�շ�һԪ,�����ñ�����Ǯ."}
-{"doc_id": "JZG-T04", "sentence_start": 3612, "reason": "no_explicit_condition_pair", "fragment": "��ǰ���봨��û��̫���������µĺۼ���,������������,�����ֺ��ؽ���һЩ����סլ,Ҳϣ�����������Ӵ˿��Իع��Ҹ����ݵ�����."}
-{"doc_id": "JZG-T04", "sentence_start": 4366, "reason": "no_explicit_condition_pair", "fragment": "��Ʊ��310Ԫ,���������90Ԫ�Ĺ۹⳵Ʊ,Ӧ��û���˻᲻���۹⳵��."}
-{"doc_id": "JZG-T04", "sentence_start": 4887, "reason": "no_explicit_condition_pair", "fragment": "Ȼ�����Ǳ���ǰ�ĳ��澪����,�������ɽ�˺���,���ڰ˵���������������԰��ʱ��,���Խ��黹����һ�����Ŷ�."}
-{"doc_id": "JZG-T04", "sentence_start": 4985, "reason": "no_explicit_condition_pair", "fragment": "�ϳ����Ǻ�����һ��,���ֵ����Ҳ������,�³����������϶���Ĺ۹⳵�˻�ŵ��������,�����Ǳ�����һ�����Ⱥз�,��ζ��̫��ˬ,���鲻Ҫ����."}
-{"doc_id": "JZG-T04", "sentence_start": 5091, "reason": "no_explicit_condition_pair", "fragment": "�������������ο�ֻ������һ��,�������������οͲ�����,����˵������ϡ��,�˿����������ܹ�����ͣͣ,���������;�կ������."}
-{"doc_id": "JZG-T05", "sentence_start": 142, "reason": "no_action", "fragment": "�����ǵ����Ĺż���,�������ľ�����Ȼɽˮ,���ݴ�ش�������ɽ��ˮ,���Ե�,\"��ɽ��������ɽ,��կ��������ˮ\",\"�żҽ翴ɽ,��կ����ˮ\",�żҽ�,��ɽ,��կ������Ϊ�й�ɽˮ�ļ�����ߺ;���֮���޲�������֮����,������,�����Ⱥ�ȥ���żҽ�,��ɽ,����������Ⱥɽ,������ʷ�Ĳ�ɣ,��"}
-{"doc_id": "JZG-T05", "sentence_start": 142, "reason": "no_action", "fragment": "�����ǵ����Ĺż���,�������ľ�����Ȼɽˮ,���ݴ�ش�������ɽ��ˮ,���Ե�,\"��ɽ��������ɽ,��կ��������ˮ\",\"�żҽ翴ɽ,��կ����ˮ\",�żҽ�,��ɽ,��կ������Ϊ�й�ɽˮ�ļ�����ߺ;���֮���޲�������֮����,������,�����Ⱥ�ȥ���żҽ�,��ɽ,����������Ⱥɽ,������ʷ�Ĳ�ɣ,��"}
-{"doc_id": "JZG-T05", "sentence_start": 142, "reason": "no_explicit_condition_pair", "fragment": "��Щ���߹�����̫��ط�,���˲������ǵ����Ĺż���,�������ľ�����Ȼɽˮ,��", "fragment": "ֻҪ50Ԫ,��Ȼ������ζ����һ��,���ǳԱ���ȫû����,���˾��ò����."}
-{"doc_id": "JZG-T05", "sentence_start": 2722, "reason": "no_action", "fragment": "ֻҪ50Ԫ,��Ȼ������ζ����һ��,���ǳԱ���ȫû����,���˾��ò����."}
-{"doc_id": "JZG-T05", "sentence_start": 2722, "reason": "no_explicit_condition_pair", "fragment": "��կ����Ψһ�ṩ�����ĵط���ŵ�����οͷ�������,ȥ��������Ҫ���⻻��,�ܷ���,����Ĳ�����ͳһ��Ӫ��,������,�۸��60�� 128Ԫ����,60Ԫ1�˵��Ǵ���ѡ������,���Ź�������ֻҪ50Ԫ,��Ȼ������ζ����һ��,���ǳԱ���ȫû����,���˾��ò����."}
-{"doc_id": "JZG-T05", "sentence_start": 2873, "reason": "no_explicit_condition_pair", "fragment": "\"��;����\"����APP��Ҳ���Զ�������,�������г���,�г��������Ƽ�ȥ�ؼҳԲز�,ע��ֻ���Ƽ�,�ز��п���,����,������,������,���ε�,�ⲻͬ�������Ŵ�ȥ������,ֻ���ڲذ��Ǽ��гԷ��Ͳι�,100��Ԫһλ,����Ȥ�Ŀ�������ѡ��."}
-{"doc_id": "JZG-T05", "sentence_start": 3427, "reason": "no_explicit_condition_pair", "fragment": "˵������,һֱ�Ǿ�կ�������κ�Ļ���ĵط�,������ֻҪ���Ǹ�������ȥ�������������."}
-{"doc_id": "JZG-T05", "sentence_start": 3469, "reason": "no_explicit_condition_pair", "fragment": "��կ��������Ҫ�����ز�,����繤��ƷΪ��,��ţ��ܲ���,��կ���кܶ���ţ��ӹ�ʳƷר����,���ϴ���հ�װ����ţ�����ѡ������ȥ,��կ������ľ��Ҳ�Ϻ�,��ҩ�ĵĺܶ�,�����������ʵ�ڲ�������."}
-{"doc_id": "JZG-T05", "sentence_start": 4016, "reason": "no_explicit_condition_pair", "fragment": "���컹�ǹ�����,���Ǽ�����Ͷ�������,ÿ���˿͵���λ��������ǰ��\"��;����\"��APP��ѡ��,��APP�϶����ɶ�����կ���ĵ��̳�Ʊֻ��Ҫ126Ԫ,�ȴ�ͳ�������50Ԫ,��Ȼ��Ʊ�����ż��ڻ�ڼ��ղ�����,��׼ʱ,7�������ǵ����д����ʽ����."}
-{"doc_id": "JZG-T05", "sentence_start": 4501, "reason": "no_explicit_condition_pair", "fragment": "��Ϫ�������ŵ��͵ĸ�ԭ���,ټ��ĺ���ӳ�������ܵ���ɽ��ˮ,�������������ķ�����,���������ܱ��кܶ�Ͳ͵����ѡ��,����Ҳ�Ǽ�;���о�����ѡ��;�гԺ����ֵ�,����ľͲ͵�Ƚϼ�,�Լҳ���Ϊ��,�۸�Ҳ����,�Ƚ��ʺ�·;�оͲ�,���ǳ��������д������ͣ��һСʱ,���극��������Χ���תת,�����Ա��кü����۾�̨,������ѿ��ŵ�,ÿ���۾�̨��"}
-{"doc_id": "JZG-T05", "sentence_start": 4915, "reason": "no_explicit_condition_pair", "fragment": "����ų����,���ڻ��Ǻܴ�,����Ҳ��,�ųǷ���������,����֮���г�����ͨ,���˹ų���Ҫ��������ǹų�ǽ,���ϳ�ǽ����һ���ų�ȫò,��ǽ�ܳ�,ȫ������ש����."}
-{"doc_id": "JZG-T05", "sentence_start": 4993, "reason": "no_action", "fragment": "ֻҪ30Ԫ,ȥ��ʱ�����������˹ų��׽�ƻ�,\"��������\",\"���غ���\"�ȶ����������ĵ��鰲���ڹų�ǽ��."}
-{"doc_id": "JZG-T05", "sentence_start": 4993, "reason": "no_action", "fragment": "ֻҪ30Ԫ,ȥ��ʱ�����������˹ų��׽�ƻ�,\"��������\",\"���غ���\"�ȶ����������ĵ��鰲���ڹų�ǽ��."}
-{"doc_id": "JZG-T05", "sentence_start": 4993, "reason": "no_explicit_condition_pair", "fragment": "�����ǽ��Ʊ150Ԫ,�����ڼ�;����APP��Ԥ���Ĺų�ǽ��ƱֻҪ30Ԫ,ȥ��ʱ�����������˹ų��׽�ƻ�,\"��������\",\"���غ���\"�ȶ����������ĵ��鰲���ڹų�ǽ��."}
-{"doc_id": "JZG-T05", "sentence_start": 5507, "reason": "no_explicit_condition_pair", "fragment": "ɽ�ӾƵ��ǳɶ���ķ�Ƶ깫˾�ھ�կ�����������һ����������Ƶ�,���կ�������������3����,����8����,��һ��׼���Ǽ��Ƶ�,װ�޺����,�ŵ�,��Լʱ�з��,�����й����ζ��,��������ʩ��ȫ,��Ϊ��կ�����νϸ�,������һ��������ɽ����,�����ھ�կ��ס������Ҫ�ľ���ѡ�񷿼䲻Ҫ̫��ʪ��,��ò�Ҫѡ��ײ�ķ���,��ķ?"}
-{"doc_id": "JZG-T05", "sentence_start": 6036, "reason": "no_explicit_condition_pair", "fragment": "��������ѡ����\"��կǧ����\",\"��կǧ����\"����Ʊ��Ը���һ��,������Ԥ����260Ԫһ�ŵ���ͨ����ϯ,�ݳ����ھ�կ�γǲ�Ǽ�ų�,����\"��կǧ����\"��Ʊ�Ŀ�����ѽ����կ�γǲ�Ǽ�ųǲι�,��֮����ѡ��\"��կǧ����\",����ǧ������ݳ���Ϊʢ����,�������������կ��Ψһ�Ĵ������⹫԰ȥ����."}
-{"doc_id": "JZG-T05", "sentence_start": 7641, "reason": "no_explicit_condition_pair", "fragment": "��կ���ڶ���ͳһ����ɫ�����۹⳵,����ԭʼɭ�������򹵵����,Ҳ�Ǹ����۹⳵���յ�վ,�����һվȥ��,�����յ�վ��,����Ȼɭ��ԡ�������峿spa,�����ҷ���ʪ�Ŀ���,�Ų���������̦޺����Ҷ,�����������κ�����,��ʼȫ��һ��ľ�կ֮��."}
-{"doc_id": "JZG-T05", "sentence_start": 8084, "reason": "no_explicit_condition_pair", "fragment": "�����Ǿ�կ�������ĺ���,�������͵���կ�����еĸ�ɽ������."}
-{"doc_id": "JZG-T05", "sentence_start": 8211, "reason": "no_explicit_condition_pair", "fragment": "����è��ջ�����������կ�����������è���ٲ�,�ڹ۾�̨�������������ļ���."}
-{"doc_id": "JZG-T05", "sentence_start": 8954, "reason": "unresolved_reference", "fragment": "���׷���ķ羰��Ƭ�Ľ���һ����ȵ���."}
-{"doc_id": "JZG-T05", "sentence_start": 8954, "reason": "no_explicit_condition_pair", "fragment": "�����޷�ʱ,ˮ��⻬�羵,�������峿�޷�ʱ�ĵ�Ӱ����,���׷���ķ羰��Ƭ�Ľ���һ����ȵ���."}
-{"doc_id": "JZG-T05", "sentence_start": 9188, "reason": "no_explicit_condition_pair", "fragment": "����ͳһ�ɾ�կ�����Ͼ�Ӫ��˾����,�ṩ����������,�۸��60�� 128Ԫ����,60Ԫ1�˵��Ǵ���ѡ��,���˾��ô��⿿�����������ǲ����е�,��Ϊ��կ���ڲ���ʱ��϶�,�ķ�����,������Ҫ��������,��Ȼ������ζ����һ��,���ǳԱ���ȫû����,���������������Ź���Ҫʡ10Ԫ,�������в������Գ��,������˳����Ϣ��,��������,��Ϊ����Ҫ�ߵ���������"}
-{"doc_id": "JZG-T05", "sentence_start": 10966, "reason": "no_explicit_condition_pair", "fragment": "�𻨺���˫����֮��������ϵ��·��ɽ��ջ��,�кܶ�С�ٲ�,���Խ�����۲�ˮ����ɫ,ʱ�����Ŀɶ����������ջ��,��Ϊ�𻨺����������Ͼ�ûʲô������,����ʱ������ѡ��."}
-{"doc_id": "JZG-T05", "sentence_start": 11074, "reason": "no_action", "fragment": "��������۹⳵�Ļ�����һֱ���е�«έ��,�����Զ,«έ������«έ����,һ�������ӳ�Ƭ��«έ�м���������,�ﶬ֮��,«έһɫ���,������Ŀ."}
-{"doc_id": "JZG-T05", "sentence_start": 11074, "reason": "no_action", "fragment": "��������۹⳵�Ļ�����һֱ���е�«έ��,�����Զ,«έ������«έ����,һ�������ӳ�Ƭ��«έ�м���������,�ﶬ֮��,«έһɫ���,������Ŀ."}
-{"doc_id": "JZG-T05", "sentence_start": 12314, "reason": "no_explicit_condition_pair", "fragment": "����·���ǳɶ�������Ů����ѵ�,������ֵ���ҵ���н�,�����˿������ڽֱߵĿ��ȵ�۾�,�����·�����Ӱ����."}
-{"doc_id": "JZG-T05", "sentence_start": 13373, "reason": "no_explicit_condition_pair", "fragment": "�Ƽ�2����ʳ��,խ����11�ŵĴ�����,�˵�����������ɵ�,�����б��ݱ���,�������Ƶ�,���Ա߿���������Ϸ�߳Ի��;"}
-{"doc_id": "JZG-T05", "sentence_start": 13639, "reason": "no_explicit_condition_pair", "fragment": "���ĳ�һ������Ƽ�ȥ��ݺ;ư�����,���Ǵ����,�Է��Ȳ軹���Կ�����,�Ȳ�ӿ�����һ��50Ԫһλ."}
-{"doc_id": "JZG-T05", "sentence_start": 14035, "reason": "no_explicit_condition_pair", "fragment": "������������,����뿴�ø����е���˽�Щ��ʫ�Ļ��ɶ�תת."}
-{"doc_id": "JZG-T05", "sentence_start": 14197, "reason": "no_explicit_condition_pair", "fragment": "��������Ԥ��Ʊ��,�ڹ�����ר��������ԤԼ��Ʊͨ��,��ֻҪ���ǽڼ���ǰ���ܺ���Ʊ��."}
-{"doc_id": "JZG-T05", "sentence_start": 14238, "reason": "no_explicit_condition_pair", "fragment": "������������ĳ���,����ǲ���ݿ�û�ð���ʱ���ǿ������."}
-{"doc_id": "JZG-T05", "sentence_start": 15281, "reason": "no_explicit_condition_pair", "fragment": "���������ɶ�ֵ�������ľ���,������˵��԰�羰�кú�,���������������ɶ��˵��о�����,����������ι��,�Ͷ���,���������������,�о�����ʱ�䶼��������,��Ҳ�����ڹ�԰��С������,�����³ɶ���ɫ���Ͷ���,�Ż᲻�����."}
-{"doc_id": "ZJJ-T02", "sentence_start": 230, "reason": "modal_as_condition_or_late_action", "fragment": "��������Ƚ�������,ʱ��Ҳ����,��û���ͽ������,�������ܸ��õظ������ڻ����ε����."}
-{"doc_id": "ZJJ-T02", "sentence_start": 230, "reason": "modal_as_condition_or_late_action", "fragment": "��������Ƚ�������,ʱ��Ҳ����,��û���ͽ������,�������ܸ��õظ������ڻ����ε����."}
-{"doc_id": "ZJJ-T02", "sentence_start": 547, "reason": "no_explicit_condition_pair", "fragment": "�ι�����ɽ���˲�Ҫ��ͼ���߻�δ��������ɽ��������ɽ�ж���,��Ӧ�����������Ե�����ɽ����һ��,�������κ���������ɽ���˶�����ò������."}
-{"doc_id": "ZJJ-T03", "sentence_start": 317, "reason": "no_explicit_condition_pair", "fragment": "Ҳ���Զ����������ݵĸ���,����ѧ����Ϊ��ƽ̨���������ظ�500Ԫ�ɻ�Ʊ�ּ�ȯ,�ֿ��Դ��޴��µؽ�,��Ȼ������,������ѡ���ƽ���������,710Ԫһ��,����1420."}
-{"doc_id": "ZJJ-T03", "sentence_start": 487, "reason": "no_explicit_condition_pair", "fragment": "���˶�Ь,�����䱸��Ь��һ,����ɽ·�߶��˽���,������,ɢ���ȿ��Ի�����Ь���ɽ�;"}
-{"doc_id": "ZJJ-T03", "sentence_start": 529, "reason": "no_explicit_condition_pair", "fragment": "��ɡ,������,���궼�ǿ������ϵ�,��С������,�������³�����ɭ�ֹ�԰����ɽ��ʱ,�Һ��ھ����ſڸ�����̯������������������ȥ,ɽ����ĺ���,���������ֱ�ů,����������´�����,ɽ�Ϸ��,����+��ɡ��ĺ��б�Ҫ."}
-{"doc_id": "ZJJ-T03", "sentence_start": 690, "reason": "no_explicit_condition_pair", "fragment": "���Ը��ݸ����������ҩ��,�Һ��޶��Ƚ������ϻ�,������ĵ��ǵ�������������,���Դ������Ƚⶾ��ҩ��ֹкҩ."}
-{"doc_id": "ZJJ-T03", "sentence_start": 1086, "reason": "no_explicit_condition_pair", "fragment": "��,���־�����Ʊ��������������������������������ĵͼ�ƱҲ�����,����������Ҫ�����Ŷ���԰��,���п�����ס�Ŀ�ջ�ϰ�Ҳ�ܴ������־�����Ż�Ʊ."}
-{"doc_id": "ZJJ-T03", "sentence_start": 1217, "reason": "no_explicit_condition_pair", "fragment": "����14:30��������������Ʊ�������������,��Լ��Сʱ�����Ϻ��ֶ�����,������ں���������Ȱ����ǻ��ƺ�����,Ȼ��ǰ��λ��8���Ÿ������Ϻ������������˾�����������,�������Ŷӹ�����,�����ֱ�ӽ�����9�Ź����,���÷���,���������ʱ���ṩ��ʳ,���ǵĺ�����20:20��,ʵ�������˰�Сʱ���,�������ӳ��еĻ�Լ����������ǻ�����һЩ"}
-{"doc_id": "ZJJ-T03", "sentence_start": 2639, "reason": "no_explicit_condition_pair", "fragment": "������������ߵ���ɽ����."}
-{"doc_id": "ZJJ-T03", "sentence_start": 2707, "reason": "no_explicit_condition_pair", "fragment": "�����Ŷ������Ŷ��㳡��һ��999����,����ѡ���˲���,��Ϊ���ݷǳ���,�����濴�����о��ܶ�,ʵ���Ϻܳ�,��ÿ�����ݶ���Ь��խ,�����߽��ݽ���Ų�����,���пָ߸�,������������ǳ�������,��������ʥ��."}
-{"doc_id": "ZJJ-T03", "sentence_start": 3413, "reason": "no_explicit_condition_pair", "fragment": "�������ƹ���г̽���,����ȥǧ���龰��,�ε�6Ԫ."}
-{"doc_id": "ZJJ-T03", "sentence_start": 4756, "reason": "prediction_not_advice", "fragment": "һ������,���п���ʪ��Ŷ."}
-{"doc_id": "ZJJ-T03", "sentence_start": 4756, "reason": "prediction_not_advice", "fragment": "һ������,���п���ʪ��Ŷ."}
-{"doc_id": "ZJJ-T03", "sentence_start": 4756, "reason": "no_explicit_condition_pair", "fragment": "���ݴ���ս,����С���Ӷ��ᳬ���˵�,������˳����һ��,ȥǧ��������,��һ�㶼���������ᱡ���·�,��Ϊ�кö���Ŀһ������,���п���ʪ��Ŷ."}
-{"doc_id": "ZJJ-T03", "sentence_start": 4833, "reason": "no_explicit_condition_pair", "fragment": "5������С���ѵĿ��ֿռ�,�о�С�����ǽ�����������Ǳ�������һ��,����һ���첻�뿪,��԰�ĺ��Ӷ�����ѳ����,�ؼ����ŶӾͿ��Կ�~�ְ����費�õ���,����ƻ����԰���г�����������ʵ����,���ǿ����ô��˺ͺ���������������."}
-{"doc_id": "ZJJ-T03", "sentence_start": 4943, "reason": "no_explicit_condition_pair", "fragment": "��Ȼ,�ҳ��ǻ���������ƻ����԰����tion", "fragment": "���������Ͽ�ȵĻ���·�ǵ��е�,ȫ����Сʱ,���Ƕ��߲�����,��������14:30�ĳ�ȥ���,���Ծ�ֻ���˲�����,����������Ҫ������,����ǲ����Դ����Ŷ"}
-{"doc_id": "ZJJ-T03", "sentence_start": 8044, "reason": "no_explicit_condition_pair", "fragment": "���������Ͽ�ȵĻ���·�ǵ��е�,ȫ����Сʱ,���Ƕ��߲�����,��������14:30�ĳ�ȥ���,���Ծ�ֻ���˲�����,����������Ҫ������,����ǲ����Դ����Ŷ!"}
-{"doc_id": "ZJJ-T03", "sentence_start": 8120, "reason": "no_action", "fragment": "ֻҪ�����μӾͷ���Ʊ,����ѧ��û�������μ�,����~����ص�����Ѱ�ο�ջ,�ദ������Ŀ�ջ�ϰ���������һ����緹,�������һ��������װ������Ƭ����."}
-{"doc_id": "ZJJ-T03", "sentence_start": 8120, "reason": "no_action", "fragment": "ֻҪ�����μӾͷ���Ʊ,����ѧ��û�������μ�,����~����ص�����Ѱ�ο�ջ,�ദ������Ŀ�ջ�ϰ���������һ����緹,�������һ��������װ������Ƭ����."}
-{"doc_id": "ZJJ-T03", "sentence_start": 8120, "reason": "no_explicit_condition_pair", "fragment": "����ѧ��ֻ���ֻ�������,��Ȼ������Ʊֻ���˲�����,�����Ǿ��ú�ֵ�õ�,���ú����������ֳ���\"Ͽ�ȴ󴳹�\",ֻҪ�����μӾͷ���Ʊ,����ѧ��û�������μ�,����~����ص�����Ѱ�ο�ջ,�ദ������Ŀ�ջ�ϰ���������һ����緹,�������һ��������װ������Ƭ����."}
-{"doc_id": "ZJJ-T03", "sentence_start": 8305, "reason": "no_explicit_condition_pair", "fragment": "������Դ����˹ų�Լ3����Сʱ,�ǳ��޵���,��ͳ��Ͼ�Ȼ�е���,��һλ����Ĺ���,�˷ǳ��ĺ�,��ȫ�ǵ���ʽ�Ľ���,�ѷ�˹ųǽ��ܵ�ͨ͸,ϸ���ּۻ��۵ļ��ɵȵ�,���������ﶩ��\"�߳�\"���ݳ�Ʊ,����ȡƱ���ָ�������λ��Ȼ�Ƕ��ž���,��õ�λ��!"}
-{"doc_id": "ZJJ-T03", "sentence_start": 8616, "reason": "no_action", "fragment": "ֻҪһ�����ϼӰ������ͺ���,�ųǵ�ҹ��ȷʵ����"}
-{"doc_id": "ZJJ-T03", "sentence_start": 8616, "reason": "no_action", "fragment": "ֻҪһ�����ϼӰ������ͺ���,�ųǵ�ҹ��ȷʵ����"}
-{"doc_id": "ZJJ-T03", "sentence_start": 8616, "reason": "no_explicit_condition_pair", "fragment": "��˹ųǵ��淨ͨ��˵ֻҪһ�����ϼӰ������ͺ���,�ųǵ�ҹ��ȷʵ����!"}
-{"doc_id": "ZJJ-T04", "sentence_start": 37, "reason": "no_explicit_condition_pair", "fragment": "��ǰ��һ��,�Ѿ���ȥ5����μ�Ӧ�þ�ֻ�������Ե������Լ���������Ƭ��������."}
-{"doc_id": "ZJJ-T04", "sentence_start": 195, "reason": "no_explicit_condition_pair", "fragment": "Ȼ����Ǩ��������,�����ҵ��μǺ���Ӧ�û��Ҹ�ʱ����Ǩ��."}
-{"doc_id": "ZJJ-T04", "sentence_start": 372, "reason": "no_explicit_condition_pair", "fragment": "��ͨ����,������ֻ��Ҫ��1·�������Ϳ���ֱ�ӵ���,����������Զ,Ӧ����Ҫ�ٽӲ�;"}
-{"doc_id": "ZJJ-T04", "sentence_start": 414, "reason": "no_explicit_condition_pair", "fragment": "Ҳ������Ҫ��һ��,ʵ����,���ҵ�����������,����������������,�о�Ӧ�û����."}
-{"doc_id": "ZJJ-T04", "sentence_start": 525, "reason": "no_explicit_condition_pair", "fragment": "����Ҳ�������������ùݵķ���,����ҲԤ�����������������),��2·������(�������ǲ����Ǹ���ƱԱ������,�Ҽǵ���һ�β���)������Դ����ɽ��ڴ�(��ʵҲ�������Ǵ�ɭ�ֹ�԰�����ĵط�),�ĳ�1·������ȥ������(�յ�վ)."}
-{"doc_id": "ZJJ-T04", "sentence_start": 765, "reason": "no_explicit_condition_pair", "fragment": "�³�����뾰��ǰ��Ҫ�������ز���һ����Ŷ,������ǿ���һ·�Թ�ȥ��˵(��Ǯ��,���ɭ�ֹ�԰Ӧ�û��Ǻ����ܶ�)."}
-{"doc_id": "ZJJ-T04", "sentence_start": 1124, "reason": "no_explicit_condition_pair", "fragment": "��Ȼ��,�⾰�������ص㻹�Ǵ��СС��ˮ��Ŷ[û�뵽������������,�������˽���ˮ����ʷ�Լ�������ԭ��],�������������,�������õİ���Ŷ."}
-{"doc_id": "ZJJ-T04", "sentence_start": 1760, "reason": "no_explicit_condition_pair", "fragment": "��Ȫ,��ˮ��ƴͼ���м��Ƿ�������,ˮӦ�ô���������,����,������·��ɽ,�Ա�Ҳ�и�����,���ڲ���,�����ǽ���������ļ�������ڶ�˵����."}
-{"doc_id": "ZJJ-T04", "sentence_start": 1927, "reason": "no_explicit_condition_pair", "fragment": "���������Ϲ�¥����,������Ը��,������ĽǶȿ��������߹�����·."}
-{"doc_id": "ZJJ-T04", "sentence_start": 1998, "reason": "no_explicit_condition_pair", "fragment": "���Կ���,���������ʵ���Ǳ���\n"}
-{"doc_id": "ZJJ-T04", "sentence_start": 2319, "reason": "no_explicit_condition_pair", "fragment": "����ԱȺ���ľ�����ʵ�Ƚ�һ��Ŷ,�������Կ�������ʯ���ʯ����\n"}
-{"doc_id": "ZJJ-T04", "sentence_start": 3051, "reason": "no_explicit_condition_pair", "fragment": "��˽�����۲첢�ҿ��Ը����Ļ�����Ǿ��Բ���Ź���\n"}
-{"doc_id": "ZJJ-T04", "sentence_start": 3359, "reason": "no_explicit_condition_pair", "fragment": "������Կ����������,��������ˮ�ٲ�,������������(����ǰ����,��Ȼ�����ģ����),��ȻҲ���Կ�����������."}
-{"doc_id": "ZJJ-T04", "sentence_start": 3550, "reason": "no_explicit_condition_pair", "fragment": "������ȫû�뵽����������Ŷ."}
-{"doc_id": "ZJJ-T04", "sentence_start": 3636, "reason": "no_explicit_condition_pair", "fragment": "��������������а��Сʱ,���ڿ����ϴ�."}
-{"doc_id": "ZJJ-T05", "sentence_start": 467, "reason": "hypothetical_or_retrospective", "fragment": "���˵ɭ�ֹ�԰�����żҽ罼���Ļ�,��ô�żҽ��Ͽ�ȺͲ����ž���Զ��,��Ҫһ�����ʱ��."}
-{"doc_id": "ZJJ-T05", "sentence_start": 467, "reason": "hypothetical_or_retrospective", "fragment": "���˵ɭ�ֹ�԰�����żҽ罼���Ļ�,��ô�żҽ��Ͽ�ȺͲ����ž���Զ��,��Ҫһ�����ʱ��."}
-{"doc_id": "ZJJ-T05", "sentence_start": 467, "reason": "no_explicit_condition_pair", "fragment": "���˵ɭ�ֹ�԰�����żҽ罼���Ļ�,��ô�żҽ��Ͽ�ȺͲ����ž���Զ��,��Ҫһ�����ʱ��."}
-{"doc_id": "ZJJ-T05", "sentence_start": 547, "reason": "no_explicit_condition_pair", "fragment": "��һ��,ȥ�żҽ��ʱ��,�����°�������һ��֮ǰȥ���,�¶�����,��ʵ���¿�ʼ���˾Ͷ���,�����·�ɽ�ϾͿ�ʼ������,�ж���."}
-{"doc_id": "ZJJ-T05", "sentence_start": 608, "reason": "no_explicit_condition_pair", "fragment": "����Ӧ��Ҳ��һ��ʱ���Ǻ��ʵ�,�������µ�ȥ��\n"}
-{"doc_id": "ZJJ-T05", "sentence_start": 957, "reason": "no_explicit_condition_pair", "fragment": "��������ϵ��ջ,����û����ѽӻ�����,��Լ���Ǽҿ�ջ���Խӻ�,����û��ǰ��ϵ���·ǳ����۵Ĳ��û���Ϲ���ĩ�೵(����ĩ�೵ʱ��1930,��ʵ����1900)."}
-{"doc_id": "ZJJ-T05", "sentence_start": 1121, "reason": "no_explicit_condition_pair", "fragment": "1, �żҽ�����������Խ���,Ҳ����˵�����˹��ĺ�����,�����Ǳ�����,�������ε�,�г�Ҳ�ȽϽ���,���Ҵ�������ɭ�ֹ�԰��һ����Сʱ�ĳ���,���Ի��Ǿ�����������һ��ĳ�;����,����һ������ǰ˵�\n"}
-{"doc_id": "ZJJ-T05", "sentence_start": 1219, "reason": "no_explicit_condition_pair", "fragment": "2, �����˿��ܻὨ����,ĳ��ɽͷ��������ȥ�����»���������������."}
-{"doc_id": "ZJJ-T05", "sentence_start": 2054, "reason": "no_action", "fragment": "���������̫��Ҳ����������),����������ɽ�����,����ƻ�����ȥ��ɽ����ȥ��ɽ,®ɽ��Щû��������ɽ."}
-{"doc_id": "ZJJ-T05", "sentence_start": 2054, "reason": "no_action", "fragment": "���������̫��Ҳ����������),����������ɽ�����,����ƻ�����ȥ��ɽ����ȥ��ɽ,®ɽ��Щû��������ɽ."}
-{"doc_id": "ZJJ-T05", "sentence_start": 2054, "reason": "no_explicit_condition_pair", "fragment": "��ɽ,���Ǵ�ǰɽ(�϶�)����ȥ��(Լ�˸���Сʱ),����������(���������̫��Ҳ����������),����������ɽ�����,����ƻ�����ȥ��ɽ����ȥ��ɽ,®ɽ��Щû��������ɽ."}
-{"doc_id": "ZJJ-T05", "sentence_start": 2313, "reason": "no_action", "fragment": "ֻҪȷ����ÿ��Ŀ�ĵ�)��������,�����ڶ����Ŵ����кܶ�Ŀ�ջ(������̨һ������),��Ҫ�����ݳ�������."}
-{"doc_id": "ZJJ-T05", "sentence_start": 2313, "reason": "no_action", "fragment": "ֻҪȷ����ÿ��Ŀ�ĵ�)��������,�����ڶ����Ŵ����кܶ�Ŀ�ջ(������̨һ������),��Ҫ�����ݳ�������."}
-{"doc_id": "ZJJ-T05", "sentence_start": 2313, "reason": "no_explicit_condition_pair", "fragment": "Ȼ�������Լ30���ӵĻ�����(��������Ϊ������޴γ���,ֻҪȷ����ÿ��Ŀ�ĵ�)��������,�����ڶ����Ŵ����кܶ�Ŀ�ջ(������̨һ������),��Ҫ�����ݳ�������."}
-{"doc_id": "ZJJ-T05", "sentence_start": 2393, "reason": "modal_as_condition_or_late_action", "fragment": "���ס���˶����Ŵ�,�������ݳ����Ƚ�Զ���һ������,Ҫ��ڶ������Ͽ��ճ�,����Ҫ�����˺ϻ����ȥ���ݳ�,�˾�Ҫ����ʮԪ."}
-{"doc_id": "ZJJ-T05", "sentence_start": 2393, "reason": "modal_as_condition_or_late_action", "fragment": "���ס���˶����Ŵ�,�������ݳ����Ƚ�Զ���һ������,Ҫ��ڶ������Ͽ��ճ�,����Ҫ�����˺ϻ����ȥ���ݳ�,�˾�Ҫ����ʮԪ."}
-{"doc_id": "ZJJ-T05", "sentence_start": 2612, "reason": "no_explicit_condition_pair", "fragment": "��ʰ����ȥ������,������������ҽ�,�ӿ�ջ��֮ǰ���԰�����������ɽ�µĿ�ջ,����ʮԪһ��,ͦ����."}
-{"doc_id": "ZJJ-T05", "sentence_start": 2793, "reason": "no_explicit_condition_pair", "fragment": "�첨���ſڵ�С̯���ԼĴ�����,��������Ĵ�С,����ԪǮһ��,�ܷ���."}
-{"doc_id": "ZJJ-T05", "sentence_start": 3189, "reason": "no_explicit_condition_pair", "fragment": "ͽ��������ɽ��ʱ��,·����̨�������,������̨���Կ���."}
-{"doc_id": "ZJJ-T05", "sentence_start": 3473, "reason": "no_explicit_condition_pair", "fragment": "��һ���������żҽ����εĴ���,�����������в����ŵ�Ʊ�ǳ�����,Ӧ������Ҫ��ǰ�������϶�,��ϰ��������ʱ���г̰��ŵĿ�ԣ����һЩ����û�����϶�,���żҽ��������췢��,�����ŵ�Ʊ�Ѿ�������,ֻ�������Ͽ�ȵ���Ʊ(218Ԫ/��),����ҲҪ��ǰһ��,�����ҿ�ջ�ϰ嶩��,ȥ�����Ż�Ҫ��ʱ���,����κ�����ε�,��ǰ������ȥ,���㵽Ҳ����ȥ."}
-{"doc_id": "ZJJ-T05", "sentence_start": 3769, "reason": "no_explicit_condition_pair", "fragment": "����ɽ�������ߺͶ���,һ������������,ʱ���ԣ�Ļ���������������."}
-{"doc_id": "ZJJ-T05", "sentence_start": 3921, "reason": "no_action", "fragment": "���������,�о�������."}
-{"doc_id": "ZJJ-T05", "sentence_start": 3921, "reason": "no_action", "fragment": "���������,�о�������."}
-{"doc_id": "ZJJ-T05", "sentence_start": 3921, "reason": "no_explicit_condition_pair", "fragment": "��������,��Ҳ�ܸ��ܵ�����������Ԩ,���������,�о�������."}
-{"doc_id": "ZJJ-T05", "sentence_start": 4192, "reason": "no_explicit_condition_pair", "fragment": "��ʵ��˹ų�����С,�Ӷ�ͷ�ߵ���ͷҲ���������·��,�����Ļ�,�ӳ�;վ��ȫ���Բ��е���ջ,��Ϊ���ǲ�������ȥ�ų�����,�������˼�վ������,��ʵ�ϻ����ڹųǵı�Ե,����Ҫ��һ�����·����ջ."}
+{"doc_id": "HS-O01", "sentence_start": 535, "reason": "no_explicit_condition_pair", "fragment": "此条路线虽然舍弃了前山景点,但可以避免道路上的拥堵,节省体力时间,又可游玩精华景区。"}
+{"doc_id": "HS-T01", "sentence_start": 1007, "reason": "no_explicit_condition_pair", "fragment": "\"终于没有那么忐忑了,因为我知道已经快到山顶了) 从迎客松下来叔叔指路让我一直往右手方向走可以去莲花峰,那是黄山的最高峰,还鼓励我说2个小时准能到,于是我又上路了,这一路上游客很多,还有很多挑夫,他们真的好辛苦,在爬山上来的途中遇到一路歇息的叔叔,叫我买瓶水帮他减重10块一瓶红牛买了两瓶,多亏这两瓶红牛让我有体力到山顶."}
+{"doc_id": "HS-T02", "sentence_start": 547, "reason": "no_action", "fragment": "若仙桃,故亦名\"仙桃峰\"."}
+{"doc_id": "HS-T02", "sentence_start": 547, "reason": "no_action", "fragment": "若仙桃,故亦名\"仙桃峰\"."}
+{"doc_id": "HS-T02", "sentence_start": 547, "reason": "no_explicit_condition_pair", "fragment": "形若仙桃,故亦名\"仙桃峰\"."}
+{"doc_id": "HS-T02", "sentence_start": 1032, "reason": "no_explicit_condition_pair", "fragment": " 导游说夜晚可以在宾馆外的赏景台听松涛阵阵,我想我们都没那雅兴了,缩在被窝里还嫌冷啊."}
+{"doc_id": "HS-T03", "sentence_start": 926, "reason": "no_action", "fragment": "如果你的目的地是5站路之外,它通常只标下一站,而不标明这下一站的下下下下一站是哪儿,本来也未必影响太大,不过我们在这样负重行军的情况下,缺少了如此重要的信息,太容易做出错误判断了,我们选择了去北海方向的路."}
+{"doc_id": "HS-T03", "sentence_start": 926, "reason": "no_action", "fragment": "如果你的目的地是5站路之外,它通常只标下一站,而不标明这下一站的下下下下一站是哪儿,本来也未必影响太大,不过我们在这样负重行军的情况下,缺少了如此重要的信息,太容易做出错误判断了,我们选择了去北海方向的路."}
+{"doc_id": "HS-T03", "sentence_start": 926, "reason": "no_explicit_condition_pair", "fragment": " 继续前行,过了黑虎松, 又见路标, 黄山的路标有点不太方便的是如果你的目的地是5站路之外,它通常只标下一站,而不标明这下一站的下下下下一站是哪儿,本来也未必影响太大,不过我们在这样负重行军的情况下,缺少了如此重要的信息,太容易做出错误判断了,我们选择了去北海方向的路."}
+{"doc_id": "HS-T03", "sentence_start": 1142, "reason": "no_action", "fragment": "如果回头走那边呢, 3."}
+{"doc_id": "HS-T03", "sentence_start": 1142, "reason": "no_action", "fragment": "如果回头走那边呢, 3."}
+{"doc_id": "HS-T03", "sentence_start": 1142, "reason": "no_explicit_condition_pair", "fragment": " 他想了想说,你们这样走大概还有4公里的路,如果回头走那边呢, 3."}
+{"doc_id": "HS-T03", "sentence_start": 1744, "reason": "no_explicit_condition_pair", "fragment": " 我们俩都把相机举好,想拍到小鸟喂食的场面,不过那个鸟妈妈还是鸟爸爸似乎警觉性非常高,嘴里应该是叼着一个小虫子,可是就徘徊在巢外而不回巢,我们等了一阵子,还是放弃了,不要因为我们的好奇而饿坏了这些小精灵."}
+{"doc_id": "HS-T03", "sentence_start": 2136, "reason": "no_explicit_condition_pair", "fragment": " 终于到达光明顶,白云宾馆的方向是一条有点角度的石阶路,还好是下行,不然此时的我们应该很难再上这么个大坡了."}
+{"doc_id": "HS-T04", "sentence_start": 506, "reason": "no_explicit_condition_pair", "fragment": "在山脚下5元一件买下了雨衣,裹在身上可以遮风挡寒,冒着风雨偶尔拿出相机来拍张照片."}
+{"doc_id": "HS-T04", "sentence_start": 579, "reason": "no_explicit_condition_pair", "fragment": "我心情大好,真心赶到美可以有各种表现,好天气坏天气,晴天雨天雾天,各种的美都令人心动,只要你有一颗发现美的心情."}
+{"doc_id": "HS-T05", "sentence_start": 618, "reason": "no_explicit_condition_pair", "fragment": "火车是晚上22:35分的,时间还早,我们就去售票处,打探一下什么时候可以买到过年回家的票,得知在南站,可以提前十一天买到,比火车站要早一天."}
+{"doc_id": "HS-T05", "sentence_start": 770, "reason": "hypothetical_or_retrospective", "fragment": "如果能有一杯冒着热气的热水,那简直是人间一件美事."}
+{"doc_id": "HS-T05", "sentence_start": 770, "reason": "hypothetical_or_retrospective", "fragment": "如果能有一杯冒着热气的热水,那简直是人间一件美事."}
+{"doc_id": "HS-T05", "sentence_start": 770, "reason": "no_explicit_condition_pair", "fragment": "冬季旅游,无论是登山路上,还是入座休息,如果能有一杯冒着热气的热水,那简直是人间一件美事."}
+{"doc_id": "HS-T05", "sentence_start": 815, "reason": "no_explicit_condition_pair", "fragment": "后来,我们又发现,味全美日c的小瓶子,厚厚的而且手感很好,可以暂时保温而且方便揣进兜里,更重要的是瓶子上标注的是可以循环使用5次,真的是冬季旅行必备佳品."}
+{"doc_id": "HS-T05", "sentence_start": 1144, "reason": "no_explicit_condition_pair", "fragment": "黄山这个名字一般可以指三个不同的地方,相隔几十公里,一定要分清楚:黄山市也就是屯溪,是往来黄山的交通枢纽,不过一般游客都只是把它作为一个中转站;"}
+{"doc_id": "HS-T05", "sentence_start": 1216, "reason": "no_explicit_condition_pair", "fragment": "黄山景区,一般指的是整个景区,也可以特指正门也就是汤口;"}
+{"doc_id": "HS-T05", "sentence_start": 1244, "reason": "no_explicit_condition_pair", "fragment": "黄山区指太平区,位于黄山以北,是新开发的地区,从这里可以去芙蓉谷飞龙瀑以及黄山的北门."}
+{"doc_id": "HS-T05", "sentence_start": 1963, "reason": "no_explicit_condition_pair", "fragment": "这里的景色还是可以值回票价的,虽然是冬天降水量小,可是瀑布的水量还可以,而且在瀑布边缘可以看到冻结的冰花,和水花相映成趣."}
+{"doc_id": "HS-T05", "sentence_start": 2195, "reason": "no_explicit_condition_pair", "fragment": "等候的时候学到一个新知识,太平索道号称是亚洲最长的往复式索道,而之前在张家界天门山的索道似乎更长,那么区别就在\"往复式\"上面了,一般我们所乘坐的索道都是一圈一圈的循环的,而这种则是一根缆绳上只有一个车厢,上去了再下来,一共有两条缆绳,就可以同时上下."}
+{"doc_id": "HS-T05", "sentence_start": 2320, "reason": "no_explicit_condition_pair", "fragment": "而车厢也是可以同时乘坐二十余人的大厢体."}
+{"doc_id": "HS-T05", "sentence_start": 2697, "reason": "no_action", "fragment": "如果有一片暖宝宝在后背上一丝丝的热意渗来,惬意的很."}
+{"doc_id": "HS-T05", "sentence_start": 2697, "reason": "no_action", "fragment": "如果有一片暖宝宝在后背上一丝丝的热意渗来,惬意的很."}
+{"doc_id": "HS-T05", "sentence_start": 2697, "reason": "no_explicit_condition_pair", "fragment": "一路爬山时很热,出汗很多,停下来寒风一吹很容易觉得冷,这个时候,如果有一片暖宝宝在后背上一丝丝的热意渗来,惬意的很."}
+{"doc_id": "HS-T05", "sentence_start": 2757, "reason": "no_explicit_condition_pair", "fragment": "热力可以维持十几个小时,冬季外出必备."}
+{"doc_id": "JZG-O01", "sentence_start": 713, "reason": "no_explicit_condition_pair", "fragment": "一天的游览对体能有所要求,因此来到九寨沟的第一天晚上可以好好休息,第二天游览完景区之后,可以去观赏九寨沟藏羌原生态的《藏谜》表演,体验不一样的民族风情。"}
+{"doc_id": "JZG-T01", "sentence_start": 119, "reason": "no_explicit_condition_pair", "fragment": "我们去的这几天,九寨的温度是1~12摄氏度,但山上的气温肯定在0度以下,我们在长海的山上就拍到了自来水龙头里滴下的水溅到周围的草上结了厚厚的冰的镜头,所以,羽绒服恐怕是必须的,有钱的人应该买冲锋衣抓绒衣去,这样即便是下雨也不用太过担心."}
+{"doc_id": "JZG-T01", "sentence_start": 237, "reason": "no_action", "fragment": "只要把抓绒衣脱掉就行了,这样也能减轻负担."}
+{"doc_id": "JZG-T01", "sentence_start": 237, "reason": "no_action", "fragment": "只要把抓绒衣脱掉就行了,这样也能减轻负担."}
+{"doc_id": "JZG-T01", "sentence_start": 237, "reason": "no_explicit_condition_pair", "fragment": "另外,尽管九寨的海拔相对较低,但由于纬度较低,太阳直射,在阳光下还是感觉比较热,这样只要把抓绒衣脱掉就行了,这样也能减轻负担."}
+{"doc_id": "JZG-T01", "sentence_start": 300, "reason": "modal_as_condition_or_late_action", "fragment": "如果早上进沟,山上的气温还是很低的,栈道上都结满了霜,走路一定要小心,此时就显示出戴一副手套的重要性,这样你可以抓住栈道边的栏杆,如果没有手套,抓在栏杆上也是冰凉刺骨."}
+{"doc_id": "JZG-T01", "sentence_start": 300, "reason": "modal_as_condition_or_late_action", "fragment": "如果早上进沟,山上的气温还是很低的,栈道上都结满了霜,走路一定要小心,此时就显示出戴一副手套的重要性,这样你可以抓住栈道边的栏杆,如果没有手套,抓在栏杆上也是冰凉刺骨."}
+{"doc_id": "JZG-T01", "sentence_start": 300, "reason": "no_action", "fragment": "如果没有手套,抓在栏杆上也是冰凉刺骨."}
+{"doc_id": "JZG-T01", "sentence_start": 480, "reason": "no_explicit_condition_pair", "fragment": "在成都,我们慕名前去龙抄手总店吃了那里的小吃,怎么说呢,应该说是盛名之下,其实难副."}
+{"doc_id": "JZG-T01", "sentence_start": 615, "reason": "no_explicit_condition_pair", "fragment": "中午在锦里又吃了伤心凉粉(吃了以后确实比较伤心),串串香,油粉,肠粉,凉虾,吃下来好像肠粉和串串香还可以,其它的基本上就是尝了尝味道,浪费了不少."}
+{"doc_id": "JZG-T01", "sentence_start": 792, "reason": "no_explicit_condition_pair", "fragment": "后又到龙抄手总店去吃了担担面(好像这个还可以)."}
+{"doc_id": "JZG-T01", "sentence_start": 1224, "reason": "no_action", "fragment": "如果不是累得立即就要瘫倒在地的话是完全可以走过去的(我们就上当了,上了出租还没把背包从背上拿下来就到了)"}
+{"doc_id": "JZG-T01", "sentence_start": 1224, "reason": "no_action", "fragment": "如果不是累得立即就要瘫倒在地的话是完全可以走过去的(我们就上当了,上了出租还没把背包从背上拿下来就到了)"}
+{"doc_id": "JZG-T01", "sentence_start": 1786, "reason": "no_action", "fragment": "如果住另一家是没热水的,因为另一家是用液化气的,目前无法运进来"}
+{"doc_id": "JZG-T01", "sentence_start": 1786, "reason": "no_action", "fragment": "如果住另一家是没热水的,因为另一家是用液化气的,目前无法运进来"}
+{"doc_id": "JZG-T01", "sentence_start": 1786, "reason": "no_explicit_condition_pair", "fragment": "草根人家真的是在网上极其有名,房间非常紧张,我们要订大床房,只能一天住草根人家,两天住草根磨坊(或者相反,我记不得了,反正第二天我就逃跑了,当天晚上送我进房间的工作人员说我算是运气的,如果住另一家是没热水的,因为另一家是用液化气的,目前无法运进来!"}
+{"doc_id": "JZG-T01", "sentence_start": 1912, "reason": "no_action", "fragment": "只要100元的确是物有所值,但的确是我的期望过分高了,等住进去才发现与网上的草根人家的照片相差的不是一点半点了."}
+{"doc_id": "JZG-T01", "sentence_start": 1912, "reason": "no_action", "fragment": "只要100元的确是物有所值,但的确是我的期望过分高了,等住进去才发现与网上的草根人家的照片相差的不是一点半点了."}
+{"doc_id": "JZG-T01", "sentence_start": 1912, "reason": "no_explicit_condition_pair", "fragment": "客观地说,在这样一个风景点,这样一个旅店,一天只要100元的确是物有所值,但的确是我的期望过分高了,等住进去才发现与网上的草根人家的照片相差的不是一点半点了."}
+{"doc_id": "JZG-T01", "sentence_start": 2975, "reason": "no_explicit_condition_pair", "fragment": "特别注释:我们经过长时间的考虑,决定到成都后直接住两个晚上,这样可以先玩成都."}
+{"doc_id": "JZG-T01", "sentence_start": 3014, "reason": "no_action", "fragment": "如果从九寨回来再玩成都的话,基本上就要浪费一个晚上的住宿,而且从九寨回来一般都是晚上,不太可能出去玩的,所以这样一来,你就不得不在成都住三个晚上."}
+{"doc_id": "JZG-T01", "sentence_start": 3014, "reason": "no_action", "fragment": "如果从九寨回来再玩成都的话,基本上就要浪费一个晚上的住宿,而且从九寨回来一般都是晚上,不太可能出去玩的,所以这样一来,你就不得不在成都住三个晚上."}
+{"doc_id": "JZG-T01", "sentence_start": 3014, "reason": "no_explicit_condition_pair", "fragment": "如果从九寨回来再玩成都的话,基本上就要浪费一个晚上的住宿,而且从九寨回来一般都是晚上,不太可能出去玩的,所以这样一来,你就不得不在成都住三个晚上."}
+{"doc_id": "JZG-T01", "sentence_start": 3087, "reason": "no_explicit_condition_pair", "fragment": "或者可以考虑直飞九寨沟,让后再回来住和玩."}
+{"doc_id": "JZG-T01", "sentence_start": 3108, "reason": "no_explicit_condition_pair", "fragment": "但应该考虑从九寨沟回来后你是否还有精力和兴趣玩成都了."}
+{"doc_id": "JZG-T01", "sentence_start": 3468, "reason": "no_explicit_condition_pair", "fragment": "到中午12点,总算可以登机了."}
+{"doc_id": "JZG-T01", "sentence_start": 3911, "reason": "no_explicit_condition_pair", "fragment": "我们这天飞机悉数误点,到了黄龙时旅游团相对比较集中,买票还算顺利,但上去后发现栈道在维修,只有一条比较窄的,要想走得快一点就得不断和前面的人说对不起,借过,麻烦让一下等等,而且,栈道两边都是森林,如果不是对木料特别感兴趣的估计不会在此多做停留."}
+{"doc_id": "JZG-T01", "sentence_start": 4033, "reason": "no_explicit_condition_pair", "fragment": "所以,我们建议尽快赶路,把时间留给五彩池."}
+{"doc_id": "JZG-T01", "sentence_start": 4321, "reason": "no_explicit_condition_pair", "fragment": "注意,爬上观景台后不要下来,直接往前走,再稍微上几个台阶就能到那个更高一点的观景台,那里的风景应该会更好一些."}
+{"doc_id": "JZG-T01", "sentence_start": 4412, "reason": "no_explicit_condition_pair", "fragment": "从五彩池下来,攻略上说应该走景观道,但我们当时比较急,没注意到怎么进景观道,就直接顺着下山道下来了,一路上风景是不多,但也不错了."}
+{"doc_id": "JZG-T01", "sentence_start": 4478, "reason": "no_explicit_condition_pair", "fragment": "等走到迎宾池附近,我们突然发现一条小道,是在下山道的右后方,从此上去发现是景观道,还有一个指示牌,说景观道自此往下是通的,而往上则在维修(不知道是否一直维修到五彩池,也许这就是我们没有从五彩池就找到景观道的原因,不过建议以后去的兄弟姐妹们能留意一下,从景观道下来还是有必要的)."}
+{"doc_id": "JZG-T01", "sentence_start": 4688, "reason": "no_explicit_condition_pair", "fragment": "虽然没几个人,但我们还选错了边,从地图上就可以看出,树正沟的景点基本上都在左边."}
+{"doc_id": "JZG-T01", "sentence_start": 4728, "reason": "modal_as_condition_or_late_action", "fragment": "如果可以的话,尽可能坐在左边,还要尽可能坐得高一些,这样就可以在车上看到芦苇海中间的玉带河,这条河碧蓝碧蓝的,早上去还能看到氤氲的雾气,可惜就是车开太快,根本就没法拍照,两次进沟都是这样的,可惜了."}
+{"doc_id": "JZG-T01", "sentence_start": 4728, "reason": "modal_as_condition_or_late_action", "fragment": "如果可以的话,尽可能坐在左边,还要尽可能坐得高一些,这样就可以在车上看到芦苇海中间的玉带河,这条河碧蓝碧蓝的,早上去还能看到氤氲的雾气,可惜就是车开太快,根本就没法拍照,两次进沟都是这样的,可惜了."}
+{"doc_id": "JZG-T01", "sentence_start": 4728, "reason": "modal_as_condition_or_late_action", "fragment": "如果可以的话,尽可能坐在左边,还要尽可能坐得高一些,这样就可以在车上看到芦苇海中间的玉带河,这条河碧蓝碧蓝的,早上去还能看到氤氲的雾气,可惜就是车开太快,根本就没法拍照,两次进沟都是这样的,可惜了."}
+{"doc_id": "JZG-T01", "sentence_start": 4728, "reason": "modal_as_condition_or_late_action", "fragment": "如果可以的话,尽可能坐在左边,还要尽可能坐得高一些,这样就可以在车上看到芦苇海中间的玉带河,这条河碧蓝碧蓝的,早上去还能看到氤氲的雾气,可惜就是车开太快,根本就没法拍照,两次进沟都是这样的,可惜了."}
+{"doc_id": "JZG-T01", "sentence_start": 4728, "reason": "no_explicit_condition_pair", "fragment": "所以,上车后如果可以的话,尽可能坐在左边,还要尽可能坐得高一些,这样就可以在车上看到芦苇海中间的玉带河,这条河碧蓝碧蓝的,早上去还能看到氤氲的雾气,可惜就是车开太快,根本就没法拍照,两次进沟都是这样的,可惜了."}
+{"doc_id": "JZG-T01", "sentence_start": 4833, "reason": "no_explicit_condition_pair", "fragment": "车辆沿途好像第一站停靠荷叶寨,盆景滩就在附近,但不建议下车."}
+{"doc_id": "JZG-T01", "sentence_start": 5047, "reason": "no_explicit_condition_pair", "fragment": "过了诺日朗中心站就会到镜湖,强烈建议此站下车."}
+{"doc_id": "JZG-T01", "sentence_start": 5275, "reason": "no_action", "fragment": "如果要看这两个海,只能从原始森林走栈道下来,估计是不值得的."}
+{"doc_id": "JZG-T01", "sentence_start": 5275, "reason": "no_action", "fragment": "如果要看这两个海,只能从原始森林走栈道下来,估计是不值得的."}
+{"doc_id": "JZG-T01", "sentence_start": 5275, "reason": "no_explicit_condition_pair", "fragment": "我们是跟随大部队一直到了原始森林,很是郁闷,就是到处是树,而且好像也看不到啥风景,沿途的芳草海,天鹅海基本上都没有啥看头,也不会停车的,如果要看这两个海,只能从原始森林走栈道下来,估计是不值得的."}
+{"doc_id": "JZG-T01", "sentence_start": 5434, "reason": "unresolved_reference", "fragment": "如果放得下的话,建议不必千万原始森林了."}
+{"doc_id": "JZG-T01", "sentence_start": 5434, "reason": "unresolved_reference", "fragment": "如果放得下的话,建议不必千万原始森林了."}
+{"doc_id": "JZG-T01", "sentence_start": 5434, "reason": "no_explicit_condition_pair", "fragment": "如果放得下的话,建议不必千万原始森林了."}
+{"doc_id": "JZG-T01", "sentence_start": 5723, "reason": "no_explicit_condition_pair", "fragment": "反过来走可能是比较费力一些,但随时随地可以停一停,抬头看看再继续走,感觉因该不错吧."}
+{"doc_id": "JZG-T01", "sentence_start": 5804, "reason": "no_explicit_condition_pair", "fragment": "我们到五花海大约是中午11点左右了,五花海有四个观景台,顺着栈道走可以一一经过."}
+{"doc_id": "JZG-T01", "sentence_start": 6219, "reason": "modal_as_condition_or_late_action", "fragment": "如果不想走栈道,也不想去诺日朗瀑布便感受水雾的话,直接顺公路往沟口方向走也可以到达那个观景台."}
+{"doc_id": "JZG-T01", "sentence_start": 6219, "reason": "modal_as_condition_or_late_action", "fragment": "如果不想走栈道,也不想去诺日朗瀑布便感受水雾的话,直接顺公路往沟口方向走也可以到达那个观景台."}
+{"doc_id": "JZG-T01", "sentence_start": 6219, "reason": "no_explicit_condition_pair", "fragment": "到诺日朗中心站下车,走了栈道前往诺日朗瀑布,在诺日朗瀑布的对面的公路边上有一个观景台,如果不想走栈道,也不想去诺日朗瀑布便感受水雾的话,直接顺公路往沟口方向走也可以到达那个观景台."}
+{"doc_id": "JZG-T01", "sentence_start": 6447, "reason": "no_explicit_condition_pair", "fragment": "从树正瀑布可以走栈道到磨房."}
+{"doc_id": "JZG-T01", "sentence_start": 6461, "reason": "no_explicit_condition_pair", "fragment": "从磨房上到公路上前去顺着公路栈道走可以很好地欣赏到树正群海."}
+{"doc_id": "JZG-T01", "sentence_start": 6911, "reason": "no_explicit_condition_pair", "fragment": "但栈道上的美景到可以稍补不足."}
+{"doc_id": "JZG-T01", "sentence_start": 7083, "reason": "no_explicit_condition_pair", "fragment": "然后又顺着原路返回公路,乘车前往五花海,主要是在攻略上看到在五花海战下车后沿公路向上走可以到老虎嘴,可以看五花海的全景,所以乘车到了五花海战下车后就径直往上走,一边走还一边留意是否在山边有可以上到半山腰的栈道口,等转过两个弯后,发现在公路的边上有长约百米的栈道,尽头有一个观景台."}
+{"doc_id": "JZG-T01", "sentence_start": 7223, "reason": "no_explicit_condition_pair", "fragment": "从这个观景台的确可以俯瞰五花海,但用我的相机无法拍下全景,所以一直在怀疑这个地方是否就是传说中的老虎嘴,与我们同样有疑问的人也不只一个."}
+{"doc_id": "JZG-T01", "sentence_start": 7951, "reason": "no_explicit_condition_pair", "fragment": "事后才看到,过了盆景滩后还有一条小路可以从栈道同到公路上的."}
+{"doc_id": "JZG-T01", "sentence_start": 8174, "reason": "no_explicit_condition_pair", "fragment": "1,时间允许,应该考虑来回通过两个不同的城市中转,如成都,重庆或者昆明."}
+{"doc_id": "JZG-T01", "sentence_start": 8210, "reason": "no_explicit_condition_pair", "fragment": "这样可以一次玩三个地方."}
+{"doc_id": "JZG-T01", "sentence_start": 8222, "reason": "no_explicit_condition_pair", "fragment": "当然,如果时间紧则只考虑航班价位."}
+{"doc_id": "JZG-T01", "sentence_start": 8240, "reason": "no_explicit_condition_pair", "fragment": "2,建议先在中转城市玩,然后再前往九寨沟,个人决定这样的安排更为合理一些."}
+{"doc_id": "JZG-T01", "sentence_start": 8277, "reason": "no_action", "fragment": "如果是第二天就直接往九寨沟,那在成都住的第一个晚上就没有任何意义了."}
+{"doc_id": "JZG-T01", "sentence_start": 8277, "reason": "no_action", "fragment": "如果是第二天就直接往九寨沟,那在成都住的第一个晚上就没有任何意义了."}
+{"doc_id": "JZG-T01", "sentence_start": 8277, "reason": "no_explicit_condition_pair", "fragment": "我们曾考虑过到成都住一个晚上第二天就飞九寨沟,但仔细研究后,我们决定在成都住两个晚上,这样当天抵达,第二天可以玩玩成都,第三天早上再前往九寨沟,如果是第二天就直接往九寨沟,那在成都住的第一个晚上就没有任何意义了."}
+{"doc_id": "JZG-T01", "sentence_start": 8384, "reason": "no_explicit_condition_pair", "fragment": "3,在选择前往九寨沟的飞机问题上,建议选择大约9点以后的飞机."}
+{"doc_id": "JZG-T01", "sentence_start": 8469, "reason": "no_action", "fragment": "一旦碰到飞机误点,等的时间也少些."}
+{"doc_id": "JZG-T01", "sentence_start": 8469, "reason": "no_action", "fragment": "一旦碰到飞机误点,等的时间也少些."}
+{"doc_id": "JZG-T01", "sentence_start": 8469, "reason": "no_explicit_condition_pair", "fragment": "选择晚一点的飞机,一方面可以在成都多休息一下,一旦碰到飞机误点,等的时间也少些."}
+{"doc_id": "JZG-T01", "sentence_start": 8555, "reason": "no_explicit_condition_pair", "fragment": "需要注意的是,非常建议索道上,走下来."}
+{"doc_id": "JZG-T01", "sentence_start": 8574, "reason": "unresolved_reference", "fragment": "如果是反过来的话,那需要注意5点以后就没有下行的索道了."}
+{"doc_id": "JZG-T01", "sentence_start": 8574, "reason": "unresolved_reference", "fragment": "如果是反过来的话,那需要注意5点以后就没有下行的索道了."}
+{"doc_id": "JZG-T01", "sentence_start": 8574, "reason": "no_explicit_condition_pair", "fragment": "如果是反过来的话,那需要注意5点以后就没有下行的索道了."}
+{"doc_id": "JZG-T01", "sentence_start": 8603, "reason": "no_explicit_condition_pair", "fragment": "4,我们去的时候景观道在维修,只有从黄龙景区门口到迎宾池这一段,所以,建议在走下来时一定要在迎宾池这里走到景观道上,否则从五彩池下来一路上真是索然无味."}
+{"doc_id": "JZG-T01", "sentence_start": 8679, "reason": "no_explicit_condition_pair", "fragment": "从这个意义上讲,也许应该节省下黄龙的门票三次进九寨沟."}
+{"doc_id": "JZG-T01", "sentence_start": 8920, "reason": "no_explicit_condition_pair", "fragment": "另外再说一个偏方:用伤筋膏贴在肚脐上,应该是有用的."}
+{"doc_id": "JZG-T01", "sentence_start": 8970, "reason": "no_explicit_condition_pair", "fragment": "乘车的位置参考我的地图,可以判断在哪一段应该坐在车子的哪一边."}
+{"doc_id": "JZG-T01", "sentence_start": 9002, "reason": "no_explicit_condition_pair", "fragment": "7,游览重点应该放在日则沟,所以,第一个应该下车的景点就是镜海."}
+{"doc_id": "JZG-T01", "sentence_start": 9034, "reason": "no_explicit_condition_pair", "fragment": "对自己体力比较自信的,在玩了镜海后乘车前往下一个景点,下车后就顺着栈道一直走,走到五花海,这时基本上应该到中午了."}
+{"doc_id": "JZG-T01", "sentence_start": 9226, "reason": "no_explicit_condition_pair", "fragment": "另一个选择是绕着五花海走,可以考虑在五花海一个晒得到太阳的观景台上吃干粮."}
+{"doc_id": "JZG-T01", "sentence_start": 9300, "reason": "no_explicit_condition_pair", "fragment": "玩好五花海,可以再走栈道玩熊猫海和箭竹海."}
+{"doc_id": "JZG-T01", "sentence_start": 9341, "reason": "no_explicit_condition_pair", "fragment": "我们在这两个海子没有多玩,感觉没有什么特别的特色,所以也没注意是否有车站,建议有兴趣的tx上车后向导游询问后再作决定."}
+{"doc_id": "JZG-T01", "sentence_start": 9465, "reason": "no_explicit_condition_pair", "fragment": "8,第二天进沟上午把日则沟有兴趣的景点再玩一遍,可以考虑与前一天不同的路线."}
+{"doc_id": "JZG-T01", "sentence_start": 9503, "reason": "no_explicit_condition_pair", "fragment": "在中午前回到诺日朗,从此前往则查哇沟,这个沟只有长海和五彩池值得一玩,可以考虑在长海吃午餐,感觉好极了."}
+{"doc_id": "JZG-T01", "sentence_start": 9556, "reason": "no_action", "fragment": "如果是早上走镜海栈道,由于阳光的关系,在栈道上看不到最美的景色,当然,如果你前一天好好地玩了镜海,第二天想感受一种完全不同的风格,走栈道也是一个不错的选择,这里人非常少."}
+{"doc_id": "JZG-T01", "sentence_start": 9556, "reason": "no_action", "fragment": "如果你前一天好好地玩了镜海,第二天想感受一种完全不同的风格,走栈道也是一个不错的选择,这里人非常少."}
+{"doc_id": "JZG-T01", "sentence_start": 9741, "reason": "no_explicit_condition_pair", "fragment": "由于我的相机是借来的,处于以防万一的考虑,我自己买了不少aa电池,但,这个相机实在是太费电了,在成都我就把买的电池给用了一半,不得已在成都的一个小超市中购买了南孚电池,看看广告说啥一节比六节强,就我使用的经历来看,应该是六节更比一节强!"}
+{"doc_id": "JZG-T02", "sentence_start": 436, "reason": "no_explicit_condition_pair", "fragment": "有些景点可以穿到马路这边的栈道上拍,角度不一样,欣赏到的风景也是不一样的哦\n"}
+{"doc_id": "JZG-T02", "sentence_start": 753, "reason": "no_explicit_condition_pair", "fragment": "快8点了才起床 吃好早饭 藏民家的主人都会先出来侦察路口有没有\"黑衣人\"查票,然后等通知出去游玩就可以了,我们很幸运的逃掉了连续3天的门票和车票,省了2000多块钱,哈哈."}
+{"doc_id": "JZG-T02", "sentence_start": 839, "reason": "no_explicit_condition_pair", "fragment": "一般8点半左右出去就很安全了,只要在不该出现的时间别出来就是安全的."}
+{"doc_id": "JZG-T02", "sentence_start": 1045, "reason": "no_explicit_condition_pair", "fragment": "从箭竹海沿公路边的栈道徒步,不能徒步的地方就坐观光车,依次欣赏各个景点,基本上每站都可以要求停车;"}
+{"doc_id": "JZG-T02", "sentence_start": 1683, "reason": "no_explicit_condition_pair", "fragment": "今天就剩下则查洼沟了,这条沟景点很少,只有长海和五彩池2个景点,上下季节海现在都处于枯水期,坐在观光车上浏览一下就可以了,没必要徒步了."}
+{"doc_id": "JZG-T02", "sentence_start": 1974, "reason": "no_action", "fragment": "如果你的眼睛够毒,说不定还能找到小龙女和杨过练\"玉女心经\"的地方呢."}
+{"doc_id": "JZG-T02", "sentence_start": 1974, "reason": "no_action", "fragment": "如果你的眼睛够毒,说不定还能找到小龙女和杨过练\"玉女心经\"的地方呢."}
+{"doc_id": "JZG-T02", "sentence_start": 1974, "reason": "no_explicit_condition_pair", "fragment": "从九寨沟回来,我又重看了\"神雕侠侣\"刘亦非版,如果你的眼睛够毒,说不定还能找到小龙女和杨过练\"玉女心经\"的地方呢."}
+{"doc_id": "JZG-T03", "sentence_start": 35, "reason": "no_explicit_condition_pair", "fragment": "惊喜之余不免暗自担心,三十几岁就领略了九寨之美,试问今后有何美景可以再让我感动呢?"}
+{"doc_id": "JZG-T03", "sentence_start": 247, "reason": "no_explicit_condition_pair", "fragment": " 有点小雨,在红星路三段附近的星光宾馆住下,150元/标间含早餐,这里卫生条件还可以,是个比较老的酒店,主要是离步行街近,周围是繁华区."}
+{"doc_id": "JZG-T03", "sentence_start": 348, "reason": "no_action", "fragment": "只要38元, 实在太值了."}
+{"doc_id": "JZG-T03", "sentence_start": 348, "reason": "no_action", "fragment": "只要38元, 实在太值了."}
+{"doc_id": "JZG-T03", "sentence_start": 348, "reason": "no_explicit_condition_pair", "fragment": "11:30在酒店附近一个很不起眼叫XX冷锅鱼的小店吃午餐,当时可能时间还早,店里只有我们两人,点了两斤全鱼加一份笋(这是服务员推荐的),饿了,感觉味道好极了,头一顿饭就如此美味, 不知不觉对成都的印象又加了几分,直到和LG撑得坐不住结帐离开时才发现只要38元, 实在太值了."}
+{"doc_id": "JZG-T03", "sentence_start": 1146, "reason": "no_explicit_condition_pair", "fragment": "此时天色已晚,幸运地找到一家条件还可以的饭店,名字记不清了,是从客运站售票处的门出去,过马路,会看到一个院子,一个小下坡吧,进去就看到一栋楼,饭店大堂里看到标间700元/晚,一问价格120元/间,砍到80元住下,这里24小时供应热水,还提供电热毯,床单还算干净,因为当晚是中秋节,客人很少,服务员大都到餐厅联欢了,所以她们无心讲价,据说给了"}
+{"doc_id": "JZG-T03", "sentence_start": 1644, "reason": "no_explicit_condition_pair", "fragment": "开车了,我和LG 坐在最后一排啃干粮,还是从成都带的,早上太早了,没时间吃,只好对付一下,发现最后两排座位上的都是一对对的年经游客,忍不住与他们攀谈,原来我们八个都是去黄龙的,一对上海的,一对北京的,一对沈阳的,加我们一对武汉的,天南地北,而且行程相同,都是8号9号游九寨(提示:国庆期间不能办理二次进沟, 10月8日开始可以)."}
+{"doc_id": "JZG-T03", "sentence_start": 2101, "reason": "no_explicit_condition_pair", "fragment": "我发现我的座位是这个车上观景最好的位置,靠近车门那边,不仅可以从旁边还可以从后面观赏景色,真是太幸运太幸福了!"}
+{"doc_id": "JZG-T03", "sentence_start": 3000, "reason": "no_action", "fragment": "如果没时间可以不用去,没太大意思."}
+{"doc_id": "JZG-T03", "sentence_start": 3000, "reason": "no_action", "fragment": "如果没时间可以不用去,没太大意思."}
+{"doc_id": "JZG-T03", "sentence_start": 3000, "reason": "unresolved_reference", "fragment": "如果没时间可以不用去"}
+{"doc_id": "JZG-T03", "sentence_start": 3000, "reason": "no_explicit_condition_pair", "fragment": "洞很小路又滑,如果没时间可以不用去,没太大意思."}
+{"doc_id": "JZG-T03", "sentence_start": 3109, "reason": "modal_as_condition_or_late_action", "fragment": "如果要坐中巴也有,40元/人,不过要等到3:30发车,有游客上山前就订了票, 所以必须等他们下山后才能出发,我们的包车在翻越雪山顶时被要求停下来拍照,同样的路,云海消失了,是另一番景象,运气不错,天气很晴,而且是顺光,我们拍到了海拨5588米的雪宝鼎."}
+{"doc_id": "JZG-T03", "sentence_start": 3109, "reason": "modal_as_condition_or_late_action", "fragment": "如果要坐中巴也有,40元/人,不过要等到3:30发车,有游客上山前就订了票, 所以必须等他们下山后才能出发,我们的包车在翻越雪山顶时被要求停下来拍照,同样的路,云海消失了,是另一番景象,运气不错,天气很晴,而且是顺光,我们拍到了海拨5588米的雪宝鼎."}
+{"doc_id": "JZG-T03", "sentence_start": 3109, "reason": "no_explicit_condition_pair", "fragment": "如果要坐中巴也有,40元/人,不过要等到3:30发车,有游客上山前就订了票, 所以必须等他们下山后才能出发,我们的包车在翻越雪山顶时被要求停下来拍照,同样的路,云海消失了,是另一番景象,运气不错,天气很晴,而且是顺光,我们拍到了海拨5588米的雪宝鼎."}
+{"doc_id": "JZG-T03", "sentence_start": 3235, "reason": "no_explicit_condition_pair", "fragment": "尽管一天下来大家很累,还是叽叽喳喳地讲个不停,司机师傅也尽量满足我们的好奇心."}
+{"doc_id": "JZG-T03", "sentence_start": 3877, "reason": "no_explicit_condition_pair", "fragment": "坐车来到箭竹海,水面更显宽阔,光线慢慢好些了,可以看到一些拿着大炮筒和三角架的发烧友,真羡慕,这里的景色不是盖的."}
+{"doc_id": "JZG-T03", "sentence_start": 4360, "reason": "no_explicit_condition_pair", "fragment": "记得一定要走一遍哟!"}
+{"doc_id": "JZG-T03", "sentence_start": 4370, "reason": "no_explicit_condition_pair", "fragment": "然后我们沿着公路上到老虎嘴,从这里观五花海的全景,可以清楚地拍到五花海中的孔雀,美丽指数100, 下来之后又走了一遍孔雀栈道,然后是珍珠滩和珍珠滩瀑布,正逢阳光明媚时,水珠在阳光的照耀下,宛如一粒粒珍珠,好形象啊!"}
+{"doc_id": "JZG-T03", "sentence_start": 4653, "reason": "no_action", "fragment": "如果走栈道就看不到诺日朗群海了,观完瀑布再坐下行的车到树正沟或是沟口,这才是节省体力的最佳方案啊"}
+{"doc_id": "JZG-T03", "sentence_start": 4653, "reason": "no_action", "fragment": "如果走栈道就看不到诺日朗群海了,观完瀑布再坐下行的车到树正沟或是沟口,这才是节省体力的最佳方案啊"}
+{"doc_id": "JZG-T03", "sentence_start": 4653, "reason": "no_explicit_condition_pair", "fragment": "正确线路应该是从镜海坐车下到诺日朗中心后直接换乘到长海的车,去过长海和五花海后回到诺日朗中心站,沿公路下到诺日朗瀑布,记得要沿公路下啊,如果走栈道就看不到诺日朗群海了,观完瀑布再坐下行的车到树正沟或是沟口,这才是节省体力的最佳方案啊!"}
+{"doc_id": "JZG-T03", "sentence_start": 5697, "reason": "no_explicit_condition_pair", "fragment": "吃过午餐,沿着公路往上走,从公路上可以看到树正瀑布的全景,要比走栈道看到的好."}
+{"doc_id": "JZG-T03", "sentence_start": 6435, "reason": "no_explicit_condition_pair", "fragment": " 要去九寨的朋友一定要记得带够衣服,早晚温差大,保暖很必要,要是生病了就太扫兴了."}
+{"doc_id": "JZG-T03", "sentence_start": 6479, "reason": "no_action", "fragment": "如果有条件,在出发前一周开始服用红景天,就是诺迪康胶囊,效果很好,据当地人说,抗高原反应吃红景天是最有效的."}
+{"doc_id": "JZG-T03", "sentence_start": 6479, "reason": "no_action", "fragment": "如果有条件,在出发前一周开始服用红景天,就是诺迪康胶囊,效果很好,据当地人说,抗高原反应吃红景天是最有效的."}
+{"doc_id": "JZG-T03", "sentence_start": 6479, "reason": "no_explicit_condition_pair", "fragment": " 如果有条件,在出发前一周开始服用红景天,就是诺迪康胶囊,效果很好,据当地人说,抗高原反应吃红景天是最有效的."}
+{"doc_id": "JZG-T03", "sentence_start": 6537, "reason": "unresolved_reference", "fragment": "如果不想变成煮熟的虾子或落汤鸡,请一定要带齐以上物品."}
+{"doc_id": "JZG-T03", "sentence_start": 6537, "reason": "unresolved_reference", "fragment": "如果不想变成煮熟的虾子或落汤鸡,请一定要带齐以上物品."}
+{"doc_id": "JZG-T03", "sentence_start": 6537, "reason": "no_explicit_condition_pair", "fragment": " 准备好雨具和防晒霜,最好带一顶太阳帽,如果不想变成煮熟的虾子或落汤鸡,请一定要带齐以上物品."}
+{"doc_id": "JZG-T03", "sentence_start": 6641, "reason": "no_action", "fragment": "如果要买特产不要在景区买,很贵,到成都的超市里买,什么都买得到,而且价格和质量都有保障."}
+{"doc_id": "JZG-T03", "sentence_start": 6641, "reason": "no_action", "fragment": "如果要买特产不要在景区买,很贵,到成都的超市里买,什么都买得到,而且价格和质量都有保障."}
+{"doc_id": "JZG-T03", "sentence_start": 6761, "reason": "no_explicit_condition_pair", "fragment": "如需买氧气可以在游客中心买,10元一瓶,这里还可以免费存放行李."}
+{"doc_id": "JZG-T03", "sentence_start": 6796, "reason": "no_explicit_condition_pair", "fragment": " 在景区里尽量自带干粮,这样行动比较自由,也节省时间和金钱."}
+{"doc_id": "JZG-T03", "sentence_start": 6826, "reason": "no_explicit_condition_pair", "fragment": "景区里的食物和水很贵,记得要自己带水."}
+{"doc_id": "JZG-T04", "sentence_start": 217, "reason": "no_explicit_condition_pair", "fragment": "到重庆已是晚上六点多了,出了车站我们立马打车来到位于解放碑附近的重庆途家维斯登服务公寓,订的是城市景观双卧套房,离洪崖洞步行十分钟的距离,且房间可以直接观赏江景,性价比非常之高."}
+{"doc_id": "JZG-T04", "sentence_start": 714, "reason": "no_explicit_condition_pair", "fragment": "馆内记载着三峡工程以及重庆的历史,认真游览可以对整个重庆有一个更加深入的认识,可惜我们时间有限,只匆匆参观了一楼的几个展厅."}
+{"doc_id": "JZG-T04", "sentence_start": 1877, "reason": "no_explicit_condition_pair", "fragment": "不得不说,熊猫真的是我见过的最可爱的生物,如果能摸一下此生无憾了."}
+{"doc_id": "JZG-T04", "sentence_start": 2076, "reason": "no_explicit_condition_pair", "fragment": "宽窄巷子逛完觉得有点累了,决定去人民公园喝个茶,门口乘坐62路直接可以到达."}
+{"doc_id": "JZG-T04", "sentence_start": 2114, "reason": "no_explicit_condition_pair", "fragment": "鹤鸣茶社是人民公园内一个比较有名的茶馆,占地面积很大,围着园内的湖摆满了桌子,在这里叫上一壶茶坐一个下午,可以体会到成都人民悠闲的生活,有兴趣的话还可以体验一下采耳."}
+{"doc_id": "JZG-T04", "sentence_start": 2686, "reason": "no_explicit_condition_pair", "fragment": "喜欢历史文化的朋友可以好好逛一逛."}
+{"doc_id": "JZG-T04", "sentence_start": 2752, "reason": "no_explicit_condition_pair", "fragment": "街内的一些茶室可以观看川剧变脸."}
+{"doc_id": "JZG-T04", "sentence_start": 2845, "reason": "no_explicit_condition_pair", "fragment": "逛的累了,我们决定找个地方坐下解决中饭,于是在导航的帮助下我们步行来到了蜀串香厕所串串,这和我们之前吃的玉林串串类似,不一样的是这里的串串是他们烧好后直接放在盆里端上来的,可以理解为带棒子的麻辣烫."}
+{"doc_id": "JZG-T04", "sentence_start": 3330, "reason": "no_explicit_condition_pair", "fragment": "可以下载一个叫简途旅行的app,上面可以订成都九寨沟来回的巴士,提前一天可以在手机上选位,景区门票也可以网上购买,景区附近很多地方都设有自助取票机,而且大多数酒店都有车辆免费送至景区门口."}
+{"doc_id": "JZG-T04", "sentence_start": 3489, "reason": "no_explicit_condition_pair", "fragment": "整个车程历经十小时,中途会停下游览休息及上厕所,九寨这边厕所由于都是私人建造,所以统一收费一元,因此最好备足零钱."}
+{"doc_id": "JZG-T04", "sentence_start": 3612, "reason": "no_explicit_condition_pair", "fragment": "眼前的汶川已没有太多大地震留下的痕迹了,现在所看到的,都是灾后重建的一些居民住宅,也希望这里的人民从此可以回归幸福安逸的生活."}
+{"doc_id": "JZG-T04", "sentence_start": 4366, "reason": "no_explicit_condition_pair", "fragment": "门票是310元,里面包括了90元的观光车票,应该没有人会不坐观光车吧."}
+{"doc_id": "JZG-T04", "sentence_start": 4887, "reason": "no_explicit_condition_pair", "fragment": "然而我们被眼前的场面惊呆了,真的是人山人海啊,由于八点是许多旅游团入园的时间,所以建议还是早一点来排队."}
+{"doc_id": "JZG-T04", "sentence_start": 4985, "reason": "no_explicit_condition_pair", "fragment": "上车后还是和昨天一样,被分到了右侧的日则沟,下车后我们坐上对面的观光车乘回诺日朗中心,吃了那边卖的一种自热盒饭,那味道太酸爽,建议不要尝试."}
+{"doc_id": "JZG-T04", "sentence_start": 5091, "reason": "no_explicit_condition_pair", "fragment": "可能由于许多游客只安排了一天,所以树正沟的游客并不多,可以说是人烟稀少,此刻我们终于能够走走停停,静静地欣赏九寨沟的美."}
+{"doc_id": "JZG-T05", "sentence_start": 142, "reason": "no_action", "fragment": "若繁星的人文古迹外,看得最多的就是自然山水,神州大地处处有灵山秀水,常言道,\"黄山归来不看山,九寨归来不看水\",\"张家界看山,九寨沟看水\",张家界,黄山,九寨沟等作为中国山水的集大成者和经典之作无不让人趋之如骛,很幸运,今年先后去了张家界,黄山,看着秀美的群山,带着历史的沧桑,从"}
+{"doc_id": "JZG-T05", "sentence_start": 142, "reason": "no_action", "fragment": "若繁星的人文古迹外,看得最多的就是自然山水,神州大地处处有灵山秀水,常言道,\"黄山归来不看山,九寨归来不看水\",\"张家界看山,九寨沟看水\",张家界,黄山,九寨沟等作为中国山水的集大成者和经典之作无不让人趋之如骛,很幸运,今年先后去了张家界,黄山,看着秀美的群山,带着历史的沧桑,从"}
+{"doc_id": "JZG-T05", "sentence_start": 142, "reason": "no_explicit_condition_pair", "fragment": "这些年走过国内太多地方,除了灿若繁星的人文古迹外,看得最多的就是自然山水,神州大地处处有灵山秀水,常言道,\"黄山归来不看山,九寨归来不看水\",\"张家界看山,九寨沟看水\",张家界,黄山,九寨沟等作为中国山水的集大成者和经典之作无不让人趋之如骛,很幸运,今年先后去了张家界,黄山,看着秀美的群山,带着历史的沧桑,从亘古的烟雨中踏浪而来,用植骨的"}
+{"doc_id": "JZG-T05", "sentence_start": 453, "reason": "no_explicit_condition_pair", "fragment": "其次九寨沟作为川内最热门最知名的景区之一,周末游太走马观花,小长假又怕堵在路上动弹不得,暑假也是人满为患,看到排起长队的人群总是会打退堂鼓,一直又想选择最美的秋季看看五彩斑斓的九寨,终于,在秋高气爽的九月,踏上了这迟来的九寨之行,这一次的九寨行来得刚刚好,可以说是超完美的一次旅行体验."}
+{"doc_id": "JZG-T05", "sentence_start": 1425, "reason": "no_explicit_condition_pair", "fragment": "'简途旅行'大巴除了开通九寨沟,黄龙,川内知名的峨眉山,青城山,都江堰以及成都市区不远的熊猫基地,石象湖都有开通,另外还有重庆,贵州,云南,泰国等地的直通大巴,注意是直通景区哦,有兴趣的可以多多了解下."}
+{"doc_id": "JZG-T05", "sentence_start": 1527, "reason": "no_explicit_condition_pair", "fragment": "简途旅行APP移动端页面显示,通过扫描下方的二维码可以进入自由选择,了解下也不错哦,说不定以后就有用了."}
+{"doc_id": "JZG-T05", "sentence_start": 1752, "reason": "no_explicit_condition_pair", "fragment": "去九寨沟从成都出发比较方便,虽然九寨沟建有九黄机场,但是机票几乎不打折,着实不划算,最经济的就是从成都坐大巴出发,汽车站的班车往往都不会在中途的美景地停留,且没什么服务可言,真心推荐我们此次选择的'简途旅行'大巴,通过APP直接订购行程,在线选座,在指定集合地点上车,边走边玩,汶川,都江堰,地震遗址,叠溪海子,松潘古城这些点几乎都可以停靠"}
+{"doc_id": "JZG-T05", "sentence_start": 1948, "reason": "no_action", "fragment": "只要你手上有观光车票,可在规定的站点随意上下车."}
+{"doc_id": "JZG-T05", "sentence_start": 1948, "reason": "no_action", "fragment": "只要你手上有观光车票,可在规定的站点随意上下车."}
+{"doc_id": "JZG-T05", "sentence_start": 1948, "reason": "no_explicit_condition_pair", "fragment": "九寨沟内部交通就是沟内的绿色环保观光车,循环开动,就像城市的公交车一样有专门的站点,只要你手上有观光车票,可在规定的站点随意上下车."}
+{"doc_id": "JZG-T05", "sentence_start": 2651, "reason": "no_explicit_condition_pair", "fragment": "这里重点说下在沟内如何解决餐饮,之前看攻略很多建议自带干粮,个人觉得干粮很难饱肚,而且在沟内步行的时候较多,耗费体力多,中午一定需要补充能量."}
+{"doc_id": "JZG-T05", "sentence_start": 2722, "reason": "no_action", "fragment": "只要50元,虽然自助餐味道很一般,但是吃饱完全没问题,个人觉得不算贵."}
+{"doc_id": "JZG-T05", "sentence_start": 2722, "reason": "no_action", "fragment": "只要50元,虽然自助餐味道很一般,但是吃饱完全没问题,个人觉得不算贵."}
+{"doc_id": "JZG-T05", "sentence_start": 2722, "reason": "no_explicit_condition_pair", "fragment": "九寨沟内唯一提供餐饮的地方是诺日朗游客服务中心,去三条沟都要在这换乘,很方便,里面的餐饮是统一经营的,自助餐,价格从60到 128元不等,60元1人的是大众选择最多的,在团购网上搜只要50元,虽然自助餐味道很一般,但是吃饱完全没问题,个人觉得不算贵."}
+{"doc_id": "JZG-T05", "sentence_start": 2873, "reason": "no_explicit_condition_pair", "fragment": "\"简途旅行\"在其APP上也可以订购餐饮,另外在行车中,行车助理会推荐去藏家吃藏餐,注意只是推荐,藏餐有烤羊,烤鸡,烤土豆,青稞酒,糌粑等,这不同于旅行团带去的那种,只是在藏胞们家中吃饭和参观,100多元一位,有兴趣的可以自由选择."}
+{"doc_id": "JZG-T05", "sentence_start": 3427, "reason": "no_explicit_condition_pair", "fragment": "说到购物,一直是九寨沟跟团游黑幕最多的地方,但相信只要不是跟旅行团去都不用杞人忧天."}
+{"doc_id": "JZG-T05", "sentence_start": 3469, "reason": "no_explicit_condition_pair", "fragment": "九寨沟购物主要以土特产,民族风工艺品为主,牦牛肉很不错,九寨沟有很多牦牛肉加工食品专卖店,塑料袋真空包装的牦牛肉可以选几袋回去,九寨沟产的木耳也较好,卖药材的很多,但是质量如何实在不敢评定."}
+{"doc_id": "JZG-T05", "sentence_start": 4016, "reason": "no_explicit_condition_pair", "fragment": "今天还是工作日,但是几个大巴都坐满了,每个乘客的座位都可以提前在\"简途旅行\"的APP上选择,在APP上订购成都到九寨沟的单程车票只需要126元,比大巴车还便宜50元,当然车票是随着季节或节假日波动的,很准时,7点正我们的旅行大巴正式开出."}
+{"doc_id": "JZG-T05", "sentence_start": 4501, "reason": "no_explicit_condition_pair", "fragment": "叠溪海子有着典型的高原风光,偌大的海子映衬着四周的青山绿水,白云在天空肆意的翻滚着,整个海子周边有很多就餐点可以选择,这里也是简途旅行精心挑选的途中吃喝玩乐地,这里的就餐点比较简单,以家常菜为主,价格也适中,比较适合路途中就餐,我们乘坐的旅行大巴在这停留一小时,吃完饭可以在周围随便转转,海子旁边有好几个观景台,都是免费开放的,每个观景台都"}
+{"doc_id": "JZG-T05", "sentence_start": 4915, "reason": "no_explicit_condition_pair", "fragment": "进入古城免费,城内还是很大,商铺也多,古城分内外两城,两城之间有城门相通,松潘古城主要游览点就是古城墙,登上城墙可以一览古城全貌,城墙很长,全部以青砖砌成."}
+{"doc_id": "JZG-T05", "sentence_start": 4993, "reason": "no_action", "fragment": "只要30元,去的时候正遇上松潘古城首届灯会,\"茶马互市\",\"汉藏和亲\"等多组主题各异的灯组安放在古城墙上."}
+{"doc_id": "JZG-T05", "sentence_start": 4993, "reason": "no_action", "fragment": "只要30元,去的时候正遇上松潘古城首届灯会,\"茶马互市\",\"汉藏和亲\"等多组主题各异的灯组安放在古城墙上."}
+{"doc_id": "JZG-T05", "sentence_start": 4993, "reason": "no_explicit_condition_pair", "fragment": "进入城墙门票150元,我们在简途旅行APP上预定的古城墙门票只要30元,去的时候正遇上松潘古城首届灯会,\"茶马互市\",\"汉藏和亲\"等多组主题各异的灯组安放在古城墙上."}
+{"doc_id": "JZG-T05", "sentence_start": 5507, "reason": "no_explicit_condition_pair", "fragment": "山居酒店是成都西姆酒店公司在九寨沟景区打造的一家禅意主题酒店,距九寨沟景区沟口入口3公里,车程8分钟,是一家准四星级酒店,装修很舒服,古典,简约时尚风格,带有中国风的味道,房间里设施齐全,因为九寨沟海拔较高,又是在一条狭长的山谷里,所以在九寨沟住宿最重要的就是选择房间不要太潮湿的,最好不要选择底层的房间,西姆?"}
+{"doc_id": "JZG-T05", "sentence_start": 6036, "reason": "no_explicit_condition_pair", "fragment": "而今晚我选择了\"九寨千古情\",\"九寨千古情\"的门票相对更贵一点,在网上预定的260元一张的普通观众席,演出地在九寨宋城藏羌古城,买了\"九寨千古情\"门票的可以免费进入九寨宋城藏羌古城参观,我之所以选择\"九寨千古情\",除了千古情的演出更为盛大外,更想进入这座九寨沟唯一的大型主题公园去看看."}
+{"doc_id": "JZG-T05", "sentence_start": 7641, "reason": "no_explicit_condition_pair", "fragment": "九寨沟内都是统一的绿色环保观光车,由于原始森林在日则沟的最北端,也是该条观光车的终点站,建议第一站去这,坐到终点站下,在天然森林浴场来个清晨spa,呼吸芬芳潮湿的空气,脚踩柔软深厚的苔藓和落叶,伴随阵阵松涛和鸟语,开始全新一天的九寨之旅."}
+{"doc_id": "JZG-T05", "sentence_start": 8084, "reason": "no_explicit_condition_pair", "fragment": "这里是九寨沟鱼最多的海子,可以欣赏到九寨沟特有的高山裸鲤鱼."}
+{"doc_id": "JZG-T05", "sentence_start": 8211, "reason": "no_explicit_condition_pair", "fragment": "沿熊猫海栈道可以走入九寨沟落差最大的熊猫海瀑布,在观景台上欣赏气势如虹的激流."}
+{"doc_id": "JZG-T05", "sentence_start": 8954, "reason": "unresolved_reference", "fragment": "如果追求拍风景大片的建议一早就先到这."}
+{"doc_id": "JZG-T05", "sentence_start": 8954, "reason": "no_explicit_condition_pair", "fragment": "晴日无风时,水面光滑如镜,尤其是清晨无风时的倒影最美,如果追求拍风景大片的建议一早就先到这."}
+{"doc_id": "JZG-T05", "sentence_start": 9188, "reason": "no_explicit_condition_pair", "fragment": "餐饮统一由九寨沟联合经营公司管理,提供的是自助餐,价格从60到 128元不等,60元1人的是大众选择,个人觉得纯粹靠干粮解决午餐是不可行的,因为九寨沟内步行时候较多,耗费体力,中午需要补充能量,虽然自助餐味道很一般,但是吃饱完全没问题,而且在网上搜下团购还要省10元,餐厅内有插座可以充电,还可以顺便休息下,养精蓄锐,因为下午要走的树正沟步"}
+{"doc_id": "JZG-T05", "sentence_start": 10966, "reason": "no_explicit_condition_pair", "fragment": "火花海和双龙海之间有条联系公路和山的栈道,有很多小瀑布,可以近距离观察水流颜色,时间充足的可多走走这里的栈道,因为火花海看完后基本上就没什么景点了,根据时间自由选择."}
+{"doc_id": "JZG-T05", "sentence_start": 11074, "reason": "no_action", "fragment": "如果不坐观光车的话可以一直步行到芦苇海,距离较远,芦苇海湖中芦苇丛生,一股清流从成片的芦苇中间蜿蜓流过,秋冬之际,芦苇一色金黄,夺人心目."}
+{"doc_id": "JZG-T05", "sentence_start": 11074, "reason": "no_action", "fragment": "如果不坐观光车的话可以一直步行到芦苇海,距离较远,芦苇海湖中芦苇丛生,一股清流从成片的芦苇中间蜿蜓流过,秋冬之际,芦苇一色金黄,夺人心目."}
+{"doc_id": "JZG-T05", "sentence_start": 12314, "reason": "no_explicit_condition_pair", "fragment": "春熙路还是成都打望美女的最佳地,最繁华热闹的商业步行街,逛累了可以坐在街边的咖啡店观景,或观赏路面的掠影浮雕."}
+{"doc_id": "JZG-T05", "sentence_start": 13373, "reason": "no_explicit_condition_pair", "fragment": "推荐2家美食店,窄巷子11号的大妙火锅,菜单是用竹简做成的,晚上有表演变脸,贵妃醉酒等,可以边看变脸边听戏边吃火锅;"}
+{"doc_id": "JZG-T05", "sentence_start": 13639, "reason": "no_explicit_condition_pair", "fragment": "待的长一点的则推荐去茶馆和酒吧坐坐,茶是大碗茶,吃饭喝茶还可以看表演,喝茶加看表演一般50元一位."}
+{"doc_id": "JZG-T05", "sentence_start": 14035, "reason": "no_explicit_condition_pair", "fragment": "环境清幽宁静,如果想看得更真切点和了解些唐诗文化可多转转."}
+{"doc_id": "JZG-T05", "sentence_start": 14197, "reason": "no_explicit_condition_pair", "fragment": "可以网上预定票务,在官网上专门有网上预约订票通道,但只要不是节假日前往很好领票的."}
+{"doc_id": "JZG-T05", "sentence_start": 14238, "reason": "no_explicit_condition_pair", "fragment": "里面的文物真心超多,如果是博物馆控没得半天时间是看不完的."}
+{"doc_id": "JZG-T05", "sentence_start": 15281, "reason": "no_explicit_condition_pair", "fragment": "绝对是来成都值得游览的景点,并不是说公园风景有好好,而是这里最能体会成都人的市井生活,看着在这里喂鱼,掏耳朵,唱歌跳舞的老人们,感觉整个时间都慢了下来,你也可以在公园内小憩发呆,或尝试下成都特色的掏耳朵,才会不虚此行."}
+{"doc_id": "ZJJ-T02", "sentence_start": 230, "reason": "modal_as_condition_or_late_action", "fragment": "如果不是腿脚有问题,时间也允许,最好还是徒步游览,那样才能更好地感受人在画中游的惬意."}
+{"doc_id": "ZJJ-T02", "sentence_start": 230, "reason": "modal_as_condition_or_late_action", "fragment": "如果不是腿脚有问题,时间也允许,最好还是徒步游览,那样才能更好地感受人在画中游的惬意."}
+{"doc_id": "ZJJ-T02", "sentence_start": 547, "reason": "no_explicit_condition_pair", "fragment": "游过天子山的人不要试图告诉还未来过天子山的人天子山有多美,而应建议他们亲自到天子山来看一看,我相信任何来过天子山的人都会觉得不虚此行."}
+{"doc_id": "ZJJ-T03", "sentence_start": 317, "reason": "no_explicit_condition_pair", "fragment": "也可以订怀化到杭州的高铁,不过学妈因为有平台奖励的来回各500元飞机票抵价券,又可以带娃打卡新地界,虽然略辛苦,但还是选择芷江机场返程,710元一人,两人1420."}
+{"doc_id": "ZJJ-T03", "sentence_start": 487, "reason": "no_explicit_condition_pair", "fragment": "穿运动鞋,行李箱备凉鞋各一,白天山路走多了脚胀,晚间逛街,散步等可以换个凉鞋松松脚;"}
+{"doc_id": "ZJJ-T03", "sentence_start": 529, "reason": "no_explicit_condition_pair", "fragment": "雨伞,薄雨披,晴雨都是可以用上的,别小看雨披,第四日缆车到达森林公园天子山上时,幸好在景区门口附近的摊上买了两件薄雨披上去,山上真的很冷,雨披防风又保暖,后来还真的下大雨了,山上风大,雨披+雨伞真的很有必要."}
+{"doc_id": "ZJJ-T03", "sentence_start": 690, "reason": "no_explicit_condition_pair", "fragment": "可以根据个人情况带点药物,我和娃都比较容易上火,并且最担心的是到了外面拉肚子,所以带了清热解毒的药和止泻药."}
+{"doc_id": "ZJJ-T03", "sentence_start": 1086, "reason": "no_explicit_condition_pair", "fragment": "另,部分景区售票处附近会有人在悄悄在卖旅行社出来的低价票也是真的,不过可能需要跟着团队入园吧,还有可以入住的客栈老板也能代购部分景点的优惠票."}
+{"doc_id": "ZJJ-T03", "sentence_start": 1217, "reason": "no_explicit_condition_pair", "fragment": "下午14:30杭州武林门民航售票处乘坐机场大巴,大约三小时到达上海浦东机场,到达国内侯机大厅后先办理登机牌和托运,然后前往位于8号门附近的上海机场贵宾服务公司办理贵宾服务,可以免排队过安检,安检后直接进的是9号贵宾厅,正好饭点,贵宾厅正餐时间提供餐食,我们的航班是20:20的,实际晚点了半小时起飞,所以亲子出行的话约个贵宾厅还是会轻松一些"}
+{"doc_id": "ZJJ-T03", "sentence_start": 2639, "reason": "no_explicit_condition_pair", "fragment": "沿着这道可以走到穿山电梯."}
+{"doc_id": "ZJJ-T03", "sentence_start": 2707, "reason": "no_explicit_condition_pair", "fragment": "从天门洞到天门洞广场这一段999阶梯,我们选择了步行,因为阶梯非常陡,从上面看下来感觉很短,实际上很长,且每个阶梯都比鞋底窄,所以走阶梯建议脚侧着走,会有恐高感,但是这种体验非常的奇妙,甚至是神圣的."}
+{"doc_id": "ZJJ-T03", "sentence_start": 3413, "reason": "no_explicit_condition_pair", "fragment": "聆听完掌柜的行程建议,出发去千古情景区,滴滴6元."}
+{"doc_id": "ZJJ-T03", "sentence_start": 4756, "reason": "prediction_not_advice", "fragment": "一旦尽兴,就有可能湿身哦."}
+{"doc_id": "ZJJ-T03", "sentence_start": 4756, "reason": "prediction_not_advice", "fragment": "一旦尽兴,就有可能湿身哦."}
+{"doc_id": "ZJJ-T03", "sentence_start": 4756, "reason": "no_explicit_condition_pair", "fragment": "泡泡大作战,大人小孩子都会超级嗨的,在这里顺便提一下,去千古情游玩,我一般都会多带几套轻薄的衣服,因为有好多项目一旦尽兴,就有可能湿身哦."}
+{"doc_id": "ZJJ-T03", "sentence_start": 4833, "reason": "no_explicit_condition_pair", "fragment": "5米以下小朋友的快乐空间,感觉小宝贝们进了这里就象是被磁吸了一般,可以一整天不离开,入园的孩子都是免费畅玩的,守纪律排队就可以咯~爸爸妈妈不用担心,在烂苹果乐园里有超大面积的舒适的书吧,都是可以让大人和孩子在这里休憩的."}
+{"doc_id": "ZJJ-T03", "sentence_start": 4943, "reason": "no_explicit_condition_pair", "fragment": "当然,家长们还可以在烂苹果乐园的另一头,体验一下当地颇有特色的民间绝活儿\"采耳\",在我国民间一直流传着\"三大快活似神仙\"般的消遣活动,分别是洗澡,捏脚和掏耳朵."}
+{"doc_id": "ZJJ-T03", "sentence_start": 5159, "reason": "no_explicit_condition_pair", "fragment": "绳网索道的下方是一大片人工沙滩,小孩子可以这里玩沙子."}
+{"doc_id": "ZJJ-T03", "sentence_start": 5186, "reason": "prediction_not_advice", "fragment": "怕湿身的,记得给自己和娃们都带上换的衣服,可以玩的肆意又放纵."}
+{"doc_id": "ZJJ-T03", "sentence_start": 5228, "reason": "no_explicit_condition_pair", "fragment": "景区内最凉爽的地域在清明上河图的观景场馆,在近200平方米的幕布上的动态画卷徐徐展开,近千名形态各异的人物,通过动态环境的组合,将繁忙的漕运,喧闹的街市,祥和的宅院以及昼夜交替表现得惟妙惟肖,展现了盛世宋朝的都市风情,也是张家界千古情景区的一大亮点我家学娃人生第一次进了鬼屋,之前在杭州宋城,杭州乐园都是因为身高不到而没有进场,今年小家伙一"}
+{"doc_id": "ZJJ-T03", "sentence_start": 5504, "reason": "no_explicit_condition_pair", "fragment": "\"哈哈哈~呼风唤雨风暴馆,体验风暴来临时的场景,入场记得要穿雨披,一次性雨披现场价5元一件,此外最好是把鞋子脱掉进场哦,因为一定会湿鞋,学娃进去体验了,感觉很刺激."}
+{"doc_id": "ZJJ-T03", "sentence_start": 6009, "reason": "no_explicit_condition_pair", "fragment": "游客都可以亲身体验."}
+{"doc_id": "ZJJ-T03", "sentence_start": 6288, "reason": "no_explicit_condition_pair", "fragment": "我们中午12:00左右入园的,基本玩的看的不重复,晚上6:40离开,还是错过了一场民族快闪秀,所以建议千古情游览可以安排6小时以上."}
+{"doc_id": "ZJJ-T03", "sentence_start": 6707, "reason": "no_explicit_condition_pair", "fragment": "这里想说一下袄,网上好多消息说张家界的景区没人带很难走,事实上根本不会,地图拿好,建议简版的手绘地图最好,你会发现森林公园全线都有景区大巴环线通车的,所以也就是说,你根本走丢不了,也不用担心走不动,景区大巴是免费的."}
+{"doc_id": "ZJJ-T03", "sentence_start": 7725, "reason": "no_explicit_condition_pair", "fragment": "最后再吐糟一下百龙电梯,哈哈,各位,外面看看就好了,不要进去乘了,成人票价65,学生33 ,售票口到电梯要走很长的通道,当天下雨不用排队,走就可以了."}
+{"doc_id": "ZJJ-T03", "sentence_start": 8044, "reason": "modal_as_condition_or_late_action", "fragment": "如果游览大峡谷的话线路是单行的,全程三小时,我们都走不动了,另外下午14:30的车去凤凰,所以就只走了玻璃桥,游览玻璃桥要过安检,相机是不可以带入的哦"}
+{"doc_id": "ZJJ-T03", "sentence_start": 8044, "reason": "modal_as_condition_or_late_action", "fragment": "如果游览大峡谷的话线路是单行的,全程三小时,我们都走不动了,另外下午14:30的车去凤凰,所以就只走了玻璃桥,游览玻璃桥要过安检,相机是不可以带入的哦"}
+{"doc_id": "ZJJ-T03", "sentence_start": 8044, "reason": "no_explicit_condition_pair", "fragment": "如果游览大峡谷的话线路是单行的,全程三小时,我们都走不动了,另外下午14:30的车去凤凰,所以就只走了玻璃桥,游览玻璃桥要过安检,相机是不可以带入的哦!"}
+{"doc_id": "ZJJ-T03", "sentence_start": 8120, "reason": "no_action", "fragment": "只要报名参加就返门票,不过学妈没有勇气参加,哈哈~中午回到武陵寻梦客栈,相处了三天的客栈老板娘邀请我一起吃午饭,还在她家换上民族服装拍了照片留念."}
+{"doc_id": "ZJJ-T03", "sentence_start": 8120, "reason": "no_action", "fragment": "只要报名参加就返门票,不过学妈没有勇气参加,哈哈~中午回到武陵寻梦客栈,相处了三天的客栈老板娘邀请我一起吃午饭,还在她家换上民族服装拍了照片留念."}
+{"doc_id": "ZJJ-T03", "sentence_start": 8120, "reason": "no_explicit_condition_pair", "fragment": "所以学妈只能手机拍两张,虽然买了套票只看了玻璃桥,但还是觉得很值得的,正好湖南卫视在现场拍\"峡谷大闯关\",只要报名参加就返门票,不过学妈没有勇气参加,哈哈~中午回到武陵寻梦客栈,相处了三天的客栈老板娘邀请我一起吃午饭,还在她家换上民族服装拍了照片留念."}
+{"doc_id": "ZJJ-T03", "sentence_start": 8305, "reason": "no_explicit_condition_pair", "fragment": "从武陵源到凤凰古城约3个多小时,非常赞的是,大巴车上居然有导游,是一位苗族的姑娘,人非常的好,完全是导游式的讲解,把凤凰古城介绍得通透,细到讨价还价的技巧等等,我在她这里订了\"边城\"的演出票,晚上取票后发现给到的座位居然是二排居中,最好的位置!"}
+{"doc_id": "ZJJ-T03", "sentence_start": 8616, "reason": "no_action", "fragment": "只要一个晚上加半个白天就好了,古城的夜景确实很美"}
+{"doc_id": "ZJJ-T03", "sentence_start": 8616, "reason": "no_action", "fragment": "只要一个晚上加半个白天就好了,古城的夜景确实很美"}
+{"doc_id": "ZJJ-T03", "sentence_start": 8616, "reason": "no_explicit_condition_pair", "fragment": "凤凰古城的玩法通常说只要一个晚上加半个白天就好了,古城的夜景确实很美!"}
+{"doc_id": "ZJJ-T04", "sentence_start": 37, "reason": "no_explicit_condition_pair", "fragment": "跟前面一样,已经过去5年的游记应该就只有完整性的需求以及制作明信片的意义了."}
+{"doc_id": "ZJJ-T04", "sentence_start": 195, "reason": "no_explicit_condition_pair", "fragment": "然后再迁移其他的,银子岩的游记后面应该会找个时间来迁移."}
+{"doc_id": "ZJJ-T04", "sentence_start": 372, "reason": "no_explicit_condition_pair", "fragment": "交通便利,黄龙洞只需要坐1路公交车就可以直接到达,而龙王洞更远,应该需要再接驳;"}
+{"doc_id": "ZJJ-T04", "sentence_start": 414, "reason": "no_explicit_condition_pair", "fragment": "也是最主要的一点,实际上,从找到的资料来看,黄龙洞更加有名气,感觉应该会更好."}
+{"doc_id": "ZJJ-T04", "sentence_start": 525, "reason": "no_explicit_condition_pair", "fragment": "我们也决定试下青年旅馆的饭菜,所以也预定晚餐在青年旅舍吃),坐2路公交车(忘记了是不是那个售票员阿姨了,我记得有一次不是)到武陵源天子山入口处(其实也就是我们从森林公园下来的地方),改乘1路公交车去黄龙洞(终点站)."}
+{"doc_id": "ZJJ-T04", "sentence_start": 765, "reason": "no_explicit_condition_pair", "fragment": "下车后进入景区前需要经过买特产的一条街哦,那里可是可以一路吃过去的说(价钱嘛,相比森林公园应该还是合理很多)."}
+{"doc_id": "ZJJ-T04", "sentence_start": 1124, "reason": "no_explicit_condition_pair", "fragment": "当然啦,外景上最大的特点还是大大小小的水车哦[没想到出现在这里呢,还可以了解下水车历史以及其运作原理],都在运作灌溉中,不是无用的摆设哦."}
+{"doc_id": "ZJJ-T04", "sentence_start": 1760, "reason": "no_explicit_condition_pair", "fragment": "龙泉,在水车拼图上中间那幅的上游,水应该从这里流下,另外,这里有路上山,旁边也有个洞口,现在猜想,可能是进入黄龙洞的几个出入口都说不定."}
+{"doc_id": "ZJJ-T04", "sentence_start": 1927, "reason": "no_explicit_condition_pair", "fragment": "这里由于上过楼梯了,这里可以俯瞰,从另外的角度看下我们走过来的路."}
+{"doc_id": "ZJJ-T04", "sentence_start": 1998, "reason": "no_explicit_condition_pair", "fragment": "可以看到,洞口左边其实还是碑刻\n"}
+{"doc_id": "ZJJ-T04", "sentence_start": 2319, "reason": "no_explicit_condition_pair", "fragment": "这里对比后面的景观其实比较一般哦,不过可以看到各种石笋跟石钟乳\n"}
+{"doc_id": "ZJJ-T04", "sentence_start": 3051, "reason": "no_explicit_condition_pair", "fragment": "如此近距离观察并且可以抚摸的机会哥是绝对不会放过的\n"}
+{"doc_id": "ZJJ-T04", "sentence_start": 3359, "reason": "no_explicit_condition_pair", "fragment": "这里可以看到卧松奇观,看到天仙水瀑布,看到万丘龙田(过桥前见过,当然这里规模会大点),当然也可以看到黄土高坡."}
+{"doc_id": "ZJJ-T04", "sentence_start": 3550, "reason": "no_explicit_condition_pair", "fragment": "我是完全没想到可以坐船的哦."}
+{"doc_id": "ZJJ-T04", "sentence_start": 3636, "reason": "no_explicit_condition_pair", "fragment": "我们在这里等了有半个小时,终于可以上船."}
+{"doc_id": "ZJJ-T05", "sentence_start": 467, "reason": "hypothetical_or_retrospective", "fragment": "如果说森林公园属于张家界郊区的话,那么张家界大峡谷和玻璃桥就是远郊,需要一整天的时间."}
+{"doc_id": "ZJJ-T05", "sentence_start": 467, "reason": "hypothetical_or_retrospective", "fragment": "如果说森林公园属于张家界郊区的话,那么张家界大峡谷和玻璃桥就是远郊,需要一整天的时间."}
+{"doc_id": "ZJJ-T05", "sentence_start": 467, "reason": "no_explicit_condition_pair", "fragment": "如果说森林公园属于张家界郊区的话,那么张家界大峡谷和玻璃桥就是远郊,需要一整天的时间."}
+{"doc_id": "ZJJ-T05", "sentence_start": 547, "reason": "no_explicit_condition_pair", "fragment": "插一句,去张家界的时间,三月下半月至五一节之前去最好,温度适中,其实四月开始游人就多了,五六月份山上就开始出蛇了,有毒蛇."}
+{"doc_id": "ZJJ-T05", "sentence_start": 608, "reason": "no_explicit_condition_pair", "fragment": "秋天应该也有一段时间是合适的,我是三月底去的\n"}
+{"doc_id": "ZJJ-T05", "sentence_start": 957, "reason": "no_explicit_condition_pair", "fragment": "建议先联系客栈,看有没有免费接机服务,我约的那家客栈可以接机,但我没提前联系导致非常波折的差点没坐上公交末班车(网查末班车时间1930,但实际是1900)."}
+{"doc_id": "ZJJ-T05", "sentence_start": 1121, "reason": "no_explicit_condition_pair", "fragment": "1, 张家界的生活节奏相对较慢,也就是说当地人过的很悠闲,但你是背包客,是来旅游的,行程也比较紧凑,而且从市区到森林公园有一个多小时的车程,所以还是尽量赶上最早一班的长途汽车,最早一班好像是八点\n"}
+{"doc_id": "ZJJ-T05", "sentence_start": 1219, "reason": "no_explicit_condition_pair", "fragment": "2, 当地人可能会建议你,某个山头可以爬上去索道下或是索道上走下来."}
+{"doc_id": "ZJJ-T05", "sentence_start": 2054, "reason": "no_action", "fragment": "如果不是雾太大也就走下来了),而且这两个山爬完后,还会计划想再去黄山或是去华山,庐山那些没有爬过的山."}
+{"doc_id": "ZJJ-T05", "sentence_start": 2054, "reason": "no_action", "fragment": "如果不是雾太大也就走下来了),而且这两个山爬完后,还会计划想再去黄山或是去华山,庐山那些没有爬过的山."}
+{"doc_id": "ZJJ-T05", "sentence_start": 2054, "reason": "no_explicit_condition_pair", "fragment": "黄山,我是从前山(较陡)爬上去的(约八个多小时),坐索道下来(如果不是雾太大也就走下来了),而且这两个山爬完后,还会计划想再去黄山或是去华山,庐山那些没有爬过的山."}
+{"doc_id": "ZJJ-T05", "sentence_start": 2313, "reason": "no_action", "fragment": "只要确定好每个目的地)到三岔口,三岔口丁香榕村那有很多的客栈(距离大观台一两公里),但要定老屋场附近的."}
+{"doc_id": "ZJJ-T05", "sentence_start": 2313, "reason": "no_action", "fragment": "只要确定好每个目的地)到三岔口,三岔口丁香榕村那有很多的客栈(距离大观台一两公里),但要定老屋场附近的."}
+{"doc_id": "ZJJ-T05", "sentence_start": 2313, "reason": "no_explicit_condition_pair", "fragment": "然后乘坐大约30分钟的环保车(环保车均为免费无限次乘坐,只要确定好每个目的地)到三岔口,三岔口丁香榕村那有很多的客栈(距离大观台一两公里),但要定老屋场附近的."}
+{"doc_id": "ZJJ-T05", "sentence_start": 2393, "reason": "modal_as_condition_or_late_action", "fragment": "如果住在了丁香榕村,距离老屋场还比较远差不多一两公里,要想第二天早上看日出,还需要几个人合伙包车去老屋场,人均要三五十元."}
+{"doc_id": "ZJJ-T05", "sentence_start": 2393, "reason": "modal_as_condition_or_late_action", "fragment": "如果住在了丁香榕村,距离老屋场还比较远差不多一两公里,要想第二天早上看日出,还需要几个人合伙包车去老屋场,人均要三五十元."}
+{"doc_id": "ZJJ-T05", "sentence_start": 2612, "reason": "no_explicit_condition_pair", "fragment": "收拾行李去三岔口,坐环保车至杨家界,从客栈走之前可以把行李托运至山下的客栈,二三十元一件,挺方便."}
+{"doc_id": "ZJJ-T05", "sentence_start": 2793, "reason": "no_explicit_condition_pair", "fragment": "天波府门口的小摊可以寄存行李,根据行李的大小,三五元钱一件,很方便."}
+{"doc_id": "ZJJ-T05", "sentence_start": 3189, "reason": "no_explicit_condition_pair", "fragment": "徒步下天子山的时候,路过天台这个景点,上了天台可以看湖."}
+{"doc_id": "ZJJ-T05", "sentence_start": 3473, "reason": "no_explicit_condition_pair", "fragment": "这一天是整个张家界旅游的大鸡肋,首先是自由行玻璃桥的票非常难买,应该至少要提前六天网上订,我习惯自由行时把行程安排的宽裕机动一些所以没有网上订,在张家界玩了两天发现,玻璃桥的票已经买不上了,只有捆绑大峡谷的套票(218元/人),而且也要提前一天,我们找客栈老板订的,去玻璃桥还要分时间段,上午段和下午段等,提前到进不去,过点到也进不去."}
+{"doc_id": "ZJJ-T05", "sentence_start": 3769, "reason": "no_explicit_condition_pair", "fragment": "天门山顶分西线和东线,一般先游览西线,时间充裕的话可以再游览东线."}
+{"doc_id": "ZJJ-T05", "sentence_start": 3921, "reason": "no_action", "fragment": "如果是晴天,感觉会吓尿."}
+{"doc_id": "ZJJ-T05", "sentence_start": 3921, "reason": "no_action", "fragment": "如果是晴天,感觉会吓尿."}
+{"doc_id": "ZJJ-T05", "sentence_start": 3921, "reason": "no_explicit_condition_pair", "fragment": "即便有雾,我也能感受到下面万丈深渊,如果是晴天,感觉会吓尿."}
+{"doc_id": "ZJJ-T05", "sentence_start": 4192, "reason": "no_explicit_condition_pair", "fragment": "其实凤凰古城区很小,从东头走到西头也就两公里的路程,行李不多的话,从长途站完全可以步行到客栈,因为车是不允许进去古城区的,我们坐了几站公交车,事实上还是在古城的边缘,还是要走一公里的路到客栈."}

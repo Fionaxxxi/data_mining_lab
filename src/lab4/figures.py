@@ -25,6 +25,6 @@ def svg(name, title, rows):
     (fig / name).write_text(''.join(parts), encoding='utf8')
 
 
-svg('evaluation.svg', 'ʵ�����˹�����ͳ��', [('ԭ����������', '60'), ('����������б�', full['candidate_count']), ('��ȷ��ָ���ǹ�ָ', f"{full['status_counts']['resolved']} / {full['status_counts']['noncoref']}"), ('��ȷ������ָ', f"{full['status_counts']['uncertain']} / {full['status_counts']['cataphora']}"), ('���ж�������ȷ', f"{full['correct']} / {full['scored_count']} = {full['accuracy']:.1%}"), ('��ȷ��ָ����', f"{full['resolvable_covered']} / {full['resolvable_count']} = {full['resolvable_coverage']:.1%}")])
-svg('resolution.svg', '��ָ��������֤', [('����', examples[0]['id']), ('ԭ�ľֲ�', '���ڵ��Ϲ����������ǻ�ɽ�ڶ��߷�'), ('�˹����д�', examples[0]['gold']), ('����Ԥ��', examples[0]['prediction']), ('�ж�', '��ȷ����Ӧԭ���ַ�λ�ÿ��� JSONL ����')])
-svg('error.svg', 'ʣ������', [('����', examples[1]['id']), ('ԭ�ľֲ�', '�������żҽ����ξ�����������������������ɽ���'), ('�˹����д�', examples[1]['gold']), ('����Ԥ��', examples[1]['prediction']), ('ԭ��', '�����������Ȳ�һ�£�����ȷ�ַ�����Ϊ����')])
+svg('evaluation.svg', '实验四人工核验统计', [('原文正则命中', '60'), ('进入待消解列表', full['candidate_count']), ('明确共指／非共指', f"{full['status_counts']['resolved']} / {full['status_counts']['noncoref']}"), ('不确定／后指', f"{full['status_counts']['uncertain']} / {full['status_counts']['cataphora']}"), ('可判定样本正确', f"{full['correct']} / {full['scored_count']} = {full['accuracy']:.1%}"), ('明确共指覆盖', f"{full['resolvable_covered']} / {full['resolvable_count']} = {full['resolvable_coverage']:.1%}")])
+svg('resolution.svg', '共指消解结果例证', [('样本', examples[0]['id']), ('原文局部', '终于登上光明顶，它是黄山第二高峰'), ('人工先行词', examples[0]['gold']), ('规则预测', examples[0]['prediction']), ('判定', '正确；对应原文字符位置可在 JSONL 核验')])
+svg('error.svg', '剩余误差案例', [('样本', examples[1]['id']), ('原文局部', '赴湖南张家界旅游景区游览……饱览了那里奇山异峰'), ('人工先行词', examples[1]['gold']), ('规则预测', examples[1]['prediction']), ('原因', '景区名称粒度不一致；按精确字符串计为错误')])
