@@ -1,0 +1,9 @@
+[IndustryCorpus2] 下载: https://www.modelscope.cn/api/v1/datasets/BAAI/IndustryCorpus2/repo?Revision=master&FilePath=accommodation_catering_hotel/chinese/low/rank_00139.parquet
+[IndustryCorpus2] 下载完成 44.1 MB
+[IndustryCorpus2] 总行数: 28431 列: ['text', 'alnum_ratio', 'avg_line_length', 'char_rep_ratio', 'flagged_words_ratio', 'max_line_length', 'num_words', 'perplexity', 'quality_score', 'special_char_ratio', 'word_rep_ratio', '_id', 'industry_type']
+[IndustryCorpus2] 命中旅游关键词行数: 3999
+[IndustryCorpus2] 写出 40 条 -> C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\data\processed\industrycorpus_tourism_sample.json
+------------------------------------------------------------
+精彩大马戏,玩转红树湾 澄迈富力希尔顿逸林度假酒店 客房+早餐+湿地公园门票+儿童马戏团 ■ 抢购套餐内容: 入住逸林景观 客房1间1晚 ; 含次日2位成人和1位5岁以下儿童小希尔顿 自助早餐 ; 含一次2位成人和1位5岁以下儿童红树林 湿地公园门票 ; 含一次2位成人和1位5岁以下儿童 马戏团观演门票 (2月3日-9日第一场14:30-16:00 第二场16:30-18:00,2月10日第一场11:00-12:30 第二场14:30-16:00,红树湾健步公园星空营地); ■ 包含其他内容 畅
+------------------------------------------------------------
+宜兰饭店民宿虽然选择很多,不过遇到假日评价高的饭店常常一房难求 矗立在罗东车站旁,非常醒目,晚上更是光芒耀眼. 一进大厅采挑高设计,风格现代简约,简单但又不失气派,房客虽然多但不显壅挤, 之前听说假日人多时check in要等很久,不过我们这天排队20分钟左右可以入房,觉得还OK. 🔻 傍晚房客比较少的时候的大厅. 地下室停车场,也满宽敞明亮 没开车但要载行李的话,饭店9:00-17:30提供免费接驳车到罗东火车站 但订房时要先预约唷! 村却国际温泉酒店经典双人房型 村却国际温泉酒店采现代简约风

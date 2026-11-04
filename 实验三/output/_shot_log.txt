@@ -1,0 +1,697 @@
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 29228 (\N{CJK UNIFIED IDEOGRAPH-722C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 34411 (\N{CJK UNIFIED IDEOGRAPH-866B}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 37319 (\N{CJK UNIFIED IDEOGRAPH-91C7}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 38598 (\N{CJK UNIFIED IDEOGRAPH-96C6}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20061 (\N{CJK UNIFIED IDEOGRAPH-4E5D}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23528 (\N{CJK UNIFIED IDEOGRAPH-5BE8}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27807 (\N{CJK UNIFIED IDEOGRAPH-6C9F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24352 (\N{CJK UNIFIED IDEOGRAPH-5F20}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23478 (\N{CJK UNIFIED IDEOGRAPH-5BB6}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 30028 (\N{CJK UNIFIED IDEOGRAPH-754C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23448 (\N{CJK UNIFIED IDEOGRAPH-5B98}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26041 (\N{CJK UNIFIED IDEOGRAPH-65B9}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 31449 (\N{CJK UNIFIED IDEOGRAPH-7AD9}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22833 (\N{CJK UNIFIED IDEOGRAPH-5931}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36133 (\N{CJK UNIFIED IDEOGRAPH-8D25}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 34987 (\N{CJK UNIFIED IDEOGRAPH-88AB}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25318 (\N{CJK UNIFIED IDEOGRAPH-62E6}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25130 (\N{CJK UNIFIED IDEOGRAPH-622A}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27491 (\N{CJK UNIFIED IDEOGRAPH-6B63}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25991 (\N{CJK UNIFIED IDEOGRAPH-6587}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27573 (\N{CJK UNIFIED IDEOGRAPH-6BB5}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26053 (\N{CJK UNIFIED IDEOGRAPH-65C5}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28216 (\N{CJK UNIFIED IDEOGRAPH-6E38}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 30456 (\N{CJK UNIFIED IDEOGRAPH-76F8}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20851 (\N{CJK UNIFIED IDEOGRAPH-5173}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23436 (\N{CJK UNIFIED IDEOGRAPH-5B8C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25104 (\N{CJK UNIFIED IDEOGRAPH-6210}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21151 (\N{CJK UNIFIED IDEOGRAPH-529F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36755 (\N{CJK UNIFIED IDEOGRAPH-8F93}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20986 (\N{CJK UNIFIED IDEOGRAPH-51FA}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23454 (\N{CJK UNIFIED IDEOGRAPH-5B9E}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 39564 (\N{CJK UNIFIED IDEOGRAPH-9A8C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 19977 (\N{CJK UNIFIED IDEOGRAPH-4E09}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35272 (\N{CJK UNIFIED IDEOGRAPH-89C8}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36335 (\N{CJK UNIFIED IDEOGRAPH-8DEF}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23618 (\N{CJK UNIFIED IDEOGRAPH-5C42}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 32423 (\N{CJK UNIFIED IDEOGRAPH-7EA7}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 32467 (\N{CJK UNIFIED IDEOGRAPH-7ED3}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26500 (\N{CJK UNIFIED IDEOGRAPH-6784}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25366 (\N{CJK UNIFIED IDEOGRAPH-6316}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25496 (\N{CJK UNIFIED IDEOGRAPH-6398}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21152 (\N{CJK UNIFIED IDEOGRAPH-52A0}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36733 (\N{CJK UNIFIED IDEOGRAPH-8F7D}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25945 (\N{CJK UNIFIED IDEOGRAPH-6559}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24072 (\N{CJK UNIFIED IDEOGRAPH-5E08}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25454 (\N{CJK UNIFIED IDEOGRAPH-636E}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20351 (\N{CJK UNIFIED IDEOGRAPH-4F7F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 29992 (\N{CJK UNIFIED IDEOGRAPH-7528}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24050 (\N{CJK UNIFIED IDEOGRAPH-5DF2}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 32531 (\N{CJK UNIFIED IDEOGRAPH-7F13}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23384 (\N{CJK UNIFIED IDEOGRAPH-5B58}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24635 (\N{CJK UNIFIED IDEOGRAPH-603B}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 34892 (\N{CJK UNIFIED IDEOGRAPH-884C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21015 (\N{CJK UNIFIED IDEOGRAPH-5217}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21629 (\N{CJK UNIFIED IDEOGRAPH-547D}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20013 (\N{CJK UNIFIED IDEOGRAPH-4E2D}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 38190 (\N{CJK UNIFIED IDEOGRAPH-952E}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35789 (\N{CJK UNIFIED IDEOGRAPH-8BCD}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20889 (\N{CJK UNIFIED IDEOGRAPH-5199}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26465 (\N{CJK UNIFIED IDEOGRAPH-6761}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 31934 (\N{CJK UNIFIED IDEOGRAPH-7CBE}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24425 (\N{CJK UNIFIED IDEOGRAPH-5F69}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22823 (\N{CJK UNIFIED IDEOGRAPH-5927}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 39532 (\N{CJK UNIFIED IDEOGRAPH-9A6C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25103 (\N{CJK UNIFIED IDEOGRAPH-620F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 29609 (\N{CJK UNIFIED IDEOGRAPH-73A9}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36716 (\N{CJK UNIFIED IDEOGRAPH-8F6C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 32418 (\N{CJK UNIFIED IDEOGRAPH-7EA2}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26641 (\N{CJK UNIFIED IDEOGRAPH-6811}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28286 (\N{CJK UNIFIED IDEOGRAPH-6E7E}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28548 (\N{CJK UNIFIED IDEOGRAPH-6F84}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36808 (\N{CJK UNIFIED IDEOGRAPH-8FC8}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23500 (\N{CJK UNIFIED IDEOGRAPH-5BCC}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21147 (\N{CJK UNIFIED IDEOGRAPH-529B}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24076 (\N{CJK UNIFIED IDEOGRAPH-5E0C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23572 (\N{CJK UNIFIED IDEOGRAPH-5C14}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 39039 (\N{CJK UNIFIED IDEOGRAPH-987F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36920 (\N{CJK UNIFIED IDEOGRAPH-9038}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26519 (\N{CJK UNIFIED IDEOGRAPH-6797}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24230 (\N{CJK UNIFIED IDEOGRAPH-5EA6}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20551 (\N{CJK UNIFIED IDEOGRAPH-5047}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 37202 (\N{CJK UNIFIED IDEOGRAPH-9152}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24215 (\N{CJK UNIFIED IDEOGRAPH-5E97}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23458 (\N{CJK UNIFIED IDEOGRAPH-5BA2}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25151 (\N{CJK UNIFIED IDEOGRAPH-623F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26089 (\N{CJK UNIFIED IDEOGRAPH-65E9}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 39184 (\N{CJK UNIFIED IDEOGRAPH-9910}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28287 (\N{CJK UNIFIED IDEOGRAPH-6E7F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22320 (\N{CJK UNIFIED IDEOGRAPH-5730}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20844 (\N{CJK UNIFIED IDEOGRAPH-516C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22253 (\N{CJK UNIFIED IDEOGRAPH-56ED}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 38376 (\N{CJK UNIFIED IDEOGRAPH-95E8}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 31080 (\N{CJK UNIFIED IDEOGRAPH-7968}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20799 (\N{CJK UNIFIED IDEOGRAPH-513F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 31461 (\N{CJK UNIFIED IDEOGRAPH-7AE5}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22242 (\N{CJK UNIFIED IDEOGRAPH-56E2}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25250 (\N{CJK UNIFIED IDEOGRAPH-62A2}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36141 (\N{CJK UNIFIED IDEOGRAPH-8D2D}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22871 (\N{CJK UNIFIED IDEOGRAPH-5957}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20869 (\N{CJK UNIFIED IDEOGRAPH-5185}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23481 (\N{CJK UNIFIED IDEOGRAPH-5BB9}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20837 (\N{CJK UNIFIED IDEOGRAPH-5165}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20303 (\N{CJK UNIFIED IDEOGRAPH-4F4F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26223 (\N{CJK UNIFIED IDEOGRAPH-666F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35266 (\N{CJK UNIFIED IDEOGRAPH-89C2}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 38388 (\N{CJK UNIFIED IDEOGRAPH-95F4}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26202 (\N{CJK UNIFIED IDEOGRAPH-665A}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21547 (\N{CJK UNIFIED IDEOGRAPH-542B}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27425 (\N{CJK UNIFIED IDEOGRAPH-6B21}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26085 (\N{CJK UNIFIED IDEOGRAPH-65E5}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20301 (\N{CJK UNIFIED IDEOGRAPH-4F4D}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20154 (\N{CJK UNIFIED IDEOGRAPH-4EBA}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21644 (\N{CJK UNIFIED IDEOGRAPH-548C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23681 (\N{CJK UNIFIED IDEOGRAPH-5C81}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20197 (\N{CJK UNIFIED IDEOGRAPH-4EE5}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 19979 (\N{CJK UNIFIED IDEOGRAPH-4E0B}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23567 (\N{CJK UNIFIED IDEOGRAPH-5C0F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 33258 (\N{CJK UNIFIED IDEOGRAPH-81EA}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21161 (\N{CJK UNIFIED IDEOGRAPH-52A9}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 19968 (\N{CJK UNIFIED IDEOGRAPH-4E00}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28436 (\N{CJK UNIFIED IDEOGRAPH-6F14}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26376 (\N{CJK UNIFIED IDEOGRAPH-6708}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 31532 (\N{CJK UNIFIED IDEOGRAPH-7B2C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22330 (\N{CJK UNIFIED IDEOGRAPH-573A}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20108 (\N{CJK UNIFIED IDEOGRAPH-4E8C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27493 (\N{CJK UNIFIED IDEOGRAPH-6B65}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26143 (\N{CJK UNIFIED IDEOGRAPH-661F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 31354 (\N{CJK UNIFIED IDEOGRAPH-7A7A}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 33829 (\N{CJK UNIFIED IDEOGRAPH-8425}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21253 (\N{CJK UNIFIED IDEOGRAPH-5305}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20854 (\N{CJK UNIFIED IDEOGRAPH-5176}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20182 (\N{CJK UNIFIED IDEOGRAPH-4ED6}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 30021 (\N{CJK UNIFIED IDEOGRAPH-7545}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23452 (\N{CJK UNIFIED IDEOGRAPH-5B9C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20848 (\N{CJK UNIFIED IDEOGRAPH-5170}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 39277 (\N{CJK UNIFIED IDEOGRAPH-996D}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27665 (\N{CJK UNIFIED IDEOGRAPH-6C11}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23487 (\N{CJK UNIFIED IDEOGRAPH-5BBF}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 34429 (\N{CJK UNIFIED IDEOGRAPH-867D}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28982 (\N{CJK UNIFIED IDEOGRAPH-7136}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36873 (\N{CJK UNIFIED IDEOGRAPH-9009}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25321 (\N{CJK UNIFIED IDEOGRAPH-62E9}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24456 (\N{CJK UNIFIED IDEOGRAPH-5F88}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 19981 (\N{CJK UNIFIED IDEOGRAPH-4E0D}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36807 (\N{CJK UNIFIED IDEOGRAPH-8FC7}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36935 (\N{CJK UNIFIED IDEOGRAPH-9047}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21040 (\N{CJK UNIFIED IDEOGRAPH-5230}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35780 (\N{CJK UNIFIED IDEOGRAPH-8BC4}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20215 (\N{CJK UNIFIED IDEOGRAPH-4EF7}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 39640 (\N{CJK UNIFIED IDEOGRAPH-9AD8}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24120 (\N{CJK UNIFIED IDEOGRAPH-5E38}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 38590 (\N{CJK UNIFIED IDEOGRAPH-96BE}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27714 (\N{CJK UNIFIED IDEOGRAPH-6C42}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 30679 (\N{CJK UNIFIED IDEOGRAPH-77D7}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 31435 (\N{CJK UNIFIED IDEOGRAPH-7ACB}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22312 (\N{CJK UNIFIED IDEOGRAPH-5728}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 32599 (\N{CJK UNIFIED IDEOGRAPH-7F57}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 19996 (\N{CJK UNIFIED IDEOGRAPH-4E1C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36710 (\N{CJK UNIFIED IDEOGRAPH-8F66}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26049 (\N{CJK UNIFIED IDEOGRAPH-65C1}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 38750 (\N{CJK UNIFIED IDEOGRAPH-975E}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 37266 (\N{CJK UNIFIED IDEOGRAPH-9192}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 30446 (\N{CJK UNIFIED IDEOGRAPH-76EE}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 19978 (\N{CJK UNIFIED IDEOGRAPH-4E0A}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26356 (\N{CJK UNIFIED IDEOGRAPH-66F4}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26159 (\N{CJK UNIFIED IDEOGRAPH-662F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20809 (\N{CJK UNIFIED IDEOGRAPH-5149}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 33426 (\N{CJK UNIFIED IDEOGRAPH-8292}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 32768 (\N{CJK UNIFIED IDEOGRAPH-8000}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 30524 (\N{CJK UNIFIED IDEOGRAPH-773C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36827 (\N{CJK UNIFIED IDEOGRAPH-8FDB}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21381 (\N{CJK UNIFIED IDEOGRAPH-5385}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25361 (\N{CJK UNIFIED IDEOGRAPH-6311}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35774 (\N{CJK UNIFIED IDEOGRAPH-8BBE}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35745 (\N{CJK UNIFIED IDEOGRAPH-8BA1}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 39118 (\N{CJK UNIFIED IDEOGRAPH-98CE}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26684 (\N{CJK UNIFIED IDEOGRAPH-683C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 29616 (\N{CJK UNIFIED IDEOGRAPH-73B0}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20195 (\N{CJK UNIFIED IDEOGRAPH-4EE3}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 31616 (\N{CJK UNIFIED IDEOGRAPH-7B80}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 32422 (\N{CJK UNIFIED IDEOGRAPH-7EA6}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21333 (\N{CJK UNIFIED IDEOGRAPH-5355}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20294 (\N{CJK UNIFIED IDEOGRAPH-4F46}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21448 (\N{CJK UNIFIED IDEOGRAPH-53C8}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27668 (\N{CJK UNIFIED IDEOGRAPH-6C14}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27966 (\N{CJK UNIFIED IDEOGRAPH-6D3E}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26174 (\N{CJK UNIFIED IDEOGRAPH-663E}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22725 (\N{CJK UNIFIED IDEOGRAPH-58C5}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25380 (\N{CJK UNIFIED IDEOGRAPH-6324}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20043 (\N{CJK UNIFIED IDEOGRAPH-4E4B}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21069 (\N{CJK UNIFIED IDEOGRAPH-524D}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21548 (\N{CJK UNIFIED IDEOGRAPH-542C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35828 (\N{CJK UNIFIED IDEOGRAPH-8BF4}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26102 (\N{CJK UNIFIED IDEOGRAPH-65F6}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35201 (\N{CJK UNIFIED IDEOGRAPH-8981}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 31561 (\N{CJK UNIFIED IDEOGRAPH-7B49}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20037 (\N{CJK UNIFIED IDEOGRAPH-4E45}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25105 (\N{CJK UNIFIED IDEOGRAPH-6211}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20204 (\N{CJK UNIFIED IDEOGRAPH-4EEC}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36825 (\N{CJK UNIFIED IDEOGRAPH-8FD9}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22825 (\N{CJK UNIFIED IDEOGRAPH-5929}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25490 (\N{CJK UNIFIED IDEOGRAPH-6392}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 38431 (\N{CJK UNIFIED IDEOGRAPH-961F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 38047 (\N{CJK UNIFIED IDEOGRAPH-949F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24038 (\N{CJK UNIFIED IDEOGRAPH-5DE6}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21491 (\N{CJK UNIFIED IDEOGRAPH-53F3}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21487 (\N{CJK UNIFIED IDEOGRAPH-53EF}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35273 (\N{CJK UNIFIED IDEOGRAPH-89C9}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24471 (\N{CJK UNIFIED IDEOGRAPH-5F97}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36824 (\N{CJK UNIFIED IDEOGRAPH-8FD8}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 128315 (\N{DOWN-POINTING RED TRIANGLE}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20621 (\N{CJK UNIFIED IDEOGRAPH-508D}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36739 (\N{CJK UNIFIED IDEOGRAPH-8F83}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23569 (\N{CJK UNIFIED IDEOGRAPH-5C11}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20505 (\N{CJK UNIFIED IDEOGRAPH-5019}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23460 (\N{CJK UNIFIED IDEOGRAPH-5BA4}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20572 (\N{CJK UNIFIED IDEOGRAPH-505C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20063 (\N{CJK UNIFIED IDEOGRAPH-4E5F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28385 (\N{CJK UNIFIED IDEOGRAPH-6EE1}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23485 (\N{CJK UNIFIED IDEOGRAPH-5BBD}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25950 (\N{CJK UNIFIED IDEOGRAPH-655E}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26126 (\N{CJK UNIFIED IDEOGRAPH-660E}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20142 (\N{CJK UNIFIED IDEOGRAPH-4EAE}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27809 (\N{CJK UNIFIED IDEOGRAPH-6CA1}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24320 (\N{CJK UNIFIED IDEOGRAPH-5F00}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26446 (\N{CJK UNIFIED IDEOGRAPH-674E}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35805 (\N{CJK UNIFIED IDEOGRAPH-8BDD}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25552 (\N{CJK UNIFIED IDEOGRAPH-63D0}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20379 (\N{CJK UNIFIED IDEOGRAPH-4F9B}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20813 (\N{CJK UNIFIED IDEOGRAPH-514D}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36153 (\N{CJK UNIFIED IDEOGRAPH-8D39}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25509 (\N{CJK UNIFIED IDEOGRAPH-63A5}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 39539 (\N{CJK UNIFIED IDEOGRAPH-9A73}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28779 (\N{CJK UNIFIED IDEOGRAPH-706B}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35746 (\N{CJK UNIFIED IDEOGRAPH-8BA2}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20808 (\N{CJK UNIFIED IDEOGRAPH-5148}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 39044 (\N{CJK UNIFIED IDEOGRAPH-9884}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21815 (\N{CJK UNIFIED IDEOGRAPH-5537}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26449 (\N{CJK UNIFIED IDEOGRAPH-6751}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21364 (\N{CJK UNIFIED IDEOGRAPH-5374}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22269 (\N{CJK UNIFIED IDEOGRAPH-56FD}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 38469 (\N{CJK UNIFIED IDEOGRAPH-9645}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28201 (\N{CJK UNIFIED IDEOGRAPH-6E29}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27849 (\N{CJK UNIFIED IDEOGRAPH-6CC9}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 32463 (\N{CJK UNIFIED IDEOGRAPH-7ECF}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20856 (\N{CJK UNIFIED IDEOGRAPH-5178}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21452 (\N{CJK UNIFIED IDEOGRAPH-53CC}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27719 (\N{CJK UNIFIED IDEOGRAPH-6C47}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 32479 (\N{CJK UNIFIED IDEOGRAPH-7EDF}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35760 (\N{CJK UNIFIED IDEOGRAPH-8BB0}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35821 (\N{CJK UNIFIED IDEOGRAPH-8BED}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26009 (\N{CJK UNIFIED IDEOGRAPH-6599}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 32593 (\N{CJK UNIFIED IDEOGRAPH-7F51}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20107 (\N{CJK UNIFIED IDEOGRAPH-4E8B}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21270 (\N{CJK UNIFIED IDEOGRAPH-5316}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35299 (\N{CJK UNIFIED IDEOGRAPH-89E3}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26512 (\N{CJK UNIFIED IDEOGRAPH-6790}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 40644 (\N{CJK UNIFIED IDEOGRAPH-9EC4}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23665 (\N{CJK UNIFIED IDEOGRAPH-5C71}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22768 (\N{CJK UNIFIED IDEOGRAPH-58F0}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24335 (\N{CJK UNIFIED IDEOGRAPH-5F0F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35782 (\N{CJK UNIFIED IDEOGRAPH-8BC6}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21035 (\N{CJK UNIFIED IDEOGRAPH-522B}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 39588 (\N{CJK UNIFIED IDEOGRAPH-9AA4}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21320 (\N{CJK UNIFIED IDEOGRAPH-5348}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21335 (\N{CJK UNIFIED IDEOGRAPH-5357}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21475 (\N{CJK UNIFIED IDEOGRAPH-53E3}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21442 (\N{CJK UNIFIED IDEOGRAPH-53C2}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20113 (\N{CJK UNIFIED IDEOGRAPH-4E91}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35895 (\N{CJK UNIFIED IDEOGRAPH-8C37}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23546 (\N{CJK UNIFIED IDEOGRAPH-5BFA}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22987 (\N{CJK UNIFIED IDEOGRAPH-59CB}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20449 (\N{CJK UNIFIED IDEOGRAPH-4FE1}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23792 (\N{CJK UNIFIED IDEOGRAPH-5CF0}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 29422 (\N{CJK UNIFIED IDEOGRAPH-72EE}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23376 (\N{CJK UNIFIED IDEOGRAPH-5B50}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28165 (\N{CJK UNIFIED IDEOGRAPH-6E05}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20937 (\N{CJK UNIFIED IDEOGRAPH-51C9}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 21488 (\N{CJK UNIFIED IDEOGRAPH-53F0}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 25955 (\N{CJK UNIFIED IDEOGRAPH-6563}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 33457 (\N{CJK UNIFIED IDEOGRAPH-82B1}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 22366 (\N{CJK UNIFIED IDEOGRAPH-575E}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20141 (\N{CJK UNIFIED IDEOGRAPH-4EAD}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28023 (\N{CJK UNIFIED IDEOGRAPH-6D77}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 40140 (\N{CJK UNIFIED IDEOGRAPH-9CCC}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 40060 (\N{CJK UNIFIED IDEOGRAPH-9C7C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 29577 (\N{CJK UNIFIED IDEOGRAPH-7389}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23631 (\N{CJK UNIFIED IDEOGRAPH-5C4F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27004 (\N{CJK UNIFIED IDEOGRAPH-697C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36814 (\N{CJK UNIFIED IDEOGRAPH-8FCE}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26494 (\N{CJK UNIFIED IDEOGRAPH-677E}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24904 (\N{CJK UNIFIED IDEOGRAPH-6148}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 38401 (\N{CJK UNIFIED IDEOGRAPH-9601}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 32676 (\N{CJK UNIFIED IDEOGRAPH-7FA4}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 32769 (\N{CJK UNIFIED IDEOGRAPH-8001}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 34382 (\N{CJK UNIFIED IDEOGRAPH-864E}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 29312 (\N{CJK UNIFIED IDEOGRAPH-7280}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 29275 (\N{CJK UNIFIED IDEOGRAPH-725B}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35834 (\N{CJK UNIFIED IDEOGRAPH-8BFA}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26391 (\N{CJK UNIFIED IDEOGRAPH-6717}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28689 (\N{CJK UNIFIED IDEOGRAPH-7011}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20116 (\N{CJK UNIFIED IDEOGRAPH-4E94}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 29645 (\N{CJK UNIFIED IDEOGRAPH-73CD}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 29664 (\N{CJK UNIFIED IDEOGRAPH-73E0}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28393 (\N{CJK UNIFIED IDEOGRAPH-6EE9}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 38236 (\N{CJK UNIFIED IDEOGRAPH-955C}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 38271 (\N{CJK UNIFIED IDEOGRAPH-957F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27744 (\N{CJK UNIFIED IDEOGRAPH-6C60}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26862 (\N{CJK UNIFIED IDEOGRAPH-68EE}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20056 (\N{CJK UNIFIED IDEOGRAPH-4E58}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 37329 (\N{CJK UNIFIED IDEOGRAPH-91D1}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 38829 (\N{CJK UNIFIED IDEOGRAPH-97AD}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28330 (\N{CJK UNIFIED IDEOGRAPH-6EAA}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 30334 (\N{CJK UNIFIED IDEOGRAPH-767E}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 40857 (\N{CJK UNIFIED IDEOGRAPH-9F99}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 26799 (\N{CJK UNIFIED IDEOGRAPH-68AF}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 27494 (\N{CJK UNIFIED IDEOGRAPH-6B66}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 38517 (\N{CJK UNIFIED IDEOGRAPH-9675}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28304 (\N{CJK UNIFIED IDEOGRAPH-6E90}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 32500 (\N{CJK UNIFIED IDEOGRAPH-7EF4}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24314 (\N{CJK UNIFIED IDEOGRAPH-5EFA}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 23545 (\N{CJK UNIFIED IDEOGRAPH-5BF9}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 39030 (\N{CJK UNIFIED IDEOGRAPH-9876}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28857 (\N{CJK UNIFIED IDEOGRAPH-70B9}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35206 (\N{CJK UNIFIED IDEOGRAPH-8986}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 30422 (\N{CJK UNIFIED IDEOGRAPH-76D6}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 39034 (\N{CJK UNIFIED IDEOGRAPH-987A}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24207 (\N{CJK UNIFIED IDEOGRAPH-5E8F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 33268 (\N{CJK UNIFIED IDEOGRAPH-81F4}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24615 (\N{CJK UNIFIED IDEOGRAPH-6027}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 36951 (\N{CJK UNIFIED IDEOGRAPH-9057}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 28431 (\N{CJK UNIFIED IDEOGRAPH-6F0F}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 37197 (\N{CJK UNIFIED IDEOGRAPH-914D}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 20840 (\N{CJK UNIFIED IDEOGRAPH-5168}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 37096 (\N{CJK UNIFIED IDEOGRAPH-90E8}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 12290 (\N{IDEOGRAPHIC FULL STOP}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 35265 (\N{CJK UNIFIED IDEOGRAPH-89C1}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 19982 (\N{CJK UNIFIED IDEOGRAPH-4E0E}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\src\make_screenshot.py:47: UserWarning: Glyph 24405 (\N{CJK UNIFIED IDEOGRAPH-5F55}) missing from font(s) Consolas.
+  plt.savefig(out_png, dpi=150, bbox_inches="tight", facecolor="#1e1e1e")
+运行结果截图已生成: C:\Users\12144\Doubao\chats\2026-10-28\new-chat\实验三_游览路线层级结构挖掘\figures\run_screenshot.png
