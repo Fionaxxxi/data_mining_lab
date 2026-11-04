@@ -1,9 +1,9 @@
 id,gold_antecedent,gold_start,gold_end,gold_type,status,note
-HS-T01:1059,������,1055,1058,POI,resolved,ǰ����ȷ˵���������ǻ�ɽ��߷�
-HS-T01:1105,����,1102,1104,person,resolved,���ǳнӲ����ο��������е�����
-HS-T02:444,����ʯ,394,397,POI,resolved,������������������ʯ
-HS-T02:604,������,600,603,POI,resolved,����Ϊ�յ��ϵĹ�����
-JZG-T02:366,,,,,uncertain,���������߽粻����ȷ
-JZG-T02:1222,,,,,noncoref,�������޶��ʵ�һ���ֲ��ǿ��������
-ZJJ-T01:75,�żҽ�,48,51,POI,resolved,ǰ����ȷ̸���żҽ�
-ZJJ-T01:694,����Դ����,669,674,POI,resolved,�˴�ԭ�ĳ�����Դ����
+HS-T01:1059,莲花峰,1055,1058,POI,resolved,前句明确说明莲花峰是黄山最高峰
+HS-T01:1105,挑夫,1102,1104,person,resolved,他们承接并列游客与挑夫中的挑夫
+HS-T02:444,飞来石,394,397,POI,resolved,上下文正在描述飞来石
+HS-T02:604,光明顶,600,603,POI,resolved,主语为刚登上的光明顶
+JZG-T02:366,,,,,uncertain,这里的区域边界不够明确
+JZG-T02:1222,,,,,noncoref,其它是限定词的一部分并非可消解代词
+ZJJ-T01:75,张家界,48,51,POI,resolved,前文明确谈及张家界
+ZJJ-T01:694,武陵源景区,669,674,POI,resolved,此处原文称武陵源景区
