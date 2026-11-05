@@ -1,0 +1,2174 @@
+[
+  {
+    "category": "invalid_jsonl",
+    "file": "outputs/cleaned_data.jsonl",
+    "error": "Expecting property name enclosed in double quotes: line 1 column 85 (char 84)",
+    "decision": "verified_csv_fallback"
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:2e3bd024c2c83a5a6e26"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:978ef7cfd0182dd3fccc"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:9a993ea6d0e3368c391e"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:4ff52e888d71f37eccb1"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:89da3202dcdfe4ae345e"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:9fbb4cde8878c93d700a"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:9f643a4d8aab35225d3f"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:8832f9b4845242672f17"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:47c50b392404ca3cbec4"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:4440f705047fc3835f34"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:2a43870c1d12ef6dde31"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:621d79de3253db366c2e"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:302562ba6e3389f88c24"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:1e415280261393bfda91"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:8f597c7785d69aa6ff4b"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:876f793dbfb6e9be8be7"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:e559fbc26fa838039f54"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:c1235fcc01de4f573ca9"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:beccd0af5f24f89a2810"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:699a30e3a83516e0d65d"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:18f5241a75d1688590a1"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:5d06fd0fb976cb0a31e0"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:3798108838809af11227"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:d7fb2271796fc6f2ff45"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:f0fd0e43f73c2305fdbb"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:8ce1146dd78b93ad8642"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:f2f2e7391310361ad2d1"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:16a7fcba20ac249484cb"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:a9e961f1b315a72d8c4e"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:a688486d9ab3bf584543"
+    ]
+  },
+  {
+    "category": "ambiguous",
+    "scenic": "九寨沟",
+    "surface": "诺日朗",
+    "decision": "quarantine",
+    "refs": [
+      "evidence:583e6b4381d34d30a07c"
+    ]
+  },
+  {
+    "category": "time_conflict",
+    "scenic": "黄山",
+    "step": 6,
+    "parse": "上午",
+    "hierarchy": "中午",
+    "decision": "retain_both"
+  },
+  {
+    "category": "time_conflict",
+    "scenic": "黄山",
+    "step": 7,
+    "parse": "上午",
+    "hierarchy": "中午",
+    "decision": "retain_both"
+  },
+  {
+    "category": "time_conflict",
+    "scenic": "黄山",
+    "step": 8,
+    "parse": "上午",
+    "hierarchy": "中午",
+    "decision": "retain_both"
+  },
+  {
+    "category": "time_conflict",
+    "scenic": "黄山",
+    "step": 9,
+    "parse": "上午",
+    "hierarchy": "中午",
+    "decision": "retain_both"
+  },
+  {
+    "category": "time_conflict",
+    "scenic": "黄山",
+    "step": 10,
+    "parse": "上午",
+    "hierarchy": "下午",
+    "decision": "retain_both"
+  },
+  {
+    "category": "time_conflict",
+    "scenic": "黄山",
+    "step": 11,
+    "parse": "上午",
+    "hierarchy": "下午",
+    "decision": "retain_both"
+  },
+  {
+    "category": "time_conflict",
+    "scenic": "黄山",
+    "step": 13,
+    "parse": "上午",
+    "hierarchy": "下午",
+    "decision": "retain_both"
+  },
+  {
+    "category": "time_conflict",
+    "scenic": "黄山",
+    "step": 14,
+    "parse": "上午",
+    "hierarchy": "下午",
+    "decision": "retain_both"
+  },
+  {
+    "category": "missing_hierarchy_steps",
+    "scenic": "黄山",
+    "steps": [
+      12
+    ],
+    "decision": "retain_parse_without_fabricating_hierarchy"
+  },
+  {
+    "category": "time_conflict",
+    "scenic": "九寨沟",
+    "step": 5,
+    "parse": "上午",
+    "hierarchy": "中午",
+    "decision": "retain_both"
+  },
+  {
+    "category": "time_conflict",
+    "scenic": "九寨沟",
+    "step": 6,
+    "parse": "上午",
+    "hierarchy": "中午",
+    "decision": "retain_both"
+  },
+  {
+    "category": "time_conflict",
+    "scenic": "九寨沟",
+    "step": 7,
+    "parse": "上午",
+    "hierarchy": "中午",
+    "decision": "retain_both"
+  },
+  {
+    "category": "time_conflict",
+    "scenic": "九寨沟",
+    "step": 8,
+    "parse": "上午",
+    "hierarchy": "下午",
+    "decision": "retain_both"
+  },
+  {
+    "category": "time_conflict",
+    "scenic": "九寨沟",
+    "step": 9,
+    "parse": "上午",
+    "hierarchy": "下午",
+    "decision": "retain_both"
+  },
+  {
+    "category": "time_conflict",
+    "scenic": "九寨沟",
+    "step": 10,
+    "parse": "上午",
+    "hierarchy": "下午",
+    "decision": "retain_both"
+  },
+  {
+    "category": "time_conflict",
+    "scenic": "九寨沟",
+    "step": 11,
+    "parse": "上午",
+    "hierarchy": "下午",
+    "decision": "retain_both"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 6,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 252,
+    "end": 295,
+    "attribute": "10:10-10:40",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TRANSPORT",
+    "step": 6,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 252,
+    "end": 295,
+    "attribute": "观光车",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 6,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 252,
+    "end": 295,
+    "attribute": "约10分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 6,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 252,
+    "end": 295,
+    "attribute": "20分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 6,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 296,
+    "end": 338,
+    "attribute": "10:40-11:10",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TRANSPORT",
+    "step": 6,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 296,
+    "end": 338,
+    "attribute": "观光车",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 6,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 296,
+    "end": 338,
+    "attribute": "约10分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 6,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 296,
+    "end": 338,
+    "attribute": "20分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 8,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 296,
+    "end": 338,
+    "attribute": "10:40-11:10",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TRANSPORT",
+    "step": 8,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 296,
+    "end": 338,
+    "attribute": "观光车",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 8,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 296,
+    "end": 338,
+    "attribute": "约10分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 8,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 296,
+    "end": 338,
+    "attribute": "20分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 8,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 339,
+    "end": 382,
+    "attribute": "11:10-11:25",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TRANSPORT",
+    "step": 8,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 339,
+    "end": 382,
+    "attribute": "观光车",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 8,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 339,
+    "end": 382,
+    "attribute": "约5分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 8,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 339,
+    "end": 382,
+    "attribute": "10分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 9,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 447,
+    "end": 492,
+    "attribute": "13:30-14:20",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TRANSPORT",
+    "step": 9,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 447,
+    "end": 492,
+    "attribute": "观光车",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 9,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 447,
+    "end": 492,
+    "attribute": "约30分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 9,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 447,
+    "end": 492,
+    "attribute": "20分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 9,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 493,
+    "end": 528,
+    "attribute": "14:20-14:50",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TRANSPORT",
+    "step": 9,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 493,
+    "end": 528,
+    "attribute": "步行",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 9,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 493,
+    "end": 528,
+    "attribute": "15分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 9,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 493,
+    "end": 528,
+    "attribute": "15分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 10,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 493,
+    "end": 528,
+    "attribute": "14:20-14:50",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TRANSPORT",
+    "step": 10,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 493,
+    "end": 528,
+    "attribute": "步行",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 10,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 493,
+    "end": 528,
+    "attribute": "15分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 10,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 493,
+    "end": 528,
+    "attribute": "15分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 4,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 529,
+    "end": 572,
+    "attribute": "14:50-15:40",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TRANSPORT",
+    "step": 4,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 529,
+    "end": 572,
+    "attribute": "观光车",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 4,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 529,
+    "end": 572,
+    "attribute": "约30分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 4,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 529,
+    "end": 572,
+    "attribute": "20分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 10,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 529,
+    "end": 572,
+    "attribute": "14:50-15:40",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TRANSPORT",
+    "step": 10,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 529,
+    "end": 572,
+    "attribute": "观光车",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 10,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 529,
+    "end": 572,
+    "attribute": "约30分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 10,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 529,
+    "end": 572,
+    "attribute": "20分钟",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 3,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 573,
+    "end": 634,
+    "attribute": "15:40-17:00",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TRANSPORT",
+    "step": 3,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 573,
+    "end": 634,
+    "attribute": "步行",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TRANSPORT",
+    "step": 3,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 573,
+    "end": 634,
+    "attribute": "乘车",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TIME",
+    "step": 4,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 573,
+    "end": 634,
+    "attribute": "15:40-17:00",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TRANSPORT",
+    "step": 4,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 573,
+    "end": 634,
+    "attribute": "步行",
+    "decision": "context_only"
+  },
+  {
+    "category": "source_context_join",
+    "relation": "SOURCE_TRANSPORT",
+    "step": 4,
+    "scenic": "九寨沟",
+    "source_doc": "JZG-O01",
+    "start": 573,
+    "end": 634,
+    "attribute": "乘车",
+    "decision": "context_only"
+  },
+  {
+    "category": "lab3_tourist_demo",
+    "scenic": "黄山",
+    "decision": "comparison_evidence_only_not_real_tourist_route",
+    "note": "TOURIST_NOTE is embedded in upstream code",
+    "metrics": {
+      "coverage": 0.667,
+      "order_consistency": 0.889,
+      "official_len": 14,
+      "tourist_len": 9,
+      "missing_in_tourist": [
+        "云谷寺",
+        "慈光阁",
+        "排云亭",
+        "散花坞"
+      ]
+    }
+  },
+  {
+    "category": "lab3_unassigned_notes",
+    "count": 12,
+    "decision": "not_assigned_without_scenic_route_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Place:d23154d7cd65bd976315",
+    "label": "北大门",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Transport:c3ae63343b3ab2d7f787",
+    "label": "徒步",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Place:9236dcb1d47062fe71e0",
+    "label": "曙光亭",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:3f8989f1387a759cec19",
+    "label": "5点40分",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:52245b2279b32ade7bc9",
+    "label": "晚上8点",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Transport:2307c838652b4687451b",
+    "label": "高铁",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:9a8d265eb6770e5ef456",
+    "label": "早上6点45",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:094c292a3be539c7f8c2",
+    "label": "差不多一小时",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:cfbfcfce09bee97c171c",
+    "label": "20分钟",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:99431433d4f9f92fdeb7",
+    "label": "5个小时",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:129588e1d9b5eacb65c6",
+    "label": "1:30",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:4322c37003a0ccc18a3c",
+    "label": "8点45分",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Place:8adcc65bc726f2c70a98",
+    "label": "天都峰",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:554e51d30c880783393d",
+    "label": "11点",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:afd5a248000631abde45",
+    "label": "4个小时",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:268d26faba370a98209d",
+    "label": "2个小时",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Place:24ec9a1fb90cf2d94459",
+    "label": "百步云梯",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:8432b47a8edd4210378b",
+    "label": "12点35分",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Place:3cfd9da83ebd6234e237",
+    "label": "白鹅山庄",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:2ef096decac0cc3230d4",
+    "label": "4小时",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:ba6b285f19c33eff1884",
+    "label": "下午2点40分",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:6cf27d63a76d1147d663",
+    "label": "14:30",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Place:cefb43075bbbe86f0711",
+    "label": "黄山机场",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Transport:ca26815b02de74c61872",
+    "label": "专车",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:0e863f62ee89c3de29d1",
+    "label": "夜里",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:b0460afeb989ee44198d",
+    "label": "16:30",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Place:b5b57766a0d42c22cc35",
+    "label": "连理松",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Place:64454ebc284e9143cd93",
+    "label": "龙爪松",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:1078cfeb185273831e20",
+    "label": "365天",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:775117670e23d2417995",
+    "label": "19:30",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:55b0334e8f33657ab48c",
+    "label": "5:40",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:e6d2fdc6e4fc409133c3",
+    "label": "6:15",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Transport:58e1480dc80faffb1965",
+    "label": "班车",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:292211d2f074404b9ce4",
+    "label": "8点",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Place:599fd97b9e65e294f892",
+    "label": "汤口镇",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:fc9074b171ef16b56d80",
+    "label": "两三天",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:81bf7fb1ed45a2c41441",
+    "label": "早上",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:0fdc740215a1da41dff8",
+    "label": "二三十分钟",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:5165d53d5b9f8e32fe1a",
+    "label": "十分钟",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:1ead09a4bc595c52d9f8",
+    "label": "下午四点",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:025d8fb31b638362276d",
+    "label": "八点二十分",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:143989d6f9e7cbcd4943",
+    "label": "22:35",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:7656e95c75b7dd8b61f9",
+    "label": "十一天",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:4f9ada54b516cba357b6",
+    "label": "四十五分钟",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:56e3a6646e75cc5d2999",
+    "label": "下午13点10分",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:93bb1b5dcb29fe22f34d",
+    "label": "11点半",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:343652c180e3a29e23c7",
+    "label": "三点十分",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:3ccde6d782a51e5b95af",
+    "label": "三点半",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:b3d8d6e07fc73a22ecfc",
+    "label": "晚上五点十分",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:457637690a2c5dac2ae5",
+    "label": "四点半",
+    "scenic": "黄山",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:fd64da8fb65a32f883fc",
+    "label": "7:00-8:10",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:b2025abb8354bd33c237",
+    "label": "一个小时",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:493551a9ef7f0abbe524",
+    "label": "8:10-9:00",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:4183e9df0461cf454171",
+    "label": "30分钟",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:6191c260ae5122ace7e1",
+    "label": "9:00-9:15",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:c04251e709755e029dc4",
+    "label": "9:15-9:45",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:7b5cc8d786a7f62772c7",
+    "label": "9:45-10:10",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:0a5b0bb79d0890ce5f2f",
+    "label": "10:10-10:40",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:208cf5b9156282e1cd99",
+    "label": "10:40-11:10",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:d55f52529b9e210caf8d",
+    "label": "11:10-11:25",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:2b4b2e9a9e899c9467ce",
+    "label": "11:30-13:30",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:e51379e4b73b6a51c2ae",
+    "label": "13:30-14:20",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:0abed6823bb95a12a583",
+    "label": "14:20-14:50",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:f31582e376167749574d",
+    "label": "14:50-15:40",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:e3b4ead1bde30e85d0e3",
+    "label": "15:40-17:00",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:84ece7aca8318fc01932",
+    "label": "17:00-17:20",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:57331c0a62e6c0ccc46a",
+    "label": "17:00-17:35",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:2fe08017fc353c4e046a",
+    "label": "下午两点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:47657882c178a3353b3b",
+    "label": "一点半",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:eb4adb9b64d656984770",
+    "label": "晚上5点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:a4d65beca47a3ebf9e69",
+    "label": "晚上9点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:b9b1c04c3b2a91c44020",
+    "label": "晚上11点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:f1899c83e17870452e11",
+    "label": "4点40",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:89d65bdbe93dc5e0c9fc",
+    "label": "5点半",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:8f114051ca25d1fa9821",
+    "label": "下午1点半",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:100dfcc9fc764162fd26",
+    "label": "下午2点40",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:d78433422947aa3a8763",
+    "label": "4点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:a8a41cc9558d81f8173e",
+    "label": "大约1个小时",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:7de333888a21b94f060c",
+    "label": "大约45分钟",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:002fa17110b117e9997a",
+    "label": "早上7点30",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:8d9285cabdee3eb4aaa5",
+    "label": "中午11点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:bc38b274815f4744bd51",
+    "label": "早上八点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:2b1cba58570bcc1ded0e",
+    "label": "差不多一个小时",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:3e9f3669d4df31771cef",
+    "label": "四天",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:c0fb3e195d1a98ffa9ba",
+    "label": "9点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:35dc1cb70b40bba3f87b",
+    "label": "下午1点40",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:174a0de2d7b3b7397c21",
+    "label": "2点40",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:da7fe6903f84a65fe5c3",
+    "label": "6点40",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:ba8dc6882d3313bce21c",
+    "label": "11:15",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:502a7114660684d4d39f",
+    "label": "14:30",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:3c447f23e6139db6967c",
+    "label": "17点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:57e37066b50493559608",
+    "label": "大约10分钟",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:1f9819076a5f7ae357aa",
+    "label": "晚上18点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:8bbfa6cc42322df29679",
+    "label": "上午9点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:c91f35c4a99f9bfa7e89",
+    "label": "下午3点半",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:262738738c6efcc68d86",
+    "label": "3天",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:3e58c9bc6f0d60b77425",
+    "label": "2天",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:b20a5847e58b87c25ed6",
+    "label": "早上8点半",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:fe082ebc662c08572ee1",
+    "label": "晚上7点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Place:4a5f2c8bb9b2fd2a4ad0",
+    "label": "神仙池",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:9591df9c7b3eea3d8ea6",
+    "label": "10:30",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:39be09a81901de568809",
+    "label": "11:30",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:26ef99df87391feaeaba",
+    "label": "24小时",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:3986b52332214751c2ed",
+    "label": "5:50",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:eceac58bc140d7f842c5",
+    "label": "2:00",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:98bb809bb284b19e5271",
+    "label": "四十分钟",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:d694df8ff29a3e37cf41",
+    "label": "十一点半",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:042e69a61486f4a88b7c",
+    "label": "3:30",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:93f4fedd58b95c1ec1ca",
+    "label": "8:00",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:3dff09a5a5f729e2ae6c",
+    "label": "约半小时",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:a3af94bae6714b245c90",
+    "label": "12个小时",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:db2ca76c44592090da6d",
+    "label": "晚上六点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:8d5255f2c38400d650de",
+    "label": "2小时",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:1610b2aa461fbec2fdc3",
+    "label": "晚上八点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:4a4910d9fd6450147db4",
+    "label": "一两个小时",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:3edab2cdb1869f921478",
+    "label": "三点半",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:a1823c3c6b17f2d6a4d8",
+    "label": "十小时",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:3d90bf89a915fd97332c",
+    "label": "下午五点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:69fa739f7a39ffbfb684",
+    "label": "两三分钟",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:108070d9beac39ea4005",
+    "label": "五点半",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:12da1553ee53f4da2e85",
+    "label": "大约十分钟",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:9e50bb1ceebb4dbf0a30",
+    "label": "下午四点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:7c2569762e181dab1011",
+    "label": "晚上七点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:7a0a6f94e13afc875360",
+    "label": "14小时",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:37fe118184682a47ee47",
+    "label": "九天",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:9ac109942528eb7998bd",
+    "label": "8小时",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Transport:dcd0d8a7416de9cb0426",
+    "label": "自驾",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:f12a6d18559f762cd626",
+    "label": "2分钟左右",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:8e68d32a51445741ffff",
+    "label": "上午十点半",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:8f3ee28b07df8e71f0af",
+    "label": "傍晚6点",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:7586ec0726f8b493d6ba",
+    "label": "8分钟",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:1ee4aef90f92a881baf7",
+    "label": "晚上8点半",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:c249d316f8cb537f8d46",
+    "label": "早上7点45分",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:7521baf18889c0f70c6d",
+    "label": "1个小时",
+    "scenic": "九寨沟",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Place:b5e2d5f4a0038b8a4350",
+    "label": "索溪峪",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Place:93821ae68144c6fae866",
+    "label": "御笔峰",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Transport:cae62e051722f3295873",
+    "label": "高铁",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Transport:0ec5ca3163e2830ef2af",
+    "label": "机场大巴",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:601052c83032d8df10ab",
+    "label": "20:20",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:113c797437e433e160f3",
+    "label": "半小时",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:a297aa93b8909d9133f9",
+    "label": "10点",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:bde97df2c48036f6e552",
+    "label": "一个小时",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Transport:ba0cb63de228cf63c809",
+    "label": "观光缆车",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:48091fc557ab69fff4e2",
+    "label": "9:00",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:af83c7263ce887a97495",
+    "label": "约10分钟",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:9760794de2656acfd3fb",
+    "label": "60分钟",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:f6482615b2827005c227",
+    "label": "12:00",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:1b08cd4eb3bb0e3f284f",
+    "label": "6:40",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:00800b1f9caec37284bf",
+    "label": "6小时",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:21e9651081740154556a",
+    "label": "18:00",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:6f49c65e668a7b61fe8f",
+    "label": "三个小时",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:83c545bcd1ed4f504387",
+    "label": "一分钟",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:d4eb2f367108e6812cab",
+    "label": "三小时",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:d2ce2c6b2c1936d9a8ed",
+    "label": "6天",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:b8ef856aa4d89f50ac46",
+    "label": "约3小时",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:44ef37eba6f7af72df3d",
+    "label": "凌晨",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:8b5cef4149ed1405a14f",
+    "label": "50分钟左右",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:5939f757c89a6721c6ff",
+    "label": "4点",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:d05ad94b3ef228466702",
+    "label": "5点",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:3a0ed4bbc72b935b2a12",
+    "label": "晚上6点",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:de4111cd60490bf46ce3",
+    "label": "5分钟",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:b225387ffad641ae9bcf",
+    "label": "2个小时",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:6d04b184e962bdb852bd",
+    "label": "10点半",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Place:0094f030cc785eab3591",
+    "label": "空中田园",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:350656fc8de35beede2d",
+    "label": "七天",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Transport:4ff4c94510795e404a91",
+    "label": "黄石寨索道",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:69400af4d7e2b221ff6f",
+    "label": "两三天",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:ed0353118b6e90f6f094",
+    "label": "2小时",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:bd46b820769f8012107c",
+    "label": "1.5小时左右",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:fbcc9af919851136fc41",
+    "label": "约六个小时",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:b68aab01f69998c9e6a1",
+    "label": "约五个小时",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:83571e06f3fd48fea6d6",
+    "label": "二十分钟",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:0a4ccebf58f9eccaee79",
+    "label": "1小时",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:17edd84d587dd1f9363c",
+    "label": "大约30分钟",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Place:8e02b9473140dffa5a10",
+    "label": "大观台",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:c8d1b1ddaa3973760443",
+    "label": "一两分钟",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:07e7793f000b24646e5e",
+    "label": "1.5小时",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:132c2442c5b50c76dfd6",
+    "label": "两三个小时",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:59e74a1471bfc3a9b63b",
+    "label": "六天",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:93280647d33c72f4e6d3",
+    "label": "大约一小时",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:31bd4edcf299a20ce326",
+    "label": "半小时左右",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  },
+  {
+    "category": "low_frequency",
+    "node_id": "Time:fb0cf7abfa7839669245",
+    "label": "晚上七点",
+    "scenic": "张家界",
+    "decision": "keep_with_evidence"
+  }
+]

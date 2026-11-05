@@ -1,0 +1,104 @@
+{
+  "HAS_ENTITY": [
+    [
+      "Scenic"
+    ],
+    [
+      "Place",
+      "Transport",
+      "Time"
+    ]
+  ],
+  "HAS_ROUTE": [
+    [
+      "Scenic"
+    ],
+    [
+      "Route"
+    ]
+  ],
+  "HAS_STEP": [
+    [
+      "Route"
+    ],
+    [
+      "Step"
+    ]
+  ],
+  "AT": [
+    [
+      "Step"
+    ],
+    [
+      "Place",
+      "Scenic"
+    ]
+  ],
+  "NEXT": [
+    [
+      "Step"
+    ],
+    [
+      "Step"
+    ]
+  ],
+  "DURING": [
+    [
+      "Step"
+    ],
+    [
+      "Time"
+    ]
+  ],
+  "USES": [
+    [
+      "Step"
+    ],
+    [
+      "Transport"
+    ]
+  ],
+  "HAS_CONDITION": [
+    [
+      "Scenic"
+    ],
+    [
+      "Condition"
+    ]
+  ],
+  "RECOMMENDS": [
+    [
+      "Condition"
+    ],
+    [
+      "Advice"
+    ]
+  ],
+  "MENTIONS": [
+    [
+      "Advice"
+    ],
+    [
+      "Place",
+      "Scenic",
+      "Transport",
+      "Time"
+    ]
+  ],
+  "SOURCE_TIME": [
+    [
+      "Step"
+    ],
+    [
+      "Time"
+    ]
+  ],
+  "SOURCE_TRANSPORT": [
+    [
+      "Step"
+    ],
+    [
+      "Transport"
+    ]
+  ]
+}

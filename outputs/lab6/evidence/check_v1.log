@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "D:\data_lab\scenic_lab1\src\lab6\check.py", line 78, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "D:\data_lab\scenic_lab1\src\lab6\check.py", line 74, in main
+    fig=load(OUT/'figures/view_manifest.json');jzg=[n['id'] for n in data['nodes'] if n['type']=='Step' and n['scenic']=='九寨沟'];checks['full_scenic_figure_coverage']=set(jzg)==set(fig['visible_step_ids'])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\data_lab\scenic_lab1\src\lab6\build.py", line 8, in load
+    def load(p):return json.loads(Path(p).read_text(encoding='utf-8-sig'))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\miniconda3\envs\dm_scenic_lab\Lib\pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\miniconda3\envs\dm_scenic_lab\Lib\pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\data_lab\\scenic_lab1\\outputs\\lab6\\figures\\view_manifest.json'

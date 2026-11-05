@@ -1,0 +1,224 @@
+[
+  {
+    "old": "实验三\\crawler\\scenic_crawler.py",
+    "new": "src\\lab3\\scenic_crawler.py",
+    "sha256": "fd8d6ff04973705f553df95f376ace567b11786d3c2a7700f9af03236c38cba5",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\crawler\\scenic_crawler.py"
+  },
+  {
+    "old": "实验三\\data\\processed\\_build_log.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\data\\processed\\_build_log.txt",
+    "sha256": "40b138e3cad729ea5537542dff6ae8ab220eb161b2175ec2b1f7fe74f396a5c4",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\data\\processed\\_build_log.txt"
+  },
+  {
+    "old": "实验三\\data\\processed\\industrycorpus_tourism_sample.json",
+    "new": "data\\lab3\\processed\\industrycorpus_tourism_sample.json",
+    "sha256": "9253310ac2757e9e5f497dd610b1ec8d1d4dea38680b3910c3080cec18a43c83",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\data\\processed\\industrycorpus_tourism_sample.json"
+  },
+  {
+    "old": "实验三\\data\\processed\\scenic_dataset.json",
+    "new": "data\\lab3\\processed\\scenic_dataset.json",
+    "sha256": "39d24e80d547606dc9d3377357bae87e77ac23b6689d138f43016a908e33f3f8",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\data\\processed\\scenic_dataset.json"
+  },
+  {
+    "old": "实验三\\data\\raw\\_crawl_log.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\data\\raw\\_crawl_log.txt",
+    "sha256": "edd014de8c65a8cb23e52373b30b09209cd9a00369d83319cb5a19ea9fba6588",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\data\\raw\\_crawl_log.txt"
+  },
+  {
+    "old": "实验三\\data\\raw\\_load_log.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\data\\raw\\_load_log.txt",
+    "sha256": "501ca469082a67bd952fe0c09ea4c8c2ec07a711c8f27b757107f67d062d3b78",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\data\\raw\\_load_log.txt"
+  },
+  {
+    "old": "实验三\\data\\raw\\_net.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\data\\raw\\_net.txt",
+    "sha256": "a48842f7e09fa9df063c1f1dd6ed7c886c0540ed6d08dcd0a9e27b519450d5d2",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\data\\raw\\_net.txt"
+  },
+  {
+    "old": "实验三\\data\\raw\\_net2.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\data\\raw\\_net2.txt",
+    "sha256": "b4320cf1c4779270eb6ccd072a8ff6e47e2f90f8b28737d416541ae39ccd667b",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\data\\raw\\_net2.txt"
+  },
+  {
+    "old": "实验三\\data\\raw\\_net3.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\data\\raw\\_net3.txt",
+    "sha256": "0f9cfc9d6c020d943700b3349961cf9792e22696a22e117f45ac846264355a84",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\data\\raw\\_net3.txt"
+  },
+  {
+    "old": "实验三\\data\\raw\\crawled_pages.json",
+    "new": "data\\lab3\\raw\\crawled_pages.json",
+    "sha256": "f9458d36a519daa9c8b6beff077f4e052ee5603b086327c564e8c676ffa6eaf9",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\data\\raw\\crawled_pages.json"
+  },
+  {
+    "old": "实验三\\figures\\route_compare.png",
+    "new": "outputs\\lab3\\figures\\route_compare.png",
+    "sha256": "e83396f0055aae601c749b043faeb5fdee4264206026491a75fa7025f9723cae",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\figures\\route_compare.png"
+  },
+  {
+    "old": "实验三\\figures\\run_screenshot.png",
+    "new": "outputs\\lab3\\figures\\run_screenshot.png",
+    "sha256": "85147cdbad931d49f50c2a4bf4b8bfebe853204f1e2ea6488fe9839babf03c0b",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\figures\\run_screenshot.png"
+  },
+  {
+    "old": "实验三\\figures\\time_hierarchy.png",
+    "new": "outputs\\lab3\\figures\\time_hierarchy.png",
+    "sha256": "b598136d970d88ac3437c857b916d943e3487a6c94561e9a33e91b87f9247d9c",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\figures\\time_hierarchy.png"
+  },
+  {
+    "old": "实验三\\output\\_compare_log.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\output\\_compare_log.txt",
+    "sha256": "567b251548266d360a937ac2e12fa6e46107d514c6e4a1f1bd38d650a95b4663",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\output\\_compare_log.txt"
+  },
+  {
+    "old": "实验三\\output\\_hier_log.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\output\\_hier_log.txt",
+    "sha256": "76977b646767df8f36e6576a6f68c554e446e9604b44e7ce91e1ac5bf1e4f566",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\output\\_hier_log.txt"
+  },
+  {
+    "old": "实验三\\output\\_parse_log.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\output\\_parse_log.txt",
+    "sha256": "98a5c164f7c4e96e6d58997cc56d11ef8c5a80c2de13ec06e6f2bf58c0f322ba",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\output\\_parse_log.txt"
+  },
+  {
+    "old": "实验三\\output\\_report2_log.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\output\\_report2_log.txt",
+    "sha256": "b93a820276427741718916bfaddc76fecabfb32e48108dbe16a2fb65bcb9ed8b",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\output\\_report2_log.txt"
+  },
+  {
+    "old": "实验三\\output\\_run_full.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\output\\_run_full.txt",
+    "sha256": "7b76e0f925af0115023a078513b419f39771701adf5612670d84129d2c2b2978",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\output\\_run_full.txt"
+  },
+  {
+    "old": "实验三\\output\\_shot_log.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\output\\_shot_log.txt",
+    "sha256": "9c9e9cbfbdbaf60dd3d6f3a0044cd08590f9db95cac50c4f3462717d9b78a11b",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\output\\_shot_log.txt"
+  },
+  {
+    "old": "实验三\\output\\_verify.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\output\\_verify.txt",
+    "sha256": "274b5782854327e845a85fed6c9befb0662d5265909041112877062a2cc8efe0",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\output\\_verify.txt"
+  },
+  {
+    "old": "实验三\\output\\_verify2.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\output\\_verify2.txt",
+    "sha256": "4ab00d7af1deb39a5233efc3a79c71159fe8a37201633ed9d7012ef1adb0d5dd",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\output\\_verify2.txt"
+  },
+  {
+    "old": "实验三\\output\\_verify3.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\output\\_verify3.txt",
+    "sha256": "6256b025cade7b3810aad6cc5f10db75f39fc4916cd0f74718ca94acf637c88f",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\output\\_verify3.txt"
+  },
+  {
+    "old": "实验三\\output\\route_compare.json",
+    "new": "outputs\\lab3\\route_compare.json",
+    "sha256": "5824cc6690038bb1109af7f899512dd86c28d54448eb96b295af2a104fe7725f",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\output\\route_compare.json"
+  },
+  {
+    "old": "实验三\\output\\structured_routes.json",
+    "new": "outputs\\lab3\\structured_routes.json",
+    "sha256": "7e3c9bd1cb7a5248e6a533c90a96b9a0810521f809c53b2109132d03ec8c9787",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\output\\structured_routes.json"
+  },
+  {
+    "old": "实验三\\output\\time_hierarchy.json",
+    "new": "outputs\\lab3\\time_hierarchy.json",
+    "sha256": "35678fa0cdde7303dacd782e41044518ef03b5d9f98406067f22b405021923b3",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\output\\time_hierarchy.json"
+  },
+  {
+    "old": "实验三\\README.md",
+    "new": "archive\\lab3\\latest_6d4750c\\README.md",
+    "sha256": "91e801d1d0f6d6851abe72542a57e5357a175b479628cc1470169762f58a0588",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\README.md"
+  },
+  {
+    "old": "实验三\\requirements.txt",
+    "new": "archive\\lab3\\latest_6d4750c\\requirements.txt",
+    "sha256": "641ac3f6d00e32cf9c7a408e939047e5af516a9e6cfc9cc851830a89676516db",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\requirements.txt"
+  },
+  {
+    "old": "实验三\\run.py",
+    "new": "archive\\lab3\\latest_6d4750c\\run.py",
+    "sha256": "23f9238f444039cca01f660d106ddc71f9ea0f96bf0781a29529541767914c41",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\run.py"
+  },
+  {
+    "old": "实验三\\src\\build_dataset.py",
+    "new": "src\\lab3\\build_dataset.py",
+    "sha256": "bd96de31cdf76091081f86415a2d35fe27c68d9c27a62bbb0852597c39646043",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\src\\build_dataset.py"
+  },
+  {
+    "old": "实验三\\src\\compare_routes.py",
+    "new": "src\\lab3\\compare_routes.py",
+    "sha256": "54814e99446a63d00fce93ce445bff5f027216030c3f6246e3fdc6637900297b",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\src\\compare_routes.py"
+  },
+  {
+    "old": "实验三\\src\\load_industrycorpus.py",
+    "new": "src\\lab3\\load_industrycorpus.py",
+    "sha256": "8a0e6fb5b85b50464ea918f6470b8e73dad054bab7ac73778c322ff9df4e33db",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\src\\load_industrycorpus.py"
+  },
+  {
+    "old": "实验三\\src\\make_report.py",
+    "new": "archive\\lab3\\latest_6d4750c\\src\\make_report.py",
+    "sha256": "d54a5c3ae587037dd34bf95298927edcaf31c2037a748b75c82f4aca9d3dee9c",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\src\\make_report.py"
+  },
+  {
+    "old": "实验三\\src\\make_screenshot.py",
+    "new": "archive\\lab3\\latest_6d4750c\\src\\make_screenshot.py",
+    "sha256": "862085d326b29bec3de769958efe9eb9681a81e84afbdad1d04f2914b21bf039",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\src\\make_screenshot.py"
+  },
+  {
+    "old": "实验三\\src\\parse_route.py",
+    "new": "src\\lab3\\parse_route.py",
+    "sha256": "4a6f09a339d07fe4e1dee2704cc76f1884e124fa94fbf78ffddec6fbb71dd6d1",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\src\\parse_route.py"
+  },
+  {
+    "old": "实验三\\src\\time_hierarchy.py",
+    "new": "src\\lab3\\time_hierarchy.py",
+    "sha256": "5bab1871cc95c1c6f12456ebaf44062142d5863da12bfc6b2e4bb8faaac60fc9",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\src\\time_hierarchy.py"
+  },
+  {
+    "old": "实验三\\实验三_游览路线层级结构挖掘_报告.docx",
+    "new": "archive\\lab3\\latest_6d4750c\\实验三_游览路线层级结构挖掘_报告.docx",
+    "sha256": "a71adda86e990b26658afc0ad4ff4efe75a3d683251795a21b86b9ed7fbe2f75",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\实验三_游览路线层级结构挖掘_报告.docx"
+  },
+  {
+    "old": "实验三\\实验过程问题及解决办法.md",
+    "new": "archive\\lab3\\latest_6d4750c\\实验过程问题及解决办法.md",
+    "sha256": "f41c30ad60a9ae3318f80fc921c549ae86a9060d782a53ca2585ce887e95ef6c",
+    "snapshot": "archive\\lab3\\versions\\upstream_6d4750c\\实验过程问题及解决办法.md"
+  }
+]

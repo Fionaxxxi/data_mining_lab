@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "D:\data_lab\scenic_lab1\src\lab6\figures.py", line 66, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "D:\data_lab\scenic_lab1\src\lab6\figures.py", line 54, in main
+    adv=query(g,dict(kind='advice',scenic='九寨沟',contains='体力'))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\data_lab\scenic_lab1\src\lab6\query.py", line 20, in query
+    return [dict(condition=g.nodes[u]['label'],advice=g.nodes[v]['label'],mapping_id=g.nodes[v]['mapping_id'],**d) for u,v,d in g.edges(data=True) if d['type']=='RECOMMENDS' and g.nodes[u]['scenic']==s and request.get('contains','') in (g.nodes[u]['label']+g.nodes[v]['label'])]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\data_lab\scenic_lab1\src\lab6\query.py", line 20, in <listcomp>
+    return [dict(condition=g.nodes[u]['label'],advice=g.nodes[v]['label'],mapping_id=g.nodes[v]['mapping_id'],**d) for u,v,d in g.edges(data=True) if d['type']=='RECOMMENDS' and g.nodes[u]['scenic']==s and request.get('contains','') in (g.nodes[u]['label']+g.nodes[v]['label'])]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'condition'

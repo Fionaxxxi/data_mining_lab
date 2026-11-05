@@ -1,0 +1,279 @@
+[
+  {
+    "mapping_id": "C001",
+    "decision": "include",
+    "targets": [],
+    "refs": [
+      "evidence:4f0a70ff03de66ed8587"
+    ]
+  },
+  {
+    "mapping_id": "C002",
+    "decision": "quarantine",
+    "reason": "飞龙瀑下口为周边景点，不强挂黄山核心路线",
+    "refs": [
+      "evidence:e49ebcac447d66e648f6"
+    ]
+  },
+  {
+    "mapping_id": "C003",
+    "decision": "quarantine",
+    "reason": "重庆/昆明跨目的地返程，不属九寨沟内路线",
+    "refs": [
+      "evidence:20f5c57d787cacf6f319"
+    ]
+  },
+  {
+    "mapping_id": "C004",
+    "decision": "include",
+    "targets": [],
+    "refs": [
+      "evidence:9e614f7b76676a65971d"
+    ]
+  },
+  {
+    "mapping_id": "C005",
+    "decision": "include",
+    "targets": [
+      "Transport:6e31423181a95485ec69"
+    ],
+    "refs": [
+      "evidence:d8db8d1e1732279e0c5b"
+    ]
+  },
+  {
+    "mapping_id": "C006",
+    "decision": "include",
+    "targets": [
+      "Place:4e3e1cd18d6f6a2be4fb",
+      "Place:f80b5263dbf371ee3011"
+    ],
+    "refs": [
+      "evidence:b657e4f3009239b728d5"
+    ]
+  },
+  {
+    "mapping_id": "C007",
+    "decision": "quarantine",
+    "reason": "unresolved_reference",
+    "refs": [
+      "evidence:093a62fd1e7004f19678"
+    ]
+  },
+  {
+    "mapping_id": "C008",
+    "decision": "quarantine",
+    "reason": "unresolved_reference",
+    "refs": [
+      "evidence:e1c4b1657cad0f1fb711"
+    ]
+  },
+  {
+    "mapping_id": "C009",
+    "decision": "include",
+    "targets": [],
+    "refs": [
+      "evidence:e8274b3945432e58048d"
+    ]
+  },
+  {
+    "mapping_id": "C010",
+    "decision": "include",
+    "targets": [],
+    "refs": [
+      "evidence:a01da32aeb2e0a35f720"
+    ]
+  },
+  {
+    "mapping_id": "C011",
+    "decision": "include",
+    "targets": [
+      "Time:2b3ab728cb408e853014"
+    ],
+    "refs": [
+      "evidence:6884aaf360249ee8c190"
+    ]
+  },
+  {
+    "mapping_id": "C012",
+    "decision": "include",
+    "targets": [],
+    "refs": [
+      "evidence:de3d78e7a04da20fbee2"
+    ]
+  },
+  {
+    "mapping_id": "C013",
+    "decision": "include",
+    "targets": [],
+    "refs": [
+      "evidence:3fc95401c3c2d71788b9"
+    ]
+  },
+  {
+    "mapping_id": "C014",
+    "decision": "include",
+    "targets": [
+      "Place:dace6d5709196302cc30",
+      "Time:8cc3d2cb2e38a33115e1",
+      "Time:e406549cdd275b6f66ff"
+    ],
+    "refs": [
+      "evidence:8674e462340a92eb2871"
+    ]
+  },
+  {
+    "mapping_id": "C015",
+    "decision": "include",
+    "targets": [
+      "Place:be2800096e9fd2c7641e",
+      "Transport:d037afde6b01429533f5"
+    ],
+    "refs": [
+      "evidence:87dde751f9c2cea17de8"
+    ]
+  },
+  {
+    "mapping_id": "C016",
+    "decision": "include",
+    "targets": [],
+    "refs": [
+      "evidence:f1e385b0b122beac934d"
+    ]
+  },
+  {
+    "mapping_id": "C017",
+    "decision": "include",
+    "targets": [
+      "Time:2b3ab728cb408e853014",
+      "Time:ae18c2913a0528a39e87"
+    ],
+    "refs": [
+      "evidence:b6b0da88e9b96f39cb0c"
+    ]
+  },
+  {
+    "mapping_id": "C018",
+    "decision": "include",
+    "targets": [],
+    "refs": [
+      "evidence:2492b2727eb7556fd631"
+    ]
+  },
+  {
+    "mapping_id": "C019",
+    "decision": "quarantine",
+    "reason": "原文第6条谈黄龙缆车，不可按文档景区误挂九寨沟",
+    "refs": [
+      "evidence:d78220887da11e074744"
+    ]
+  },
+  {
+    "mapping_id": "C020",
+    "decision": "include",
+    "targets": [
+      "Place:dd5ef77daf9feec377b2",
+      "Transport:a22c157d38dbbe5ec398",
+      "Transport:f25ef2fbeb5805328f3c"
+    ],
+    "refs": [
+      "evidence:6bb2a9bf9e865f4324d6"
+    ]
+  },
+  {
+    "mapping_id": "C021",
+    "decision": "include",
+    "targets": [
+      "Transport:ab7149035c72cb139b8c"
+    ],
+    "refs": [
+      "evidence:02f2fc014d383ea432ca"
+    ]
+  },
+  {
+    "mapping_id": "C022",
+    "decision": "quarantine",
+    "reason": "unresolved_reference",
+    "refs": [
+      "evidence:7acb061d05d57c4ce0c9"
+    ]
+  },
+  {
+    "mapping_id": "C023",
+    "decision": "quarantine",
+    "reason": "购买电池为通用装备消费，当前只纳入游览行动、交通和安全条件",
+    "refs": [
+      "evidence:43dfab3b6c783fdbcf76"
+    ]
+  },
+  {
+    "mapping_id": "C024",
+    "decision": "include",
+    "targets": [],
+    "refs": [
+      "evidence:74bad570c21f29521f56"
+    ]
+  },
+  {
+    "mapping_id": "C025",
+    "decision": "include",
+    "targets": [
+      "Place:4e3e1cd18d6f6a2be4fb"
+    ],
+    "refs": [
+      "evidence:7c0700ae420e33e3c2aa"
+    ]
+  },
+  {
+    "mapping_id": "C026",
+    "decision": "include",
+    "targets": [
+      "Transport:eb0e6cd5a074b6214346"
+    ],
+    "refs": [
+      "evidence:89ebc3728e801be87d1c"
+    ]
+  },
+  {
+    "mapping_id": "C027",
+    "decision": "include",
+    "targets": [],
+    "refs": [
+      "evidence:c54b6cb9dab008d72b62"
+    ]
+  },
+  {
+    "mapping_id": "C028",
+    "decision": "include",
+    "targets": [
+      "Transport:d642419e27adeef1f53f"
+    ],
+    "refs": [
+      "evidence:52dcfe0493c29a2fdf61"
+    ]
+  },
+  {
+    "mapping_id": "C029",
+    "decision": "include",
+    "targets": [],
+    "refs": [
+      "evidence:e0c35d1c6a5c6a51354e"
+    ]
+  },
+  {
+    "mapping_id": "C030",
+    "decision": "quarantine",
+    "reason": "unresolved_reference",
+    "refs": [
+      "evidence:4361e278dd0a448ca190"
+    ]
+  },
+  {
+    "mapping_id": "C031",
+    "decision": "include",
+    "targets": [],
+    "refs": [
+      "evidence:9e0d03d91ab75d0fb4b9"
+    ]
+  }
+]

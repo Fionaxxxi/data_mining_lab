@@ -1,0 +1,511 @@
+[
+  {
+    "input": {
+      "kind": "route",
+      "scenic": "九寨沟"
+    },
+    "result": [
+      {
+        "step_id": "route:九寨沟:step:01",
+        "order": 1,
+        "label": "01 沟口",
+        "activity": "参观",
+        "targets": [
+          {
+            "type": "AT",
+            "label": "沟口",
+            "evidence_refs": [
+              "evidence:f453b1f6f1072c18fb76"
+            ],
+            "status": null
+          },
+          {
+            "type": "DURING",
+            "label": "上午",
+            "evidence_refs": [
+              "evidence:f453b1f6f1072c18fb76"
+            ],
+            "status": "upstream_parse"
+          }
+        ],
+        "evidence_refs": [
+          "evidence:f453b1f6f1072c18fb76"
+        ]
+      },
+      {
+        "step_id": "route:九寨沟:step:02",
+        "order": 2,
+        "label": "02 树正群海",
+        "activity": "参观",
+        "targets": [
+          {
+            "type": "AT",
+            "label": "树正群海",
+            "evidence_refs": [
+              "evidence:1c6fabdd7132fa6bfbde"
+            ],
+            "status": null
+          },
+          {
+            "type": "DURING",
+            "label": "上午",
+            "evidence_refs": [
+              "evidence:1c6fabdd7132fa6bfbde"
+            ],
+            "status": "upstream_parse"
+          }
+        ],
+        "evidence_refs": [
+          "evidence:1c6fabdd7132fa6bfbde"
+        ]
+      },
+      {
+        "step_id": "route:九寨沟:step:03",
+        "order": 3,
+        "label": "03 老虎海",
+        "activity": "参观",
+        "targets": [
+          {
+            "type": "AT",
+            "label": "老虎海",
+            "evidence_refs": [
+              "evidence:f8857d79df1b2c51e3b3"
+            ],
+            "status": null
+          },
+          {
+            "type": "DURING",
+            "label": "上午",
+            "evidence_refs": [
+              "evidence:f8857d79df1b2c51e3b3"
+            ],
+            "status": "upstream_parse"
+          }
+        ],
+        "evidence_refs": [
+          "evidence:f8857d79df1b2c51e3b3"
+        ]
+      },
+      {
+        "step_id": "route:九寨沟:step:04",
+        "order": 4,
+        "label": "04 犀牛海",
+        "activity": "参观",
+        "targets": [
+          {
+            "type": "AT",
+            "label": "犀牛海",
+            "evidence_refs": [
+              "evidence:ec7c5c4a821a82df68e8"
+            ],
+            "status": null
+          },
+          {
+            "type": "DURING",
+            "label": "上午",
+            "evidence_refs": [
+              "evidence:ec7c5c4a821a82df68e8"
+            ],
+            "status": "upstream_parse"
+          }
+        ],
+        "evidence_refs": [
+          "evidence:ec7c5c4a821a82df68e8"
+        ]
+      },
+      {
+        "step_id": "route:九寨沟:step:05",
+        "order": 5,
+        "label": "05 诺日朗瀑布",
+        "activity": "参观",
+        "targets": [
+          {
+            "type": "AT",
+            "label": "诺日朗瀑布",
+            "evidence_refs": [
+              "evidence:66e6c379d556689467bb"
+            ],
+            "status": null
+          },
+          {
+            "type": "DURING",
+            "label": "中午",
+            "evidence_refs": [
+              "evidence:336e5a275219922db8eb"
+            ],
+            "status": "conflicting_hierarchy_heuristic"
+          },
+          {
+            "type": "DURING",
+            "label": "上午",
+            "evidence_refs": [
+              "evidence:66e6c379d556689467bb"
+            ],
+            "status": "upstream_parse"
+          }
+        ],
+        "evidence_refs": [
+          "evidence:66e6c379d556689467bb"
+        ]
+      },
+      {
+        "step_id": "route:九寨沟:step:06",
+        "order": 6,
+        "label": "06 五花海",
+        "activity": "参观",
+        "targets": [
+          {
+            "type": "AT",
+            "label": "五花海",
+            "evidence_refs": [
+              "evidence:69ecbdec8432be636532"
+            ],
+            "status": null
+          },
+          {
+            "type": "DURING",
+            "label": "中午",
+            "evidence_refs": [
+              "evidence:430ecc0518d531cfb4b6"
+            ],
+            "status": "conflicting_hierarchy_heuristic"
+          },
+          {
+            "type": "DURING",
+            "label": "上午",
+            "evidence_refs": [
+              "evidence:69ecbdec8432be636532"
+            ],
+            "status": "upstream_parse"
+          }
+        ],
+        "evidence_refs": [
+          "evidence:69ecbdec8432be636532"
+        ]
+      },
+      {
+        "step_id": "route:九寨沟:step:07",
+        "order": 7,
+        "label": "07 珍珠滩瀑布",
+        "activity": "参观",
+        "targets": [
+          {
+            "type": "AT",
+            "label": "珍珠滩瀑布",
+            "evidence_refs": [
+              "evidence:0a0e60311cf3c83954ef"
+            ],
+            "status": null
+          },
+          {
+            "type": "DURING",
+            "label": "中午",
+            "evidence_refs": [
+              "evidence:a14763ff36b4d7b2d6c6"
+            ],
+            "status": "conflicting_hierarchy_heuristic"
+          },
+          {
+            "type": "DURING",
+            "label": "上午",
+            "evidence_refs": [
+              "evidence:0a0e60311cf3c83954ef"
+            ],
+            "status": "upstream_parse"
+          }
+        ],
+        "evidence_refs": [
+          "evidence:0a0e60311cf3c83954ef"
+        ]
+      },
+      {
+        "step_id": "route:九寨沟:step:08",
+        "order": 8,
+        "label": "08 镜海",
+        "activity": "参观",
+        "targets": [
+          {
+            "type": "AT",
+            "label": "镜海",
+            "evidence_refs": [
+              "evidence:af729e7aeeec0e34fca5"
+            ],
+            "status": null
+          },
+          {
+            "type": "DURING",
+            "label": "下午",
+            "evidence_refs": [
+              "evidence:a86d931c326b66dc4eda"
+            ],
+            "status": "conflicting_hierarchy_heuristic"
+          },
+          {
+            "type": "DURING",
+            "label": "上午",
+            "evidence_refs": [
+              "evidence:af729e7aeeec0e34fca5"
+            ],
+            "status": "upstream_parse"
+          }
+        ],
+        "evidence_refs": [
+          "evidence:af729e7aeeec0e34fca5"
+        ]
+      },
+      {
+        "step_id": "route:九寨沟:step:09",
+        "order": 9,
+        "label": "09 长海",
+        "activity": "参观",
+        "targets": [
+          {
+            "type": "AT",
+            "label": "长海",
+            "evidence_refs": [
+              "evidence:114540fca8106e3e184e"
+            ],
+            "status": null
+          },
+          {
+            "type": "DURING",
+            "label": "下午",
+            "evidence_refs": [
+              "evidence:bfec047a0c33f31cc5a0"
+            ],
+            "status": "conflicting_hierarchy_heuristic"
+          },
+          {
+            "type": "DURING",
+            "label": "上午",
+            "evidence_refs": [
+              "evidence:114540fca8106e3e184e"
+            ],
+            "status": "upstream_parse"
+          }
+        ],
+        "evidence_refs": [
+          "evidence:114540fca8106e3e184e"
+        ]
+      },
+      {
+        "step_id": "route:九寨沟:step:10",
+        "order": 10,
+        "label": "10 五彩池",
+        "activity": "参观",
+        "targets": [
+          {
+            "type": "AT",
+            "label": "五彩池",
+            "evidence_refs": [
+              "evidence:811cb4c6374902cec22e"
+            ],
+            "status": null
+          },
+          {
+            "type": "DURING",
+            "label": "下午",
+            "evidence_refs": [
+              "evidence:85afbfac02b6403e0b2d"
+            ],
+            "status": "conflicting_hierarchy_heuristic"
+          },
+          {
+            "type": "DURING",
+            "label": "上午",
+            "evidence_refs": [
+              "evidence:811cb4c6374902cec22e"
+            ],
+            "status": "upstream_parse"
+          }
+        ],
+        "evidence_refs": [
+          "evidence:811cb4c6374902cec22e"
+        ]
+      },
+      {
+        "step_id": "route:九寨沟:step:11",
+        "order": 11,
+        "label": "11 沟口(出口)",
+        "activity": "出沟",
+        "targets": [
+          {
+            "type": "AT",
+            "label": "沟口",
+            "evidence_refs": [
+              "evidence:b97c5a91eadea5d54e5d"
+            ],
+            "status": null
+          },
+          {
+            "type": "DURING",
+            "label": "下午",
+            "evidence_refs": [
+              "evidence:5eb30dafd09f57dc0286"
+            ],
+            "status": "conflicting_hierarchy_heuristic"
+          },
+          {
+            "type": "DURING",
+            "label": "上午",
+            "evidence_refs": [
+              "evidence:b97c5a91eadea5d54e5d"
+            ],
+            "status": "upstream_parse"
+          }
+        ],
+        "evidence_refs": [
+          "evidence:b97c5a91eadea5d54e5d"
+        ]
+      }
+    ]
+  },
+  {
+    "input": {
+      "kind": "entity",
+      "scenic": "九寨沟",
+      "name": "诺日朗中心站"
+    },
+    "result": [
+      {
+        "id": "Place:0bb3ed9f7b3af0968b4e",
+        "type": "Place",
+        "label": "诺日朗换乘站",
+        "scenic": "九寨沟",
+        "evidence_refs": [
+          "evidence:02b06bcdb2cdd9a4bfdd",
+          "evidence:3ac2ff7b7d45f22f1126",
+          "evidence:457e396cf5009353c7ee",
+          "evidence:4a6e7afc2cafedafe18d",
+          "evidence:5a7c4c52dff8000789ce",
+          "evidence:63d51c0a443faa9d55df",
+          "evidence:856da6ca830a61715d2e",
+          "evidence:acd4196ad9a9449eb1c3",
+          "evidence:bb7162426f31a4caea86",
+          "evidence:c4b85861a915b1a9ee91",
+          "evidence:d05b618cdf26de3366fe",
+          "evidence:d5a411bf5269a4087311",
+          "evidence:f8720103bb74f7021dfe"
+        ],
+        "aliases": [
+          "诺日朗中心站",
+          "诺日朗换乘站"
+        ],
+        "mention_count": 13,
+        "document_count": 4,
+        "official_mentions": 2,
+        "tourist_mentions": 11,
+        "source_kinds": [
+          "official",
+          "tourist"
+        ],
+        "support_class": "multi_document"
+      }
+    ]
+  },
+  {
+    "input": {
+      "kind": "entity",
+      "scenic": "黄山",
+      "name": "排云亭"
+    },
+    "result": [
+      {
+        "id": "Place:e9cc2f25befe9861a5db",
+        "type": "Place",
+        "label": "排云亭",
+        "scenic": "黄山",
+        "evidence_refs": [
+          "evidence:28522b6f104f94869f2f",
+          "evidence:345b0f11294f8d4328fc",
+          "evidence:374087fe16f77a8d0d98",
+          "evidence:75dc00509c9e7c059524",
+          "evidence:88a35fce8aa7a6aead15",
+          "evidence:b56e78d069d5e94b3cb6",
+          "evidence:bf555e28fa28f8ccfa85",
+          "evidence:d373a2e514142c9fbb52"
+        ],
+        "aliases": [
+          "排云亭"
+        ],
+        "mention_count": 7,
+        "document_count": 1,
+        "official_mentions": 7,
+        "tourist_mentions": 0,
+        "source_kinds": [
+          "official",
+          "official_curated"
+        ],
+        "support_class": "single_document_or_route"
+      }
+    ]
+  },
+  {
+    "input": {
+      "kind": "advice",
+      "scenic": "九寨沟",
+      "contains": "体力"
+    },
+    "result": [
+      {
+        "id": "edge:51fa7239134bb988ae96",
+        "type": "RECOMMENDS",
+        "evidence_refs": [
+          "evidence:d8db8d1e1732279e0c5b"
+        ],
+        "condition": "对自己的体力没啥信心的",
+        "advice": "可以乘车到沿途的景点后再下车游玩",
+        "traveler_type": "体力约束游客",
+        "condition_type": "体力路况",
+        "mapping_id": "C005"
+      },
+      {
+        "id": "edge:13d09e5e1c2429f1d681",
+        "type": "RECOMMENDS",
+        "evidence_refs": [
+          "evidence:7c0700ae420e33e3c2aa"
+        ],
+        "condition": "体力不是很好",
+        "advice": "可以放弃镜海栈道",
+        "traveler_type": "体力约束游客",
+        "condition_type": "体力路况",
+        "mapping_id": "C025"
+      }
+    ]
+  },
+  {
+    "input": {
+      "kind": "centrality",
+      "scenic": "黄山"
+    },
+    "result": [
+      {
+        "label": "玉屏楼",
+        "degree": 4
+      },
+      {
+        "label": "云谷寺",
+        "degree": 2
+      },
+      {
+        "label": "南大门",
+        "degree": 2
+      },
+      {
+        "label": "天海",
+        "degree": 2
+      },
+      {
+        "label": "始信峰",
+        "degree": 2
+      }
+    ]
+  },
+  {
+    "input": {
+      "kind": "route",
+      "scenic": "不存在"
+    },
+    "result": []
+  }
+]

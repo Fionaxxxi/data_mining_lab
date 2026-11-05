@@ -1,0 +1,23 @@
+{
+  "files": {
+    "outputs/cleaned_data.jsonl": "be820b39e5142b409166c5b01602c4bac58ba40b0ae3189f18e6aff21e428286",
+    "outputs/cleaned_data.csv": "503d2ca21ec3d1dc6dd9daddada9edc05c3e9c8536939d5db01f6c088c50c638",
+    "data/raw/selected_raw.jsonl": "27b1cb97b42ef0f704bbd246f5793c2f8d726c6de4343918c01b284662cc36b5",
+    "outputs/quality_report.json": "e8ed848a388204fe68287aab0a7557696f0f46aeee8602d442e6a8d6c0d55862",
+    "outputs/cleaning_audit.csv": "1d5f96d498491e54f481ca5bad316b442b1031cf0975193997de9c779b0299dd",
+    "outputs/lab2/entities.json": "504d706e630b073b0863a6b777fc7e35e01c961cd427f88100f7b2299c87b12d",
+    "outputs/lab2/iteration.json": "235699eedd387136a1b4bf6a1079551bc4879cdfe3cbfc0911817b3733098b23",
+    "outputs/lab3/structured_routes.json": "7e3c9bd1cb7a5248e6a533c90a96b9a0810521f809c53b2109132d03ec8c9787",
+    "outputs/lab3/time_hierarchy.json": "35678fa0cdde7303dacd782e41044518ef03b5d9f98406067f22b405021923b3",
+    "outputs/lab3/route_compare.json": "5824cc6690038bb1109af7f899512dd86c28d54448eb96b295af2a104fe7725f",
+    "data/lab3/processed/scenic_dataset.json": "39d24e80d547606dc9d3377357bae87e77ac23b6689d138f43016a908e33f3f8",
+    "outputs/lab4/candidates.jsonl": "31ef58a13eb9c2c116d3b002a49e76580dc2b2db2e1d48ad17d4e005e6305358",
+    "outputs/lab4/full_review.csv": "041d86ca7ff72edd5ed26df8a80e5f0def10d0ad251b1157d817bc04f242321d",
+    "outputs/lab5/mapping.json": "3e2a93b3a45f6e6633eb1e06014fa368b2718eb4aa3473620eaafa9b2ad738ed",
+    "data/lab6/rules.json": "d496aa82f1db702408b446aa2d8a13d718649975240827547268c0df16a9c956",
+    "src/lab6/enrichment.py": "6e44b83f5f0a0c99c14a1562d9823ac0c16e8223db357caad7336fddd174eac0"
+  },
+  "text_source": "outputs/cleaned_data.csv",
+  "documents": 18,
+  "entities": 2015
+}

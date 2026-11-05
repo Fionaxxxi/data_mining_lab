@@ -1,0 +1,392 @@
+[
+  {
+    "id": "HS-T01:1059",
+    "decision": "attach_evidence",
+    "node_id": "Place:1b5ea7fa3d39e486a3ad",
+    "prediction": "莲花峰",
+    "gold": {
+      "id": "HS-T01:1059",
+      "gold_antecedent": "莲花峰",
+      "gold_type": "POI",
+      "status": "resolved",
+      "note": "前句显式景点"
+    }
+  },
+  {
+    "id": "HS-T01:1089",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "黄山",
+    "gold": {
+      "id": "HS-T01:1089",
+      "gold_antecedent": "",
+      "gold_type": "event",
+      "status": "uncertain",
+      "note": "这一路指当前行程片段且无简短连续先行词"
+    }
+  },
+  {
+    "id": "HS-T01:1105",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "挑夫",
+    "gold": {
+      "id": "HS-T01:1105",
+      "gold_antecedent": "挑夫",
+      "gold_type": "person",
+      "status": "resolved",
+      "note": "辛苦承接挑夫"
+    }
+  },
+  {
+    "id": "HS-T01:1154",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "黄山",
+    "gold": {
+      "id": "HS-T01:1154",
+      "gold_antecedent": "",
+      "gold_type": "object",
+      "status": "uncertain",
+      "note": "这两瓶红牛对应前文红牛买了两瓶但无连续同形先行词"
+    }
+  },
+  {
+    "id": "HS-T02:444",
+    "decision": "attach_evidence",
+    "node_id": "Place:44fdf1581db0bb8a16a5",
+    "prediction": "飞来石",
+    "gold": {
+      "id": "HS-T02:444",
+      "gold_antecedent": "飞来石",
+      "gold_type": "POI",
+      "status": "resolved",
+      "note": "正在描述飞来石"
+    }
+  },
+  {
+    "id": "HS-T02:541",
+    "decision": "attach_evidence",
+    "node_id": "Place:44fdf1581db0bb8a16a5",
+    "prediction": "飞来石",
+    "gold": {
+      "id": "HS-T02:541",
+      "gold_antecedent": "飞来石",
+      "gold_type": "POI",
+      "status": "resolved",
+      "note": "石体描述连续"
+    }
+  },
+  {
+    "id": "HS-T02:604",
+    "decision": "attach_evidence",
+    "node_id": "Place:f52e65c24760ae5090d5",
+    "prediction": "光明顶",
+    "gold": {
+      "id": "HS-T02:604",
+      "gold_antecedent": "光明顶",
+      "gold_type": "POI",
+      "status": "resolved",
+      "note": "刚登上光明顶"
+    }
+  },
+  {
+    "id": "HS-T02:677",
+    "decision": "attach_evidence",
+    "node_id": "Place:f52e65c24760ae5090d5",
+    "prediction": "光明顶",
+    "gold": {
+      "id": "HS-T02:677",
+      "gold_antecedent": "光明顶",
+      "gold_type": "POI",
+      "status": "resolved",
+      "note": "此处看日出地点为光明顶"
+    }
+  },
+  {
+    "id": "HS-T02:1060",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": null,
+    "gold": {
+      "id": "HS-T02:1060",
+      "gold_antecedent": "",
+      "gold_type": "noncoref",
+      "status": "noncoref",
+      "note": "那雅兴为限定短语而非独立地点共指"
+    }
+  },
+  {
+    "id": "JZG-T02:366",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "老虎海",
+    "gold": {
+      "id": "JZG-T02:366",
+      "gold_antecedent": "",
+      "gold_type": "place",
+      "status": "uncertain",
+      "note": "这里指游览区域但边界不明"
+    }
+  },
+  {
+    "id": "JZG-T02:597",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "犀牛海",
+    "gold": {
+      "id": "JZG-T02:597",
+      "gold_antecedent": "",
+      "gold_type": "place",
+      "status": "uncertain",
+      "note": "图文片段无法确定这里是树正寨还是前述观景点"
+    }
+  },
+  {
+    "id": "JZG-T02:1222",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": null,
+    "gold": {
+      "id": "JZG-T02:1222",
+      "gold_antecedent": "",
+      "gold_type": "noncoref",
+      "status": "noncoref",
+      "note": "其它是词内字形"
+    }
+  },
+  {
+    "id": "JZG-T02:1459",
+    "decision": "attach_evidence",
+    "node_id": "Place:75ed6a628fd8169b424c",
+    "prediction": "珍珠滩瀑布",
+    "gold": {
+      "id": "JZG-T02:1459",
+      "gold_antecedent": "珍珠滩瀑布",
+      "gold_type": "POI",
+      "status": "resolved",
+      "note": "前文介绍珍珠滩瀑布"
+    }
+  },
+  {
+    "id": "JZG-T02:1670",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "路口",
+    "gold": {
+      "id": "JZG-T02:1670",
+      "gold_antecedent": "路口",
+      "gold_type": "place",
+      "status": "resolved",
+      "note": "观光车停在路口"
+    }
+  },
+  {
+    "id": "JZG-T02:1850",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "五彩池",
+    "gold": {
+      "id": "JZG-T02:1850",
+      "gold_antecedent": "",
+      "gold_type": "group",
+      "status": "uncertain",
+      "note": "这2个景点合指长海与五彩池且不构成连续先行词"
+    }
+  },
+  {
+    "id": "JZG-T02:1931",
+    "decision": "attach_evidence",
+    "node_id": "Place:f190f4452f61ce795ccc",
+    "prediction": "五彩池",
+    "gold": {
+      "id": "JZG-T02:1931",
+      "gold_antecedent": "五彩池",
+      "gold_type": "POI",
+      "status": "resolved",
+      "note": "图文段落标题为五彩池"
+    }
+  },
+  {
+    "id": "JZG-T02:1937",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": null,
+    "gold": {
+      "id": "JZG-T02:1937",
+      "gold_antecedent": "",
+      "gold_type": "noncoref",
+      "status": "noncoref",
+      "note": "其它为词内字形"
+    }
+  },
+  {
+    "id": "ZJJ-T01:75",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "张家界旅游景区",
+    "gold": {
+      "id": "ZJJ-T01:75",
+      "gold_antecedent": "张家界",
+      "gold_type": "POI",
+      "status": "resolved",
+      "note": "前文张家界"
+    }
+  },
+  {
+    "id": "ZJJ-T01:150",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "张家界自然风景区",
+    "gold": {
+      "id": "ZJJ-T01:150",
+      "gold_antecedent": "张家界自然风景区",
+      "gold_type": "POI",
+      "status": "resolved",
+      "note": "前句风景区"
+    }
+  },
+  {
+    "id": "ZJJ-T01:195",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "张家界自然风景区",
+    "gold": {
+      "id": "ZJJ-T01:195",
+      "gold_antecedent": "",
+      "gold_type": "metalinguistic",
+      "status": "uncertain",
+      "note": "这里指界字在名称中的用法"
+    }
+  },
+  {
+    "id": "ZJJ-T01:288",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "湘西地区",
+    "gold": {
+      "id": "ZJJ-T01:288",
+      "gold_antecedent": "湘西地区",
+      "gold_type": "place",
+      "status": "resolved",
+      "note": "前文湘西地区"
+    }
+  },
+  {
+    "id": "ZJJ-T01:327",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "湘西地区",
+    "gold": {
+      "id": "ZJJ-T01:327",
+      "gold_antecedent": "湘西地区",
+      "gold_type": "place",
+      "status": "resolved",
+      "note": "前文所述湘西土地"
+    }
+  },
+  {
+    "id": "ZJJ-T01:371",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "张家界",
+    "gold": {
+      "id": "ZJJ-T01:371",
+      "gold_antecedent": "养在闺中人未识",
+      "gold_type": "work",
+      "status": "cataphora",
+      "note": "文章名出现在那篇之后"
+    }
+  },
+  {
+    "id": "ZJJ-T01:417",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "大庸县国有林场",
+    "gold": {
+      "id": "ZJJ-T01:417",
+      "gold_antecedent": "大庸县国有林场",
+      "gold_type": "place",
+      "status": "resolved",
+      "note": "前文写生地点"
+    }
+  },
+  {
+    "id": "ZJJ-T01:675",
+    "decision": "attach_evidence",
+    "node_id": "Place:f6d0d1562beb88f1420c",
+    "prediction": "武陵源景区",
+    "gold": {
+      "id": "ZJJ-T01:675",
+      "gold_antecedent": "武陵源景区",
+      "gold_type": "POI",
+      "status": "resolved",
+      "note": "上句景区"
+    }
+  },
+  {
+    "id": "ZJJ-T01:694",
+    "decision": "attach_evidence",
+    "node_id": "Place:f6d0d1562beb88f1420c",
+    "prediction": "武陵源景区",
+    "gold": {
+      "id": "ZJJ-T01:694",
+      "gold_antecedent": "武陵源景区",
+      "gold_type": "POI",
+      "status": "resolved",
+      "note": "同段承接"
+    }
+  },
+  {
+    "id": "ZJJ-T01:806",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "黄石寨",
+    "gold": {
+      "id": "ZJJ-T01:806",
+      "gold_antecedent": "",
+      "gold_type": "place",
+      "status": "uncertain",
+      "note": "这里可能指张家界或前述核心景区集合"
+    }
+  },
+  {
+    "id": "ZJJ-T01:850",
+    "decision": "attach_evidence",
+    "node_id": "Scenic:53ebd228e7998b8dc25e",
+    "prediction": "张家界",
+    "gold": {
+      "id": "ZJJ-T01:850",
+      "gold_antecedent": "张家界",
+      "gold_type": "POI",
+      "status": "resolved",
+      "note": "句首主语张家界"
+    }
+  },
+  {
+    "id": "ZJJ-T01:1054",
+    "decision": "quarantine",
+    "node_id": null,
+    "prediction": "张家界大峡谷旅游景区",
+    "gold": {
+      "id": "ZJJ-T01:1054",
+      "gold_antecedent": "张家界大峡谷旅游景区",
+      "gold_type": "POI",
+      "status": "resolved",
+      "note": "前句正在游览该景区"
+    }
+  },
+  {
+    "id": "ZJJ-T01:1554",
+    "decision": "attach_evidence",
+    "node_id": "Place:6982195fc60415550a94",
+    "prediction": "天门山",
+    "gold": {
+      "id": "ZJJ-T01:1554",
+      "gold_antecedent": "天门山",
+      "gold_type": "POI",
+      "status": "resolved",
+      "note": "前文未能游览天门山"
+    }
+  }
+]

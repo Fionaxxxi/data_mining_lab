@@ -1,0 +1,122 @@
+[
+  {
+    "old": "实验三\\crawler\\scenic_crawler.py",
+    "new": "src\\lab3\\scenic_crawler.py",
+    "sha256": "10ec8c18f9a4e9e8fe3273629b7373b529a8c258deff3d27719cb6b63d99c295"
+  },
+  {
+    "old": "实验三\\data\\processed\\_build_log.txt",
+    "new": "archive\\lab3\\data\\processed\\_build_log.txt",
+    "sha256": "0e4fc9a2c6b798d591ce6d34019ccef1054587aa62d5a3f22b166ca49716114f"
+  },
+  {
+    "old": "实验三\\data\\processed\\industrycorpus_tourism_sample.json",
+    "new": "data\\lab3\\processed\\industrycorpus_tourism_sample.json",
+    "sha256": "eb97a197bdea9ceb68da110b8aa8100befbf8d3ffa16d00e1a89108ff0a1437e"
+  },
+  {
+    "old": "实验三\\data\\processed\\scenic_dataset.json",
+    "new": "data\\lab3\\processed\\scenic_dataset.json",
+    "sha256": "1ac9313e57b92659310f5fb1c1b148d5f450746e49e8d9018a600af02338e135"
+  },
+  {
+    "old": "实验三\\data\\raw\\_crawl_log.txt",
+    "new": "archive\\lab3\\data\\raw\\_crawl_log.txt",
+    "sha256": "d60a20399a14fc734ab0164550411048890845c4813d5ad3abccc18c9205efdb"
+  },
+  {
+    "old": "实验三\\data\\raw\\_load_log.txt",
+    "new": "archive\\lab3\\data\\raw\\_load_log.txt",
+    "sha256": "808a901bb4eabbab4bbd5fa53615b25a4c517365ad139267a9de6a7f7f60d5bc"
+  },
+  {
+    "old": "实验三\\data\\raw\\crawled_pages.json",
+    "new": "data\\lab3\\raw\\crawled_pages.json",
+    "sha256": "d419bc9c78eaa836bc793854a5d665a222cc7492af08df132fee58e353931bf7"
+  },
+  {
+    "old": "实验三\\output\\_compare_log.txt",
+    "new": "archive\\lab3\\output\\_compare_log.txt",
+    "sha256": "9d9523809fe9cf23f9e66c81d872ebee3f5352dae39175808321f75318e9c0ba"
+  },
+  {
+    "old": "实验三\\output\\_hier_log.txt",
+    "new": "archive\\lab3\\output\\_hier_log.txt",
+    "sha256": "048ad8440ead2c8492945fe282732ca44a9ce231230d94427dce3fba4dc5aca2"
+  },
+  {
+    "old": "实验三\\output\\_parse_log.txt",
+    "new": "archive\\lab3\\output\\_parse_log.txt",
+    "sha256": "e9a42c4544c0797fb90c1f2e0936277c526063922d18e2146f99284b0764e6d2"
+  },
+  {
+    "old": "实验三\\output\\_report_log.txt",
+    "new": "archive\\lab3\\output\\_report_log.txt",
+    "sha256": "b93a820276427741718916bfaddc76fecabfb32e48108dbe16a2fb65bcb9ed8b"
+  },
+  {
+    "old": "实验三\\output\\_verify.txt",
+    "new": "archive\\lab3\\output\\_verify.txt",
+    "sha256": "223c71deab3ab555a4dd82f0d01818e488e09608b4b3d817ee8765baebfa3882"
+  },
+  {
+    "old": "实验三\\output\\route_compare.json",
+    "new": "outputs\\lab3\\route_compare.json",
+    "sha256": "49e199f7358b408cea9cc669deab4872238d5a0481ba7401190b7c5f1a5864f1"
+  },
+  {
+    "old": "实验三\\output\\structured_routes.json",
+    "new": "outputs\\lab3\\structured_routes.json",
+    "sha256": "ff7ab3846d005dfe8d8157f72c8c48b9ebe4122b8b1e67ebffc36aff569e5a23"
+  },
+  {
+    "old": "实验三\\output\\time_hierarchy.json",
+    "new": "outputs\\lab3\\time_hierarchy.json",
+    "sha256": "48e8170be0db350cd28a78011999646ee355b85673c7d6496986349e3b8ca9f0"
+  },
+  {
+    "old": "实验三\\README.md",
+    "new": "archive\\lab3\\README.md",
+    "sha256": "e46538b9744867b2f78161a878e1a2875d91e42ddd8019ab4ff377fac0884c41"
+  },
+  {
+    "old": "实验三\\requirements.txt",
+    "new": "archive\\lab3\\requirements.txt",
+    "sha256": "d495d795a4340f28c65cc60471ec61beda93c5e895626c0b49b8b45009225459"
+  },
+  {
+    "old": "实验三\\src\\build_dataset.py",
+    "new": "src\\lab3\\build_dataset.py",
+    "sha256": "21d1e6654aebb79e2f3c99470c7663be55842ac9fe0a2e5e3f1f0edb678b6e3d"
+  },
+  {
+    "old": "实验三\\src\\compare_routes.py",
+    "new": "src\\lab3\\compare_routes.py",
+    "sha256": "3f48aa50a884a85a57fd4a60079f420e9f8adc7fd547001fac8b214d806788b4"
+  },
+  {
+    "old": "实验三\\src\\load_industrycorpus.py",
+    "new": "src\\lab3\\load_industrycorpus.py",
+    "sha256": "793c3d968be547cef102d3316eb48d96d4417d3744fd89ef6cbd81cf63c277c0"
+  },
+  {
+    "old": "实验三\\src\\make_report.py",
+    "new": "archive\\lab3\\src\\make_report.py",
+    "sha256": "f7687ab8ff9dc9e18b568d7dfc89f6231c9f649949d808105347fb39707a71ec"
+  },
+  {
+    "old": "实验三\\src\\parse_route.py",
+    "new": "src\\lab3\\parse_route.py",
+    "sha256": "f1b6aadd756fd4fc1e1ad3986883d608c98d675fbdb224dabbfcd7db2e4dde55"
+  },
+  {
+    "old": "实验三\\src\\time_hierarchy.py",
+    "new": "src\\lab3\\time_hierarchy.py",
+    "sha256": "7b01f3e23b6f1b6c1529eabc08615f7ac7f40e37d969002a82de84c05e4b6fb1"
+  },
+  {
+    "old": "实验三\\实验三_游览路线层级结构挖掘_报告.docx",
+    "new": "archive\\lab3\\实验三_游览路线层级结构挖掘_报告.docx",
+    "sha256": "244f066c8193ab448be957eb3f584e3decd871e89f551be6398f23471f30cad8"
+  }
+]

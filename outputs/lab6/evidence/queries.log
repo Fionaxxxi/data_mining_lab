@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "D:\data_lab\scenic_lab1\src\lab6\query.py", line 37, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "D:\data_lab\scenic_lab1\src\lab6\query.py", line 34, in main
+    results=[dict(input=r,result=query(g,r)) for r in requests]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\data_lab\scenic_lab1\src\lab6\query.py", line 34, in <listcomp>
+    results=[dict(input=r,result=query(g,r)) for r in requests]
+                                 ^^^^^^^^^^
+  File "D:\data_lab\scenic_lab1\src\lab6\query.py", line 20, in query
+    return [dict(condition=g.nodes[u]['label'],advice=g.nodes[v]['label'],mapping_id=g.nodes[v]['mapping_id'],**d) for u,v,d in g.edges(data=True) if d['type']=='RECOMMENDS' and g.nodes[u]['scenic']==s and request.get('contains','') in (g.nodes[u]['label']+g.nodes[v]['label'])]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\data_lab\scenic_lab1\src\lab6\query.py", line 20, in <listcomp>
+    return [dict(condition=g.nodes[u]['label'],advice=g.nodes[v]['label'],mapping_id=g.nodes[v]['mapping_id'],**d) for u,v,d in g.edges(data=True) if d['type']=='RECOMMENDS' and g.nodes[u]['scenic']==s and request.get('contains','') in (g.nodes[u]['label']+g.nodes[v]['label'])]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'condition'

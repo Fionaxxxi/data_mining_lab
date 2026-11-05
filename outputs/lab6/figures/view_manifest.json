@@ -1,0 +1,19 @@
+{
+  "scenic": "九寨沟",
+  "visible_step_ids": [
+    "route:九寨沟:step:01",
+    "route:九寨沟:step:02",
+    "route:九寨沟:step:03",
+    "route:九寨沟:step:04",
+    "route:九寨沟:step:05",
+    "route:九寨沟:step:06",
+    "route:九寨沟:step:07",
+    "route:九寨沟:step:08",
+    "route:九寨沟:step:09",
+    "route:九寨沟:step:10",
+    "route:九寨沟:step:11"
+  ],
+  "projection": "complete official route steps; entity source counts as attributes",
+  "hidden": "non-route entities, full provenance and condition network (separate detail)",
+  "not_verified": "current travel feasibility"
+}

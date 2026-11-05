@@ -1,0 +1,10 @@
+{
+  "report_links_valid": true,
+  "report_sections_valid": true,
+  "source_syntax_valid": true,
+  "old_versions_deleted": true,
+  "latest_lab3_snapshot_kept": true,
+  "images_decodable": true,
+  "acceptance_passed": true,
+  "checks": 29
+}

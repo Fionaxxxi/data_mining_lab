@@ -1,2 +1,8 @@
 __pycache__/
 *.py[cod]
+
+# Local plotting cache
+outputs/maintenance/mplconfig/
+
+# Office temporary lock files
+~$*

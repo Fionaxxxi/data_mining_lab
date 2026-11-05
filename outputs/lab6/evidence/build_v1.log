@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "D:\data_lab\scenic_lab1\src\lab6\build.py", line 140, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "D:\data_lab\scenic_lab1\src\lab6\build.py", line 139, in main
+    ap=argparse.ArgumentParser();ap.add_argument('--output',type=Path,default=OUT);a=ap.parse_args();f=Fusion();f.run();f.write(a.output)
+                                                                                                                ^^^^^^^
+  File "D:\data_lab\scenic_lab1\src\lab6\build.py", line 87, in run
+    tt=self.entity(s,'Time',hp,[hr]);self.edge(step,tt,'DURING',[hr],status='conflicting_hierarchy_heuristic')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\data_lab\scenic_lab1\src\lab6\build.py", line 41, in entity
+    i,n,t=self.identity(s,typ,raw)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\data_lab\scenic_lab1\src\lab6\build.py", line 31, in identity
+    n=raw.strip()
+      ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'

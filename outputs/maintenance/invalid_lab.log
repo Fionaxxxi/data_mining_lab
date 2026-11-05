@@ -1,0 +1,6 @@
+D:\data_lab\scenic_lab1\run.ps1 : Cannot validate argument on parameter 'Lab'. The argument "9" does not belong to the 
+set "1,2,3,4,5,all" specified by the ValidateSet attribute. Supply an argument that is in the set and then try the comm
+and again.
+    + CategoryInfo          : InvalidData: (:) [run.ps1], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,run.ps1
+ 
