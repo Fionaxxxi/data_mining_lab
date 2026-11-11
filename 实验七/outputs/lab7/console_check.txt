@@ -1,0 +1,31 @@
+PASS graph_sha_matches_meta :: graph.json sha256=fc3d3bebd1f8d37b… 与 meta 记录一致
+PASS graph_scale_from_lab6 :: 节点 471/471，边 629/629（实验六 stats）
+PASS scenario_count :: 实际 8 例
+PASS scenario_diversity :: 覆盖游客类型：亲子、情侣、普通、老人
+PASS two_day_covered :: 两日场景存在
+PASS plan_spots_traceable_to_lab6_steps :: 越界步骤 0 个
+PASS all_evidence_ids_resolve :: 引用 46 条，缺失 0 条
+PASS multi_lab_provenance :: 证据来自 2 个上游文件：outputs/lab3/structured_routes.json(30)；outputs/lab5/mapping.json(16)
+PASS advices_historical_and_referenced :: 建议 32 条，全部 historical_only 且有 evidence_refs
+PASS advice_mapping_ids_unique_per_case :: 同一方案内重复 mapping_id 的场景：无
+PASS unknown_scenic_no_fabrication :: 未收录场景：found=False scenic=None steps=0
+PASS vague_request_clarifies :: 信息不足：追问=True 工具调用=0
+PASS tool_rejects_unknown_action :: 未知 action: 'plan'，允许值 ['scenics', 'route', 'advice', 'entity']
+PASS tool_requires_scenic :: route 查询必须给 scenic
+PASS tool_rejects_extra_args :: action=scenics 不接受参数 ['scenic']
+PASS tool_entity_requires_name :: entity 查询缺少 name
+PASS tool_unknown_scenic_empty :: 返回 found=False，可选 ['九寨沟', '张家界', '黄山']
+PASS advice_fallback_annotated :: 无对应游客类型时 fallback_note='图谱中没有与“亲子”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。'
+PASS trace_one_per_case :: 轨迹 8 条 / 场景 8 例
+PASS react_trace_complete :: 问题：无
+PASS max_tool_calls_bounded :: 最大调用 3 次
+PASS period_status_enumerated :: 实际状态 ['conflicting_hierarchy_heuristic', 'order_monotonic_repair', 'upstream_parse']
+PASS period_repairs_recorded :: 记录修复 2 处
+PASS no_fabricated_current_status :: 命中越权词：无
+PASS uncertainty_disclosed :: 方案是否声明未核验通行/开放
+PASS deterministic_offline :: 两次运行的 days 与 summary 一致
+PASS provider_offline_when_no_key :: provider=offline-rules
+PASS figures_present :: 检查 agent_architecture.png、react_trace_demo.png、plan_timeline.png
+PASS cli_runs :: 0
+
+29/29 项通过

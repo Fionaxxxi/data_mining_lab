@@ -1,0 +1,165 @@
+{
+  "checks": [
+    {
+      "id": "graph_sha_matches_meta",
+      "passed": true,
+      "detail": "graph.json sha256=fc3d3bebd1f8d37b… 与 meta 记录一致"
+    },
+    {
+      "id": "graph_scale_from_lab6",
+      "passed": true,
+      "detail": "节点 471/471，边 629/629（实验六 stats）"
+    },
+    {
+      "id": "scenario_count",
+      "passed": true,
+      "detail": "实际 8 例"
+    },
+    {
+      "id": "scenario_diversity",
+      "passed": true,
+      "detail": "覆盖游客类型：亲子、情侣、普通、老人"
+    },
+    {
+      "id": "two_day_covered",
+      "passed": true,
+      "detail": "两日场景存在"
+    },
+    {
+      "id": "plan_spots_traceable_to_lab6_steps",
+      "passed": true,
+      "detail": "越界步骤 0 个"
+    },
+    {
+      "id": "all_evidence_ids_resolve",
+      "passed": true,
+      "detail": "引用 46 条，缺失 0 条"
+    },
+    {
+      "id": "multi_lab_provenance",
+      "passed": true,
+      "detail": "证据来自 2 个上游文件：outputs/lab3/structured_routes.json(30)；outputs/lab5/mapping.json(16)"
+    },
+    {
+      "id": "advices_historical_and_referenced",
+      "passed": true,
+      "detail": "建议 32 条，全部 historical_only 且有 evidence_refs"
+    },
+    {
+      "id": "advice_mapping_ids_unique_per_case",
+      "passed": true,
+      "detail": "同一方案内重复 mapping_id 的场景：无"
+    },
+    {
+      "id": "unknown_scenic_no_fabrication",
+      "passed": true,
+      "detail": "未收录场景：found=False scenic=None steps=0"
+    },
+    {
+      "id": "vague_request_clarifies",
+      "passed": true,
+      "detail": "信息不足：追问=True 工具调用=0"
+    },
+    {
+      "id": "tool_rejects_unknown_action",
+      "passed": true,
+      "detail": "未知 action: 'plan'，允许值 ['scenics', 'route', 'advice', 'entity']"
+    },
+    {
+      "id": "tool_requires_scenic",
+      "passed": true,
+      "detail": "route 查询必须给 scenic"
+    },
+    {
+      "id": "tool_rejects_extra_args",
+      "passed": true,
+      "detail": "action=scenics 不接受参数 ['scenic']"
+    },
+    {
+      "id": "tool_entity_requires_name",
+      "passed": true,
+      "detail": "entity 查询缺少 name"
+    },
+    {
+      "id": "tool_unknown_scenic_empty",
+      "passed": true,
+      "detail": "返回 found=False，可选 ['九寨沟', '张家界', '黄山']"
+    },
+    {
+      "id": "advice_fallback_annotated",
+      "passed": true,
+      "detail": "无对应游客类型时 fallback_note='图谱中没有与“亲子”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。'"
+    },
+    {
+      "id": "trace_one_per_case",
+      "passed": true,
+      "detail": "轨迹 8 条 / 场景 8 例"
+    },
+    {
+      "id": "react_trace_complete",
+      "passed": true,
+      "detail": "问题：无"
+    },
+    {
+      "id": "max_tool_calls_bounded",
+      "passed": true,
+      "detail": "最大调用 3 次"
+    },
+    {
+      "id": "period_status_enumerated",
+      "passed": true,
+      "detail": "实际状态 ['conflicting_hierarchy_heuristic', 'order_monotonic_repair', 'upstream_parse']"
+    },
+    {
+      "id": "period_repairs_recorded",
+      "passed": true,
+      "detail": "记录修复 2 处"
+    },
+    {
+      "id": "no_fabricated_current_status",
+      "passed": true,
+      "detail": "命中越权词：无"
+    },
+    {
+      "id": "uncertainty_disclosed",
+      "passed": true,
+      "detail": "方案是否声明未核验通行/开放"
+    },
+    {
+      "id": "deterministic_offline",
+      "passed": true,
+      "detail": "两次运行的 days 与 summary 一致"
+    },
+    {
+      "id": "provider_offline_when_no_key",
+      "passed": true,
+      "detail": "provider=offline-rules"
+    },
+    {
+      "id": "figures_present",
+      "passed": true,
+      "detail": "检查 agent_architecture.png、react_trace_demo.png、plan_timeline.png"
+    },
+    {
+      "id": "cli_runs",
+      "passed": true,
+      "detail": 0
+    }
+  ],
+  "summary": {
+    "passed": 29,
+    "total": 29,
+    "all_passed": true
+  },
+  "evidence_sources": {
+    "outputs/lab3/structured_routes.json": {
+      "count": 30,
+      "desc": "实验三 路线步骤"
+    },
+    "outputs/lab5/mapping.json": {
+      "count": 16,
+      "desc": "实验五 条件建议"
+    }
+  },
+  "graph_sha256": "fc3d3bebd1f8d37be2ea4e303186f484f74c6d2b7f618cb60f650cdcf26791ba"
+}

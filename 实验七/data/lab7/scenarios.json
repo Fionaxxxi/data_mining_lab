@@ -1,0 +1,62 @@
+{
+  "version": "lab7-1",
+  "note": "场景只声明期望的边界行为（是否命中、是否追问、是否回退），不预先写死方案文本。",
+  "scenarios": [
+    {
+      "id": "elder_huangshan",
+      "tag": "老人·一日·黄山",
+      "query": "带老人去黄山玩一天，希望行程轻松平缓",
+      "expect": {"scenic": "黄山", "visitor_type": "老人", "duration": 1, "found": true,
+                 "min_tool_calls": 2, "max_tool_calls": 4,
+                 "warnings_any": ["体力", "索道"]}
+    },
+    {
+      "id": "family_jiuzhaigou",
+      "tag": "亲子·一日·九寨沟",
+      "query": "一家三口亲子游九寨沟，想看水景和瀑布",
+      "expect": {"scenic": "九寨沟", "visitor_type": "亲子", "duration": 1, "found": true,
+                 "min_tool_calls": 2, "max_tool_calls": 4, "min_steps": 11}
+    },
+    {
+      "id": "couple_zhangjiajie",
+      "tag": "情侣·两日·张家界",
+      "query": "情侣去张家界玩两天，想看奇峰和标志性景点",
+      "expect": {"scenic": "张家界", "visitor_type": "情侣", "duration": 2, "found": true,
+                 "days": 2, "min_tool_calls": 2, "max_tool_calls": 4}
+    },
+    {
+      "id": "auto_pick_family",
+      "tag": "未指定景区·按人群择优",
+      "query": "帮我们安排一次适合亲子的一日游",
+      "expect": {"visitor_type": "亲子", "found": true, "scenic_not_null": true,
+                 "selection_used": true, "min_tool_calls": 2, "max_tool_calls": 4}
+    },
+    {
+      "id": "unknown_taishan",
+      "tag": "未收录景区·如实回退",
+      "query": "推荐一下泰山的路线",
+      "expect": {"scenic_null": true, "found": false, "message_contains": "未收录",
+                 "min_tool_calls": 1, "max_tool_calls": 2, "no_plan": true}
+    },
+    {
+      "id": "conflict_elder_steep",
+      "tag": "冲突约束·老人+爬山",
+      "query": "带老人爬山徒步登黄山，走陡峭路线可以吗",
+      "expect": {"scenic": "黄山", "visitor_type": "老人", "found": true,
+                 "warnings_any": ["高强度", "体力", "索道"], "min_tool_calls": 2, "max_tool_calls": 4}
+    },
+    {
+      "id": "vague_request",
+      "tag": "信息不足·先追问",
+      "query": "帮我做个旅游规划",
+      "expect": {"need_clarification": true, "max_tool_calls": 0, "no_plan": true}
+    },
+    {
+      "id": "family_jiuzhaigou_carsick",
+      "tag": "晕车约束·取相关建议",
+      "query": "亲子游九寨沟一天，孩子有点晕车",
+      "expect": {"scenic": "九寨沟", "visitor_type": "亲子", "found": true,
+                 "advice_contains": "晕车", "min_tool_calls": 2, "max_tool_calls": 4}
+    }
+  ]
+}

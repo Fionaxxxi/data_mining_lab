@@ -1,0 +1,135 @@
+[
+  {
+    "id": "elder_huangshan",
+    "calls": [
+      {
+        "args": {
+          "action": "route",
+          "scenic": "黄山"
+        }
+      },
+      {
+        "args": {
+          "action": "advice",
+          "scenic": "黄山",
+          "traveler_type": "老人",
+          "limit": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "family_jiuzhaigou",
+    "calls": [
+      {
+        "args": {
+          "action": "route",
+          "scenic": "九寨沟"
+        }
+      },
+      {
+        "args": {
+          "action": "advice",
+          "scenic": "九寨沟",
+          "traveler_type": "亲子",
+          "limit": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "couple_zhangjiajie",
+    "calls": [
+      {
+        "args": {
+          "action": "route",
+          "scenic": "张家界"
+        }
+      },
+      {
+        "args": {
+          "action": "advice",
+          "scenic": "张家界",
+          "traveler_type": "情侣",
+          "limit": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "auto_pick_family",
+    "calls": [
+      {
+        "args": {
+          "action": "scenics"
+        }
+      },
+      {
+        "args": {
+          "action": "route",
+          "scenic": "九寨沟"
+        }
+      },
+      {
+        "args": {
+          "action": "advice",
+          "scenic": "九寨沟",
+          "traveler_type": "亲子",
+          "limit": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "unknown_taishan",
+    "calls": [
+      {
+        "args": {
+          "action": "scenics"
+        }
+      }
+    ]
+  },
+  {
+    "id": "conflict_elder_steep",
+    "calls": [
+      {
+        "args": {
+          "action": "route",
+          "scenic": "黄山"
+        }
+      },
+      {
+        "args": {
+          "action": "advice",
+          "scenic": "黄山",
+          "traveler_type": "老人",
+          "limit": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "vague_request",
+    "calls": []
+  },
+  {
+    "id": "family_jiuzhaigou_carsick",
+    "calls": [
+      {
+        "args": {
+          "action": "route",
+          "scenic": "九寨沟"
+        }
+      },
+      {
+        "args": {
+          "action": "advice",
+          "scenic": "九寨沟",
+          "traveler_type": "亲子",
+          "limit": 6
+        }
+      }
+    ]
+  }
+]

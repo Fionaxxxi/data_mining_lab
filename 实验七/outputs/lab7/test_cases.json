@@ -1,0 +1,1206 @@
+[
+  {
+    "id": "elder_huangshan",
+    "tag": "老人·一日·黄山",
+    "query": "带老人去黄山玩一天，希望行程轻松平缓",
+    "expect": {
+      "scenic": "黄山",
+      "visitor_type": "老人",
+      "duration": 1,
+      "found": true,
+      "min_tool_calls": 2,
+      "max_tool_calls": 4,
+      "warnings_any": [
+        "体力",
+        "索道"
+      ]
+    },
+    "expect_ok": true,
+    "expect_problem": "",
+    "provider": "offline-rules",
+    "intent": {
+      "scenic": "黄山",
+      "unknown_scenic": null,
+      "visitor_type": "老人",
+      "duration": 1,
+      "preferences": [
+        "轻松"
+      ],
+      "constraints": [
+        "体力:轻松"
+      ],
+      "need_clarification": false,
+      "flags": []
+    },
+    "found": true,
+    "need_clarification": false,
+    "scenic": "黄山",
+    "step_count": 14,
+    "days": [
+      {
+        "day": 1,
+        "sections": [
+          {
+            "period": "上午",
+            "steps": [
+              "01 南大门 (upstream_parse)",
+              "02 云谷寺 (upstream_parse)",
+              "03 始信峰 (upstream_parse)",
+              "04 狮子峰 (upstream_parse)",
+              "05 清凉台 (upstream_parse)"
+            ]
+          },
+          {
+            "period": "中午",
+            "steps": [
+              "06 散花坞 (conflicting_hierarchy_heuristic)",
+              "07 排云亭 (conflicting_hierarchy_heuristic)",
+              "08 天海 (conflicting_hierarchy_heuristic)",
+              "09 鳌鱼峰 (conflicting_hierarchy_heuristic)"
+            ]
+          },
+          {
+            "period": "下午",
+            "steps": [
+              "10 玉屏楼 (conflicting_hierarchy_heuristic)",
+              "11 迎客松 (conflicting_hierarchy_heuristic)",
+              "12 玉屏楼 (order_monotonic_repair)",
+              "13 慈光阁 (conflicting_hierarchy_heuristic)",
+              "14 南大门 (conflicting_hierarchy_heuristic)"
+            ]
+          }
+        ]
+      }
+    ],
+    "period_source": "hierarchy_heuristic_fallback",
+    "period_repairs": [
+      {
+        "order": 12,
+        "spot": "玉屏楼",
+        "from": "上午",
+        "to": "下午",
+        "status": "upstream_parse"
+      }
+    ],
+    "selection": null,
+    "advices": [
+      {
+        "mapping_id": "C026",
+        "condition": "团队的整体体力",
+        "advice": "建议乘索道上下",
+        "traveler_type": "体力约束游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:89ebc3728e801be87d1c"
+        ]
+      },
+      {
+        "mapping_id": "C016",
+        "condition": "山上风大",
+        "advice": "可以带上冲锋衣和口罩",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:f1e385b0b122beac934d"
+        ]
+      },
+      {
+        "mapping_id": "C024",
+        "condition": "两日游的旅客",
+        "advice": "建议午后上山",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:74bad570c21f29521f56"
+        ]
+      },
+      {
+        "mapping_id": "C001",
+        "condition": "天晴爬山",
+        "advice": "建议带系带的草帽",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:4f0a70ff03de66ed8587"
+        ]
+      }
+    ],
+    "warnings": [
+      "图谱未收录坡度、海拔与点间距离，老人同行的体力消耗无法评估；建议优先参考图谱中的索道/乘车类建议，并以景区当前公告为准。"
+    ],
+    "notes": [
+      "玉屏楼 在第 10 与第 12 步重复出现，按实验六“身份去重、步骤不去重”保留两次。",
+      "南大门 在第 1 与第 14 步重复出现，按实验六“身份去重、步骤不去重”保留两次。",
+      "图谱未收录餐饮与休息设施，中午不编造具体餐厅，只在时段上留出休整。"
+    ],
+    "summary": "黄山 · 老人 · 1 日方案（依据实验六图谱路线）。\n第1天：上午 南大门→云谷寺→始信峰→狮子峰→清凉台；中午 散花坞→排云亭→天海→鳌鱼峰；下午 玉屏楼→迎客松→玉屏楼→慈光阁→南大门。\n上游解析把全部步骤标为“上午”，直接分组会使中午/下午为空；改用层级推断的时段补位，冲突状态在图中仍按两条 DURING 边保留。 为避免路线顺序与时段倒置，1 个步骤按时序单调修复（第12步 玉屏楼）。\n建议：（团队的整体体力）建议乘索道上下；（山上风大）可以带上冲锋衣和口罩；（两日游的旅客）建议午后上山；（天晴爬山）建议带系带的草帽。\n注意：图谱未收录坡度、海拔与点间距离，老人同行的体力消耗无法评估；建议优先参考图谱中的索道/乘车类建议，并以景区当前公告为准。\n以上景点均取自图谱步骤；顺序为上游文本顺序，未核验实际通行与当前开放状态。",
+    "message": null,
+    "evidence_count": 18,
+    "evidence_ids": [
+      "evidence:07de252d38ff647e75c5",
+      "evidence:09b8fbe3019d81e8d502",
+      "evidence:356efbb97bd2b5d4dae6",
+      "evidence:4f0a70ff03de66ed8587",
+      "evidence:52950a14eb87609c73c7",
+      "evidence:59301b8ce0476b6fb54a",
+      "evidence:6ee1da305639108a8df1",
+      "evidence:74bad570c21f29521f56",
+      "evidence:88a35fce8aa7a6aead15",
+      "evidence:89ebc3728e801be87d1c",
+      "evidence:96ff7bec9e3892226e95",
+      "evidence:c184b3629d4e9092a61d",
+      "evidence:c57de58be0da2a1f274c",
+      "evidence:cd62dd220f4b19aeb4e6",
+      "evidence:e92eee4fcf794f92ccee",
+      "evidence:f1e385b0b122beac934d",
+      "evidence:fd6f92a28e5fede9e968",
+      "evidence:ff518d3e83d8eace2ebe"
+    ],
+    "tool_call_count": 2,
+    "error_count": 0,
+    "tool_calls": [
+      {
+        "action": "route",
+        "scenic": "黄山"
+      },
+      {
+        "action": "advice",
+        "scenic": "黄山",
+        "traveler_type": "老人",
+        "limit": 6
+      }
+    ],
+    "trace_step_count": 8,
+    "elapsed_ms": 10
+  },
+  {
+    "id": "family_jiuzhaigou",
+    "tag": "亲子·一日·九寨沟",
+    "query": "一家三口亲子游九寨沟，想看水景和瀑布",
+    "expect": {
+      "scenic": "九寨沟",
+      "visitor_type": "亲子",
+      "duration": 1,
+      "found": true,
+      "min_tool_calls": 2,
+      "max_tool_calls": 4,
+      "min_steps": 11
+    },
+    "expect_ok": true,
+    "expect_problem": "",
+    "provider": "offline-rules",
+    "intent": {
+      "scenic": "九寨沟",
+      "unknown_scenic": null,
+      "visitor_type": "亲子",
+      "duration": 1,
+      "preferences": [
+        "水景"
+      ],
+      "constraints": [],
+      "need_clarification": false,
+      "flags": [
+        "未说明天数，默认按 1 天规划。"
+      ]
+    },
+    "found": true,
+    "need_clarification": false,
+    "scenic": "九寨沟",
+    "step_count": 11,
+    "days": [
+      {
+        "day": 1,
+        "sections": [
+          {
+            "period": "上午",
+            "steps": [
+              "01 沟口 (upstream_parse)",
+              "02 树正群海 (upstream_parse)",
+              "03 老虎海 (upstream_parse)",
+              "04 犀牛海 (upstream_parse)"
+            ]
+          },
+          {
+            "period": "中午",
+            "steps": [
+              "05 诺日朗瀑布 (conflicting_hierarchy_heuristic)",
+              "06 五花海 (conflicting_hierarchy_heuristic)",
+              "07 珍珠滩瀑布 (conflicting_hierarchy_heuristic)"
+            ]
+          },
+          {
+            "period": "下午",
+            "steps": [
+              "08 镜海 (conflicting_hierarchy_heuristic)",
+              "09 长海 (conflicting_hierarchy_heuristic)",
+              "10 五彩池 (conflicting_hierarchy_heuristic)",
+              "11 沟口 (conflicting_hierarchy_heuristic)"
+            ]
+          }
+        ]
+      }
+    ],
+    "period_source": "hierarchy_heuristic_fallback",
+    "period_repairs": [],
+    "selection": null,
+    "advices": [
+      {
+        "mapping_id": "C017",
+        "condition": "一天时间相对紧凑",
+        "advice": "建议早上早点出发进入景区",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:b6b0da88e9b96f39cb0c"
+        ]
+      },
+      {
+        "mapping_id": "C029",
+        "condition": "栈道过去很远的",
+        "advice": "建议在车上看看就行了",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:e0c35d1c6a5c6a51354e"
+        ]
+      },
+      {
+        "mapping_id": "C020",
+        "condition": "不坐观光车",
+        "advice": "可以一直步行到芦苇海",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:6bb2a9bf9e865f4324d6"
+        ]
+      },
+      {
+        "mapping_id": "C018",
+        "condition": "要买特产",
+        "advice": "不要在景区买",
+        "traveler_type": "普通游客",
+        "negative": true,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:2492b2727eb7556fd631"
+        ]
+      },
+      {
+        "mapping_id": "C006",
+        "condition": "想走镜海的栈道",
+        "advice": "必须在诺日朗或者珍珠滩走过去",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:b657e4f3009239b728d5"
+        ]
+      },
+      {
+        "mapping_id": "C004",
+        "condition": "有晕车史的",
+        "advice": "要提前与司机讲清楚,要求尽可能开得稳些",
+        "traveler_type": "易晕车游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:9e614f7b76676a65971d"
+        ]
+      }
+    ],
+    "warnings": [
+      "未说明天数，默认按 1 天规划。"
+    ],
+    "notes": [
+      "建议回退：图谱中没有与“亲子”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。",
+      "沟口 在第 1 与第 11 步重复出现，按实验六“身份去重、步骤不去重”保留两次。",
+      "图谱未收录餐饮与休息设施，中午不编造具体餐厅，只在时段上留出休整。"
+    ],
+    "summary": "九寨沟 · 亲子 · 1 日方案（依据实验六图谱路线）。\n第1天：上午 沟口→树正群海→老虎海→犀牛海；中午 诺日朗瀑布→五花海→珍珠滩瀑布；下午 镜海→长海→五彩池→沟口。\n上游解析把全部步骤标为“上午”，直接分组会使中午/下午为空；改用层级推断的时段补位，冲突状态在图中仍按两条 DURING 边保留。\n建议：（一天时间相对紧凑）建议早上早点出发进入景区；（栈道过去很远的）建议在车上看看就行了；（不坐观光车）可以一直步行到芦苇海；（要买特产）不要在景区买；（想走镜海的栈道）必须在诺日朗或者珍珠滩走过去；（有晕车史的）要提前与司机讲清楚,要求尽可能开得稳些。\n注意：未说明天数，默认按 1 天规划。\n以上景点均取自图谱步骤；顺序为上游文本顺序，未核验实际通行与当前开放状态。",
+    "message": null,
+    "evidence_count": 17,
+    "evidence_ids": [
+      "evidence:0a0e60311cf3c83954ef",
+      "evidence:114540fca8106e3e184e",
+      "evidence:1c6fabdd7132fa6bfbde",
+      "evidence:2492b2727eb7556fd631",
+      "evidence:66e6c379d556689467bb",
+      "evidence:69ecbdec8432be636532",
+      "evidence:6bb2a9bf9e865f4324d6",
+      "evidence:811cb4c6374902cec22e",
+      "evidence:9e614f7b76676a65971d",
+      "evidence:af729e7aeeec0e34fca5",
+      "evidence:b657e4f3009239b728d5",
+      "evidence:b6b0da88e9b96f39cb0c",
+      "evidence:b97c5a91eadea5d54e5d",
+      "evidence:e0c35d1c6a5c6a51354e",
+      "evidence:ec7c5c4a821a82df68e8",
+      "evidence:f453b1f6f1072c18fb76",
+      "evidence:f8857d79df1b2c51e3b3"
+    ],
+    "tool_call_count": 2,
+    "error_count": 0,
+    "tool_calls": [
+      {
+        "action": "route",
+        "scenic": "九寨沟"
+      },
+      {
+        "action": "advice",
+        "scenic": "九寨沟",
+        "traveler_type": "亲子",
+        "limit": 6
+      }
+    ],
+    "trace_step_count": 8,
+    "elapsed_ms": 0
+  },
+  {
+    "id": "couple_zhangjiajie",
+    "tag": "情侣·两日·张家界",
+    "query": "情侣去张家界玩两天，想看奇峰和标志性景点",
+    "expect": {
+      "scenic": "张家界",
+      "visitor_type": "情侣",
+      "duration": 2,
+      "found": true,
+      "days": 2,
+      "min_tool_calls": 2,
+      "max_tool_calls": 4
+    },
+    "expect_ok": true,
+    "expect_problem": "",
+    "provider": "offline-rules",
+    "intent": {
+      "scenic": "张家界",
+      "unknown_scenic": null,
+      "visitor_type": "情侣",
+      "duration": 2,
+      "preferences": [
+        "奇峰",
+        "标志性"
+      ],
+      "constraints": [],
+      "need_clarification": false,
+      "flags": [
+        "实验六图谱为一日官方整理路线；两日方案按时段切分，并非官方两日线路。"
+      ]
+    },
+    "found": true,
+    "need_clarification": false,
+    "scenic": "张家界",
+    "step_count": 5,
+    "days": [
+      {
+        "day": 1,
+        "sections": [
+          {
+            "period": "上午",
+            "steps": [
+              "01 森林公园门票站 (upstream_parse)",
+              "02 金鞭溪 (upstream_parse)",
+              "03 百龙天梯 (upstream_parse)"
+            ]
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "sections": [
+          {
+            "period": "下午",
+            "steps": [
+              "04 天子山 (upstream_parse)",
+              "05 武陵源门票站 (upstream_parse)"
+            ]
+          }
+        ]
+      }
+    ],
+    "period_source": "upstream_parse",
+    "period_repairs": [],
+    "selection": null,
+    "advices": [
+      {
+        "mapping_id": "C031",
+        "condition": "阶梯非常陡",
+        "advice": "建议脚侧着走",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:9e0d03d91ab75d0fb4b9"
+        ]
+      },
+      {
+        "mapping_id": "C013",
+        "condition": "没有接机",
+        "advice": "就打出租吧",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:3fc95401c3c2d71788b9"
+        ]
+      },
+      {
+        "mapping_id": "C021",
+        "condition": "不是腿脚有问题,时间也允许",
+        "advice": "最好还是徒步游览",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:02f2fc014d383ea432ca"
+        ]
+      },
+      {
+        "mapping_id": "C015",
+        "condition": "乘索道下山",
+        "advice": "应该需要坐环保车来十里画廊",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:87dde751f9c2cea17de8"
+        ]
+      },
+      {
+        "mapping_id": "C028",
+        "condition": "道路平缓",
+        "advice": "建议不坐小火车",
+        "traveler_type": "普通游客",
+        "negative": true,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:52dcfe0493c29a2fdf61"
+        ]
+      },
+      {
+        "mapping_id": "C014",
+        "condition": "要想第二天早上看日出",
+        "advice": "需要几个人合伙包车去老屋场",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:8674e462340a92eb2871"
+        ]
+      }
+    ],
+    "warnings": [
+      "实验六图谱为一日官方整理路线；两日方案按时段切分，并非官方两日线路。",
+      "两日方案是按图谱时段/步骤切分的一日路线，不是官方两日线路；住宿与第二天交通未被图谱收录，未做安排。"
+    ],
+    "notes": [],
+    "summary": "张家界 · 情侣 · 2 日方案（依据实验六图谱路线）。\n第1天：上午 森林公园门票站→金鞭溪→百龙天梯。\n第2天：下午 天子山→武陵源门票站。\n建议：（阶梯非常陡）建议脚侧着走；（没有接机）就打出租吧；（不是腿脚有问题,时间也允许）最好还是徒步游览；（乘索道下山）应该需要坐环保车来十里画廊；（道路平缓）建议不坐小火车；（要想第二天早上看日出）需要几个人合伙包车去老屋场。\n注意：实验六图谱为一日官方整理路线；两日方案按时段切分，并非官方两日线路。\n注意：两日方案是按图谱时段/步骤切分的一日路线，不是官方两日线路；住宿与第二天交通未被图谱收录，未做安排。\n以上景点均取自图谱步骤；顺序为上游文本顺序，未核验实际通行与当前开放状态。",
+    "message": null,
+    "evidence_count": 11,
+    "evidence_ids": [
+      "evidence:02f2fc014d383ea432ca",
+      "evidence:03086fa9851524a72644",
+      "evidence:3fc95401c3c2d71788b9",
+      "evidence:52dcfe0493c29a2fdf61",
+      "evidence:8674e462340a92eb2871",
+      "evidence:87dde751f9c2cea17de8",
+      "evidence:9e0d03d91ab75d0fb4b9",
+      "evidence:b11e91297c1c5e2df622",
+      "evidence:b1f069795bf3062297d7",
+      "evidence:df50a10e4f829706b0f2",
+      "evidence:ea89ba5f8173fbb88d01"
+    ],
+    "tool_call_count": 2,
+    "error_count": 0,
+    "tool_calls": [
+      {
+        "action": "route",
+        "scenic": "张家界"
+      },
+      {
+        "action": "advice",
+        "scenic": "张家界",
+        "traveler_type": "情侣",
+        "limit": 6
+      }
+    ],
+    "trace_step_count": 8,
+    "elapsed_ms": 0
+  },
+  {
+    "id": "auto_pick_family",
+    "tag": "未指定景区·按人群择优",
+    "query": "帮我们安排一次适合亲子的一日游",
+    "expect": {
+      "visitor_type": "亲子",
+      "found": true,
+      "scenic_not_null": true,
+      "selection_used": true,
+      "min_tool_calls": 2,
+      "max_tool_calls": 4
+    },
+    "expect_ok": true,
+    "expect_problem": "",
+    "provider": "offline-rules",
+    "intent": {
+      "scenic": "九寨沟",
+      "unknown_scenic": null,
+      "visitor_type": "亲子",
+      "duration": 1,
+      "preferences": [],
+      "constraints": [],
+      "need_clarification": false,
+      "flags": [
+        "未指定景区；可选 九寨沟、张家界、黄山。"
+      ]
+    },
+    "found": true,
+    "need_clarification": false,
+    "scenic": "九寨沟",
+    "step_count": 11,
+    "days": [
+      {
+        "day": 1,
+        "sections": [
+          {
+            "period": "上午",
+            "steps": [
+              "01 沟口 (upstream_parse)",
+              "02 树正群海 (upstream_parse)",
+              "03 老虎海 (upstream_parse)",
+              "04 犀牛海 (upstream_parse)"
+            ]
+          },
+          {
+            "period": "中午",
+            "steps": [
+              "05 诺日朗瀑布 (conflicting_hierarchy_heuristic)",
+              "06 五花海 (conflicting_hierarchy_heuristic)",
+              "07 珍珠滩瀑布 (conflicting_hierarchy_heuristic)"
+            ]
+          },
+          {
+            "period": "下午",
+            "steps": [
+              "08 镜海 (conflicting_hierarchy_heuristic)",
+              "09 长海 (conflicting_hierarchy_heuristic)",
+              "10 五彩池 (conflicting_hierarchy_heuristic)",
+              "11 沟口 (conflicting_hierarchy_heuristic)"
+            ]
+          }
+        ]
+      }
+    ],
+    "period_source": "hierarchy_heuristic_fallback",
+    "period_repairs": [],
+    "selection": {
+      "ranking": [
+        {
+          "scenic": "九寨沟",
+          "condition_count": 12,
+          "step_count": 11,
+          "score": 131
+        },
+        {
+          "scenic": "张家界",
+          "condition_count": 7,
+          "step_count": 5,
+          "score": 75
+        },
+        {
+          "scenic": "黄山",
+          "condition_count": 4,
+          "step_count": 14,
+          "score": 54
+        }
+      ],
+      "reason": "未指定景区：按“条件建议条数(×10) + 路线步骤数”排序，选 九寨沟；这是图谱覆盖度的代理指标，不是适配验证。"
+    },
+    "advices": [
+      {
+        "mapping_id": "C017",
+        "condition": "一天时间相对紧凑",
+        "advice": "建议早上早点出发进入景区",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:b6b0da88e9b96f39cb0c"
+        ]
+      },
+      {
+        "mapping_id": "C029",
+        "condition": "栈道过去很远的",
+        "advice": "建议在车上看看就行了",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:e0c35d1c6a5c6a51354e"
+        ]
+      },
+      {
+        "mapping_id": "C020",
+        "condition": "不坐观光车",
+        "advice": "可以一直步行到芦苇海",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:6bb2a9bf9e865f4324d6"
+        ]
+      },
+      {
+        "mapping_id": "C018",
+        "condition": "要买特产",
+        "advice": "不要在景区买",
+        "traveler_type": "普通游客",
+        "negative": true,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:2492b2727eb7556fd631"
+        ]
+      },
+      {
+        "mapping_id": "C006",
+        "condition": "想走镜海的栈道",
+        "advice": "必须在诺日朗或者珍珠滩走过去",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:b657e4f3009239b728d5"
+        ]
+      },
+      {
+        "mapping_id": "C004",
+        "condition": "有晕车史的",
+        "advice": "要提前与司机讲清楚,要求尽可能开得稳些",
+        "traveler_type": "易晕车游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:9e614f7b76676a65971d"
+        ]
+      }
+    ],
+    "warnings": [
+      "未指定景区；可选 九寨沟、张家界、黄山。"
+    ],
+    "notes": [
+      "建议回退：图谱中没有与“亲子”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。",
+      "沟口 在第 1 与第 11 步重复出现，按实验六“身份去重、步骤不去重”保留两次。",
+      "图谱未收录餐饮与休息设施，中午不编造具体餐厅，只在时段上留出休整。"
+    ],
+    "summary": "九寨沟 · 亲子 · 1 日方案（依据实验六图谱路线）。\n第1天：上午 沟口→树正群海→老虎海→犀牛海；中午 诺日朗瀑布→五花海→珍珠滩瀑布；下午 镜海→长海→五彩池→沟口。\n上游解析把全部步骤标为“上午”，直接分组会使中午/下午为空；改用层级推断的时段补位，冲突状态在图中仍按两条 DURING 边保留。\n建议：（一天时间相对紧凑）建议早上早点出发进入景区；（栈道过去很远的）建议在车上看看就行了；（不坐观光车）可以一直步行到芦苇海；（要买特产）不要在景区买；（想走镜海的栈道）必须在诺日朗或者珍珠滩走过去；（有晕车史的）要提前与司机讲清楚,要求尽可能开得稳些。\n注意：未指定景区；可选 九寨沟、张家界、黄山。\n以上景点均取自图谱步骤；顺序为上游文本顺序，未核验实际通行与当前开放状态。",
+    "message": null,
+    "evidence_count": 17,
+    "evidence_ids": [
+      "evidence:0a0e60311cf3c83954ef",
+      "evidence:114540fca8106e3e184e",
+      "evidence:1c6fabdd7132fa6bfbde",
+      "evidence:2492b2727eb7556fd631",
+      "evidence:66e6c379d556689467bb",
+      "evidence:69ecbdec8432be636532",
+      "evidence:6bb2a9bf9e865f4324d6",
+      "evidence:811cb4c6374902cec22e",
+      "evidence:9e614f7b76676a65971d",
+      "evidence:af729e7aeeec0e34fca5",
+      "evidence:b657e4f3009239b728d5",
+      "evidence:b6b0da88e9b96f39cb0c",
+      "evidence:b97c5a91eadea5d54e5d",
+      "evidence:e0c35d1c6a5c6a51354e",
+      "evidence:ec7c5c4a821a82df68e8",
+      "evidence:f453b1f6f1072c18fb76",
+      "evidence:f8857d79df1b2c51e3b3"
+    ],
+    "tool_call_count": 3,
+    "error_count": 0,
+    "tool_calls": [
+      {
+        "action": "scenics"
+      },
+      {
+        "action": "route",
+        "scenic": "九寨沟"
+      },
+      {
+        "action": "advice",
+        "scenic": "九寨沟",
+        "traveler_type": "亲子",
+        "limit": 6
+      }
+    ],
+    "trace_step_count": 11,
+    "elapsed_ms": 1
+  },
+  {
+    "id": "unknown_taishan",
+    "tag": "未收录景区·如实回退",
+    "query": "推荐一下泰山的路线",
+    "expect": {
+      "scenic_null": true,
+      "found": false,
+      "message_contains": "未收录",
+      "min_tool_calls": 1,
+      "max_tool_calls": 2,
+      "no_plan": true
+    },
+    "expect_ok": true,
+    "expect_problem": "",
+    "provider": "offline-rules",
+    "intent": {
+      "scenic": null,
+      "unknown_scenic": "泰山",
+      "visitor_type": "普通",
+      "duration": 1,
+      "preferences": [],
+      "constraints": [],
+      "need_clarification": false,
+      "flags": [
+        "未说明天数，默认按 1 天规划。",
+        "「泰山」不在实验六图谱收录范围，将如实说明并给出可选景区。"
+      ]
+    },
+    "found": false,
+    "need_clarification": false,
+    "scenic": null,
+    "step_count": 0,
+    "days": [],
+    "period_source": null,
+    "period_repairs": [],
+    "selection": null,
+    "advices": [],
+    "warnings": [],
+    "notes": [],
+    "summary": "知识图谱暂未收录「泰山」。当前可规划景区：九寨沟、张家界、黄山。未用其他景区数据替代，也未编造该景区路线。",
+    "message": "知识图谱暂未收录「泰山」。当前可规划景区：九寨沟、张家界、黄山。未用其他景区数据替代，也未编造该景区路线。",
+    "evidence_count": 0,
+    "evidence_ids": [],
+    "tool_call_count": 1,
+    "error_count": 0,
+    "tool_calls": [
+      {
+        "action": "scenics"
+      }
+    ],
+    "trace_step_count": 5,
+    "elapsed_ms": 0
+  },
+  {
+    "id": "conflict_elder_steep",
+    "tag": "冲突约束·老人+爬山",
+    "query": "带老人爬山徒步登黄山，走陡峭路线可以吗",
+    "expect": {
+      "scenic": "黄山",
+      "visitor_type": "老人",
+      "found": true,
+      "warnings_any": [
+        "高强度",
+        "体力",
+        "索道"
+      ],
+      "min_tool_calls": 2,
+      "max_tool_calls": 4
+    },
+    "expect_ok": true,
+    "expect_problem": "",
+    "provider": "offline-rules",
+    "intent": {
+      "scenic": "黄山",
+      "unknown_scenic": null,
+      "visitor_type": "老人",
+      "duration": 1,
+      "preferences": [],
+      "constraints": [
+        "体力:高强度"
+      ],
+      "need_clarification": false,
+      "flags": [
+        "老人与高强度爬山/徒步同时出现，方案按图谱保留路线，但需提示强度风险与索道建议。",
+        "未说明天数，默认按 1 天规划。"
+      ]
+    },
+    "found": true,
+    "need_clarification": false,
+    "scenic": "黄山",
+    "step_count": 14,
+    "days": [
+      {
+        "day": 1,
+        "sections": [
+          {
+            "period": "上午",
+            "steps": [
+              "01 南大门 (upstream_parse)",
+              "02 云谷寺 (upstream_parse)",
+              "03 始信峰 (upstream_parse)",
+              "04 狮子峰 (upstream_parse)",
+              "05 清凉台 (upstream_parse)"
+            ]
+          },
+          {
+            "period": "中午",
+            "steps": [
+              "06 散花坞 (conflicting_hierarchy_heuristic)",
+              "07 排云亭 (conflicting_hierarchy_heuristic)",
+              "08 天海 (conflicting_hierarchy_heuristic)",
+              "09 鳌鱼峰 (conflicting_hierarchy_heuristic)"
+            ]
+          },
+          {
+            "period": "下午",
+            "steps": [
+              "10 玉屏楼 (conflicting_hierarchy_heuristic)",
+              "11 迎客松 (conflicting_hierarchy_heuristic)",
+              "12 玉屏楼 (order_monotonic_repair)",
+              "13 慈光阁 (conflicting_hierarchy_heuristic)",
+              "14 南大门 (conflicting_hierarchy_heuristic)"
+            ]
+          }
+        ]
+      }
+    ],
+    "period_source": "hierarchy_heuristic_fallback",
+    "period_repairs": [
+      {
+        "order": 12,
+        "spot": "玉屏楼",
+        "from": "上午",
+        "to": "下午",
+        "status": "upstream_parse"
+      }
+    ],
+    "selection": null,
+    "advices": [
+      {
+        "mapping_id": "C026",
+        "condition": "团队的整体体力",
+        "advice": "建议乘索道上下",
+        "traveler_type": "体力约束游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:89ebc3728e801be87d1c"
+        ]
+      },
+      {
+        "mapping_id": "C016",
+        "condition": "山上风大",
+        "advice": "可以带上冲锋衣和口罩",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:f1e385b0b122beac934d"
+        ]
+      },
+      {
+        "mapping_id": "C024",
+        "condition": "两日游的旅客",
+        "advice": "建议午后上山",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:74bad570c21f29521f56"
+        ]
+      },
+      {
+        "mapping_id": "C001",
+        "condition": "天晴爬山",
+        "advice": "建议带系带的草帽",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:4f0a70ff03de66ed8587"
+        ]
+      }
+    ],
+    "warnings": [
+      "老人与高强度爬山/徒步同时出现，方案按图谱保留路线，但需提示强度风险与索道建议。",
+      "未说明天数，默认按 1 天规划。",
+      "请求含爬山/徒步等高强度约束；图谱只能沿原路线顺序给出景点，不能评估坡度与体力消耗，需另行核验。",
+      "图谱未收录坡度、海拔与点间距离，老人同行的体力消耗无法评估；建议优先参考图谱中的索道/乘车类建议，并以景区当前公告为准。"
+    ],
+    "notes": [
+      "玉屏楼 在第 10 与第 12 步重复出现，按实验六“身份去重、步骤不去重”保留两次。",
+      "南大门 在第 1 与第 14 步重复出现，按实验六“身份去重、步骤不去重”保留两次。",
+      "图谱未收录餐饮与休息设施，中午不编造具体餐厅，只在时段上留出休整。"
+    ],
+    "summary": "黄山 · 老人 · 1 日方案（依据实验六图谱路线）。\n第1天：上午 南大门→云谷寺→始信峰→狮子峰→清凉台；中午 散花坞→排云亭→天海→鳌鱼峰；下午 玉屏楼→迎客松→玉屏楼→慈光阁→南大门。\n上游解析把全部步骤标为“上午”，直接分组会使中午/下午为空；改用层级推断的时段补位，冲突状态在图中仍按两条 DURING 边保留。 为避免路线顺序与时段倒置，1 个步骤按时序单调修复（第12步 玉屏楼）。\n建议：（团队的整体体力）建议乘索道上下；（山上风大）可以带上冲锋衣和口罩；（两日游的旅客）建议午后上山；（天晴爬山）建议带系带的草帽。\n注意：老人与高强度爬山/徒步同时出现，方案按图谱保留路线，但需提示强度风险与索道建议。\n注意：未说明天数，默认按 1 天规划。\n注意：请求含爬山/徒步等高强度约束；图谱只能沿原路线顺序给出景点，不能评估坡度与体力消耗，需另行核验。\n注意：图谱未收录坡度、海拔与点间距离，老人同行的体力消耗无法评估；建议优先参考图谱中的索道/乘车类建议，并以景区当前公告为准。\n以上景点均取自图谱步骤；顺序为上游文本顺序，未核验实际通行与当前开放状态。",
+    "message": null,
+    "evidence_count": 18,
+    "evidence_ids": [
+      "evidence:07de252d38ff647e75c5",
+      "evidence:09b8fbe3019d81e8d502",
+      "evidence:356efbb97bd2b5d4dae6",
+      "evidence:4f0a70ff03de66ed8587",
+      "evidence:52950a14eb87609c73c7",
+      "evidence:59301b8ce0476b6fb54a",
+      "evidence:6ee1da305639108a8df1",
+      "evidence:74bad570c21f29521f56",
+      "evidence:88a35fce8aa7a6aead15",
+      "evidence:89ebc3728e801be87d1c",
+      "evidence:96ff7bec9e3892226e95",
+      "evidence:c184b3629d4e9092a61d",
+      "evidence:c57de58be0da2a1f274c",
+      "evidence:cd62dd220f4b19aeb4e6",
+      "evidence:e92eee4fcf794f92ccee",
+      "evidence:f1e385b0b122beac934d",
+      "evidence:fd6f92a28e5fede9e968",
+      "evidence:ff518d3e83d8eace2ebe"
+    ],
+    "tool_call_count": 2,
+    "error_count": 0,
+    "tool_calls": [
+      {
+        "action": "route",
+        "scenic": "黄山"
+      },
+      {
+        "action": "advice",
+        "scenic": "黄山",
+        "traveler_type": "老人",
+        "limit": 6
+      }
+    ],
+    "trace_step_count": 8,
+    "elapsed_ms": 0
+  },
+  {
+    "id": "vague_request",
+    "tag": "信息不足·先追问",
+    "query": "帮我做个旅游规划",
+    "expect": {
+      "need_clarification": true,
+      "max_tool_calls": 0,
+      "no_plan": true
+    },
+    "expect_ok": true,
+    "expect_problem": "",
+    "provider": "offline-rules",
+    "intent": {
+      "scenic": null,
+      "unknown_scenic": null,
+      "visitor_type": "普通",
+      "duration": 1,
+      "preferences": [],
+      "constraints": [],
+      "need_clarification": true,
+      "flags": [
+        "未指定景区；可选 九寨沟、张家界、黄山。",
+        "未说明天数，默认按 1 天规划。",
+        "当前图谱只收录黄山、九寨沟、张家界三条官方整理路线。请补充：想去哪个景区、同行人群（老人/亲子/情侣/普通）、计划天数（1 天或 2 天）？"
+      ]
+    },
+    "found": false,
+    "need_clarification": true,
+    "scenic": null,
+    "step_count": 0,
+    "days": [],
+    "period_source": null,
+    "period_repairs": [],
+    "selection": null,
+    "advices": [],
+    "warnings": [],
+    "notes": [],
+    "summary": "当前图谱只收录黄山、九寨沟、张家界三条官方整理路线。请补充：想去哪个景区、同行人群（老人/亲子/情侣/普通）、计划天数（1 天或 2 天）？",
+    "message": null,
+    "evidence_count": 0,
+    "evidence_ids": [],
+    "tool_call_count": 0,
+    "error_count": 0,
+    "tool_calls": [],
+    "trace_step_count": 2,
+    "elapsed_ms": 0
+  },
+  {
+    "id": "family_jiuzhaigou_carsick",
+    "tag": "晕车约束·取相关建议",
+    "query": "亲子游九寨沟一天，孩子有点晕车",
+    "expect": {
+      "scenic": "九寨沟",
+      "visitor_type": "亲子",
+      "found": true,
+      "advice_contains": "晕车",
+      "min_tool_calls": 2,
+      "max_tool_calls": 4
+    },
+    "expect_ok": true,
+    "expect_problem": "",
+    "provider": "offline-rules",
+    "intent": {
+      "scenic": "九寨沟",
+      "unknown_scenic": null,
+      "visitor_type": "亲子",
+      "duration": 1,
+      "preferences": [],
+      "constraints": [
+        "易晕车"
+      ],
+      "need_clarification": false,
+      "flags": []
+    },
+    "found": true,
+    "need_clarification": false,
+    "scenic": "九寨沟",
+    "step_count": 11,
+    "days": [
+      {
+        "day": 1,
+        "sections": [
+          {
+            "period": "上午",
+            "steps": [
+              "01 沟口 (upstream_parse)",
+              "02 树正群海 (upstream_parse)",
+              "03 老虎海 (upstream_parse)",
+              "04 犀牛海 (upstream_parse)"
+            ]
+          },
+          {
+            "period": "中午",
+            "steps": [
+              "05 诺日朗瀑布 (conflicting_hierarchy_heuristic)",
+              "06 五花海 (conflicting_hierarchy_heuristic)",
+              "07 珍珠滩瀑布 (conflicting_hierarchy_heuristic)"
+            ]
+          },
+          {
+            "period": "下午",
+            "steps": [
+              "08 镜海 (conflicting_hierarchy_heuristic)",
+              "09 长海 (conflicting_hierarchy_heuristic)",
+              "10 五彩池 (conflicting_hierarchy_heuristic)",
+              "11 沟口 (conflicting_hierarchy_heuristic)"
+            ]
+          }
+        ]
+      }
+    ],
+    "period_source": "hierarchy_heuristic_fallback",
+    "period_repairs": [],
+    "selection": null,
+    "advices": [
+      {
+        "mapping_id": "C017",
+        "condition": "一天时间相对紧凑",
+        "advice": "建议早上早点出发进入景区",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:b6b0da88e9b96f39cb0c"
+        ]
+      },
+      {
+        "mapping_id": "C029",
+        "condition": "栈道过去很远的",
+        "advice": "建议在车上看看就行了",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:e0c35d1c6a5c6a51354e"
+        ]
+      },
+      {
+        "mapping_id": "C020",
+        "condition": "不坐观光车",
+        "advice": "可以一直步行到芦苇海",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:6bb2a9bf9e865f4324d6"
+        ]
+      },
+      {
+        "mapping_id": "C018",
+        "condition": "要买特产",
+        "advice": "不要在景区买",
+        "traveler_type": "普通游客",
+        "negative": true,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:2492b2727eb7556fd631"
+        ]
+      },
+      {
+        "mapping_id": "C006",
+        "condition": "想走镜海的栈道",
+        "advice": "必须在诺日朗或者珍珠滩走过去",
+        "traveler_type": "普通游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:b657e4f3009239b728d5"
+        ]
+      },
+      {
+        "mapping_id": "C004",
+        "condition": "有晕车史的",
+        "advice": "要提前与司机讲清楚,要求尽可能开得稳些",
+        "traveler_type": "易晕车游客",
+        "negative": false,
+        "historical_only": true,
+        "evidence_refs": [
+          "evidence:9e614f7b76676a65971d"
+        ]
+      }
+    ],
+    "warnings": [],
+    "notes": [
+      "建议回退：图谱中没有与“亲子”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。",
+      "已按“晕车”约束取出图谱中的晕车相关建议；该建议来自游客叙述，需自行核验。",
+      "沟口 在第 1 与第 11 步重复出现，按实验六“身份去重、步骤不去重”保留两次。",
+      "图谱未收录餐饮与休息设施，中午不编造具体餐厅，只在时段上留出休整。"
+    ],
+    "summary": "九寨沟 · 亲子 · 1 日方案（依据实验六图谱路线）。\n第1天：上午 沟口→树正群海→老虎海→犀牛海；中午 诺日朗瀑布→五花海→珍珠滩瀑布；下午 镜海→长海→五彩池→沟口。\n上游解析把全部步骤标为“上午”，直接分组会使中午/下午为空；改用层级推断的时段补位，冲突状态在图中仍按两条 DURING 边保留。\n建议：（一天时间相对紧凑）建议早上早点出发进入景区；（栈道过去很远的）建议在车上看看就行了；（不坐观光车）可以一直步行到芦苇海；（要买特产）不要在景区买；（想走镜海的栈道）必须在诺日朗或者珍珠滩走过去；（有晕车史的）要提前与司机讲清楚,要求尽可能开得稳些。\n以上景点均取自图谱步骤；顺序为上游文本顺序，未核验实际通行与当前开放状态。",
+    "message": null,
+    "evidence_count": 17,
+    "evidence_ids": [
+      "evidence:0a0e60311cf3c83954ef",
+      "evidence:114540fca8106e3e184e",
+      "evidence:1c6fabdd7132fa6bfbde",
+      "evidence:2492b2727eb7556fd631",
+      "evidence:66e6c379d556689467bb",
+      "evidence:69ecbdec8432be636532",
+      "evidence:6bb2a9bf9e865f4324d6",
+      "evidence:811cb4c6374902cec22e",
+      "evidence:9e614f7b76676a65971d",
+      "evidence:af729e7aeeec0e34fca5",
+      "evidence:b657e4f3009239b728d5",
+      "evidence:b6b0da88e9b96f39cb0c",
+      "evidence:b97c5a91eadea5d54e5d",
+      "evidence:e0c35d1c6a5c6a51354e",
+      "evidence:ec7c5c4a821a82df68e8",
+      "evidence:f453b1f6f1072c18fb76",
+      "evidence:f8857d79df1b2c51e3b3"
+    ],
+    "tool_call_count": 2,
+    "error_count": 0,
+    "tool_calls": [
+      {
+        "action": "route",
+        "scenic": "九寨沟"
+      },
+      {
+        "action": "advice",
+        "scenic": "九寨沟",
+        "traveler_type": "亲子",
+        "limit": 6
+      }
+    ],
+    "trace_step_count": 8,
+    "elapsed_ms": 0
+  }
+]
