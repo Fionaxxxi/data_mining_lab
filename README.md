@@ -10,10 +10,11 @@
 | 二：实体识别 | [src/lab2/](src/lab2/) | [实验二报告.md](实验二报告.md) | `outputs/lab2/` | `.\run.ps1 -Lab 2` |
 | 三：游览路线层级结构 | [src/lab3/](src/lab3/) | [实验三报告.md](实验三报告.md) | `outputs/lab3/` | `.\run.ps1 -Lab 3` |
 | 四：共指消解 | [src/lab4/](src/lab4/) | [实验四报告.md](实验四报告.md) | `outputs/lab4/` | `.\run.ps1 -Lab 4` |
+| 七：旅游规划 Agent | [实验七/src/lab7/](实验七/src/lab7/) | [实验七报告.md](实验七/实验七报告.md) | `实验七/outputs/lab7/` | `.\run.ps1 -Lab 7` |
 | 六：多源知识融合与图谱 | [src/lab6/](src/lab6/) | [实验六报告.md](实验六报告.md) | `outputs/lab6/` | `.\run.ps1 -Lab 6` |
 | 五：条件性游览建议抽取 | [src/lab5/](src/lab5/) | [实验五报告.md](实验五报告.md) | `outputs/lab5/` | `.\run.ps1 -Lab 5` |
 
-`run.ps1 -Lab all`按一、二、三、四、五、六顺序执行。实验三使用 `data/lab3/` 中已有样本离线运行，不自动联网采集或生成 Word。实验一默认使用已保存原文离线清洗，不重新爬取网站；实验二运行后自动检查实体位置和代表性案例。
+`run.ps1 -Lab all`按一、二、三、四、五、六、七顺序执行。实验三使用 `data/lab3/` 中已有样本离线运行，不自动联网采集或生成 Word。实验一默认使用已保存原文离线清洗，不重新爬取网站；实验二运行后自动检查实体位置和代表性案例。
 
 ## 每个脚本负责什么
 
