@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="480" viewBox="0 0 1700 480">
+<rect width="100%" height="100%" fill="#17202b"/>
+<text x="32" y="48" fill="#f4f7fb" font-family="Microsoft YaHei, sans-serif" font-size="27" font-weight="bold">实验七场景测试：实际终端输出摘录</text>
+<text x="32" y="106" fill="#edf3fa" font-family="Microsoft YaHei, sans-serif" font-size="20">实验七 多场景测试（LLM 后端：offline-rules，图谱 sha256=fc3d3bebd1f8d37b）</text>
+<text x="32" y="140" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">[elder_huangshan] 老人·一日·黄山 工具=2 步=14 命中=True 期望=通过</text>
+<text x="32" y="174" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">[family_jiuzhaigou] 亲子·一日·九寨沟 工具=2 步=11 命中=True 期望=通过</text>
+<text x="32" y="208" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">[couple_zhangjiajie] 情侣·两日·张家界 工具=2 步=5 命中=True 期望=通过</text>
+<text x="32" y="242" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">[auto_pick_family] 未指定景区·按人群择优 工具=3 步=11 命中=True 期望=通过</text>
+<text x="32" y="276" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">[unknown_taishan] 未收录景区·如实回退 工具=1 步=0 命中=False 期望=通过</text>
+<text x="32" y="310" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">[conflict_elder_steep] 冲突约束·老人+爬山 工具=2 步=14 命中=True 期望=通过</text>
+<text x="32" y="344" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">[vague_request] 信息不足·先追问 工具=0 步=0 命中=False 期望=通过</text>
+<text x="32" y="378" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">[family_jiuzhaigou_carsick] 晕车约束·取相关建议 工具=2 步=11 命中=True 期望=通过</text>
+<text x="32" y="412" fill="#edf3fa" font-family="Microsoft YaHei, sans-serif" font-size="20">共 8 例，期望核对失败 0 例。</text>
+</svg>
