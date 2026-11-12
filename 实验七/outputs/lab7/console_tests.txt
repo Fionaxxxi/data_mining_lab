@@ -1,5 +1,5 @@
 实验七 多场景测试（LLM 后端：offline-rules，图谱 sha256=fc3d3bebd1f8d37b）
-图谱来源：E:\data_mining_lab\data_mining_lab-main\outputs\lab6\graph.json
+图谱来源：D:\uniproject\data_mining\data_mining_lab-main\data_mining_lab-main\实验七\outputs\lab6\graph.json
 [elder_huangshan] 老人·一日·黄山 工具=2 步=14 命中=True 期望=通过
     方案：黄山 · 老人 · 1 日方案（依据实验六图谱路线）。 第1天：上午 南大门→云谷寺→始信峰→狮子峰→清凉台；中午 散花坞→排云亭→天海→鳌鱼峰；下午 玉屏楼→迎客松→玉屏楼→慈光阁→南大门。 上游解析把全部步骤标为“上午”，直接分组会使中午/下午为空；改用层级推断的时段补位，冲突状态在图中仍按两条 DURING 边保留。 为避免路线顺序与时段倒置，1 个步
 [family_jiuzhaigou] 亲子·一日·九寨沟 工具=2 步=11 命中=True 期望=通过
