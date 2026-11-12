@@ -62,19 +62,24 @@ class ReActAgent:
     @staticmethod
     def _validate_llm_intent(raw, rules_intent):
         """只接受枚举/收录范围内的字段，其余保留规则值，避免模型编造景区。"""
+        if not isinstance(raw, dict):
+            raise ValueError('LLM 意图必须是 JSON 对象')
         ok = {}
         allowed_scenic = {'黄山', '九寨沟', '张家界', None}
-        if raw.get('scenic') in allowed_scenic:
+        # 用户明确给出的景区或未收录景区优先，模型不得清空或改成另一处。
+        if not rules_intent['scenic'] and not rules_intent['unknown_scenic'] and raw.get('scenic') in allowed_scenic:
             ok['scenic'] = raw['scenic']
-        if raw.get('visitor_type') in {'老人', '亲子', '情侣', '普通'}:
+        if rules_intent['visitor_type'] == '普通' and raw.get('visitor_type') in {'老人', '亲子', '情侣', '普通'}:
             ok['visitor_type'] = raw['visitor_type']
-        if raw.get('duration') in {1, 2}:
+        if not rules_intent['duration_explicit'] and raw.get('duration') in {1, 2}:
             ok['duration'] = int(raw['duration'])
         if isinstance(raw.get('preferences'), list):
-            ok['preferences'] = [p for p in raw['preferences'] if isinstance(p, str)][:5]
+            ok['preferences'] = list(dict.fromkeys(rules_intent['preferences'] +
+                [p for p in raw['preferences'] if isinstance(p, str)]))[:5]
         if isinstance(raw.get('constraints'), list):
-            ok['constraints'] = [c for c in raw['constraints'] if isinstance(c, str)][:5]
-        if isinstance(raw.get('need_clarification'), bool):
+            ok['constraints'] = list(dict.fromkeys(rules_intent['constraints'] +
+                [c for c in raw['constraints'] if isinstance(c, str)]))[:5]
+        if isinstance(raw.get('need_clarification'), bool) and not rules_intent['need_clarification']:
             ok['need_clarification'] = raw['need_clarification']
         # 模型给出的未收录景区名只在规则版没识别到景区时采纳
         if raw.get('unknown_scenic') and not rules_intent['scenic']:
