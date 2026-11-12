@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1194" viewBox="0 0 1700 1194">
+<rect width="100%" height="100%" fill="#17202b"/>
+<text x="32" y="48" fill="#f4f7fb" font-family="Microsoft YaHei, sans-serif" font-size="27" font-weight="bold">实验七验收：实际终端输出摘录</text>
+<text x="32" y="106" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS graph_sha_matches_meta :: graph.json sha256=fc3d3bebd1f8d37b… 与 meta 记录一致</text>
+<text x="32" y="140" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS graph_scale_from_lab6 :: 节点 471/471，边 629/629（实验六 stats）</text>
+<text x="32" y="174" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS scenario_count :: 实际 8 例</text>
+<text x="32" y="208" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS scenario_diversity :: 覆盖游客类型：亲子、情侣、普通、老人</text>
+<text x="32" y="242" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS two_day_covered :: 两日场景存在</text>
+<text x="32" y="276" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS plan_spots_traceable_to_lab6_steps :: 越界步骤 0 个</text>
+<text x="32" y="310" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS all_evidence_ids_resolve :: 引用 46 条，缺失 0 条</text>
+<text x="32" y="344" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS multi_lab_provenance :: 证据来自 2 个上游文件：outputs/lab3/structured_routes.json(30)；outputs/lab5/mapping.json(16)</text>
+<text x="32" y="378" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS advices_historical_and_referenced :: 建议 32 条，全部 historical_only 且有 evidence_refs</text>
+<text x="32" y="412" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS advice_mapping_ids_unique_per_case :: 同一方案内重复 mapping_id 的场景：无</text>
+<text x="32" y="446" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS unknown_scenic_no_fabrication :: 未收录场景：found=False scenic=None steps=0</text>
+<text x="32" y="480" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS vague_request_clarifies :: 信息不足：追问=True 工具调用=0</text>
+<text x="32" y="514" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS tool_rejects_unknown_action :: 未知 action: &#x27;plan&#x27;，允许值 [&#x27;scenics&#x27;, &#x27;route&#x27;, &#x27;advice&#x27;, &#x27;entity&#x27;]</text>
+<text x="32" y="548" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS tool_requires_scenic :: route 查询必须给 scenic</text>
+<text x="32" y="582" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS tool_rejects_extra_args :: action=scenics 不接受参数 [&#x27;scenic&#x27;]</text>
+<text x="32" y="616" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS tool_entity_requires_name :: entity 查询缺少 name</text>
+<text x="32" y="650" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS tool_unknown_scenic_empty :: 返回 found=False，可选 [&#x27;九寨沟&#x27;, &#x27;张家界&#x27;, &#x27;黄山&#x27;]</text>
+<text x="32" y="684" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS advice_fallback_annotated :: 无对应游客类型时 fallback_note=&#x27;图谱中没有与“亲子”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。&#x27;</text>
+<text x="32" y="718" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS trace_one_per_case :: 轨迹 8 条 / 场景 8 例</text>
+<text x="32" y="752" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS react_trace_complete :: 问题：无</text>
+<text x="32" y="786" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS max_tool_calls_bounded :: 最大调用 3 次</text>
+<text x="32" y="820" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS period_status_enumerated :: 实际状态 [&#x27;conflicting_hierarchy_heuristic&#x27;, &#x27;order_monotonic_repair&#x27;, &#x27;upstream_parse&#x27;]</text>
+<text x="32" y="854" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS period_repairs_recorded :: 记录修复 2 处</text>
+<text x="32" y="888" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS no_fabricated_current_status :: 命中越权词：无</text>
+<text x="32" y="922" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS uncertainty_disclosed :: 方案是否声明未核验通行/开放</text>
+<text x="32" y="956" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS deterministic_offline :: 两次运行的 days 与 summary 一致</text>
+<text x="32" y="990" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS provider_offline_when_no_key :: provider=offline-rules</text>
+<text x="32" y="1024" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS figures_present :: 检查 agent_architecture.svg、react_trace_demo.svg、plan_timeline.svg</text>
+<text x="32" y="1058" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS llm_mock_input_output_chain :: 本地模拟调用 2 次；明确景区保留为 黄山；未测试真实外部 API</text>
+<text x="32" y="1092" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">PASS cli_runs :: 0</text>
+<text x="32" y="1126" fill="#8de0a3" font-family="Microsoft YaHei, sans-serif" font-size="20">30/30 项通过</text>
+</svg>

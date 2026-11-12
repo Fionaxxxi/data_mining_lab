@@ -181,12 +181,39 @@ def main():
     check('provider_offline_when_no_key', r1['provider'] == 'offline-rules' or r1['provider'].startswith('openai-compatible'),
           'provider=%s' % r1['provider'])
 
-    # 12 图件存在
-    figs = ['agent_architecture.png', 'react_trace_demo.png', 'plan_timeline.png']
+    # 12 图件存在；SVG 可直接插入报告，也不依赖本机 matplotlib 重绘。
+    figs = ['agent_architecture.svg', 'react_trace_demo.svg', 'plan_timeline.svg']
     fig_ok = all((OUT / 'figures' / f).exists() and (OUT / 'figures' / f).stat().st_size > 8000 for f in figs)
     check('figures_present', fig_ok, '检查 %s' % '、'.join(figs))
 
-    # 13 CLI 可用
+    # 13 在线调用链用本地假响应验证，不把它冒充真实 API 连通性。
+    import os
+    from unittest.mock import patch
+    import llm as llm_mod
+    calls = []
+    def fake_post(url, payload, headers, timeout):
+        calls.append({'url': url, 'payload': payload, 'headers': headers})
+        if len(calls) == 1:
+            # 故意给出与用户明确请求冲突的景区，验证规则约束不能被模型覆盖。
+            content = json.dumps({'scenic': '张家界', 'visitor_type': '情侣', 'duration': 2,
+                                  'preferences': [], 'constraints': [], 'need_clarification': False})
+        else:
+            content = '黄山一日行程；以上景点均来自图谱，实际通行未核验。'
+        return {'choices': [{'message': {'content': content}}]}
+    with patch.dict(os.environ, {'OPENAI_API_KEY': 'local-test-key',
+                                 'OPENAI_BASE_URL': 'https://mock.invalid/v1',
+                                 'OPENAI_MODEL': 'mock-model'}), patch.object(llm_mod, '_post_json', fake_post):
+        simulated = ReActAgent(tool=tool, llm=LLMClient()).run('带老人去黄山玩一天')
+    online_ok = len(calls) == 2 and simulated['intent']['scenic'] == '黄山' \
+        and simulated['intent']['visitor_type'] == '老人' and simulated['intent']['duration'] == 1 \
+        and simulated['plan']['scenic'] == '黄山' and simulated['plan']['found'] \
+        and calls[0]['url'] == 'https://mock.invalid/v1/chat/completions' \
+        and calls[0]['headers'].get('Authorization') == 'Bearer local-test-key'
+    check('llm_mock_input_output_chain', online_ok,
+          '本地模拟调用 %d 次；明确景区保留为 %s；未测试真实外部 API' %
+          (len(calls), simulated['plan']['scenic']))
+
+    # 14 CLI 可用
     import subprocess
     p = subprocess.run([sys.executable, str(HERE / 'cli.py'), '--query', '情侣一日黄山'], capture_output=True, text=True)
     check('cli_runs', p.returncode == 0 and '方案' in p.stdout, p.returncode and p.stderr[-300:])

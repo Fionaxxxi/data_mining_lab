@@ -25,7 +25,8 @@ PASS no_fabricated_current_status :: 命中越权词：无
 PASS uncertainty_disclosed :: 方案是否声明未核验通行/开放
 PASS deterministic_offline :: 两次运行的 days 与 summary 一致
 PASS provider_offline_when_no_key :: provider=offline-rules
-PASS figures_present :: 检查 agent_architecture.png、react_trace_demo.png、plan_timeline.png
+PASS figures_present :: 检查 agent_architecture.svg、react_trace_demo.svg、plan_timeline.svg
+PASS llm_mock_input_output_chain :: 本地模拟调用 2 次；明确景区保留为 黄山；未测试真实外部 API
 PASS cli_runs :: 0
 
-29/29 项通过
+30/30 项通过
