@@ -1,6 +1,9 @@
 __pycache__/
 *.py[cod]
 
+# Experiment 7 local LLM credentials
+/实验七/.env
+
 # Local plotting cache
 outputs/maintenance/mplconfig/
 

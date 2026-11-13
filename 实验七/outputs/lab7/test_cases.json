@@ -162,6 +162,20 @@
     ],
     "tool_call_count": 2,
     "error_count": 0,
+    "llm": {
+      "provider": "offline-rules",
+      "force_offline": true,
+      "request_attempts": 0,
+      "successful_responses": 0,
+      "failures": 0,
+      "fallback_count": 0,
+      "planning_attempts": 0,
+      "planning_accepted": 0,
+      "decision_attempts": 0,
+      "decision_accepted": 0,
+      "fallback_events": [],
+      "last_error": null
+    },
     "tool_calls": [
       {
         "action": "route",
@@ -175,7 +189,7 @@
       }
     ],
     "trace_step_count": 8,
-    "elapsed_ms": 10
+    "elapsed_ms": 1
   },
   {
     "id": "family_jiuzhaigou",
@@ -347,6 +361,20 @@
     ],
     "tool_call_count": 2,
     "error_count": 0,
+    "llm": {
+      "provider": "offline-rules",
+      "force_offline": true,
+      "request_attempts": 0,
+      "successful_responses": 0,
+      "failures": 0,
+      "fallback_count": 0,
+      "planning_attempts": 0,
+      "planning_accepted": 0,
+      "decision_attempts": 0,
+      "decision_accepted": 0,
+      "fallback_events": [],
+      "last_error": null
+    },
     "tool_calls": [
       {
         "action": "route",
@@ -360,7 +388,7 @@
       }
     ],
     "trace_step_count": 8,
-    "elapsed_ms": 0
+    "elapsed_ms": 1
   },
   {
     "id": "couple_zhangjiajie",
@@ -518,6 +546,20 @@
     ],
     "tool_call_count": 2,
     "error_count": 0,
+    "llm": {
+      "provider": "offline-rules",
+      "force_offline": true,
+      "request_attempts": 0,
+      "successful_responses": 0,
+      "failures": 0,
+      "fallback_count": 0,
+      "planning_attempts": 0,
+      "planning_accepted": 0,
+      "decision_attempts": 0,
+      "decision_accepted": 0,
+      "fallback_events": [],
+      "last_error": null
+    },
     "tool_calls": [
       {
         "action": "route",
@@ -531,7 +573,7 @@
       }
     ],
     "trace_step_count": 8,
-    "elapsed_ms": 0
+    "elapsed_ms": 1
   },
   {
     "id": "auto_pick_family",
@@ -722,6 +764,20 @@
     ],
     "tool_call_count": 3,
     "error_count": 0,
+    "llm": {
+      "provider": "offline-rules",
+      "force_offline": true,
+      "request_attempts": 0,
+      "successful_responses": 0,
+      "failures": 0,
+      "fallback_count": 0,
+      "planning_attempts": 0,
+      "planning_accepted": 0,
+      "decision_attempts": 0,
+      "decision_accepted": 0,
+      "fallback_events": [],
+      "last_error": null
+    },
     "tool_calls": [
       {
         "action": "scenics"
@@ -738,7 +794,7 @@
       }
     ],
     "trace_step_count": 11,
-    "elapsed_ms": 1
+    "elapsed_ms": 3
   },
   {
     "id": "unknown_taishan",
@@ -785,6 +841,20 @@
     "evidence_ids": [],
     "tool_call_count": 1,
     "error_count": 0,
+    "llm": {
+      "provider": "offline-rules",
+      "force_offline": true,
+      "request_attempts": 0,
+      "successful_responses": 0,
+      "failures": 0,
+      "fallback_count": 0,
+      "planning_attempts": 0,
+      "planning_accepted": 0,
+      "decision_attempts": 0,
+      "decision_accepted": 0,
+      "fallback_events": [],
+      "last_error": null
+    },
     "tool_calls": [
       {
         "action": "scenics"
@@ -960,6 +1030,20 @@
     ],
     "tool_call_count": 2,
     "error_count": 0,
+    "llm": {
+      "provider": "offline-rules",
+      "force_offline": true,
+      "request_attempts": 0,
+      "successful_responses": 0,
+      "failures": 0,
+      "fallback_count": 0,
+      "planning_attempts": 0,
+      "planning_accepted": 0,
+      "decision_attempts": 0,
+      "decision_accepted": 0,
+      "fallback_events": [],
+      "last_error": null
+    },
     "tool_calls": [
       {
         "action": "route",
@@ -1018,6 +1102,20 @@
     "evidence_ids": [],
     "tool_call_count": 0,
     "error_count": 0,
+    "llm": {
+      "provider": "offline-rules",
+      "force_offline": true,
+      "request_attempts": 0,
+      "successful_responses": 0,
+      "failures": 0,
+      "fallback_count": 0,
+      "planning_attempts": 0,
+      "planning_accepted": 0,
+      "decision_attempts": 0,
+      "decision_accepted": 0,
+      "fallback_events": [],
+      "last_error": null
+    },
     "tool_calls": [],
     "trace_step_count": 2,
     "elapsed_ms": 0
@@ -1188,6 +1286,20 @@
     ],
     "tool_call_count": 2,
     "error_count": 0,
+    "llm": {
+      "provider": "offline-rules",
+      "force_offline": true,
+      "request_attempts": 0,
+      "successful_responses": 0,
+      "failures": 0,
+      "fallback_count": 0,
+      "planning_attempts": 0,
+      "planning_accepted": 0,
+      "decision_attempts": 0,
+      "decision_accepted": 0,
+      "fallback_events": [],
+      "last_error": null
+    },
     "tool_calls": [
       {
         "action": "route",
@@ -1201,6 +1313,6 @@
       }
     ],
     "trace_step_count": 8,
-    "elapsed_ms": 0
+    "elapsed_ms": 3
   }
 ]

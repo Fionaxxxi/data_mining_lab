@@ -29,6 +29,8 @@ TOOL_SPEC = {
     'description': (
         '查询实验六旅游知识图谱。支持列景区、取某景区官方路线步骤（含时段状态与交通）、'
         '按游客类型/关键词取条件建议、按名称查地点实体。所有结果带 evidence_refs。'
+        '参数按 action 限定：scenics 仅 action；route 仅 action+scenic；'
+        'advice 为 action+scenic/traveler_type/contains/limit；entity 为 action+scenic+name。'
     ),
     'input_schema': {
         'type': 'object',
@@ -38,9 +40,10 @@ TOOL_SPEC = {
             'scenic': {'type': 'string', 'description': '景区名，仅黄山/九寨沟/张家界'},
             'traveler_type': {'type': 'string', 'description': '老人/亲子/情侣/普通'},
             'contains': {'type': 'string', 'description': '建议关键词，如 体力、晕车、索道'},
-            'limit': {'type': 'integer', 'description': '建议条数上限，默认 8'},
+            'limit': {'type': 'integer', 'description': '建议条数上限，1 到 6，默认 6'},
             'name': {'type': 'string', 'description': 'entity 查询的名称或别名'},
         },
+        'additionalProperties': False,
     },
 }
 

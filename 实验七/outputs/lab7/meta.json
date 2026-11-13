@@ -4,5 +4,6 @@
   "graph_path": "outputs\\lab6\\graph.json",
   "graph_sha256": "fc3d3bebd1f8d37be2ea4e303186f484f74c6d2b7f618cb60f650cdcf26791ba",
   "scenario_count": 8,
+  "llm_force_offline": true,
   "tool_name": "knowledge_graph_query"
 }

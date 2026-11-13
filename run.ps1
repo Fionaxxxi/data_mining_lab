@@ -1,13 +1,15 @@
 ﻿param(
     [ValidateSet('1', '2', '3', '4', '5', '6', '7', 'all')]
-    [string]$Lab = '4'
+    [string]$Lab = '4',
+    [switch]$Online
 )
 $ErrorActionPreference = 'Stop'
+if ($Online -and $Lab -ne '7') { throw '-Online is only supported with -Lab 7.' }
 $env:PYTHONNOUSERSITE = '1'
 $env:PYTHONUTF8 = '1'
 $env:MPLCONFIGDIR = Join-Path $PSScriptRoot 'outputs\maintenance\mplconfig'
 Set-Location -LiteralPath $PSScriptRoot
-$pythonPath = 'D:\uniproject\data_mining\.venv\Scripts\python.exe'
+$pythonPath = 'D:\miniconda3\envs\dm_scenic_lab\python.exe'
 if (-not (Test-Path -LiteralPath $pythonPath)) { throw 'Project Python environment missing.' }
 $lab7Dir = [string]::Concat([char]0x5B9E, [char]0x9A8C, [char]0x4E03)
 $labScripts = @{
@@ -25,5 +27,10 @@ foreach ($labNumber in $selectedLabs) {
     foreach ($scriptPath in $labScripts[$labNumber]) {
         & $pythonPath (Join-Path $PSScriptRoot $scriptPath)
         if ($LASTEXITCODE -ne 0) { throw "Lab $labNumber failed: $scriptPath" }
+    }
+    if ($labNumber -eq '7' -and $Online) {
+        Write-Host 'Running the 8 real-LLM scenarios serially; automatic retries are disabled.'
+        & $pythonPath (Join-Path $PSScriptRoot "$lab7Dir\src\lab7\online_tests.py")
+        if ($LASTEXITCODE -ne 0) { throw 'Lab 7 online scenario suite failed.' }
     }
 }

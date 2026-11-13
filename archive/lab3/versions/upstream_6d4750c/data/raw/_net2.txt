@@ -1,7 +1,0 @@
-200 110728 https://www.zjj.gov.cn/
-200 110728 http://www.zjj.gov.cn/
-200 90235 https://zjj.rednet.cn/
-ERR ConnectTimeout(MaxRetryError("HTTPSConnectionPool(host='www. https://www.hnzjj.com/
-ERR ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'en https://enjoyzjj.com/
-403 5652 https://www.travelzjj.com/
-403 2501 https://baike.baidu.com/item/张家界/

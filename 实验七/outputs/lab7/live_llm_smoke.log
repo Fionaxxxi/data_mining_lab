@@ -1,0 +1,44 @@
+真实 LLM 冒烟记录
+日期：2026-11-12
+请求：带老人去黄山玩一天，希望行程轻松平缓
+服务：火山方舟 OpenAI-compatible；密钥已脱敏且未记录
+
+尝试 A：模型名 DeepSeek-V4-pro
+  HTTP 请求 2；成功响应 0；回退 2
+  错误：InvalidEndpointOrModel.NotFound
+  结论：服务端拒绝该模型/endpoint（不存在或当前凭证无权访问）；输出方案来自 offline-rules。
+
+尝试 B：模型名 deepseek-v4-pro（临时进程环境变量覆盖，未修改 .env）
+  HTTP 请求 2；成功响应 0；回退 2
+  错误：InvalidEndpointOrModel.NotFound
+  结论：与尝试 A 相同。
+
+尝试 C：官方文档列出的版本化模型 ID deepseek-v4-pro-ga-260813
+  执行已发起，但运行环境未保留完整输出；结论：未确认，不计通过。
+
+总体：真实 LLM 验收未通过；离线套件 8/8 场景、36/36 自动验收通过是另一项结果。下一步需在方舟控制台核实账号可用的精确 Model ID/Endpoint ID 和服务权限后重试。
+
+尝试 D：模型名 Doubao-Seed-2.1-pro（进程级覆盖，未修改 .env）
+  HTTP 请求 2；成功响应 0；回退 2；CLI 退出码 0（回退流程正常结束）
+  错误：InvalidEndpointOrModel.NotFound
+  方舟返回：该模型或 endpoint 不存在，或当前凭证无访问权限。
+  结论：真实模型调用未成功；展示方案来自 offline-rules。
+
+尝试 E：使用 2026-11-13 用户更新后的配置（CLI 实际显示 provider=openai-compatible:kimi-k3；未读取或记录密钥）
+  HTTP 请求 2；成功响应 1；回退 2；CLI 退出码 0（回退流程正常结束）
+  意图解析：HTTP 返回后，响应内容不是合法 JSON，解析失败并回退。
+  最终回答：HTTP 400，code=invalid_parameter_error；服务端提示 temperature=0.3 不受 kimi-k3 支持，回退规则回答。
+  结论：服务端可达，但真实 LLM 闭环未通过；应修正意图 JSON 输出契约和该模型不支持的 temperature 参数后复测。
+
+尝试 F：临时设置 deepseek-v4-1-flash-261017 后测试，2026-11-13
+  HTTP 请求 2；成功响应 0；回退 2；错误 model_not_found（HTTP 404）
+  随后仅检查非敏感 endpoint 主机与路径，确认当前 OPENAI_BASE_URL 指向阿里云百炼（ws-…cn-beijing.maas.aliyuncs.com/compatible-mode/v1），并非火山方舟。
+  结论：这是“百炼 endpoint + 该模型 ID”的测试结果，不是方舟测试；不能据此判定方舟模型是否可用。未输出或记录 API key。
+
+尝试 G：用户确认配置更新后，使用当前有效配置重试（2026-11-13）
+  provider=openai-compatible:deepseek-v4.1-flash-1017
+  HTTP 请求 2；成功响应 2；失败 0；回退 0；CLI 退出码 0
+  结论：真实 LLM 输入输出闭环通过。
+  服务归属复核：运行时 base endpoint 仍指向阿里云百炼 maas.aliyuncs.com，不是火山方舟；因此此结果不计作方舟服务验收通过。
+
+异常处理修复：首次请求遇到 RemoteDisconnected 导致 CLI 异常退出；已将连接断开纳入统一网络异常处理及规则回退。修复后 Lab 7 离线验收 36/36 通过，随后尝试 G 成功。

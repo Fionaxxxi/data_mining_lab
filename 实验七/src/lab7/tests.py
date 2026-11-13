@@ -56,8 +56,10 @@ def check_expect(name, got, expect):
         problems.append('不应生成行程，实际 %d 步' % got['step_count'])
     if expect.get('selection_used') and not got['selection_used']:
         problems.append('未记录择优依据')
+    warnings = got.get('warnings', [])
+    warnings_text = warnings if isinstance(warnings, str) else '；'.join(str(w) for w in warnings)
     for w in expect.get('warnings_any', []):
-        if w not in got['warnings']:
+        if w not in warnings_text:
             problems.append('提示缺少关键词 %r' % w)
     if 'advice_contains' in expect:
         if expect['advice_contains'] not in got['advice_text']:
@@ -71,9 +73,10 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     scenarios = json.loads((DATA / 'scenarios.json').read_text(encoding='utf-8'))['scenarios']
     tool = KGQueryTool()
-    llm = LLMClient()
+    # Keep regression tests deterministic and prevent accidental paid API calls.
+    llm = LLMClient(force_offline=True)
     agent = ReActAgent(tool=tool, llm=llm)
-    log = ['实验七 多场景测试（LLM 后端：%s，图谱 sha256=%s）' % (llm.provider, tool.sha256[:16]),
+    log = ['实验七 多场景测试（强制离线，配置后端：%s，图谱 sha256=%s）' % (llm.provider, tool.sha256[:16]),
            '图谱来源：%s' % tool.graph_path]
     rows, failures = [], 0
     traces_lines = []
@@ -121,6 +124,7 @@ def main():
             'evidence_count': len(plan.get('evidence_ids', [])),
             'evidence_ids': plan.get('evidence_ids', []),
             'tool_call_count': res['tool_call_count'], 'error_count': res['error_count'],
+            'llm': res['llm'],
             'tool_calls': res['tool_calls'], 'trace_step_count': len(res['traces']),
             'elapsed_ms': int((time.time() - t0) * 1000),
         })
@@ -138,7 +142,7 @@ def main():
     (OUT / 'queries.json').write_text(json.dumps(queries, ensure_ascii=False, indent=2) + '\n', encoding='utf8')
     (OUT / 'meta.json').write_text(json.dumps({
         'lab': 7, 'provider': llm.provider, 'graph_path': str(tool.graph_path.relative_to(ROOT)),
-        'graph_sha256': tool.sha256, 'scenario_count': len(rows),
+        'graph_sha256': tool.sha256, 'scenario_count': len(rows), 'llm_force_offline': True,
         'tool_name': 'knowledge_graph_query',
     }, ensure_ascii=False, indent=2) + '\n', encoding='utf8')
     (OUT / 'test_run.log').write_text('\n'.join(log) + '\n', encoding='utf8')

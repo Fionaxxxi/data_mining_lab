@@ -24,7 +24,8 @@ def empty_intent(raw):
     return {
         'raw': raw, 'scenic': None, 'unknown_scenic': None, 'visitor_type': '普通',
         'duration': 1, 'duration_explicit': False, 'preferences': [], 'constraints': [],
-        'need_clarification': False, 'flags': [], 'matched_rules': [],
+        'need_clarification': False, 'task_type': 'route', 'entity_name': None,
+        'flags': [], 'matched_rules': [],
     }
 
 
@@ -113,6 +114,18 @@ def parse(raw, rules=None):
         it['flags'].append('输入为空，需追问景区、人群与天数。')
         return it
 
+    entity_terms = ('提及次数', '提到几次', '多少篇', '出现几次', '被提及', '实体信息',
+                    '实体查询', '别名', '在哪', '是什么')
+    advice_terms = ('建议', '怎么办', '注意什么', '是否适合', '能不能去', '晕车', '体力')
+    route_terms = ('行程', '路线', '规划', '游', '旅游', '玩一天', '玩两天')
+    general_terms = ('有哪些景区', '收录了哪些', '图谱收录', '可规划景区', '景区列表')
+    if any(term in text for term in entity_terms):
+        it['task_type'] = 'entity'
+    elif any(term in text for term in general_terms):
+        it['task_type'] = 'general'
+    elif any(term in text for term in advice_terms) and not any(term in text for term in route_terms):
+        it['task_type'] = 'advice'
+
     scenic, alias = _find_scenic(text, rules)
     it['scenic'] = scenic
     if alias:
@@ -158,7 +171,8 @@ def parse(raw, rules=None):
         it['flags'].append('「%s」不在实验六图谱收录范围，将如实说明并给出可选景区。' % unknown)
 
     # 信息不足：既没景区也没人群/偏好/明确天数，向用户追问而不是盲猜
-    if not scenic and not unknown and vt == '普通' and not prefs and not cons and not it['duration_explicit']:
+    if it['task_type'] != 'general' and not scenic and not unknown and vt == '普通' \
+            and not prefs and not cons and not it['duration_explicit']:
         it['need_clarification'] = True
         it['flags'].append(rules['clarify_question'])
     return it

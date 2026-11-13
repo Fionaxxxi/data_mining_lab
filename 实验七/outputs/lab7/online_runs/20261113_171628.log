@@ -1,0 +1,13 @@
+Lab 7 online scenario run
+started_at=2026-11-13T09:15:07.932334+00:00
+provider=openai-compatible:deepseek-v4.1-flash-1017
+graph_sha256=fc3d3bebd1f8d37be2ea4e303186f484f74c6d2b7f618cb60f650cdcf26791ba
+PASS elder_huangshan requests=3 successes=3 fallbacks=0 problems=
+PASS family_jiuzhaigou requests=3 successes=3 fallbacks=0 problems=
+PASS couple_zhangjiajie requests=3 successes=3 fallbacks=0 problems=
+PASS auto_pick_family requests=3 successes=3 fallbacks=0 problems=
+PASS unknown_taishan requests=1 successes=1 fallbacks=0 problems=
+PASS conflict_elder_steep requests=3 successes=3 fallbacks=0 problems=
+PASS vague_request requests=1 successes=1 fallbacks=0 problems=
+PASS family_jiuzhaigou_carsick requests=3 successes=3 fallbacks=0 problems=
+summary=8/8 passed

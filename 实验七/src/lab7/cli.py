@@ -14,7 +14,14 @@ from agent import ReActAgent
 
 def print_trace(result):
     print('-' * 72)
-    print('LLM 后端：', result['provider'], '｜工具调用：', result['tool_call_count'], '次')
+    llm = result.get('llm', {})
+    print('LLM 配置：', result['provider'],
+          '｜HTTP 请求：%d 次，成功响应：%d 次，回退：%d 次' % (
+              llm.get('request_attempts', 0), llm.get('successful_responses', 0),
+              llm.get('fallback_count', 0)),
+          '｜图谱工具调用：', result['tool_call_count'], '次')
+    if llm.get('last_error'):
+        print('LLM 最近错误：', llm['last_error'])
     print('-' * 72)
     for t in result['traces']:
         typ = t['type'].upper()
@@ -65,8 +72,10 @@ def main():
     ap.add_argument('--interactive', action='store_true', help='进入交互循环')
     ap.add_argument('--trace', action='store_true', help='打印 ReAct 轨迹')
     ap.add_argument('--json', action='store_true', help='输出完整 JSON')
+    ap.add_argument('--offline', action='store_true', help='强制使用离线规则，不读取本机 .env')
     a = ap.parse_args()
-    agent = ReActAgent()
+    from llm import LLMClient
+    agent = ReActAgent(llm=LLMClient(force_offline=a.offline))
 
     def handle(q):
         r = agent.run(q)

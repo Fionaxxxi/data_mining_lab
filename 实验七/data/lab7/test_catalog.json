@@ -1,0 +1,404 @@
+{
+  "version": "lab7-testset-3",
+  "purpose": "实验七完整测试登记：8个离线业务场景、ReAct工具决策自动验收及8个真实LLM在线场景。",
+  "groups": [
+    {
+      "id": "scenario",
+      "title": "用户场景",
+      "runner": "src/lab7/tests.py",
+      "count": 8
+    },
+    {
+      "id": "acceptance",
+      "title": "结构、工具、证据、ReAct 决策和 LLM 模拟验收",
+      "runner": "src/lab7/check.py",
+      "count": 47
+    },
+    {
+      "id": "live",
+      "title": "真实 LLM 在线场景",
+      "runner": "src/lab7/online_tests.py",
+      "count": 8
+    }
+  ],
+  "cases": [
+    {
+      "id": "scenario.elder_huangshan",
+      "group": "scenario",
+      "source": "scenarios.json#elder_huangshan",
+      "expected": "黄山/老人/一日；有路线步骤；说明体力数据不足；工具调用在 2–4 次。"
+    },
+    {
+      "id": "scenario.family_jiuzhaigou",
+      "group": "scenario",
+      "source": "scenarios.json#family_jiuzhaigou",
+      "expected": "九寨沟/亲子/一日；至少 11 步；工具调用在 2–4 次。"
+    },
+    {
+      "id": "scenario.couple_zhangjiajie",
+      "group": "scenario",
+      "source": "scenarios.json#couple_zhangjiajie",
+      "expected": "张家界/情侣/两日；分为两天；工具调用在 2–4 次。"
+    },
+    {
+      "id": "scenario.auto_pick_family",
+      "group": "scenario",
+      "source": "scenarios.json#auto_pick_family",
+      "expected": "未指定景区时按亲子条件择优；有选择理由和可用方案；工具调用在 2–4 次。"
+    },
+    {
+      "id": "scenario.unknown_taishan",
+      "group": "scenario",
+      "source": "scenarios.json#unknown_taishan",
+      "expected": "泰山标记未收录；不替换为其他景区；不生成路线。"
+    },
+    {
+      "id": "scenario.conflict_elder_steep",
+      "group": "scenario",
+      "source": "scenarios.json#conflict_elder_steep",
+      "expected": "保留黄山和老人约束；指出体力/陡坡风险；不承诺路线适配性。"
+    },
+    {
+      "id": "scenario.vague_request",
+      "group": "scenario",
+      "source": "scenarios.json#vague_request",
+      "expected": "提出必要追问；不调用图谱工具；不生成猜测行程。"
+    },
+    {
+      "id": "scenario.family_jiuzhaigou_carsick",
+      "group": "scenario",
+      "source": "scenarios.json#family_jiuzhaigou_carsick",
+      "expected": "亲子九寨沟方案包含晕车相关建议；建议有证据且标历史材料。"
+    },
+    {
+      "id": "graph_sha_matches_meta",
+      "group": "acceptance",
+      "source": "check.py#graph_sha_matches_meta",
+      "expected": "读取图谱 SHA-256 与 meta.json 完全一致。"
+    },
+    {
+      "id": "graph_scale_from_lab6",
+      "group": "acceptance",
+      "source": "check.py#graph_scale_from_lab6",
+      "expected": "图谱节点/边数量与 stats.json 一致。"
+    },
+    {
+      "id": "scenario_count",
+      "group": "acceptance",
+      "source": "check.py#scenario_count",
+      "expected": "场景定义、测试输出和 meta 记录数量一致，当前为 8。"
+    },
+    {
+      "id": "scenario_diversity",
+      "group": "acceptance",
+      "source": "check.py#scenario_diversity",
+      "expected": "覆盖老人、亲子、情侣等人群。"
+    },
+    {
+      "id": "two_day_covered",
+      "group": "acceptance",
+      "source": "check.py#two_day_covered",
+      "expected": "至少一个两日场景。"
+    },
+    {
+      "id": "plan_spots_traceable_to_lab6_steps",
+      "group": "acceptance",
+      "source": "check.py#plan_spots_traceable_to_lab6_steps",
+      "expected": "生成方案的每个路线步骤可回指图谱路线步骤，越界数为 0。"
+    },
+    {
+      "id": "all_evidence_ids_resolve",
+      "group": "acceptance",
+      "source": "check.py#all_evidence_ids_resolve",
+      "expected": "方案引用的 evidence ID 全部能在 evidence.jsonl 中找到。"
+    },
+    {
+      "id": "multi_lab_provenance",
+      "group": "acceptance",
+      "source": "check.py#multi_lab_provenance",
+      "expected": "证据统计来自至少两个上游实验文件。"
+    },
+    {
+      "id": "advices_historical_and_referenced",
+      "group": "acceptance",
+      "source": "check.py#advices_historical_and_referenced",
+      "expected": "所有建议标记 historical_only 且带 evidence_refs。"
+    },
+    {
+      "id": "advice_mapping_ids_unique_per_case",
+      "group": "acceptance",
+      "source": "check.py#advice_mapping_ids_unique_per_case",
+      "expected": "同一方案内 mapping_id 不重复。"
+    },
+    {
+      "id": "unknown_scenic_no_fabrication",
+      "group": "acceptance",
+      "source": "check.py#unknown_scenic_no_fabrication",
+      "expected": "未收录景区返回 found=false、scenic=null、0 个步骤。"
+    },
+    {
+      "id": "vague_request_clarifies",
+      "group": "acceptance",
+      "source": "check.py#vague_request_clarifies",
+      "expected": "信息不足时追问且工具调用数为 0。"
+    },
+    {
+      "id": "tool_rejects_unknown_action",
+      "group": "acceptance",
+      "source": "check.py#tool_rejects_unknown_action",
+      "expected": "未知 action 返回结构化错误。"
+    },
+    {
+      "id": "tool_requires_scenic",
+      "group": "acceptance",
+      "source": "check.py#tool_requires_scenic",
+      "expected": "route 查询缺少 scenic 时被拒绝。"
+    },
+    {
+      "id": "tool_rejects_extra_args",
+      "group": "acceptance",
+      "source": "check.py#tool_rejects_extra_args",
+      "expected": "action 不允许的额外参数被拒绝。"
+    },
+    {
+      "id": "tool_entity_requires_name",
+      "group": "acceptance",
+      "source": "check.py#tool_entity_requires_name",
+      "expected": "entity 查询缺少 name 时被拒绝。"
+    },
+    {
+      "id": "tool_unknown_scenic_empty",
+      "group": "acceptance",
+      "source": "check.py#tool_unknown_scenic_empty",
+      "expected": "未知景区返回 found=false 和已收录景区列表。"
+    },
+    {
+      "id": "advice_fallback_annotated",
+      "group": "acceptance",
+      "source": "check.py#advice_fallback_annotated",
+      "expected": "缺少专属建议时返回明确通用建议回退说明。"
+    },
+    {
+      "id": "trace_one_per_case",
+      "group": "acceptance",
+      "source": "check.py#trace_one_per_case",
+      "expected": "每个场景都有一条完整轨迹。"
+    },
+    {
+      "id": "react_trace_complete",
+      "group": "acceptance",
+      "source": "check.py#react_trace_complete",
+      "expected": "需要工具的轨迹含 action/observation，所有轨迹有 final。"
+    },
+    {
+      "id": "max_tool_calls_bounded",
+      "group": "acceptance",
+      "source": "check.py#max_tool_calls_bounded",
+      "expected": "单场景图谱工具调用不超过 6 次。"
+    },
+    {
+      "id": "period_status_enumerated",
+      "group": "acceptance",
+      "source": "check.py#period_status_enumerated",
+      "expected": "时段来源只使用约定状态值。"
+    },
+    {
+      "id": "period_repairs_recorded",
+      "group": "acceptance",
+      "source": "check.py#period_repairs_recorded",
+      "expected": "发生的时段修复有记录。"
+    },
+    {
+      "id": "no_fabricated_current_status",
+      "group": "acceptance",
+      "source": "check.py#no_fabricated_current_status",
+      "expected": "不声称当前票价、开放或必去等未经核验事实。"
+    },
+    {
+      "id": "uncertainty_disclosed",
+      "group": "acceptance",
+      "source": "check.py#uncertainty_disclosed",
+      "expected": "回答明确说明通行/开放信息未核验。"
+    },
+    {
+      "id": "deterministic_offline",
+      "group": "acceptance",
+      "source": "check.py#deterministic_offline",
+      "expected": "同一离线输入重复运行，方案天数和摘要一致。"
+    },
+    {
+      "id": "provider_offline_when_forced",
+      "group": "acceptance",
+      "source": "check.py#provider_offline_when_forced",
+      "expected": "强制离线不读取 .env，不发起 HTTP 请求。"
+    },
+    {
+      "id": "figures_present",
+      "group": "acceptance",
+      "source": "check.py#figures_present",
+      "expected": "报告引用的三张 SVG 图件存在且非空。"
+    },
+    {
+      "id": "llm_mock_input_output_chain",
+      "group": "acceptance",
+      "source": "check.py#llm_mock_input_output_chain",
+      "expected": "本地假响应完成意图+回答两次调用；不触网。"
+    },
+    {
+      "id": "llm_decision_uses_tool_observation",
+      "group": "acceptance",
+      "source": "check.py#llm_decision_uses_tool_observation",
+      "expected": "后续 LLM 决策读取先前工具 Observation。"
+    },
+    {
+      "id": "llm_decision_trace_records_action",
+      "group": "acceptance",
+      "source": "check.py#llm_decision_trace_records_action",
+      "expected": "轨迹标出 LLM 选择的 action 和 decision_source。"
+    },
+    {
+      "id": "llm_action_observations_reach_final",
+      "group": "acceptance",
+      "source": "check.py#llm_action_observations_reach_final",
+      "expected": "最终答复使用图谱路线点、建议内容及 evidence ID。"
+    },
+    {
+      "id": "intent_classifies_four_query_types",
+      "group": "acceptance",
+      "source": "check.py#intent_classifies_four_query_types",
+      "expected": "规则识别路线、建议、实体和景区清单四类问题。"
+    },
+    {
+      "id": "llm_decision_enforces_user_constraints",
+      "group": "acceptance",
+      "source": "check.py#llm_decision_enforces_user_constraints",
+      "expected": "拒绝与用户明确景区冲突的工具参数及过早停止。"
+    },
+    {
+      "id": "llm_entity_tool_result_answers_entity_question",
+      "group": "acceptance",
+      "source": "check.py#llm_entity_tool_result_answers_entity_question",
+      "expected": "实体问题调用 entity，回答引用提及频次和来源证据。"
+    },
+    {
+      "id": "llm_advice_question_skips_route_and_uses_result",
+      "group": "acceptance",
+      "source": "check.py#llm_advice_question_skips_route_and_uses_result",
+      "expected": "建议问题选择 advice，不多查路线，回答引用返回建议。"
+    },
+    {
+      "id": "llm_general_question_uses_scenics_result",
+      "group": "acceptance",
+      "source": "check.py#llm_general_question_uses_scenics_result",
+      "expected": "收录范围问题调用 scenics 并返回实际清单。"
+    },
+    {
+      "id": "llm_decision_stops_and_clarifies",
+      "group": "acceptance",
+      "source": "check.py#llm_decision_stops_and_clarifies",
+      "expected": "信息不足时模型决定停止工具调用并追问。"
+    },
+    {
+      "id": "llm_invalid_tool_decision_uses_safe_fallback",
+      "group": "acceptance",
+      "source": "check.py#llm_invalid_tool_decision_uses_safe_fallback",
+      "expected": "动作违反明确约束时拒绝执行并安全回退。"
+    },
+    {
+      "id": "llm_mock_request_contract",
+      "group": "acceptance",
+      "source": "check.py#llm_mock_request_contract",
+      "expected": "模拟请求使用预期 URL、模型名、Bearer 认证头；结果不输出密钥。"
+    },
+    {
+      "id": "llm_explicit_constraints_locked",
+      "group": "acceptance",
+      "source": "check.py#llm_explicit_constraints_locked",
+      "expected": "模型冲突响应不能覆盖用户明确景区、人群、天数。"
+    },
+    {
+      "id": "llm_http_failure_falls_back",
+      "group": "acceptance",
+      "source": "check.py#llm_http_failure_falls_back",
+      "expected": "模拟连接失败后产生规则方案，诊断显示失败与回退，不暴露密钥。"
+    },
+    {
+      "id": "llm_invalid_intent_json_falls_back",
+      "group": "acceptance",
+      "source": "check.py#llm_invalid_intent_json_falls_back",
+      "expected": "模型返回非法 JSON 时意图解析回退规则，仍生成可用方案。"
+    },
+    {
+      "id": "llm_plan_proposal_graph_guard",
+      "group": "acceptance",
+      "source": "check.py#llm_plan_proposal_graph_guard",
+      "expected": "拒绝模型改动分日、顺序或图谱步骤；保留完整规则计划并记录回退。"
+    },
+    {
+      "id": "llm_final_answer_failure_visible",
+      "group": "acceptance",
+      "source": "check.py#llm_final_answer_failure_visible",
+      "expected": "意图解析成功但回答请求失败时，轨迹显示回退并保留方案。"
+    },
+    {
+      "id": "cli_runs",
+      "group": "acceptance",
+      "source": "check.py#cli_runs",
+      "expected": "强制离线 CLI 正常退出并输出方案及调用诊断。"
+    },
+    {
+      "id": "test_catalog_consistent",
+      "group": "acceptance",
+      "source": "check.py#test_catalog_consistent",
+      "expected": "测试登记 ID 唯一；场景与自动验收引用均能在对应执行器中找到。"
+    },
+    {
+      "id": "live.elder_huangshan",
+      "group": "live",
+      "source": "scenarios.json#elder_huangshan",
+      "expected": "老人/黄山/一日；LLM意图、规划和最终回答成功；保留体力提示和图谱步骤。 本例使用真实接口；失败仍继续后续场景，不自动重试。"
+    },
+    {
+      "id": "live.family_jiuzhaigou",
+      "group": "live",
+      "source": "scenarios.json#family_jiuzhaigou",
+      "expected": "亲子/九寨沟/一日；输出不少于11个图谱步骤；规划提案通过校验。 本例使用真实接口；失败仍继续后续场景，不自动重试。"
+    },
+    {
+      "id": "live.couple_zhangjiajie",
+      "group": "live",
+      "source": "scenarios.json#couple_zhangjiajie",
+      "expected": "情侣/张家界/两日；连续分成两天；全部5个步骤按原序来自图谱。 本例使用真实接口；失败仍继续后续场景，不自动重试。"
+    },
+    {
+      "id": "live.auto_pick_family",
+      "group": "live",
+      "source": "scenarios.json#auto_pick_family",
+      "expected": "不指定景区；择优有图谱覆盖理由；LLM规划与最终回答成功。 本例使用真实接口；失败仍继续后续场景，不自动重试。"
+    },
+    {
+      "id": "live.unknown_taishan",
+      "group": "live",
+      "source": "scenarios.json#unknown_taishan",
+      "expected": "识别泰山未收录；如实说明、不替换景区、不编路线；意图解析成功。 本例使用真实接口；失败仍继续后续场景，不自动重试。"
+    },
+    {
+      "id": "live.conflict_elder_steep",
+      "group": "live",
+      "source": "scenarios.json#conflict_elder_steep",
+      "expected": "保留老人/黄山约束；提示高强度与体力限制；节奏提案通过保护校验。 本例使用真实接口；失败仍继续后续场景，不自动重试。"
+    },
+    {
+      "id": "live.vague_request",
+      "group": "live",
+      "source": "scenarios.json#vague_request",
+      "expected": "信息不足时追问且不调用图谱；意图解析成功，不猜测行程。 本例使用真实接口；失败仍继续后续场景，不自动重试。"
+    },
+    {
+      "id": "live.family_jiuzhaigou_carsick",
+      "group": "live",
+      "source": "scenarios.json#family_jiuzhaigou_carsick",
+      "expected": "识别亲子/九寨沟/晕车约束；返回带证据的相关建议；规划提案通过校验。 本例使用真实接口；失败仍继续后续场景，不自动重试。"
+    }
+  ]
+}

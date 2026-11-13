@@ -131,9 +131,9 @@
       "detail": "两次运行的 days 与 summary 一致"
     },
     {
-      "id": "provider_offline_when_no_key",
+      "id": "provider_offline_when_forced",
       "passed": true,
-      "detail": "provider=offline-rules"
+      "detail": "provider=offline-rules，HTTP 请求=0"
     },
     {
       "id": "figures_present",
@@ -143,17 +143,102 @@
     {
       "id": "llm_mock_input_output_chain",
       "passed": true,
-      "detail": "本地模拟调用 2 次；明确景区保留为 黄山；未测试真实外部 API"
+      "detail": "本地模拟调用 5 次；明确景区保留为 黄山；未测试真实外部 API"
+    },
+    {
+      "id": "llm_decision_uses_tool_observation",
+      "passed": true,
+      "detail": "第二轮工具决策输入包含第一轮路线 Observation"
+    },
+    {
+      "id": "llm_decision_trace_records_action",
+      "passed": true,
+      "detail": "Thought 轨迹记录真实 LLM 的路线和建议选择"
+    },
+    {
+      "id": "llm_action_observations_reach_final",
+      "passed": true,
+      "detail": "最终答复复用图谱路线点、查询建议和 evidence ID"
+    },
+    {
+      "id": "llm_mock_request_contract",
+      "passed": true,
+      "detail": "检查 URL、模型名和 Bearer 头，不输出密钥"
+    },
+    {
+      "id": "llm_explicit_constraints_locked",
+      "passed": true,
+      "detail": "冲突模拟响应未覆盖用户明确给出的黄山、老人、一日"
+    },
+    {
+      "id": "intent_classifies_four_query_types",
+      "passed": true,
+      "detail": "路线/建议/实体/收录范围分类：{'route': 'route', 'advice': 'advice', 'entity': 'entity', 'general': 'general'}"
+    },
+    {
+      "id": "llm_decision_enforces_user_constraints",
+      "passed": true,
+      "detail": "拒绝改写用户景区及缺少路线结果时提前 stop"
+    },
+    {
+      "id": "llm_entity_tool_result_answers_entity_question",
+      "passed": true,
+      "detail": "单实体问题调用 entity；最终答复复用图谱 mention_count 和证据"
+    },
+    {
+      "id": "llm_advice_question_skips_route_and_uses_result",
+      "passed": true,
+      "detail": "单建议问题只调用 advice，最终答复使用返回建议及证据"
+    },
+    {
+      "id": "llm_general_question_uses_scenics_result",
+      "passed": true,
+      "detail": "收录范围问题调用 scenics，答复列出工具实际返回的景区"
+    },
+    {
+      "id": "llm_decision_stops_and_clarifies",
+      "passed": true,
+      "detail": "模型决定不查图谱并追问；无工具调用、无猜测行程"
+    },
+    {
+      "id": "llm_invalid_tool_decision_uses_safe_fallback",
+      "passed": true,
+      "detail": "模型动作与明确景区冲突时拒绝执行，并以规则路线恢复"
+    },
+    {
+      "id": "llm_http_failure_falls_back",
+      "passed": true,
+      "detail": "模拟连接失败后仍生成规则方案；请求=5，回退=5"
+    },
+    {
+      "id": "llm_invalid_intent_json_falls_back",
+      "passed": true,
+      "detail": "意图非法 JSON 回退规则解析，后续回答仍可生成"
+    },
+    {
+      "id": "llm_final_answer_failure_visible",
+      "passed": true,
+      "detail": "意图成功、回答接口失败时显示回退并保留可用方案"
+    },
+    {
+      "id": "llm_plan_proposal_graph_guard",
+      "passed": true,
+      "detail": "非法分日被拒绝，保留 14 个图谱步骤并用规则计划回退"
     },
     {
       "id": "cli_runs",
       "passed": true,
       "detail": 0
+    },
+    {
+      "id": "test_catalog_consistent",
+      "passed": true,
+      "detail": "登记 63 项；离线场景 8/8、自动验收 47 项、在线场景 8/8"
     }
   ],
   "summary": {
-    "passed": 30,
-    "total": 30,
+    "passed": 47,
+    "total": 47,
     "all_passed": true
   },
   "evidence_sources": {

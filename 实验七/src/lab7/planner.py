@@ -129,20 +129,135 @@ def _advice_view(advice_obs):
     return out
 
 
-def build(intent, observations, llm):
+def _apply_llm_plan(base, intent, llm, query):
+    """Ask the model to plan within graph steps, then reject any altered route facts."""
+    if not getattr(llm, 'online', False):
+        return
+    failures_before = llm.failures
+    try:
+        proposal = llm.plan_itinerary(query, base)
+        if not isinstance(proposal, dict):
+            raise ValueError('规划提案必须是 JSON 对象')
+        original = []
+        period_by_order = {}
+        step_by_order = {}
+        for day in base.get('days', []):
+            for section in day.get('sections', []):
+                for step in section.get('steps', []):
+                    order = step.get('order')
+                    if isinstance(order, bool) or not isinstance(order, int) or order in step_by_order:
+                        raise ValueError('图谱计划中的步骤序号无效或重复')
+                    original.append(order)
+                    period_by_order[order] = section['period']
+                    step_by_order[order] = step
+
+        assignments = proposal.get('day_assignments')
+        if not isinstance(assignments, list) or len(assignments) != len(original):
+            raise ValueError('day_assignments 必须覆盖全部图谱步骤')
+        assigned_orders, day_numbers = [], []
+        for item in assignments:
+            if not isinstance(item, dict):
+                raise ValueError('day_assignments 每项必须是对象')
+            order, day = item.get('order'), item.get('day')
+            if isinstance(order, bool) or not isinstance(order, int) \
+                    or isinstance(day, bool) or not isinstance(day, int):
+                raise ValueError('步骤序号和天数必须是整数')
+            assigned_orders.append(order)
+            day_numbers.append(day)
+        if assigned_orders != original:
+            raise ValueError('规划提案改动、遗漏、重复或重排了图谱步骤')
+        duration = int(intent['duration'])
+        if any(day < 1 or day > duration for day in day_numbers):
+            raise ValueError('规划提案天数超出用户计划')
+        if day_numbers != sorted(day_numbers) or set(day_numbers) != set(range(1, duration + 1)):
+            raise ValueError('分日必须按路线顺序连续且每天有步骤')
+        pace = proposal.get('pace')
+        if pace not in {'轻松', '适中', '紧凑'}:
+            raise ValueError('pace 必须为轻松/适中/紧凑')
+        rationale = proposal.get('rationale')
+        if not isinstance(rationale, str) or not rationale.strip() or len(rationale) > 160:
+            raise ValueError('rationale 必须为 1–160 字的规划说明')
+        if intent.get('visitor_type') == '老人' and pace != '轻松':
+            raise ValueError('老人同行的节奏必须标为轻松')
+
+        day_by_order = dict(zip(assigned_orders, day_numbers))
+        planned_days = []
+        for day_no in range(1, duration + 1):
+            sections = []
+            for order in original:
+                if day_by_order[order] != day_no:
+                    continue
+                period = period_by_order[order]
+                if not sections or sections[-1]['period'] != period:
+                    sections.append({'period': period, 'steps': []})
+                sections[-1]['steps'].append(step_by_order[order])
+            planned_days.append({'day': day_no, 'sections': sections})
+        base['days'] = planned_days
+        base['llm_planning'] = {
+            'status': 'accepted', 'pace': pace,
+            'day_assignments': assignments, 'rationale': rationale.strip(),
+        }
+        llm.accept_planning()
+    except Exception as ex:
+        llm.record_fallback(ex, failure_already_recorded=llm.failures > failures_before,
+                            stage='planning')
+        base['llm_planning'] = {'status': 'rejected', 'error': llm.last_error}
+        base['notes'].append('LLM 规划提案未通过图谱步骤与用户约束校验，已使用规则计划。')
+
+
+def build(intent, observations, llm, query=''):
     """observations: {scenics, route, advice}，每个是对应工具返回。"""
     base = {
         'scenic': intent['scenic'], 'visitor_type': intent['visitor_type'],
         'duration': intent['duration'], 'preferences': intent['preferences'],
         'constraints': intent['constraints'], 'days': [], 'advices': [],
         'warnings': [], 'notes': [], 'period_note': '', 'selection': None,
-        'evidence_ids': [], 'found': None,
+        'evidence_ids': [], 'found': None, 'query': query,
+        'task_type': intent.get('task_type', 'route'), 'answer_context': {},
     }
     if intent.get('need_clarification'):
         base['need_clarification'] = True
         base['found'] = False
         base['clarify_message'] = next((f for f in intent['flags'] if '请补充' in f), None) \
             or '请补充景区、人群与天数后再规划。'
+        base['summary'] = llm.compose(base)
+        return base
+
+    if base['task_type'] == 'entity':
+        entity = observations.get('entity')
+        base['answer_type'] = 'entity'
+        base['answer_context'] = entity or {}
+        if not intent.get('scenic') or not intent.get('entity_name'):
+            base['need_clarification'] = True
+            base['found'] = False
+            base['clarify_message'] = '请补充实体所在景区和要查询的地点名称。'
+            base['summary'] = llm.compose(base)
+            return base
+        if not entity or not entity.get('ok'):
+            base['found'] = False
+            base['message'] = '图谱实体查询未能完成。'
+        else:
+            base['found'] = bool(entity.get('found'))
+            matches = entity.get('matches') or []
+            base['evidence_ids'] = sorted({ref for item in matches for ref in item.get('evidence_refs', [])})
+            if not base['found']:
+                base['message'] = '圖譜中未找到「%s」的精確實體記錄；相似名稱僅供人工確認，不作同義結論。' % entity.get('name', '')
+        base['summary'] = llm.compose(base)
+        return base
+
+    if base['task_type'] == 'advice':
+        advice = observations.get('advice')
+        base['answer_type'] = 'advice'
+        base['answer_context'] = advice or {}
+        if not advice or not advice.get('ok') or not advice.get('found'):
+            base['found'] = False
+            base['message'] = '图谱中未找到该景区的相关建议。'
+        else:
+            base['found'] = True
+            base['advices'] = _advice_view(advice)
+            base['evidence_ids'] = sorted({ref for item in base['advices'] for ref in item.get('evidence_refs', [])})
+            if advice.get('fallback_note'):
+                base['notes'].append(advice['fallback_note'])
         base['summary'] = llm.compose(base)
         return base
 
@@ -154,6 +269,16 @@ def build(intent, observations, llm):
         base['message'] = ('知识图谱暂未收录「%s」。当前可规划景区：%s。'
                            '未用其他景区数据替代，也未编造该景区路线。'
                            % (intent['unknown_scenic'], '、'.join(options)))
+        base['summary'] = llm.compose(base)
+        return base
+
+    if base['task_type'] == 'general':
+        scenics = observations.get('scenics') or {}
+        base['answer_type'] = 'general'
+        base['answer_context'] = scenics
+        base['found'] = bool(scenics.get('ok'))
+        names = scenics.get('available') or []
+        base['message'] = '当前图谱收录景区：%s。' % '、'.join(names) if names else '图谱景区清单暂不可用。'
         base['summary'] = llm.compose(base)
         return base
     if not intent['scenic'] and scenics_obs:
@@ -234,5 +359,6 @@ def build(intent, observations, llm):
     # 同一提示可能同时来自意图层与规划层，去重但保持出现顺序
     base['warnings'] = list(dict.fromkeys(base['warnings']))
     base['notes'] = list(dict.fromkeys(base['notes']))
+    _apply_llm_plan(base, intent, llm, query)
     base['summary'] = llm.compose(base)
     return base
