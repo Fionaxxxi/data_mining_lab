@@ -189,7 +189,7 @@
       }
     ],
     "trace_step_count": 8,
-    "elapsed_ms": 1
+    "elapsed_ms": 0
   },
   {
     "id": "family_jiuzhaigou",
@@ -388,7 +388,7 @@
       }
     ],
     "trace_step_count": 8,
-    "elapsed_ms": 1
+    "elapsed_ms": 7
   },
   {
     "id": "couple_zhangjiajie",
@@ -573,7 +573,7 @@
       }
     ],
     "trace_step_count": 8,
-    "elapsed_ms": 1
+    "elapsed_ms": 0
   },
   {
     "id": "auto_pick_family",
@@ -794,7 +794,7 @@
       }
     ],
     "trace_step_count": 11,
-    "elapsed_ms": 3
+    "elapsed_ms": 1
   },
   {
     "id": "unknown_taishan",
@@ -1313,6 +1313,6 @@
       }
     ],
     "trace_step_count": 8,
-    "elapsed_ms": 3
+    "elapsed_ms": 0
   }
 ]

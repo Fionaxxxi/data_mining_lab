@@ -107,7 +107,7 @@ def main():
     tool = KGQueryTool()
     probe = LLMClient()
     if not probe.online:
-        print('未配置在线 LLM；没有发出请求。请检查实验七/.env。', file=sys.stderr)
+        print('未配置在线 LLM；没有发出请求。请检查仓库根目录 .env。', file=sys.stderr)
         return 2
     started = datetime.now(timezone.utc).isoformat()
     print('实验七完整在线场景测试：%d 例，串行执行，不自动重试。' % len(scenarios))

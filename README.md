@@ -12,9 +12,10 @@
 | 四：共指消解 | [src/lab4/](src/lab4/) | [实验四报告.md](实验四报告.md) | `outputs/lab4/` | `.\run.ps1 -Lab 4` |
 | 五：条件性游览建议抽取 | [src/lab5/](src/lab5/) | [实验五报告.md](实验五报告.md) | `outputs/lab5/` | `.\run.ps1 -Lab 5` |
 | 六：多源知识融合与图谱 | [src/lab6/](src/lab6/) | [实验六报告.md](实验六报告.md) | `outputs/lab6/` | `.\run.ps1 -Lab 6` |
-| 七：旅游规划 Agent | [实验七/](实验七/) | [实验七报告](实验七/实验七报告.md) | `实验七/outputs/lab7/` | `.\run.ps1 -Lab 7` |
 
-`run.ps1 -Lab all`按一至七顺序执行。实验三使用 `data/lab3/` 中已有样本离线运行，不自动联网采集或生成 Word。实验一默认使用已保存原文离线清洗，不重新爬取网站；实验二运行后自动检查实体位置和代表性案例。实验七的代码、专用输入、结果、报告和计划集中在 `实验七/`。
+| 七：旅游规划 Agent | [src/lab7/](src/lab7/) | [实验七报告.md](实验七报告.md) | `outputs/lab7/` | `.\run.ps1 -Lab 7` |
+
+`run.ps1 -Lab all`按一至七顺序执行。实验三使用 `data/lab3/` 中已有样本离线运行，不自动联网采集或生成 Word。实验一默认使用已保存原文离线清洗，不重新爬取网站；实验二运行后自动检查实体位置和代表性案例。实验七与其他实验采用相同目录约定：代码在 `src/lab7/`，数据在 `data/lab7/`，结果在 `outputs/lab7/`。
 
 ## 每个脚本负责什么
 
@@ -30,7 +31,7 @@
 | `src/lab3/` | 样本汇总、路线解析、时间层级及官方/游客路线对比；采集脚本手动调用 | 实验三正式入口 |
 | `src/lab4/coref.py`、`figures.py` | 代词检测、消解、人工核验统计及配图 | 实验四入口 |
 | `src/lab5/extract.py`、`finalize.py`、`figures.py` | 条件建议候选、审阅映射、分类统计及柱状图 | 实验五入口 |
-| `实验七/` | 旅游规划 Agent 的代码、输入、实验六最小复用数据、结果与文档 | 实验七入口与完整材料 |
+| `src/lab6/`、`src/lab7/` | 知识图谱构建与旅游规划 Agent | 实验六、七正式代码入口 |
 
 ## 环境与运行
 
@@ -102,6 +103,6 @@ scenic_lab1/
 
 实验六入口 `powershell -NoProfile -ExecutionPolicy Bypass -File .\run.ps1 -Lab 6`，顺序完成构图、查询、可视化和验收。默认读取前序已保存成果，不会重跑或覆盖前序输入。输出结构在 `outputs/lab6/graph.json`、`graph.graphml`、`nodes.csv`、`edges.csv`；图在 `outputs/lab6/figures/`，查询在 `queries.json`，验收在 `acceptance.json`。
 
-实验七的所有在用材料集中于 `实验七/`，复用的实验六最小图谱副本位于 `实验七/outputs/lab6/`。测试集和真实 LLM 在线场景测试方法见 [实验七测试集说明](实验七/测试集说明.md)。项目统一入口使用 `D:\miniconda3\envs\dm_scenic_lab`。
+实验七沿用标准目录：代码在 `src/lab7/`，规则与测试数据在 `data/lab7/`，结果在 `outputs/lab7/`；它直接只读复用 `outputs/lab6/`，不再复制实验六图谱。主报告在根目录，计划、测试集和运行说明在 `docs/`。真实 LLM 配置放在本地根目录 `.env`，模板为 `.env.example`。项目统一入口使用 `D:\miniconda3\envs\dm_scenic_lab`。
 
 实验一当前JSONL的既有格式问题仍保留；实验六校验同阶段CSV正文哈希、原始文本与全部实体位置后读取CSV。`all`可能先重建实验一文件，日常复核实验六直接使用 `-Lab 6`。执行计划见docs/实验六执行计划.md，完整方法和局限见实验六报告.md。
