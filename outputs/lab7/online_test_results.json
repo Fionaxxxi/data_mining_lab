@@ -1,19 +1,19 @@
 {
   "suite": "lab7_online_scenarios",
-  "started_at": "2026-11-16T13:37:08.175934+00:00",
-  "finished_at": "2026-11-16T13:43:51.987228+00:00",
-  "provider": "openai-compatible:qwen2.5:3b",
+  "started_at": "2026-11-16T15:04:34.534094+00:00",
+  "finished_at": "2026-11-16T15:14:00.098279+00:00",
+  "provider": "openai-compatible:qwen2.5:7b",
   "graph_sha256": "fc3d3bebd1f8d37be2ea4e303186f484f74c6d2b7f618cb60f650cdcf26791ba",
   "scenario_count": 12,
   "summary": {
-    "passed": 3,
-    "failed": 9,
+    "passed": 6,
+    "failed": 6,
     "all_passed": false,
     "request_attempts": 54,
     "successful_responses": 54,
     "decision_attempts": 22,
-    "decision_accepted": 12,
-    "fallbacks": 10
+    "decision_accepted": 21,
+    "fallbacks": 6
   },
   "cases": [
     {
@@ -22,7 +22,7 @@
       "query": "带老人去黄山玩一天，希望行程轻松平缓",
       "passed": true,
       "problems": [],
-      "provider": "openai-compatible:qwen2.5:3b",
+      "provider": "openai-compatible:qwen2.5:7b",
       "intent_source": "llm",
       "intent": {
         "raw": "带老人去黄山玩一天，希望行程轻松平缓",
@@ -445,9 +445,9 @@
               "day": 1
             }
           ],
-          "rationale": "按老人体力安排轻量级行程，连续参观主要景点并休息"
+          "rationale": "全程安排为一天，所有景点和活动都选择轻松参观，适合老人"
         },
-        "summary": "根据规划提案，您将安排老人在一天内参观黄山的主要景点，并确保行程轻松平缓。具体安排如下：\n\n- 上午：南大门 - 云谷寺 - 始信峰 - 狮子峰 - 清凉台（上午）\n- 中午：散花坞 - 排云亭 - 天海 - 鳌鱼峰（中午，建议携带冲锋衣和口罩以防山上风大）\n- 下午：玉屏楼 - 迎客松 - 玉屏楼 - 慈光阁 - 南大门（下午）\n\n此行程按老人体力安排轻量级行程，连续参观主要景点并适当休息。由于图谱未收录坡度、海拔与点间距离信息，无法评估老人的体力消耗情况，建议优先参考图谱中的索道/乘车类建议，并以景区当前公告为准。"
+        "summary": "黄山一天行程（1天）：\n- 南大门\n- 云谷寺\n- 始信峰\n- 狮子峰\n- 凉亭台\n- 散花坞\n- 排云亭\n- 天海\n- 鳌鱼峰\n- 玉屏楼\n- 迎客松\n- 慈光阁\n- 南大门\n\n说明：行程安排为一天，所有景点和活动都选择轻松参观，适合老人。但请注意，图谱未收录坡度、海拔与点间距离，老人同行的体力消耗无法评估；建议优先参考图谱中的索道/乘车类建议，并以景区当前公告为准。\n\n【材料建议原文】\n- condition: \"团队的整体体力\", advice: \"建议乘索道上下\"\n- condition: \"山上风大\", advice: \"可以带上冲锋衣和口罩\"\n- condition: \"两日游的旅客\", advice: \"建议午后上山\"\n- condition: \"天晴爬山\", advice: \"建议带系带的草帽\""
       },
       "tool_calls": [
         {
@@ -471,7 +471,7 @@
         {
           "step": 2,
           "type": "thought",
-          "content": "[llm] 先获取黄山官方路线步骤",
+          "content": "[llm] 根据用户需求为老人制定轻松的黄山一日游路线",
           "decision_source": "llm",
           "decision": "route"
         },
@@ -493,7 +493,7 @@
         {
           "step": 5,
           "type": "thought",
-          "content": "[llm] 根据用户需求提供适合老人的黄山一日游建议",
+          "content": "[llm] 根据用户需求提供适合老人的轻松行程建议",
           "decision_source": "llm",
           "decision": "advice"
         },
@@ -517,14 +517,14 @@
         {
           "step": 8,
           "type": "final",
-          "content": "根据规划提案，您将安排老人在一天内参观黄山的主要景点，并确保行程轻松平缓。具体安排如下：\n\n- 上午：南大门 - 云谷寺 - 始信峰 - 狮子峰 - 清凉台（上午）\n- 中午：散花坞 - 排云亭 - 天海 - 鳌鱼峰（中午，建议携带冲锋衣和口罩以防山上风大）\n- 下午：玉屏楼 - 迎客松 - 玉屏楼 - 慈光阁 - 南大门（下午）\n\n此行程按老人体力安排轻量级行程，连续参观主要景点并适当休息。由于图谱未收录坡度、海拔与点间距离信息，无法评估老人的体力消耗情况，建议优先参考图谱中的索道/乘车类建议，并以景区当前公告为准。",
+          "content": "黄山一天行程（1天）：\n- 南大门\n- 云谷寺\n- 始信峰\n- 狮子峰\n- 凉亭台\n- 散花坞\n- 排云亭\n- 天海\n- 鳌鱼峰\n- 玉屏楼\n- 迎客松\n- 慈光阁\n- 南大门\n\n说明：行程安排为一天，所有景点和活动都选择轻松参观，适合老人。但请注意，图谱未收录坡度、海拔与点间距离，老人同行的体力消耗无法评估；建议优先参考图谱中的索道/乘车类建议，并以景区当前公告为准。\n\n【材料建议原文】\n- condition: \"团队的整体体力\", advice: \"建议乘索道上下\"\n- condition: \"山上风大\", advice: \"可以带上冲锋衣和口罩\"\n- condition: \"两日游的旅客\", advice: \"建议午后上山\"\n- condition: \"天晴爬山\", advice: \"建议带系带的草帽\"",
           "scenic": "黄山",
           "found": true,
           "evidence_count": 18
         }
       ],
       "llm": {
-        "provider": "openai-compatible:qwen2.5:3b",
+        "provider": "openai-compatible:qwen2.5:7b",
         "force_offline": false,
         "request_attempts": 5,
         "successful_responses": 5,
@@ -545,20 +545,17 @@
       "query": "一家三口亲子游九寨沟，想看水景和瀑布",
       "passed": false,
       "problems": [
-        "duration=2",
         "发生模型失败或规则回退",
-        "一个或多个 LLM 工具决策未通过校验",
-        "执行轨迹没有记录真实 LLM 的工具/停止决策",
-        "最终回答没有复用已查询到的建议内容"
+        "模型规划提案未通过结构与图谱事实校验"
       ],
-      "provider": "openai-compatible:qwen2.5:3b",
+      "provider": "openai-compatible:qwen2.5:7b",
       "intent_source": "llm",
       "intent": {
         "raw": "一家三口亲子游九寨沟，想看水景和瀑布",
         "scenic": "九寨沟",
         "unknown_scenic": null,
         "visitor_type": "亲子",
-        "duration": 2,
+        "duration": 1,
         "duration_explicit": false,
         "preferences": [
           "水景"
@@ -579,7 +576,7 @@
       "plan": {
         "scenic": "九寨沟",
         "visitor_type": "亲子",
-        "duration": 2,
+        "duration": 1,
         "preferences": [
           "水景"
         ],
@@ -666,17 +663,7 @@
                     "evidence_refs": [
                       "evidence:66e6c379d556689467bb"
                     ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "sections": [
-              {
-                "period": "中午",
-                "steps": [
+                  },
                   {
                     "order": 6,
                     "step_id": "route:九寨沟:step:06",
@@ -852,12 +839,13 @@
           }
         ],
         "warnings": [
-          "未说明天数，默认按 1 天规划。",
-          "两日方案是按图谱时段/步骤切分的一日路线，不是官方两日线路；住宿与第二天交通未被图谱收录，未做安排。"
+          "未说明天数，默认按 1 天规划。"
         ],
         "notes": [
           "建议回退：图谱中没有与“亲子”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。",
-          "沟口 在第 1 与第 11 步重复出现，按实验六“身份去重、步骤不去重”保留两次。"
+          "沟口 在第 1 与第 11 步重复出现，按实验六“身份去重、步骤不去重”保留两次。",
+          "图谱未收录餐饮与休息设施，中午不编造具体餐厅，只在时段上留出休整。",
+          "LLM 规划提案未通过图谱步骤与用户约束校验，已使用规则计划。"
         ],
         "period_note": "上游解析把全部步骤标为“上午”，直接分组会使中午/下午为空；改用层级推断的时段补位，冲突状态在图中仍按两条 DURING 边保留。",
         "selection": null,
@@ -892,57 +880,10 @@
         "period_source": "hierarchy_heuristic_fallback",
         "period_repairs": [],
         "llm_planning": {
-          "status": "accepted",
-          "pace": "轻松",
-          "day_assignments": [
-            {
-              "order": 1,
-              "day": 1
-            },
-            {
-              "order": 2,
-              "day": 1
-            },
-            {
-              "order": 3,
-              "day": 1
-            },
-            {
-              "order": 4,
-              "day": 1
-            },
-            {
-              "order": 5,
-              "day": 1
-            },
-            {
-              "order": 6,
-              "day": 2
-            },
-            {
-              "order": 7,
-              "day": 2
-            },
-            {
-              "order": 8,
-              "day": 2
-            },
-            {
-              "order": 9,
-              "day": 2
-            },
-            {
-              "order": 10,
-              "day": 2
-            },
-            {
-              "order": 11,
-              "day": 2
-            }
-          ],
-          "rationale": "按亲子游需求安排水景和瀑布参观，老人或小孩适合轻松行程"
+          "status": "rejected",
+          "error": "ValueError: day_assignments 必须覆盖全部图谱步骤"
         },
-        "summary": "根据规划提案，您的亲子游九寨沟两天的行程安排如下：\n\n**第一天：**\n- 上午：沟口 - 树正群海 - 老虎海 - 犀牛海（上午）\n- 中午：诺日朗瀑布（中午，与上午诺日朗瀑布存在时段冲突）\n\n**第二天：**\n- 午餐后：五花海 - 海滩瀑布（中午，与午餐时间重叠）\n- 下午：镜海 - 长海 - 五彩池 - 沟口出沟（下午）\n\n建议您早上早点出发进入景区，并在上午参观树正群海、老虎海和犀牛海。中午时分可以前往诺日朗瀑布游览，但需注意与午餐时间的冲突。第二天行程安排了五花海和珍珠滩瀑布的参观，以及镜海、长海和五彩池等景点的游览。请注意午餐时间和下午时段的景点游览可能会有重叠。\n\n在九寨沟期间，请根据实际情况调整计划，并预留足够的时间以便充分体验每个景点。如果有晕车史，建议提前与司机沟通，确保行车安全。"
+        "summary": "九寨沟沟口、树正群海、老虎海、犀牛海、诺日朗瀑布、五花海、珍珠滩瀑布、镜海、长海、五彩池\n\n说明：根据规划，一天内参观了主要景点，但由于时间紧凑，部分时段存在冲突。建议早上早点出发进入景区，并在车上看看远距离的栈道。\n\n【材料建议原文】\n- condition: 一天时间相对紧凑\n  advice: 建议早上早点出发进入景区\n- condition: 栈道过去很远的\n  advice: 建议在车上看看就行了"
       },
       "tool_calls": [
         {
@@ -960,23 +901,18 @@
         {
           "step": 1,
           "type": "thought",
-          "content": "[llm] 解析出 景区=九寨沟，人群=亲子，天数=2，偏好=水景。",
+          "content": "[llm] 解析出 景区=九寨沟，人群=亲子，天数=1，偏好=水景。",
           "intent_source": "llm"
         },
         {
           "step": 2,
-          "type": "note",
-          "content": "LLM 工具决策不可用，回退规则决策：当前问题/工具观察不需要 action=advice；待处理=['route']"
-        },
-        {
-          "step": 3,
           "type": "thought",
-          "content": "[rules] 读取 九寨沟 的官方整理路线与时段状态。",
-          "decision_source": "rules",
+          "content": "[llm] 根据用户需求规划适合一家三口亲子游的九寨沟行程",
+          "decision_source": "llm",
           "decision": "route"
         },
         {
-          "step": 4,
+          "step": 3,
           "type": "action",
           "tool": "knowledge_graph_query",
           "args": {
@@ -985,25 +921,20 @@
           }
         },
         {
-          "step": 5,
+          "step": 4,
           "type": "observation",
           "content": "{\"ok\": true, \"found\": true, \"step_count\": 11, \"period_conflicts\": 7, \"first\": \"沟口\", \"last\": \"沟口\"}",
           "ok": true
         },
         {
-          "step": 6,
-          "type": "note",
-          "content": "LLM 工具决策不可用，回退规则决策：当前问题/工具观察不需要 action=route；待处理=['advice']"
-        },
-        {
-          "step": 7,
+          "step": 5,
           "type": "thought",
-          "content": "[rules] 按“亲子”类型取条件建议；无对应类型时接受通用建议并标注。",
-          "decision_source": "rules",
+          "content": "[llm] 提供适合亲子游且包含水景和瀑布的建议",
+          "decision_source": "llm",
           "decision": "advice"
         },
         {
-          "step": 8,
+          "step": 6,
           "type": "action",
           "tool": "knowledge_graph_query",
           "args": {
@@ -1014,42 +945,43 @@
           }
         },
         {
-          "step": 9,
+          "step": 7,
           "type": "observation",
           "content": "{\"ok\": true, \"found\": true, \"count\": 6, \"matched_specific\": 0, \"fallback_note\": \"图谱中没有与“亲子”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。\"}",
           "ok": true
         },
         {
-          "step": 10,
+          "step": 8,
+          "type": "note",
+          "content": "LLM 规划提案未通过，已使用规则计划：ValueError: day_assignments 必须覆盖全部图谱步骤"
+        },
+        {
+          "step": 9,
           "type": "final",
-          "content": "根据规划提案，您的亲子游九寨沟两天的行程安排如下：\n\n**第一天：**\n- 上午：沟口 - 树正群海 - 老虎海 - 犀牛海（上午）\n- 中午：诺日朗瀑布（中午，与上午诺日朗瀑布存在时段冲突）\n\n**第二天：**\n- 午餐后：五花海 - 海滩瀑布（中午，与午餐时间重叠）\n- 下午：镜海 - 长海 - 五彩池 - 沟口出沟（下午）\n\n建议您早上早点出发进入景区，并在上午参观树正群海、老虎海和犀牛海。中午时分可以前往诺日朗瀑布游览，但需注意与午餐时间的冲突。第二天行程安排了五花海和珍珠滩瀑布的参观，以及镜海、长海和五彩池等景点的游览。请注意午餐时间和下午时段的景点游览可能会有重叠。\n\n在九寨沟期间，请根据实际情况调整计划，并预留足够的时间以便充分体验每个景点。如果有晕车史，建议提前与司机沟通，确保行车安全。",
+          "content": "九寨沟沟口、树正群海、老虎海、犀牛海、诺日朗瀑布、五花海、珍珠滩瀑布、镜海、长海、五彩池\n\n说明：根据规划，一天内参观了主要景点，但由于时间紧凑，部分时段存在冲突。建议早上早点出发进入景区，并在车上看看远距离的栈道。\n\n【材料建议原文】\n- condition: 一天时间相对紧凑\n  advice: 建议早上早点出发进入景区\n- condition: 栈道过去很远的\n  advice: 建议在车上看看就行了",
           "scenic": "九寨沟",
           "found": true,
           "evidence_count": 17
         }
       ],
       "llm": {
-        "provider": "openai-compatible:qwen2.5:3b",
+        "provider": "openai-compatible:qwen2.5:7b",
         "force_offline": false,
         "request_attempts": 5,
         "successful_responses": 5,
-        "failures": 2,
-        "fallback_count": 2,
+        "failures": 1,
+        "fallback_count": 1,
         "planning_attempts": 1,
-        "planning_accepted": 1,
+        "planning_accepted": 0,
         "decision_attempts": 2,
-        "decision_accepted": 0,
+        "decision_accepted": 2,
         "fallback_events": [
           {
-            "stage": "decision",
-            "error": "ValueError: 当前问题/工具观察不需要 action=advice；待处理=['route']"
-          },
-          {
-            "stage": "decision",
-            "error": "ValueError: 当前问题/工具观察不需要 action=route；待处理=['advice']"
+            "stage": "planning",
+            "error": "ValueError: day_assignments 必须覆盖全部图谱步骤"
           }
         ],
-        "last_error": "ValueError: 当前问题/工具观察不需要 action=route；待处理=['advice']"
+        "last_error": "ValueError: day_assignments 必须覆盖全部图谱步骤"
       },
       "graph_sha256": "fc3d3bebd1f8d37be2ea4e303186f484f74c6d2b7f618cb60f650cdcf26791ba"
     },
@@ -1057,13 +989,9 @@
       "id": "couple_zhangjiajie",
       "tag": "情侣·两日·张家界",
       "query": "情侣去张家界玩两天，想看奇峰和标志性景点",
-      "passed": false,
-      "problems": [
-        "发生模型失败或规则回退",
-        "一个或多个 LLM 工具决策未通过校验",
-        "最终回答没有复用已查询到的建议内容"
-      ],
-      "provider": "openai-compatible:qwen2.5:3b",
+      "passed": true,
+      "problems": [],
+      "provider": "openai-compatible:qwen2.5:7b",
       "intent_source": "llm",
       "intent": {
         "raw": "情侣去张家界玩两天，想看奇峰和标志性景点",
@@ -1079,7 +1007,7 @@
         "constraints": [],
         "need_clarification": false,
         "task_type": "route",
-        "entity_name": null,
+        "entity_name": "张家界",
         "flags": [
           "实验六图谱为一日官方整理路线；两日方案按时段切分，并非官方两日线路。"
         ],
@@ -1228,6 +1156,42 @@
             "evidence_refs": [
               "evidence:02f2fc014d383ea432ca"
             ]
+          },
+          {
+            "condition": "乘索道下山",
+            "advice": "应该需要坐环保车来十里画廊",
+            "traveler_type": "普通游客",
+            "condition_type": "交通可达",
+            "negative": false,
+            "historical_only": true,
+            "mapping_id": "C015",
+            "evidence_refs": [
+              "evidence:87dde751f9c2cea17de8"
+            ]
+          },
+          {
+            "condition": "道路平缓",
+            "advice": "建议不坐小火车",
+            "traveler_type": "普通游客",
+            "condition_type": "其他显式条件",
+            "negative": true,
+            "historical_only": true,
+            "mapping_id": "C028",
+            "evidence_refs": [
+              "evidence:52dcfe0493c29a2fdf61"
+            ]
+          },
+          {
+            "condition": "要想第二天早上看日出",
+            "advice": "需要几个人合伙包车去老屋场",
+            "traveler_type": "普通游客",
+            "condition_type": "时间安排",
+            "negative": false,
+            "historical_only": true,
+            "mapping_id": "C014",
+            "evidence_refs": [
+              "evidence:8674e462340a92eb2871"
+            ]
           }
         ],
         "warnings": [
@@ -1241,6 +1205,9 @@
           "evidence:02f2fc014d383ea432ca",
           "evidence:03086fa9851524a72644",
           "evidence:3fc95401c3c2d71788b9",
+          "evidence:52dcfe0493c29a2fdf61",
+          "evidence:8674e462340a92eb2871",
+          "evidence:87dde751f9c2cea17de8",
           "evidence:9e0d03d91ab75d0fb4b9",
           "evidence:b11e91297c1c5e2df622",
           "evidence:b1f069795bf3062297d7",
@@ -1283,9 +1250,9 @@
               "day": 2
             }
           ],
-          "rationale": "按图谱安排行程，兼顾奇峰和标志性景点，老人或情侣选择适中步调。"
+          "rationale": "情侣两天游览，第一天轻松乘览森林公园、金鞭溪和百龙天梯，第二天前往天子山出山。"
         },
-        "summary": "情侣去张家界玩两天的规划如下：\n\n第一天：\n- 上午：从森林公园门票站乘坐交通工具前往金鞭溪游览。\n- 中午/下午：在百龙天梯乘坐交通工具到达金鞭溪。\n\n第二天：\n- 下午：乘交通工具前往天子山参观。\n- 下午：最后，乘武陵源门票站离开景区。\n\n这符合图谱中的路线安排和建议。两天的行程兼顾了看奇峰和标志性景点的需求，并且按上午、下午时段划分，适合情侣游玩节奏。不过，请注意实际出行时可能需要根据具体天气情况调整部分活动安排。"
+        "summary": "张家界两天情侣游路线如下：\n1. 森林公园门票站\n2. 金鞭溪\n3. 百龙天梯\n4. 天子山\n5. 武陵源门票站\n\n说明：此行程为图谱按一天官方整理的路线切分，非官方两日线路。住宿与第二天交通未被图谱收录，未做安排。\n\n【材料建议原文】\ncondition: 阶梯非常陡\nadvice: 建议脚侧着走\ncondition: 没有接机\nadvice: 就打出租吧\ncondition: 不是腿脚有问题,时间也允许\nadvice: 最好还是徒步游览\ncondition: 乘索道下山\nadvice: 应该需要坐环保车来十里画廊\ncondition: 道路平缓\nadvice: 建议不坐小火车\ncondition: 要想第二天早上看日出\nadvice: 需要几个人合伙包车去老屋场"
       },
       "tool_calls": [
         {
@@ -1296,7 +1263,7 @@
           "action": "advice",
           "scenic": "张家界",
           "traveler_type": "情侣",
-          "limit": 3
+          "limit": 6
         }
       ],
       "traces": [
@@ -1308,18 +1275,13 @@
         },
         {
           "step": 2,
-          "type": "note",
-          "content": "LLM 工具决策不可用，回退规则决策：当前问题/工具观察不需要 action=advice；待处理=['route']"
-        },
-        {
-          "step": 3,
           "type": "thought",
-          "content": "[rules] 读取 张家界 的官方整理路线与时段状态。",
-          "decision_source": "rules",
+          "content": "[llm] 根据用户需求规划情侣两天游览张家界的行程",
+          "decision_source": "llm",
           "decision": "route"
         },
         {
-          "step": 4,
+          "step": 3,
           "type": "action",
           "tool": "knowledge_graph_query",
           "args": {
@@ -1328,62 +1290,57 @@
           }
         },
         {
-          "step": 5,
+          "step": 4,
           "type": "observation",
           "content": "{\"ok\": true, \"found\": true, \"step_count\": 5, \"period_conflicts\": 0, \"first\": \"森林公园门票站\", \"last\": \"武陵源门票站\"}",
           "ok": true
         },
         {
-          "step": 6,
+          "step": 5,
           "type": "thought",
-          "content": "[llm] 根据用户需求提供行程建议",
+          "content": "[llm] 提供给用户情侣两天游览张家界的建议",
           "decision_source": "llm",
           "decision": "advice"
         },
         {
-          "step": 7,
+          "step": 6,
           "type": "action",
           "tool": "knowledge_graph_query",
           "args": {
             "action": "advice",
             "scenic": "张家界",
             "traveler_type": "情侣",
-            "limit": 3
+            "limit": 6
           }
         },
         {
-          "step": 8,
+          "step": 7,
           "type": "observation",
-          "content": "{\"ok\": true, \"found\": true, \"count\": 3, \"matched_specific\": 0, \"fallback_note\": null}",
+          "content": "{\"ok\": true, \"found\": true, \"count\": 6, \"matched_specific\": 0, \"fallback_note\": null}",
           "ok": true
         },
         {
-          "step": 9,
+          "step": 8,
           "type": "final",
-          "content": "情侣去张家界玩两天的规划如下：\n\n第一天：\n- 上午：从森林公园门票站乘坐交通工具前往金鞭溪游览。\n- 中午/下午：在百龙天梯乘坐交通工具到达金鞭溪。\n\n第二天：\n- 下午：乘交通工具前往天子山参观。\n- 下午：最后，乘武陵源门票站离开景区。\n\n这符合图谱中的路线安排和建议。两天的行程兼顾了看奇峰和标志性景点的需求，并且按上午、下午时段划分，适合情侣游玩节奏。不过，请注意实际出行时可能需要根据具体天气情况调整部分活动安排。",
+          "content": "张家界两天情侣游路线如下：\n1. 森林公园门票站\n2. 金鞭溪\n3. 百龙天梯\n4. 天子山\n5. 武陵源门票站\n\n说明：此行程为图谱按一天官方整理的路线切分，非官方两日线路。住宿与第二天交通未被图谱收录，未做安排。\n\n【材料建议原文】\ncondition: 阶梯非常陡\nadvice: 建议脚侧着走\ncondition: 没有接机\nadvice: 就打出租吧\ncondition: 不是腿脚有问题,时间也允许\nadvice: 最好还是徒步游览\ncondition: 乘索道下山\nadvice: 应该需要坐环保车来十里画廊\ncondition: 道路平缓\nadvice: 建议不坐小火车\ncondition: 要想第二天早上看日出\nadvice: 需要几个人合伙包车去老屋场",
           "scenic": "张家界",
           "found": true,
-          "evidence_count": 8
+          "evidence_count": 11
         }
       ],
       "llm": {
-        "provider": "openai-compatible:qwen2.5:3b",
+        "provider": "openai-compatible:qwen2.5:7b",
         "force_offline": false,
         "request_attempts": 5,
         "successful_responses": 5,
-        "failures": 1,
-        "fallback_count": 1,
+        "failures": 0,
+        "fallback_count": 0,
         "planning_attempts": 1,
         "planning_accepted": 1,
         "decision_attempts": 2,
-        "decision_accepted": 1,
-        "fallback_events": [
-          {
-            "stage": "decision",
-            "error": "ValueError: 当前问题/工具观察不需要 action=advice；待处理=['route']"
-          }
-        ],
-        "last_error": "ValueError: 当前问题/工具观察不需要 action=advice；待处理=['route']"
+        "decision_accepted": 2,
+        "fallback_events": [],
+        "last_error": null
       },
       "graph_sha256": "fc3d3bebd1f8d37be2ea4e303186f484f74c6d2b7f618cb60f650cdcf26791ba"
     },
@@ -1394,9 +1351,9 @@
       "passed": false,
       "problems": [
         "发生模型失败或规则回退",
-        "一个或多个 LLM 工具决策未通过校验"
+        "模型规划提案未通过结构与图谱事实校验"
       ],
-      "provider": "openai-compatible:qwen2.5:3b",
+      "provider": "openai-compatible:qwen2.5:7b",
       "intent_source": "llm",
       "intent": {
         "raw": "帮我们安排一次适合亲子的一日游",
@@ -1687,7 +1644,8 @@
         "notes": [
           "建议回退：图谱中没有与“亲子”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。",
           "沟口 在第 1 与第 11 步重复出现，按实验六“身份去重、步骤不去重”保留两次。",
-          "图谱未收录餐饮与休息设施，中午不编造具体餐厅，只在时段上留出休整。"
+          "图谱未收录餐饮与休息设施，中午不编造具体餐厅，只在时段上留出休整。",
+          "LLM 规划提案未通过图谱步骤与用户约束校验，已使用规则计划。"
         ],
         "period_note": "上游解析把全部步骤标为“上午”，直接分组会使中午/下午为空；改用层级推断的时段补位，冲突状态在图中仍按两条 DURING 边保留。",
         "selection": {
@@ -1711,7 +1669,7 @@
               "score": 54
             }
           ],
-          "reason": "未指定景区：按“条件建议条数(×10) + 路线步骤数”排序，选 九寨沟；这是图谱覆盖度的代理指标，不是适配验证。"
+          "reason": "LLM 根据问题选择 九寨沟：根据用户需求和已有信息，选择适合亲子的一日游景区（候选已限定为图谱收录景区）。"
         },
         "evidence_ids": [
           "evidence:0a0e60311cf3c83954ef",
@@ -1744,57 +1702,10 @@
         "period_source": "hierarchy_heuristic_fallback",
         "period_repairs": [],
         "llm_planning": {
-          "status": "accepted",
-          "pace": "轻松",
-          "day_assignments": [
-            {
-              "order": 1,
-              "day": 1
-            },
-            {
-              "order": 2,
-              "day": 1
-            },
-            {
-              "order": 3,
-              "day": 1
-            },
-            {
-              "order": 4,
-              "day": 1
-            },
-            {
-              "order": 5,
-              "day": 1
-            },
-            {
-              "order": 6,
-              "day": 1
-            },
-            {
-              "order": 7,
-              "day": 1
-            },
-            {
-              "order": 8,
-              "day": 1
-            },
-            {
-              "order": 9,
-              "day": 1
-            },
-            {
-              "order": 10,
-              "day": 1
-            },
-            {
-              "order": 11,
-              "day": 1
-            }
-          ],
-          "rationale": "按亲子游需求安排紧凑行程，适合老人或小孩"
+          "status": "rejected",
+          "error": "ValueError: day_assignments 必须覆盖全部图谱步骤"
         },
-        "summary": "根据已有的规划提案，适合亲子游的一日游行程安排如下：\n\n- **上午**：九寨沟沟口 - 树正群海 - 老虎海 - 犀牛海（建议早上早点出发进入景区）\n- **中午**：诺日朗瀑布 - 五花海 - 海滩滩瀑布\n- **下午**：镜海 - 长海 - 五彩池 - 沟口出沟\n\n此行程紧凑，适合老人或小孩。在午餐时间存在与诺日朗瀑布和五花海的时段冲突，建议在此时选择一个景点参观。此外，提案中未提及是否需要购买特产的问题。请注意实际情况可能会有所不同，如景区开放时间、天气等因素。"
+        "summary": "九寨沟、树正群海、老虎海、犀牛海、诺日朗瀑布、五花海、珍珠滩瀑布、镜海、长海、五彩池\n\n说明：本次一日游路线中的景点均来自图谱，顺序未核验通行。考虑到一天时间相对紧凑的条件，建议早上早点出发进入景区；栈道过去很远的，建议在车上看看就行了；不坐观光车的情况下可以一直步行到芦苇海；不要在景区购买特产；想走镜海的栈道必须在诺日朗或者珍珠滩走过去；有晕车史的游客要提前与司机讲清楚，要求尽可能开得稳些。\n\n【材料建议原文】\n- condition: \"一天时间相对紧凑\"，advice: \"建议早上早点出发进入景区\"\n- condition: \"栈道过去很远的\"，advice: \"建议在车上看看就行了\"\n- condition: \"不坐观光车\"，advice: \"可以一直步行到芦苇海\"\n- condition: \"要买特产\"，advice: \"不要在景区买\"\n- condition: \"想走镜海的栈道\"，advice: \"必须在诺日朗或者珍珠滩走过去\"\n- condition: \"有晕车史的\"，advice: \"要提前与司机讲清楚,要求尽可能开得稳些\""
       },
       "tool_calls": [
         {
@@ -1820,18 +1731,13 @@
         },
         {
           "step": 2,
-          "type": "note",
-          "content": "LLM 工具决策不可用，回退规则决策：当前问题/工具观察不需要 action=advice；待处理=['scenics']"
-        },
-        {
-          "step": 3,
           "type": "thought",
-          "content": "[rules] 未指定景区，先列出可用景区与路线规模。",
-          "decision_source": "rules",
+          "content": "[llm] 获取适合亲子的一日游推荐景区",
+          "decision_source": "llm",
           "decision": "scenics"
         },
         {
-          "step": 4,
+          "step": 3,
           "type": "action",
           "tool": "knowledge_graph_query",
           "args": {
@@ -1839,25 +1745,20 @@
           }
         },
         {
-          "step": 5,
+          "step": 4,
           "type": "observation",
           "content": "{\"ok\": true, \"scenics\": [{\"scenic\": \"九寨沟\", \"steps\": 11, \"conditions\": 12}, {\"scenic\": \"张家界\", \"steps\": 5, \"conditions\": 7}, {\"scenic\": \"黄山\", \"steps\": 14, \"conditions\": 4}]}",
           "ok": true
         },
         {
-          "step": 6,
-          "type": "note",
-          "content": "LLM 工具决策不可用，回退规则决策：当前问题/工具观察不需要 action=advice；待处理=['route']"
-        },
-        {
-          "step": 7,
+          "step": 5,
           "type": "thought",
-          "content": "[rules] 按图谱覆盖度择优 九寨沟：未指定景区：按“条件建议条数(×10) + 路线步骤数”排序，选 九寨沟；这是图谱覆盖度的代理指标，不是适配验证。 现在读取其路线步骤。",
-          "decision_source": "rules",
+          "content": "[llm] 根据用户需求和已有信息，选择适合亲子的一日游景区",
+          "decision_source": "llm",
           "decision": "route"
         },
         {
-          "step": 8,
+          "step": 6,
           "type": "action",
           "tool": "knowledge_graph_query",
           "args": {
@@ -1866,20 +1767,20 @@
           }
         },
         {
-          "step": 9,
+          "step": 7,
           "type": "observation",
           "content": "{\"ok\": true, \"found\": true, \"step_count\": 11, \"period_conflicts\": 7, \"first\": \"沟口\", \"last\": \"沟口\"}",
           "ok": true
         },
         {
-          "step": 10,
+          "step": 8,
           "type": "thought",
-          "content": "[llm] 根据用户需求，为亲子游提供条件建议",
+          "content": "[llm] 根据用户需求提供适合亲子的一日游建议",
           "decision_source": "llm",
           "decision": "advice"
         },
         {
-          "step": 11,
+          "step": 9,
           "type": "action",
           "tool": "knowledge_graph_query",
           "args": {
@@ -1890,42 +1791,43 @@
           }
         },
         {
-          "step": 12,
+          "step": 10,
           "type": "observation",
           "content": "{\"ok\": true, \"found\": true, \"count\": 6, \"matched_specific\": 0, \"fallback_note\": \"图谱中没有与“亲子”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。\"}",
           "ok": true
         },
         {
-          "step": 13,
+          "step": 11,
+          "type": "note",
+          "content": "LLM 规划提案未通过，已使用规则计划：ValueError: day_assignments 必须覆盖全部图谱步骤"
+        },
+        {
+          "step": 12,
           "type": "final",
-          "content": "根据已有的规划提案，适合亲子游的一日游行程安排如下：\n\n- **上午**：九寨沟沟口 - 树正群海 - 老虎海 - 犀牛海（建议早上早点出发进入景区）\n- **中午**：诺日朗瀑布 - 五花海 - 海滩滩瀑布\n- **下午**：镜海 - 长海 - 五彩池 - 沟口出沟\n\n此行程紧凑，适合老人或小孩。在午餐时间存在与诺日朗瀑布和五花海的时段冲突，建议在此时选择一个景点参观。此外，提案中未提及是否需要购买特产的问题。请注意实际情况可能会有所不同，如景区开放时间、天气等因素。",
+          "content": "九寨沟、树正群海、老虎海、犀牛海、诺日朗瀑布、五花海、珍珠滩瀑布、镜海、长海、五彩池\n\n说明：本次一日游路线中的景点均来自图谱，顺序未核验通行。考虑到一天时间相对紧凑的条件，建议早上早点出发进入景区；栈道过去很远的，建议在车上看看就行了；不坐观光车的情况下可以一直步行到芦苇海；不要在景区购买特产；想走镜海的栈道必须在诺日朗或者珍珠滩走过去；有晕车史的游客要提前与司机讲清楚，要求尽可能开得稳些。\n\n【材料建议原文】\n- condition: \"一天时间相对紧凑\"，advice: \"建议早上早点出发进入景区\"\n- condition: \"栈道过去很远的\"，advice: \"建议在车上看看就行了\"\n- condition: \"不坐观光车\"，advice: \"可以一直步行到芦苇海\"\n- condition: \"要买特产\"，advice: \"不要在景区买\"\n- condition: \"想走镜海的栈道\"，advice: \"必须在诺日朗或者珍珠滩走过去\"\n- condition: \"有晕车史的\"，advice: \"要提前与司机讲清楚,要求尽可能开得稳些\"",
           "scenic": "九寨沟",
           "found": true,
           "evidence_count": 17
         }
       ],
       "llm": {
-        "provider": "openai-compatible:qwen2.5:3b",
+        "provider": "openai-compatible:qwen2.5:7b",
         "force_offline": false,
         "request_attempts": 6,
         "successful_responses": 6,
-        "failures": 2,
-        "fallback_count": 2,
+        "failures": 1,
+        "fallback_count": 1,
         "planning_attempts": 1,
-        "planning_accepted": 1,
+        "planning_accepted": 0,
         "decision_attempts": 3,
-        "decision_accepted": 1,
+        "decision_accepted": 3,
         "fallback_events": [
           {
-            "stage": "decision",
-            "error": "ValueError: 当前问题/工具观察不需要 action=advice；待处理=['scenics']"
-          },
-          {
-            "stage": "decision",
-            "error": "ValueError: 当前问题/工具观察不需要 action=advice；待处理=['route']"
+            "stage": "planning",
+            "error": "ValueError: day_assignments 必须覆盖全部图谱步骤"
           }
         ],
-        "last_error": "ValueError: 当前问题/工具观察不需要 action=advice；待处理=['route']"
+        "last_error": "ValueError: day_assignments 必须覆盖全部图谱步骤"
       },
       "graph_sha256": "fc3d3bebd1f8d37be2ea4e303186f484f74c6d2b7f618cb60f650cdcf26791ba"
     },
@@ -1933,18 +1835,14 @@
       "id": "unknown_taishan",
       "tag": "未收录景区·如实回退",
       "query": "推荐一下泰山的路线",
-      "passed": false,
-      "problems": [
-        "发生模型失败或规则回退",
-        "一个或多个 LLM 工具决策未通过校验",
-        "执行轨迹没有记录真实 LLM 的工具/停止决策"
-      ],
-      "provider": "openai-compatible:qwen2.5:3b",
+      "passed": true,
+      "problems": [],
+      "provider": "openai-compatible:qwen2.5:7b",
       "intent_source": "llm",
       "intent": {
         "raw": "推荐一下泰山的路线",
         "scenic": null,
-        "unknown_scenic": "['黄山', '九寨",
+        "unknown_scenic": "泰山",
         "visitor_type": "普通",
         "duration": 1,
         "duration_explicit": false,
@@ -1952,7 +1850,7 @@
         "constraints": [],
         "need_clarification": false,
         "task_type": "route",
-        "entity_name": "泰山",
+        "entity_name": null,
         "flags": [
           "未说明天数，默认按 1 天规划。",
           "「泰山」不在实验六图谱收录范围，将如实说明并给出可选景区。"
@@ -1978,8 +1876,8 @@
         "query": "推荐一下泰山的路线",
         "task_type": "route",
         "answer_context": {},
-        "message": "知识图谱暂未收录「['黄山', '九寨」。当前可规划景区：九寨沟、张家界、黄山。未用其他景区数据替代，也未编造该景区路线。",
-        "summary": "知识图谱暂未收录「['黄山', '九寨」。当前可规划景区：九寨沟、张家界、黄山。未用其他景区数据替代，也未编造该景区路线。"
+        "message": "知识图谱暂未收录「泰山」。当前可规划景区：九寨沟、张家界、黄山。未用其他景区数据替代，也未编造该景区路线。",
+        "summary": "知识图谱暂未收录「泰山」。当前可规划景区：九寨沟、张家界、黄山。未用其他景区数据替代，也未编造该景区路线。"
       },
       "tool_calls": [
         {
@@ -1990,23 +1888,18 @@
         {
           "step": 1,
           "type": "thought",
-          "content": "[llm] 解析出 景区=未收录:['黄山', '九寨，人群=普通，天数=1。",
+          "content": "[llm] 解析出 景区=未收录:泰山，人群=普通，天数=1。",
           "intent_source": "llm"
         },
         {
           "step": 2,
-          "type": "note",
-          "content": "LLM 工具决策不可用，回退规则决策：当前问题/工具观察不需要 action=route；待处理=['scenics']"
-        },
-        {
-          "step": 3,
           "type": "thought",
-          "content": "[rules] 先查图谱收录了哪些景区，再据实说明未收录范围。",
-          "decision_source": "rules",
+          "content": "[llm] 获取泰山的相关信息以确定路线",
+          "decision_source": "llm",
           "decision": "scenics"
         },
         {
-          "step": 4,
+          "step": 3,
           "type": "action",
           "tool": "knowledge_graph_query",
           "args": {
@@ -2014,38 +1907,33 @@
           }
         },
         {
-          "step": 5,
+          "step": 4,
           "type": "observation",
           "content": "{\"ok\": true, \"scenics\": [{\"scenic\": \"九寨沟\", \"steps\": 11, \"conditions\": 12}, {\"scenic\": \"张家界\", \"steps\": 5, \"conditions\": 7}, {\"scenic\": \"黄山\", \"steps\": 14, \"conditions\": 4}]}",
           "ok": true
         },
         {
-          "step": 6,
+          "step": 5,
           "type": "final",
-          "content": "知识图谱暂未收录「['黄山', '九寨」。当前可规划景区：九寨沟、张家界、黄山。未用其他景区数据替代，也未编造该景区路线。",
+          "content": "知识图谱暂未收录「泰山」。当前可规划景区：九寨沟、张家界、黄山。未用其他景区数据替代，也未编造该景区路线。",
           "scenic": null,
           "found": false,
           "evidence_count": 0
         }
       ],
       "llm": {
-        "provider": "openai-compatible:qwen2.5:3b",
+        "provider": "openai-compatible:qwen2.5:7b",
         "force_offline": false,
         "request_attempts": 2,
         "successful_responses": 2,
-        "failures": 1,
-        "fallback_count": 1,
+        "failures": 0,
+        "fallback_count": 0,
         "planning_attempts": 0,
         "planning_accepted": 0,
         "decision_attempts": 1,
-        "decision_accepted": 0,
-        "fallback_events": [
-          {
-            "stage": "decision",
-            "error": "ValueError: 当前问题/工具观察不需要 action=route；待处理=['scenics']"
-          }
-        ],
-        "last_error": "ValueError: 当前问题/工具观察不需要 action=route；待处理=['scenics']"
+        "decision_accepted": 1,
+        "fallback_events": [],
+        "last_error": null
       },
       "graph_sha256": "fc3d3bebd1f8d37be2ea4e303186f484f74c6d2b7f618cb60f650cdcf26791ba"
     },
@@ -2055,9 +1943,10 @@
       "query": "带老人爬山徒步登黄山，走陡峭路线可以吗",
       "passed": false,
       "problems": [
-        "最终回答没有复用已查询到的建议内容"
+        "发生模型失败或规则回退",
+        "一个或多个 LLM 工具决策未通过校验"
       ],
-      "provider": "openai-compatible:qwen2.5:3b",
+      "provider": "openai-compatible:qwen2.5:7b",
       "intent_source": "llm",
       "intent": {
         "raw": "带老人爬山徒步登黄山，走陡峭路线可以吗",
@@ -2481,9 +2370,9 @@
               "day": 1
             }
           ],
-          "rationale": "老人体力弱，安排轻量级路线以确保安全"
+          "rationale": "鉴于老人体力要求，行程调整为一天，所有景点参观改为观景，确保舒适度。"
         },
-        "summary": "根据给定的路线步骤和条件建议，您的旅游规划提案如下：\n\n- **天数**: 1天\n- **行程安排**:\n  - 上午: 南大门、云谷寺、始信峰、狮子峰、清凉台\n  - 中午: 散花坞、排云亭、天海、鳌鱼峰\n  - 下午: 玉屏楼、迎客松、慈光阁、南大门\n  \n行程安排基于图谱中的路线步骤，并且考虑到老人的体力情况，建议优先考虑乘坐索道上下山以确保安全。由于原计划中包含较多的徒步和高强度活动，对于老年人来说可能较为困难，因此建议在中午时段进行部分景点游览，以减轻体力负担。同时，考虑到老人同行的强度风险，建议在行程中加入索道选项。\n\n请根据实际情况调整并确认最终方案。"
+        "summary": "黄山行程（1天）：\n- 南大门\n- 云谷寺\n- 始信峰\n- 狮子峰\n- 凉亭台\n\n由于老人体力要求较高，图谱规划了一日游并调整为参观景点改为观景，确保舒适度。但请注意，陡峭路线存在强度风险，建议考虑使用索道上下山。\n\n【材料建议原文】\ncondition：团队的整体体力\nadvice：建议乘索道上下\ntraveler_type：体力约束游客\ncondition_type：体力路况\nnegative：false\nhistorical_only：true\n\ncondition：山上风大\nadvice：可以带上冲锋衣和口罩\ntraveler_type：普通游客\ncondition_type：天气季节\nnegative：false\nhistorical_only：true\n\ncondition：两日游的旅客\nadvice：建议午后上山\ntraveler_type：普通游客\ncondition_type：时间安排\nnegative：false\nhistorical_only：true\n\ncondition：天晴爬山\nadvice：建议带系带的草帽\ntraveler_type：普通游客\ncondition_type：天气季节\nnegative：false\nhistorical_only：true"
       },
       "tool_calls": [
         {
@@ -2506,13 +2395,18 @@
         },
         {
           "step": 2,
-          "type": "thought",
-          "content": "[llm] 先获取黄山官方路线步骤",
-          "decision_source": "llm",
-          "decision": "route"
+          "type": "note",
+          "content": "LLM 工具决策不可用，回退规则决策：当前问题/工具观察不需要 action=advice；待处理=['route']"
         },
         {
           "step": 3,
+          "type": "thought",
+          "content": "[rules] 读取 黄山 的官方整理路线与时段状态。",
+          "decision_source": "rules",
+          "decision": "route"
+        },
+        {
+          "step": 4,
           "type": "action",
           "tool": "knowledge_graph_query",
           "args": {
@@ -2521,20 +2415,20 @@
           }
         },
         {
-          "step": 4,
+          "step": 5,
           "type": "observation",
           "content": "{\"ok\": true, \"found\": true, \"step_count\": 14, \"period_conflicts\": 8, \"first\": \"南大门\", \"last\": \"南大门\"}",
           "ok": true
         },
         {
-          "step": 5,
+          "step": 6,
           "type": "thought",
-          "content": "[llm] 根据用户需求和已知信息，给出适合老人的登黄山建议",
+          "content": "[llm] 根据用户需求和已有信息，提供适合老人的徒步路线建议",
           "decision_source": "llm",
           "decision": "advice"
         },
         {
-          "step": 6,
+          "step": 7,
           "type": "action",
           "tool": "knowledge_graph_query",
           "args": {
@@ -2545,33 +2439,38 @@
           }
         },
         {
-          "step": 7,
+          "step": 8,
           "type": "observation",
           "content": "{\"ok\": true, \"found\": true, \"count\": 4, \"matched_specific\": 1, \"fallback_note\": null}",
           "ok": true
         },
         {
-          "step": 8,
+          "step": 9,
           "type": "final",
-          "content": "根据给定的路线步骤和条件建议，您的旅游规划提案如下：\n\n- **天数**: 1天\n- **行程安排**:\n  - 上午: 南大门、云谷寺、始信峰、狮子峰、清凉台\n  - 中午: 散花坞、排云亭、天海、鳌鱼峰\n  - 下午: 玉屏楼、迎客松、慈光阁、南大门\n  \n行程安排基于图谱中的路线步骤，并且考虑到老人的体力情况，建议优先考虑乘坐索道上下山以确保安全。由于原计划中包含较多的徒步和高强度活动，对于老年人来说可能较为困难，因此建议在中午时段进行部分景点游览，以减轻体力负担。同时，考虑到老人同行的强度风险，建议在行程中加入索道选项。\n\n请根据实际情况调整并确认最终方案。",
+          "content": "黄山行程（1天）：\n- 南大门\n- 云谷寺\n- 始信峰\n- 狮子峰\n- 凉亭台\n\n由于老人体力要求较高，图谱规划了一日游并调整为参观景点改为观景，确保舒适度。但请注意，陡峭路线存在强度风险，建议考虑使用索道上下山。\n\n【材料建议原文】\ncondition：团队的整体体力\nadvice：建议乘索道上下\ntraveler_type：体力约束游客\ncondition_type：体力路况\nnegative：false\nhistorical_only：true\n\ncondition：山上风大\nadvice：可以带上冲锋衣和口罩\ntraveler_type：普通游客\ncondition_type：天气季节\nnegative：false\nhistorical_only：true\n\ncondition：两日游的旅客\nadvice：建议午后上山\ntraveler_type：普通游客\ncondition_type：时间安排\nnegative：false\nhistorical_only：true\n\ncondition：天晴爬山\nadvice：建议带系带的草帽\ntraveler_type：普通游客\ncondition_type：天气季节\nnegative：false\nhistorical_only：true",
           "scenic": "黄山",
           "found": true,
           "evidence_count": 18
         }
       ],
       "llm": {
-        "provider": "openai-compatible:qwen2.5:3b",
+        "provider": "openai-compatible:qwen2.5:7b",
         "force_offline": false,
         "request_attempts": 5,
         "successful_responses": 5,
-        "failures": 0,
-        "fallback_count": 0,
+        "failures": 1,
+        "fallback_count": 1,
         "planning_attempts": 1,
         "planning_accepted": 1,
         "decision_attempts": 2,
-        "decision_accepted": 2,
-        "fallback_events": [],
-        "last_error": null
+        "decision_accepted": 1,
+        "fallback_events": [
+          {
+            "stage": "decision",
+            "error": "ValueError: 当前问题/工具观察不需要 action=advice；待处理=['route']"
+          }
+        ],
+        "last_error": "ValueError: 当前问题/工具观察不需要 action=advice；待处理=['route']"
       },
       "graph_sha256": "fc3d3bebd1f8d37be2ea4e303186f484f74c6d2b7f618cb60f650cdcf26791ba"
     },
@@ -2579,13 +2478,9 @@
       "id": "vague_request",
       "tag": "信息不足·先追问",
       "query": "帮我做个旅游规划",
-      "passed": false,
-      "problems": [
-        "发生模型失败或规则回退",
-        "一个或多个 LLM 工具决策未通过校验",
-        "执行轨迹没有记录真实 LLM 的工具/停止决策"
-      ],
-      "provider": "openai-compatible:qwen2.5:3b",
+      "passed": true,
+      "problems": [],
+      "provider": "openai-compatible:qwen2.5:7b",
       "intent_source": "llm",
       "intent": {
         "raw": "帮我做个旅游规划",
@@ -2597,7 +2492,7 @@
         "preferences": [],
         "constraints": [],
         "need_clarification": true,
-        "task_type": "entity",
+        "task_type": "route",
         "entity_name": null,
         "flags": [
           "未指定景区；可选 九寨沟、张家界、黄山。",
@@ -2621,7 +2516,7 @@
         "evidence_ids": [],
         "found": false,
         "query": "帮我做个旅游规划",
-        "task_type": "entity",
+        "task_type": "route",
         "answer_context": {},
         "need_clarification": true,
         "clarify_message": "当前图谱只收录黄山、九寨沟、张家界三条官方整理路线。请补充：想去哪个景区、同行人群（老人/亲子/情侣/普通）、计划天数（1 天或 2 天）？",
@@ -2637,8 +2532,10 @@
         },
         {
           "step": 2,
-          "type": "note",
-          "content": "LLM 工具决策不可用，回退规则决策：当前问题/工具观察不需要 action=scenics；待处理=[]"
+          "type": "thought",
+          "content": "[llm] 停止图谱查询：缺少具体景区信息，无法进行路线规划。",
+          "decision_source": "llm",
+          "decision": "stop"
         },
         {
           "step": 3,
@@ -2650,23 +2547,18 @@
         }
       ],
       "llm": {
-        "provider": "openai-compatible:qwen2.5:3b",
+        "provider": "openai-compatible:qwen2.5:7b",
         "force_offline": false,
         "request_attempts": 2,
         "successful_responses": 2,
-        "failures": 1,
-        "fallback_count": 1,
+        "failures": 0,
+        "fallback_count": 0,
         "planning_attempts": 0,
         "planning_accepted": 0,
         "decision_attempts": 1,
-        "decision_accepted": 0,
-        "fallback_events": [
-          {
-            "stage": "decision",
-            "error": "ValueError: 当前问题/工具观察不需要 action=scenics；待处理=[]"
-          }
-        ],
-        "last_error": "ValueError: 当前问题/工具观察不需要 action=scenics；待处理=[]"
+        "decision_accepted": 1,
+        "fallback_events": [],
+        "last_error": null
       },
       "graph_sha256": "fc3d3bebd1f8d37be2ea4e303186f484f74c6d2b7f618cb60f650cdcf26791ba"
     },
@@ -2677,10 +2569,9 @@
       "passed": false,
       "problems": [
         "发生模型失败或规则回退",
-        "一个或多个 LLM 工具决策未通过校验",
-        "最终回答没有复用已查询到的建议内容"
+        "模型规划提案未通过结构与图谱事实校验"
       ],
-      "provider": "openai-compatible:qwen2.5:3b",
+      "provider": "openai-compatible:qwen2.5:7b",
       "intent_source": "llm",
       "intent": {
         "raw": "亲子游九寨沟一天，孩子有点晕车",
@@ -2914,7 +2805,8 @@
           "建议回退：图谱中没有与“亲子”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。",
           "已按“晕车”约束取出图谱中的晕车相关建议；该建议来自游客叙述，需自行核验。",
           "沟口 在第 1 与第 11 步重复出现，按实验六“身份去重、步骤不去重”保留两次。",
-          "图谱未收录餐饮与休息设施，中午不编造具体餐厅，只在时段上留出休整。"
+          "图谱未收录餐饮与休息设施，中午不编造具体餐厅，只在时段上留出休整。",
+          "LLM 规划提案未通过图谱步骤与用户约束校验，已使用规则计划。"
         ],
         "period_note": "上游解析把全部步骤标为“上午”，直接分组会使中午/下午为空；改用层级推断的时段补位，冲突状态在图中仍按两条 DURING 边保留。",
         "selection": null,
@@ -2944,57 +2836,10 @@
         "period_source": "hierarchy_heuristic_fallback",
         "period_repairs": [],
         "llm_planning": {
-          "status": "accepted",
-          "pace": "轻松",
-          "day_assignments": [
-            {
-              "order": 1,
-              "day": 1
-            },
-            {
-              "order": 2,
-              "day": 1
-            },
-            {
-              "order": 3,
-              "day": 1
-            },
-            {
-              "order": 4,
-              "day": 1
-            },
-            {
-              "order": 5,
-              "day": 1
-            },
-            {
-              "order": 6,
-              "day": 1
-            },
-            {
-              "order": 7,
-              "day": 1
-            },
-            {
-              "order": 8,
-              "day": 1
-            },
-            {
-              "order": 9,
-              "day": 1
-            },
-            {
-              "order": 10,
-              "day": 1
-            },
-            {
-              "order": 11,
-              "day": 1
-            }
-          ],
-          "rationale": "考虑到亲子游且孩子易晕车，安排轻量级活动并减少移动距离。"
+          "status": "rejected",
+          "error": "ValueError: day_assignments 必须覆盖全部图谱步骤"
         },
-        "summary": "根据已校验的模型规划提案，您的亲子游九寨沟行程安排如下：\n\n- 上午：沟口 - 树正群海 - 老虎海 - 犀牛海\n- 中午：上午或中午可选诺日朗瀑布、五花海、珍珠滩瀑布\n- 下午：上午或下午可选镜海、长海、五彩池\n\n考虑到孩子有晕车史，建议提前与司机沟通，要求平稳驾驶。这样安排可以减少移动距离和活动强度，适合孩子的身体状况。行程共计一天时间。"
+        "summary": "九寨沟沟口、树正群海、老虎海、犀牛海、诺日朗瀑布、五花海、珍珠滩瀑布、镜海、长海、五彩池\n\n由于一天时间有限且孩子有晕车史，行程安排较为紧凑，请提前与司机讲清楚，要求尽可能开得稳些。\n\n【材料建议原文】\ncondition：有晕车史的\nadvice：要提前与司机讲清楚,要求尽可能开得稳些"
       },
       "tool_calls": [
         {
@@ -3005,7 +2850,7 @@
           "action": "advice",
           "scenic": "九寨沟",
           "traveler_type": "亲子",
-          "limit": 3,
+          "limit": 6,
           "contains": "晕车"
         }
       ],
@@ -3018,18 +2863,13 @@
         },
         {
           "step": 2,
-          "type": "note",
-          "content": "LLM 工具决策不可用，回退规则决策：当前问题/工具观察不需要 action=advice；待处理=['route']"
-        },
-        {
-          "step": 3,
           "type": "thought",
-          "content": "[rules] 读取 九寨沟 的官方整理路线与时段状态。",
-          "decision_source": "rules",
+          "content": "[llm] 根据用户需求规划适合亲子游且考虑孩子晕车的九寨沟一日行程",
+          "decision_source": "llm",
           "decision": "route"
         },
         {
-          "step": 4,
+          "step": 3,
           "type": "action",
           "tool": "knowledge_graph_query",
           "args": {
@@ -3038,63 +2878,68 @@
           }
         },
         {
-          "step": 5,
+          "step": 4,
           "type": "observation",
           "content": "{\"ok\": true, \"found\": true, \"step_count\": 11, \"period_conflicts\": 7, \"first\": \"沟口\", \"last\": \"沟口\"}",
           "ok": true
         },
         {
-          "step": 6,
+          "step": 5,
           "type": "thought",
-          "content": "[llm] 根据用户需求提供针对性建议",
+          "content": "[llm] 根据用户需求提供针对易晕车的建议",
           "decision_source": "llm",
           "decision": "advice"
         },
         {
-          "step": 7,
+          "step": 6,
           "type": "action",
           "tool": "knowledge_graph_query",
           "args": {
             "action": "advice",
             "scenic": "九寨沟",
             "traveler_type": "亲子",
-            "limit": 3,
+            "limit": 6,
             "contains": "晕车"
           }
         },
         {
-          "step": 8,
+          "step": 7,
           "type": "observation",
           "content": "{\"ok\": true, \"found\": true, \"count\": 1, \"matched_specific\": 0, \"fallback_note\": \"图谱中没有与“亲子”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。\"}",
           "ok": true
         },
         {
+          "step": 8,
+          "type": "note",
+          "content": "LLM 规划提案未通过，已使用规则计划：ValueError: day_assignments 必须覆盖全部图谱步骤"
+        },
+        {
           "step": 9,
           "type": "final",
-          "content": "根据已校验的模型规划提案，您的亲子游九寨沟行程安排如下：\n\n- 上午：沟口 - 树正群海 - 老虎海 - 犀牛海\n- 中午：上午或中午可选诺日朗瀑布、五花海、珍珠滩瀑布\n- 下午：上午或下午可选镜海、长海、五彩池\n\n考虑到孩子有晕车史，建议提前与司机沟通，要求平稳驾驶。这样安排可以减少移动距离和活动强度，适合孩子的身体状况。行程共计一天时间。",
+          "content": "九寨沟沟口、树正群海、老虎海、犀牛海、诺日朗瀑布、五花海、珍珠滩瀑布、镜海、长海、五彩池\n\n由于一天时间有限且孩子有晕车史，行程安排较为紧凑，请提前与司机讲清楚，要求尽可能开得稳些。\n\n【材料建议原文】\ncondition：有晕车史的\nadvice：要提前与司机讲清楚,要求尽可能开得稳些",
           "scenic": "九寨沟",
           "found": true,
           "evidence_count": 12
         }
       ],
       "llm": {
-        "provider": "openai-compatible:qwen2.5:3b",
+        "provider": "openai-compatible:qwen2.5:7b",
         "force_offline": false,
         "request_attempts": 5,
         "successful_responses": 5,
         "failures": 1,
         "fallback_count": 1,
         "planning_attempts": 1,
-        "planning_accepted": 1,
+        "planning_accepted": 0,
         "decision_attempts": 2,
-        "decision_accepted": 1,
+        "decision_accepted": 2,
         "fallback_events": [
           {
-            "stage": "decision",
-            "error": "ValueError: 当前问题/工具观察不需要 action=advice；待处理=['route']"
+            "stage": "planning",
+            "error": "ValueError: day_assignments 必须覆盖全部图谱步骤"
           }
         ],
-        "last_error": "ValueError: 当前问题/工具观察不需要 action=advice；待处理=['route']"
+        "last_error": "ValueError: day_assignments 必须覆盖全部图谱步骤"
       },
       "graph_sha256": "fc3d3bebd1f8d37be2ea4e303186f484f74c6d2b7f618cb60f650cdcf26791ba"
     },
@@ -3105,10 +2950,9 @@
       "passed": false,
       "problems": [
         "发生模型失败或规则回退",
-        "一个或多个 LLM 工具决策未通过校验",
-        "最终回答没有复用已查询到的建议内容"
+        "模型规划提案未通过结构与图谱事实校验"
       ],
-      "provider": "openai-compatible:qwen2.5:3b",
+      "provider": "openai-compatible:qwen2.5:7b",
       "intent_source": "llm",
       "intent": {
         "raw": "带爸妈去张家界玩两天，节奏慢一点",
@@ -3309,7 +3153,8 @@
           "图谱未收录坡度、海拔与点间距离，老人同行的体力消耗无法评估；建议优先参考图谱中的索道/乘车类建议，并以景区当前公告为准。"
         ],
         "notes": [
-          "建议回退：图谱中没有与“老人”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。"
+          "建议回退：图谱中没有与“老人”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。",
+          "LLM 规划提案未通过图谱步骤与用户约束校验，已使用规则计划。"
         ],
         "period_note": "",
         "selection": null,
@@ -3338,33 +3183,10 @@
         "period_source": "upstream_parse",
         "period_repairs": [],
         "llm_planning": {
-          "status": "accepted",
-          "pace": "轻松",
-          "day_assignments": [
-            {
-              "order": 1,
-              "day": 1
-            },
-            {
-              "order": 2,
-              "day": 1
-            },
-            {
-              "order": 3,
-              "day": 1
-            },
-            {
-              "order": 4,
-              "day": 2
-            },
-            {
-              "order": 5,
-              "day": 2
-            }
-          ],
-          "rationale": "按老人节奏安排轻量级行程，每天仅安排1个活动"
+          "status": "rejected",
+          "error": "LLMError: 规划提案不可用: Expecting value: line 1 column 1 (char 0)"
         },
-        "summary": "根据原问题和提供的图谱路线步骤，以下是为带爸妈去张家界玩两天的行程安排：\n\n**第一天：**\n- 上午：从森林公园门票站乘车上金鞭溪游览。\n- 中午：在金鞭溪享用午餐（未提供具体景点信息）。\n- 下午：乘坐百龙天梯前往山顶。\n\n**第二天：**\n- 下午：游览天子山景区。\n- 晚上：离开武陵源门票站返回，结束行程。\n\n此行程安排为图谱中的步骤切分，并非官方两日线路。建议在出行前确认当天的天气情况以及各景点的具体开放时间，同时参考当前公告中关于体力消耗和坡度等信息。此外，由于未收录住宿与第二天交通的信息，建议提前规划好第二天的交通安排。"
+        "summary": "张家界两天游（上午/下午）路线：\n1. 森林公园门票站\n2. 金鞭溪\n3. 百龙天梯\n4. 天子山\n5. 武陵源门票站\n\n说明：此行程为图谱提供的单日游览方案，按两日分时段切分，并非官方推荐的两日游路线。建议在游览过程中关注老人的身体状况和体力消耗。\n\n【材料建议原文】\ncondition: 记得给自己和娃们都带上换的衣服\nadvice: 可能会遇到湿身的情况，建议准备替换衣物\n\ncondition: 阶梯非常陡\nadvice: 建议脚侧着走以保持平衡\n\ncondition: 没有接机\nadvice: 就打出租吧，方便快捷\n\ncondition: 不是腿脚有问题,时间也允许\nadvice: 最好还是徒步游览，享受自然风光\n\ncondition: 乘索道下山\nadvice: 应该需要坐环保车来十里画廊"
       },
       "tool_calls": [
         {
@@ -3388,7 +3210,7 @@
         {
           "step": 2,
           "type": "thought",
-          "content": "[llm] 先获取张家界的官方路线步骤",
+          "content": "[llm] 根据用户需求规划适合带老人游玩两天的张家界行程",
           "decision_source": "llm",
           "decision": "route"
         },
@@ -3409,18 +3231,13 @@
         },
         {
           "step": 5,
-          "type": "note",
-          "content": "LLM 工具决策不可用，回退规则决策：当前问题/工具观察不需要 action=route；待处理=['advice']"
-        },
-        {
-          "step": 6,
           "type": "thought",
-          "content": "[rules] 按“老人”类型取条件建议；无对应类型时接受通用建议并标注。",
-          "decision_source": "rules",
+          "content": "[llm] 根据用户需求提供适合老人的游玩建议",
+          "decision_source": "llm",
           "decision": "advice"
         },
         {
-          "step": 7,
+          "step": 6,
           "type": "action",
           "tool": "knowledge_graph_query",
           "args": {
@@ -3431,38 +3248,43 @@
           }
         },
         {
-          "step": 8,
+          "step": 7,
           "type": "observation",
           "content": "{\"ok\": true, \"found\": true, \"count\": 6, \"matched_specific\": 0, \"fallback_note\": \"图谱中没有与“老人”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。\"}",
           "ok": true
         },
         {
+          "step": 8,
+          "type": "note",
+          "content": "LLM 规划提案未通过，已使用规则计划：LLMError: 规划提案不可用: Expecting value: line 1 column 1 (char 0)"
+        },
+        {
           "step": 9,
           "type": "final",
-          "content": "根据原问题和提供的图谱路线步骤，以下是为带爸妈去张家界玩两天的行程安排：\n\n**第一天：**\n- 上午：从森林公园门票站乘车上金鞭溪游览。\n- 中午：在金鞭溪享用午餐（未提供具体景点信息）。\n- 下午：乘坐百龙天梯前往山顶。\n\n**第二天：**\n- 下午：游览天子山景区。\n- 晚上：离开武陵源门票站返回，结束行程。\n\n此行程安排为图谱中的步骤切分，并非官方两日线路。建议在出行前确认当天的天气情况以及各景点的具体开放时间，同时参考当前公告中关于体力消耗和坡度等信息。此外，由于未收录住宿与第二天交通的信息，建议提前规划好第二天的交通安排。",
+          "content": "张家界两天游（上午/下午）路线：\n1. 森林公园门票站\n2. 金鞭溪\n3. 百龙天梯\n4. 天子山\n5. 武陵源门票站\n\n说明：此行程为图谱提供的单日游览方案，按两日分时段切分，并非官方推荐的两日游路线。建议在游览过程中关注老人的身体状况和体力消耗。\n\n【材料建议原文】\ncondition: 记得给自己和娃们都带上换的衣服\nadvice: 可能会遇到湿身的情况，建议准备替换衣物\n\ncondition: 阶梯非常陡\nadvice: 建议脚侧着走以保持平衡\n\ncondition: 没有接机\nadvice: 就打出租吧，方便快捷\n\ncondition: 不是腿脚有问题,时间也允许\nadvice: 最好还是徒步游览，享受自然风光\n\ncondition: 乘索道下山\nadvice: 应该需要坐环保车来十里画廊",
           "scenic": "张家界",
           "found": true,
           "evidence_count": 11
         }
       ],
       "llm": {
-        "provider": "openai-compatible:qwen2.5:3b",
+        "provider": "openai-compatible:qwen2.5:7b",
         "force_offline": false,
         "request_attempts": 5,
         "successful_responses": 5,
         "failures": 1,
         "fallback_count": 1,
         "planning_attempts": 1,
-        "planning_accepted": 1,
+        "planning_accepted": 0,
         "decision_attempts": 2,
-        "decision_accepted": 1,
+        "decision_accepted": 2,
         "fallback_events": [
           {
-            "stage": "decision",
-            "error": "ValueError: 当前问题/工具观察不需要 action=route；待处理=['advice']"
+            "stage": "planning",
+            "error": "LLMError: 规划提案不可用: Expecting value: line 1 column 1 (char 0)"
           }
         ],
-        "last_error": "ValueError: 当前问题/工具观察不需要 action=route；待处理=['advice']"
+        "last_error": "LLMError: 规划提案不可用: Expecting value: line 1 column 1 (char 0)"
       },
       "graph_sha256": "fc3d3bebd1f8d37be2ea4e303186f484f74c6d2b7f618cb60f650cdcf26791ba"
     },
@@ -3472,7 +3294,7 @@
       "query": "带孩子去黄山玩两天，想看日出",
       "passed": true,
       "problems": [],
-      "provider": "openai-compatible:qwen2.5:3b",
+      "provider": "openai-compatible:qwen2.5:7b",
       "intent_source": "llm",
       "intent": {
         "raw": "带孩子去黄山玩两天，想看日出",
@@ -3487,7 +3309,7 @@
         "constraints": [],
         "need_clarification": false,
         "task_type": "route",
-        "entity_name": null,
+        "entity_name": "黄山",
         "flags": [
           "实验六图谱为一日官方整理路线；两日方案按时段切分，并非官方两日线路。"
         ],
@@ -3584,7 +3406,12 @@
                     ]
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "sections": [
               {
                 "period": "中午",
                 "steps": [
@@ -3649,12 +3476,7 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "sections": [
+              },
               {
                 "period": "下午",
                 "steps": [
@@ -3737,60 +3559,10 @@
             ]
           }
         ],
-        "advices": [
-          {
-            "condition": "团队的整体体力",
-            "advice": "建议乘索道上下",
-            "traveler_type": "体力约束游客",
-            "condition_type": "体力路况",
-            "negative": false,
-            "historical_only": true,
-            "mapping_id": "C026",
-            "evidence_refs": [
-              "evidence:89ebc3728e801be87d1c"
-            ]
-          },
-          {
-            "condition": "山上风大",
-            "advice": "可以带上冲锋衣和口罩",
-            "traveler_type": "普通游客",
-            "condition_type": "天气季节",
-            "negative": false,
-            "historical_only": true,
-            "mapping_id": "C016",
-            "evidence_refs": [
-              "evidence:f1e385b0b122beac934d"
-            ]
-          },
-          {
-            "condition": "两日游的旅客",
-            "advice": "建议午后上山",
-            "traveler_type": "普通游客",
-            "condition_type": "时间安排",
-            "negative": false,
-            "historical_only": true,
-            "mapping_id": "C024",
-            "evidence_refs": [
-              "evidence:74bad570c21f29521f56"
-            ]
-          },
-          {
-            "condition": "天晴爬山",
-            "advice": "建议带系带的草帽",
-            "traveler_type": "普通游客",
-            "condition_type": "天气季节",
-            "negative": false,
-            "historical_only": true,
-            "mapping_id": "C001",
-            "evidence_refs": [
-              "evidence:4f0a70ff03de66ed8587"
-            ]
-          }
-        ],
+        "advices": [],
         "warnings": [
           "实验六图谱为一日官方整理路线；两日方案按时段切分，并非官方两日线路。",
-          "两日方案是按图谱时段/步骤切分的一日路线，不是官方两日线路；住宿与第二天交通未被图谱收录，未做安排。",
-          "图谱中的“两日游建议午后上山”与本次按上午起点的切分不一致，两种做法都保留，未擅自改序。"
+          "两日方案是按图谱时段/步骤切分的一日路线，不是官方两日线路；住宿与第二天交通未被图谱收录，未做安排。"
         ],
         "notes": [
           "建议回退：图谱中没有与“亲子”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。",
@@ -3803,19 +3575,15 @@
           "evidence:07de252d38ff647e75c5",
           "evidence:09b8fbe3019d81e8d502",
           "evidence:356efbb97bd2b5d4dae6",
-          "evidence:4f0a70ff03de66ed8587",
           "evidence:52950a14eb87609c73c7",
           "evidence:59301b8ce0476b6fb54a",
           "evidence:6ee1da305639108a8df1",
-          "evidence:74bad570c21f29521f56",
           "evidence:88a35fce8aa7a6aead15",
-          "evidence:89ebc3728e801be87d1c",
           "evidence:96ff7bec9e3892226e95",
           "evidence:c184b3629d4e9092a61d",
           "evidence:c57de58be0da2a1f274c",
           "evidence:cd62dd220f4b19aeb4e6",
           "evidence:e92eee4fcf794f92ccee",
-          "evidence:f1e385b0b122beac934d",
           "evidence:fd6f92a28e5fede9e968",
           "evidence:ff518d3e83d8eace2ebe"
         ],
@@ -3864,19 +3632,19 @@
             },
             {
               "order": 6,
-              "day": 1
+              "day": 2
             },
             {
               "order": 7,
-              "day": 1
+              "day": 2
             },
             {
               "order": 8,
-              "day": 1
+              "day": 2
             },
             {
               "order": 9,
-              "day": 1
+              "day": 2
             },
             {
               "order": 10,
@@ -3899,9 +3667,9 @@
               "day": 2
             }
           ],
-          "rationale": "按亲子需求安排轻松行程，避开高峰时段和复杂交通"
+          "rationale": "按顺序安排，适合亲子游，上午和中午观赏风景，下午参观景点，确保有足够时间休息。"
         },
-        "summary": "根据您带孩子去黄山玩两天的需求和图谱路线步骤，以下是推荐的行程安排：\n\n**第一天：**\n- 上午：南大门 - 云谷寺 - 始信峰 - 狮子峰 - 清凉台\n- 中午：散花坞或排云亭或天海或鳌鱼峰\n- 下午：玉屏楼 - 迎客松（建议参观一次） - 慈光阁 - 南大门\n\n**第二天：**\n- 上午：南大门 - 重新参观玉屏楼（上午）\n- 中午/下午：根据实际情况调整，避开高峰时段和复杂交通。\n\n行程中避开了中午的高峰期，并且将午餐时间安排在了上午或下午。建议使用图谱中的散花坞、排云亭、天海或鳌鱼峰作为午餐地点，以避免中午时分的人群拥挤。同时，请注意天气情况，带上冲锋衣和口罩以防山上风大。"
+        "summary": "黄山两天行程安排如下：\n1. 南大门 - 云谷寺 - 始信峰 - 狮子峰 - 凉台（第一天上午）\n2. 散花坞 - 排云亭 - 天海 - 鳌鱼峰 - 玉屏楼 - 迎客松 - 慈光阁 - 南大门（第二天中午和下午）\n\n说明：此行程为按图谱时段/步骤切分的一日路线，非官方两日线路。住宿与第二天交通未被图谱收录，未做安排。\n\n【材料建议原文】\ncondition: advice\n- \"上午\": 图谱未查到相关建议。\n- \"中午\": 图谱未查到相关建议。\n- \"下午\": 图谱未查到相关建议。"
       },
       "tool_calls": [
         {
@@ -3912,7 +3680,8 @@
           "action": "advice",
           "scenic": "黄山",
           "traveler_type": "亲子",
-          "limit": 5
+          "limit": 6,
+          "contains": "日出"
         }
       ],
       "traces": [
@@ -3925,7 +3694,7 @@
         {
           "step": 2,
           "type": "thought",
-          "content": "[llm] 先获取黄山官方路线步骤",
+          "content": "[llm] 根据用户需求规划两天行程，包含看日出和摄影",
           "decision_source": "llm",
           "decision": "route"
         },
@@ -3947,7 +3716,7 @@
         {
           "step": 5,
           "type": "thought",
-          "content": "[llm] 根据用户问题选择图谱查询。",
+          "content": "[llm] 根据用户需求提供带孩子的两天行程建议",
           "decision_source": "llm",
           "decision": "advice"
         },
@@ -3959,26 +3728,27 @@
             "action": "advice",
             "scenic": "黄山",
             "traveler_type": "亲子",
-            "limit": 5
+            "limit": 6,
+            "contains": "日出"
           }
         },
         {
           "step": 7,
           "type": "observation",
-          "content": "{\"ok\": true, \"found\": true, \"count\": 4, \"matched_specific\": 0, \"fallback_note\": \"图谱中没有与“亲子”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。\"}",
+          "content": "{\"ok\": true, \"found\": true, \"count\": 0, \"matched_specific\": 0, \"fallback_note\": \"图谱中没有与“亲子”直接对应的游客类型建议，以下为通用建议，不代表该人群已被专门核验。\"}",
           "ok": true
         },
         {
           "step": 8,
           "type": "final",
-          "content": "根据您带孩子去黄山玩两天的需求和图谱路线步骤，以下是推荐的行程安排：\n\n**第一天：**\n- 上午：南大门 - 云谷寺 - 始信峰 - 狮子峰 - 清凉台\n- 中午：散花坞或排云亭或天海或鳌鱼峰\n- 下午：玉屏楼 - 迎客松（建议参观一次） - 慈光阁 - 南大门\n\n**第二天：**\n- 上午：南大门 - 重新参观玉屏楼（上午）\n- 中午/下午：根据实际情况调整，避开高峰时段和复杂交通。\n\n行程中避开了中午的高峰期，并且将午餐时间安排在了上午或下午。建议使用图谱中的散花坞、排云亭、天海或鳌鱼峰作为午餐地点，以避免中午时分的人群拥挤。同时，请注意天气情况，带上冲锋衣和口罩以防山上风大。",
+          "content": "黄山两天行程安排如下：\n1. 南大门 - 云谷寺 - 始信峰 - 狮子峰 - 凉台（第一天上午）\n2. 散花坞 - 排云亭 - 天海 - 鳌鱼峰 - 玉屏楼 - 迎客松 - 慈光阁 - 南大门（第二天中午和下午）\n\n说明：此行程为按图谱时段/步骤切分的一日路线，非官方两日线路。住宿与第二天交通未被图谱收录，未做安排。\n\n【材料建议原文】\ncondition: advice\n- \"上午\": 图谱未查到相关建议。\n- \"中午\": 图谱未查到相关建议。\n- \"下午\": 图谱未查到相关建议。",
           "scenic": "黄山",
           "found": true,
-          "evidence_count": 18
+          "evidence_count": 14
         }
       ],
       "llm": {
-        "provider": "openai-compatible:qwen2.5:3b",
+        "provider": "openai-compatible:qwen2.5:7b",
         "force_offline": false,
         "request_attempts": 5,
         "successful_responses": 5,
@@ -4000,9 +3770,9 @@
       "passed": false,
       "problems": [
         "发生模型失败或规则回退",
-        "一个或多个 LLM 工具决策未通过校验"
+        "模型规划提案未通过结构与图谱事实校验"
       ],
-      "provider": "openai-compatible:qwen2.5:3b",
+      "provider": "openai-compatible:qwen2.5:7b",
       "intent_source": "llm",
       "intent": {
         "raw": "情侣两人去九寨沟玩一天，想拍照",
@@ -4294,7 +4064,8 @@
         "warnings": [],
         "notes": [
           "沟口 在第 1 与第 11 步重复出现，按实验六“身份去重、步骤不去重”保留两次。",
-          "图谱未收录餐饮与休息设施，中午不编造具体餐厅，只在时段上留出休整。"
+          "图谱未收录餐饮与休息设施，中午不编造具体餐厅，只在时段上留出休整。",
+          "LLM 规划提案未通过图谱步骤与用户约束校验，已使用规则计划。"
         ],
         "period_note": "上游解析把全部步骤标为“上午”，直接分组会使中午/下午为空；改用层级推断的时段补位，冲突状态在图中仍按两条 DURING 边保留。",
         "selection": null,
@@ -4329,57 +4100,10 @@
         "period_source": "hierarchy_heuristic_fallback",
         "period_repairs": [],
         "llm_planning": {
-          "status": "accepted",
-          "pace": "适中",
-          "day_assignments": [
-            {
-              "order": 1,
-              "day": 1
-            },
-            {
-              "order": 2,
-              "day": 1
-            },
-            {
-              "order": 3,
-              "day": 1
-            },
-            {
-              "order": 4,
-              "day": 1
-            },
-            {
-              "order": 5,
-              "day": 1
-            },
-            {
-              "order": 6,
-              "day": 1
-            },
-            {
-              "order": 7,
-              "day": 1
-            },
-            {
-              "order": 8,
-              "day": 1
-            },
-            {
-              "order": 9,
-              "day": 1
-            },
-            {
-              "order": 10,
-              "day": 1
-            },
-            {
-              "order": 11,
-              "day": 1
-            }
-          ],
-          "rationale": "按行程安排提供充足时间拍照，兼顾轻松与观赏美景"
+          "status": "rejected",
+          "error": "ValueError: day_assignments 必须覆盖全部图谱步骤"
         },
-        "summary": "情侣两人去九寨沟玩一天的规划提案如下：\n\n- 上午：沟口（参观）。\n- 中午：诺日朗瀑布（参观），五花海（参观）。\n- 下午：镜海（参观），长海（参观），五彩池（参观）。\n\n建议早上早点出发进入景区，以确保有足够时间拍照。午餐时可以选择在诺日朗瀑布或五花海附近用餐。下午游览镜海、长海和五彩池等景点，这些地方都有可能提供较好的拍照机会。请注意，中午的诺日朗瀑布和五花海参观可能会与上午的树正群海和老虎海行程发生冲突，请根据实际情况调整。"
+        "summary": "九寨沟沟口、树正群海、老虎海、犀牛海、诺日朗瀑布、五花海、珍珠滩瀑布、镜海、长海、五彩池\n\n由于一天时间较为紧凑，建议早上早点出发进入景区。栈道过去很远的，建议在车上看看就行了。不坐观光车的话，可以一直步行到芦苇海。图谱未查到相关建议。\n\n【材料建议原文】\n- condition: 一天时间相对紧凑\n  advice: 建议早上早点出发进入景区\n- condition: 栈道过去很远的\n  advice: 建议在车上看看就行了\n- condition: 不坐观光车\n  advice: 可以一直步行到芦苇海\n- condition: 图谱未查到相关建议"
       },
       "tool_calls": [
         {
@@ -4402,18 +4126,13 @@
         },
         {
           "step": 2,
-          "type": "note",
-          "content": "LLM 工具决策不可用，回退规则决策：当前问题/工具观察不需要 action=advice；待处理=['route']"
-        },
-        {
-          "step": 3,
           "type": "thought",
-          "content": "[rules] 读取 九寨沟 的官方整理路线与时段状态。",
-          "decision_source": "rules",
+          "content": "[llm] 根据用户需求规划情侣一天游九寨沟的摄影路线",
+          "decision_source": "llm",
           "decision": "route"
         },
         {
-          "step": 4,
+          "step": 3,
           "type": "action",
           "tool": "knowledge_graph_query",
           "args": {
@@ -4422,20 +4141,20 @@
           }
         },
         {
-          "step": 5,
+          "step": 4,
           "type": "observation",
           "content": "{\"ok\": true, \"found\": true, \"step_count\": 11, \"period_conflicts\": 7, \"first\": \"沟口\", \"last\": \"沟口\"}",
           "ok": true
         },
         {
-          "step": 6,
+          "step": 5,
           "type": "thought",
-          "content": "[llm] 根据用户问题选择图谱查询。",
+          "content": "[llm] 提供拍照建议",
           "decision_source": "llm",
           "decision": "advice"
         },
         {
-          "step": 7,
+          "step": 6,
           "type": "action",
           "tool": "knowledge_graph_query",
           "args": {
@@ -4446,38 +4165,43 @@
           }
         },
         {
-          "step": 8,
+          "step": 7,
           "type": "observation",
           "content": "{\"ok\": true, \"found\": true, \"count\": 6, \"matched_specific\": 0, \"fallback_note\": null}",
           "ok": true
         },
         {
+          "step": 8,
+          "type": "note",
+          "content": "LLM 规划提案未通过，已使用规则计划：ValueError: day_assignments 必须覆盖全部图谱步骤"
+        },
+        {
           "step": 9,
           "type": "final",
-          "content": "情侣两人去九寨沟玩一天的规划提案如下：\n\n- 上午：沟口（参观）。\n- 中午：诺日朗瀑布（参观），五花海（参观）。\n- 下午：镜海（参观），长海（参观），五彩池（参观）。\n\n建议早上早点出发进入景区，以确保有足够时间拍照。午餐时可以选择在诺日朗瀑布或五花海附近用餐。下午游览镜海、长海和五彩池等景点，这些地方都有可能提供较好的拍照机会。请注意，中午的诺日朗瀑布和五花海参观可能会与上午的树正群海和老虎海行程发生冲突，请根据实际情况调整。",
+          "content": "九寨沟沟口、树正群海、老虎海、犀牛海、诺日朗瀑布、五花海、珍珠滩瀑布、镜海、长海、五彩池\n\n由于一天时间较为紧凑，建议早上早点出发进入景区。栈道过去很远的，建议在车上看看就行了。不坐观光车的话，可以一直步行到芦苇海。图谱未查到相关建议。\n\n【材料建议原文】\n- condition: 一天时间相对紧凑\n  advice: 建议早上早点出发进入景区\n- condition: 栈道过去很远的\n  advice: 建议在车上看看就行了\n- condition: 不坐观光车\n  advice: 可以一直步行到芦苇海\n- condition: 图谱未查到相关建议",
           "scenic": "九寨沟",
           "found": true,
           "evidence_count": 17
         }
       ],
       "llm": {
-        "provider": "openai-compatible:qwen2.5:3b",
+        "provider": "openai-compatible:qwen2.5:7b",
         "force_offline": false,
         "request_attempts": 5,
         "successful_responses": 5,
         "failures": 1,
         "fallback_count": 1,
         "planning_attempts": 1,
-        "planning_accepted": 1,
+        "planning_accepted": 0,
         "decision_attempts": 2,
-        "decision_accepted": 1,
+        "decision_accepted": 2,
         "fallback_events": [
           {
-            "stage": "decision",
-            "error": "ValueError: 当前问题/工具观察不需要 action=advice；待处理=['route']"
+            "stage": "planning",
+            "error": "ValueError: day_assignments 必须覆盖全部图谱步骤"
           }
         ],
-        "last_error": "ValueError: 当前问题/工具观察不需要 action=advice；待处理=['route']"
+        "last_error": "ValueError: day_assignments 必须覆盖全部图谱步骤"
       },
       "graph_sha256": "fc3d3bebd1f8d37be2ea4e303186f484f74c6d2b7f618cb60f650cdcf26791ba"
     },
@@ -4487,7 +4211,7 @@
       "query": "我一个人去张家界玩一天，走常规路线就行",
       "passed": true,
       "problems": [],
-      "provider": "openai-compatible:qwen2.5:3b",
+      "provider": "openai-compatible:qwen2.5:7b",
       "intent_source": "llm",
       "intent": {
         "raw": "我一个人去张家界玩一天，走常规路线就行",
@@ -4500,7 +4224,7 @@
         "constraints": [],
         "need_clarification": false,
         "task_type": "route",
-        "entity_name": "张家界",
+        "entity_name": null,
         "flags": [],
         "matched_rules": [
           "scenic:张家界<-张家界",
@@ -4627,7 +4351,7 @@
         "period_repairs": [],
         "llm_planning": {
           "status": "accepted",
-          "pace": "轻松",
+          "pace": "适中",
           "day_assignments": [
             {
               "order": 1,
@@ -4650,9 +4374,9 @@
               "day": 1
             }
           ],
-          "rationale": "按常规路线安排轻松行程，老人或身体状况要求。"
+          "rationale": "按上午乘、下午乘安排，一天完成所有步骤。"
         },
-        "summary": "根据已校验的模型规划提案，您一天内可以游览以下景区：\n\n- 上午：前往森林公园门票站乘坐交通工具到达金鞭溪，之后乘坐百龙天梯。\n- 下午：最后参观天子山。\n\n此行程安排轻松且符合常规路线，适合一个人游玩。请注意在各个景点之间合理安排行程时间，并根据实际情况调整。"
+        "summary": "张家界一天常规路线（1天）：\n1. 森林公园门票站\n2. 金鞭溪\n3. 百龙天梯\n4. 天子山\n5. 武陵源门票站\n\n说明：根据您的需求，我们将安排您在一天内完成张家界的主要景点游览。上午将从森林公园门票站开始，乘坐交通工具前往金鞭溪游览；随后继续乘至百龙天梯。下午则前往天子山，并于武陵源门票站结束行程。\n\n【材料建议原文】\ncondition：advice\n图谱未查到相关建议。"
       },
       "tool_calls": [
         {
@@ -4670,7 +4394,7 @@
         {
           "step": 2,
           "type": "thought",
-          "content": "[llm] 根据用户需求，为普通游客规划一天内前往张家界的常规路线",
+          "content": "[llm] 根据用户需求获取一天常规路线",
           "decision_source": "llm",
           "decision": "route"
         },
@@ -4692,14 +4416,14 @@
         {
           "step": 5,
           "type": "final",
-          "content": "根据已校验的模型规划提案，您一天内可以游览以下景区：\n\n- 上午：前往森林公园门票站乘坐交通工具到达金鞭溪，之后乘坐百龙天梯。\n- 下午：最后参观天子山。\n\n此行程安排轻松且符合常规路线，适合一个人游玩。请注意在各个景点之间合理安排行程时间，并根据实际情况调整。",
+          "content": "张家界一天常规路线（1天）：\n1. 森林公园门票站\n2. 金鞭溪\n3. 百龙天梯\n4. 天子山\n5. 武陵源门票站\n\n说明：根据您的需求，我们将安排您在一天内完成张家界的主要景点游览。上午将从森林公园门票站开始，乘坐交通工具前往金鞭溪游览；随后继续乘至百龙天梯。下午则前往天子山，并于武陵源门票站结束行程。\n\n【材料建议原文】\ncondition：advice\n图谱未查到相关建议。",
           "scenic": "张家界",
           "found": true,
           "evidence_count": 5
         }
       ],
       "llm": {
-        "provider": "openai-compatible:qwen2.5:3b",
+        "provider": "openai-compatible:qwen2.5:7b",
         "force_offline": false,
         "request_attempts": 4,
         "successful_responses": 4,

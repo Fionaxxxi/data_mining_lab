@@ -91,7 +91,11 @@ class ReActAgent:
         raw_duration = raw.get('duration')
         if (not rules_intent['duration_explicit'] and not isinstance(raw_duration, bool)
                 and isinstance(raw_duration, (int, str)) and str(raw_duration) in {'1', '2'}):
-            ok['duration'] = int(raw_duration)
+            # 用户没写天数时默认 1 日；模型只能提出与问句天数词一致的值，
+            # 避免把“玩一天”解析成两日或凭空扩成两日。
+            markers = {'1': ('一天', '1天', '一日', '当天'), '2': ('两天', '2天', '两日', '二日')}
+            if any(m in query for m in markers[str(raw_duration)]):
+                ok['duration'] = int(raw_duration)
         if isinstance(raw.get('preferences'), list):
             ok['preferences'] = list(dict.fromkeys(rules_intent['preferences'] +
                 [p for p in raw['preferences'] if isinstance(p, str)]))[:5]
@@ -333,6 +337,15 @@ class ReActAgent:
         a.update(args or {})
         return a
 
+    @staticmethod
+    def _next_hint(state, needed):
+        """把“本轮唯一允许的动作”显式写给模型，减少顺序型决策错误。"""
+        if needed:
+            return ('本轮唯一允许执行的动作是 %s；不要执行其他动作。参数必须放进 args 对象，'
+                    '例如 {"action": "%s", "args": {...}, "reason": "..."}。'
+                    % ('、'.join(needed), needed[0]))
+        return '本轮没有剩余必需的工具动作，必须返回 {"action": "stop", "args": {}, "reason": "..."}。'
+
     # ---------- 主循环 ----------
     def run(self, query):
         trace = []
@@ -358,7 +371,8 @@ class ReActAgent:
                 try:
                     proposal = self.llm.decide_action(
                         query, it, self._decision_observations(state),
-                        action_history, TOOL_SPEC)
+                        action_history, TOOL_SPEC,
+                        next_hint=self._next_hint(state, needed))
                     decision = self._validate_action_decision(proposal, state, query)
                     self.llm.accept_decision()
                     source = 'llm'

@@ -21,7 +21,28 @@ def _loads_json(content):
     if text.startswith('```'):
         text = re.sub(r'^```[a-zA-Z]*\s*', '', text)
         text = re.sub(r'\s*```$', '', text)
-    return json.loads(text)
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        # 小模型偶尔在 JSON 前后写解释、或漏掉数组元素之间的逗号；
+        # 这里只做结构性修复（截取花括号块、补 "}{" 之间的逗号、去尾随逗号），
+        # 不改写任何字段值。
+        start, end = text.find('{'), text.rfind('}')
+        if start >= 0 and end > start:
+            body = text[start:end + 1]
+            body = re.sub(r'(?<=})(?=\s*{)', ',', body)
+            body = re.sub(r',\s*}', '}', body)
+            body = re.sub(r',\s*]', ']', body)
+            # 小模型偶尔把数组闭合写成 } 而不是 ]，如 ..."day":1}},"pace":...
+            candidates = [body, body.replace('}}', '}]'), body.replace('}}', '}],')]
+            for candidate in candidates:
+                try:
+                    return json.loads(candidate)
+                except json.JSONDecodeError:
+                    continue
+            if os.environ.get('LAB7_DEBUG_JSON'):
+                Path(os.environ['LAB7_DEBUG_JSON']).write_text(text, encoding='utf-8')
+        raise
 
 
 def _load_dotenv(path):
@@ -284,7 +305,7 @@ class LLMClient:
         self.planning_accepted += 1
 
     # ---------- ReAct 工具决策 ----------
-    def decide_action(self, query, intent, observations, history, tool_spec):
+    def decide_action(self, query, intent, observations, history, tool_spec, next_hint=''):
         """Select one next graph action from the live request and observed results."""
         if not self.online:
             return None
@@ -306,6 +327,7 @@ class LLMClient:
                     query=query, intent=json.dumps(payload['intent'], ensure_ascii=False),
                     observations=json.dumps(observations, ensure_ascii=False),
                     history=json.dumps(history, ensure_ascii=False),
+                    next_hint=next_hint,
                     tool_spec=json.dumps(tool_spec, ensure_ascii=False))},
             ], temperature=0)
             decision = _loads_json(content)

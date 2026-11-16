@@ -1,0 +1,17 @@
+Lab 7 online scenario run
+started_at=2026-11-16T14:41:58.433389+00:00
+provider=openai-compatible:qwen2.5:3b
+graph_sha256=fc3d3bebd1f8d37be2ea4e303186f484f74c6d2b7f618cb60f650cdcf26791ba
+PASS elder_huangshan requests=5 successes=5 decisions=2/2 fallbacks=0 problems=
+PASS family_jiuzhaigou requests=5 successes=5 decisions=2/2 fallbacks=0 problems=
+PASS couple_zhangjiajie requests=5 successes=5 decisions=2/2 fallbacks=0 problems=
+FAIL auto_pick_family requests=6 successes=6 decisions=3/3 fallbacks=1 problems=发生模型失败或规则回退 | 模型规划提案未通过结构与图谱事实校验
+PASS unknown_taishan requests=2 successes=2 decisions=1/1 fallbacks=0 problems=
+PASS conflict_elder_steep requests=5 successes=5 decisions=2/2 fallbacks=0 problems=
+PASS vague_request requests=2 successes=2 decisions=1/1 fallbacks=0 problems=
+PASS family_jiuzhaigou_carsick requests=5 successes=5 decisions=2/2 fallbacks=0 problems=
+PASS elder_zhangjiajie_two_days requests=5 successes=5 decisions=2/2 fallbacks=0 problems=
+PASS family_huangshan_two_days requests=5 successes=5 decisions=2/2 fallbacks=0 problems=
+PASS couple_jiuzhaigou_one_day requests=5 successes=5 decisions=2/2 fallbacks=0 problems=
+PASS ordinary_zhangjiajie_one_day requests=4 successes=4 decisions=1/1 fallbacks=0 problems=
+summary=11/12 passed requests=54 successes=54 decisions=22/22 fallbacks=1

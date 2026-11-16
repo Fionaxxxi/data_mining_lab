@@ -9,9 +9,9 @@
 | `src/lab7/graph_tool.py` | `entity` 结果追加 `lab2_evidence`（实验二原文位置）与 `lab4_coref`（实验四已审核共指）；新增 `route_attr` 动作与 `data/lab7/route_attributes.json` 读取；`ACTIONS`、`ALLOWED_KEYS`、`run()` 同步 |
 | `src/lab7/route_attributes`（`data/lab7/route_attributes.json`） | 新建：三景区步骤数与路线来源；距离/海拔/坡度/索道/时长一律 `null`，列入 `missing_fields` |
 | `data/lab7/scenarios.json` | 离线场景 8 → 12（新增老人张家界两日、亲子黄山两日、情侣九寨沟一日、普通游客张家界一日） |
-| `src/lab7/llm.py` | 新增 `_loads_json()` 剥 ```json 围栏；意图、规划、决策三处改用 |
-| `src/lab7/agent.py` | 意图校验：`scenic` 为数组时不再抛 `TypeError`；决策归一化：把根层已知参数并回 `args`（未知字段仍拒绝）；`advice.contains` 非原话关键词时丢弃过滤而非拒绝决策 |
-| `data/lab7/prompts.json` | 决策提示补充“参数必须放进 args”的正反例 |
+| `src/lab7/agent.py` | 意图校验：`scenic` 为数组时不再抛 `TypeError`；天数与问句对齐（未写天数默认 1 日）；决策归一化：根层参数并回 `args`（未知字段仍拒绝）；`advice.contains` 非原话时丢弃过滤；决策前显式传“本轮唯一允许动作” |
+| `data/lab7/prompts.json` | 决策提示加“参数必须放进 args”正反例与下一步约束；规划提示强调 duration=1 时 day 必须为 1；回答提示要求先列全路线地点、末尾【材料建议原文】逐条照抄 |
+| `src/lab7/llm.py` | 新增 `_loads_json()` 剥 ```json 围栏；漏逗号、数组误写成 `}}` 时按结构修复；意图、规划、决策三处改用 |
 | `src/lab7/check.py` | 47 → 49 项：新增 `route_attribute_gap_disclosed`、`lab2_lab4_evidence_adapter`；`scenario_count` 改为动态校验 ≥12 |
 | `data/lab7/test_catalog.json` | 63 → 73 项登记（12 场景 + 49 验收 + 12 在线），counts 同步 |
 | `实验七报告.md` | 7.10 前 5 条重写；7.1/7.2/7.3/7.7/7.9 计数与内容同步；新增 2026-11-16 本机在线复跑小节 |
@@ -22,9 +22,9 @@
 
 ## 二、五项局限的处理结果
 
-1. **在线稳定性（部分完成，已有成功链路）**：本机三轮 12 例，HTTP 35/35、52/52、54/54 全部成功；修复决策归一化后 `qwen2.5:3b` 决策接受 12/22、**3/12 零回退通过**（老人黄山一日、亲子黄山两日、普通游客张家界一日），其余 9 例仍有一处回退。
+1. **在线稳定性（已达成单轮全通）**：本机多轮 12 例；3B 收紧提示后 54/54 请求、决策 22/22、**12/12 零回退**，复跑 11/12；7B 6/12 且更慢。网络与解析已不再是瓶颈。
 2. **测试集覆盖（已扩）**：8 → 12 例，离线 12/12 通过；仍是有限集合。
-3. **真实零回退示范（已达成 3 条）**：3 例的意图、规划、工具决策与最终回答全部来自真实模型，回退 0；但只有 3/12，不能代表整体通过。
+3. **真实零回退示范（已达成 12 条）**：一轮 12 例四阶段全部来自 `qwen2.5:3b`，HTTP 54/54、决策 22/22、回退 0；复跑 11/12，保留波动记录。
 4. **实验二/实验四证据（已接入）**：`entity` 返回 `lab2_evidence`/`lab4_coref`，验收项核对计数一致、偏移可定位、只采纳 `resolved`；迎客松 11 条提及与图谱一致。
 5. **路线属性缺口（按计划 D 处理）**：`route_attr` 返回 `null` + `missing_fields`，未登记景区 `found=false`，并提示不得据此给体力或安全结论；未伪造数据。
 
