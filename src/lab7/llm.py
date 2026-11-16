@@ -7,11 +7,21 @@
 from pathlib import Path
 import json
 import os
+import re
 import urllib.error
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[2]
 PROMPTS = json.loads((ROOT / 'data/lab7/prompts.json').read_text(encoding='utf-8'))
+
+
+def _loads_json(content):
+    """模型常把 JSON 包在 ```json 围栏里，先剥壳再解析，避免直接判死。"""
+    text = (content or '').strip()
+    if text.startswith('```'):
+        text = re.sub(r'^```[a-zA-Z]*\s*', '', text)
+        text = re.sub(r'\s*```$', '', text)
+    return json.loads(text)
 
 
 def _load_dotenv(path):
@@ -225,7 +235,7 @@ class LLMClient:
                 {'role': 'system', 'content': PROMPTS['intent_system']},
                 {'role': 'user', 'content': PROMPTS['intent_user_template'].format(query=query)},
             ], temperature=0)
-            return json.loads(content)
+            return _loads_json(content)
         except (json.JSONDecodeError, TypeError) as ex:
             self.record_failure(ex, fallback=False)
             raise LLMError('意图响应不是合法 JSON: %s' % ex) from ex
@@ -261,7 +271,7 @@ class LLMClient:
                 {'role': 'user', 'content': PROMPTS['planning_user_template'].format(
                     payload=json.dumps(user_payload, ensure_ascii=False))},
             ], temperature=0)
-            proposal = json.loads(content)
+            proposal = _loads_json(content)
             if not isinstance(proposal, dict):
                 raise ValueError('规划响应必须是 JSON 对象')
             return proposal
@@ -298,7 +308,7 @@ class LLMClient:
                     history=json.dumps(history, ensure_ascii=False),
                     tool_spec=json.dumps(tool_spec, ensure_ascii=False))},
             ], temperature=0)
-            decision = json.loads(content)
+            decision = _loads_json(content)
             if not isinstance(decision, dict):
                 raise ValueError('工具决策必须为 JSON 对象')
             return decision

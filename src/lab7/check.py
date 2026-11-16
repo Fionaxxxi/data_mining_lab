@@ -52,10 +52,19 @@ def main():
 
     # 2 场景数量与覆盖
     tags = {c['tag'] for c in cases}
-    check('scenario_count', len(cases) == meta['scenario_count'] == 8, '实际 %d 例' % len(cases))
+    check('scenario_count', len(cases) == meta['scenario_count'] >= 12, '实际 %d 例' % len(cases))
     check('scenario_diversity', len({'老人', '亲子', '情侣'} & {c['intent']['visitor_type'] for c in cases}) == 3,
           '覆盖游客类型：' + '、'.join(sorted({c['intent']['visitor_type'] for c in cases})))
     check('two_day_covered', any(c['intent']['duration'] == 2 for c in cases), '两日场景存在')
+
+    attr = tool.run({'action': 'route_attr', 'scenic': '黄山'})
+    attr_missing = attr.get('missing_fields') or []
+    attr_ok = attr.get('ok') and attr.get('found') and len(attr_missing) >= 5 \
+        and all(attr['attributes'].get(f) is None for f in attr_missing) \
+        and '不能据此' in (attr.get('note') or '')
+    unknown_attr = tool.run({'action': 'route_attr', 'scenic': '泰山'})
+    check('route_attribute_gap_disclosed', bool(attr_ok) and unknown_attr.get('found') is False,
+          '黄山缺失字段 %d 项且均为 null；未登记景区返回 found=false' % len(attr_missing))
 
     # 3 方案景点必须来自图谱路线
     bad_steps, bad_refs, citations = [], [], []
@@ -324,6 +333,18 @@ def main():
     check('llm_entity_tool_result_answers_entity_question', bool(entity_ok),
           '单实体问题调用 entity；最终答复复用图谱 mention_count 和证据')
 
+    lab2 = (entity_match.get('lab2_evidence') or {})
+    lab4 = (entity_match.get('lab4_coref') or {})
+    lab2_ok = bool(lab2.get('locatable')) and lab2.get('total_mentions') == entity_match.get('mention_count') \
+        and len(lab2.get('refs') or []) > 0 \
+        and all(r.get('source_lab') == 2 and r.get('file') == 'outputs/lab2/entities.json'
+                and r.get('doc_id') and isinstance(r.get('start'), int) for r in lab2['refs'])
+    lab4_ok = lab4.get('source_lab') == 4 and lab4.get('file') == 'outputs/lab4/full_review.csv' \
+        and all(r.get('status') == 'resolved' for r in (lab4.get('refs') or []))
+    check('lab2_lab4_evidence_adapter', lab2_ok and lab4_ok,
+          '实验二回指 %d 条（与 mention_count %s 一致）、实验四已审核共指 %d 条' % (
+              lab2.get('total_mentions', 0), entity_match.get('mention_count'), lab4.get('resolved_total', 0)))
+
     advice_query = '黄山有哪些老人出行建议？'
     advice_intent = json.dumps({'scenic': '黄山', 'visitor_type': '老人', 'duration': 1,
                                 'preferences': [], 'constraints': [], 'need_clarification': False,
@@ -552,8 +573,8 @@ def main():
         and all(g.get('runner') == 'src/lab7/online_tests.py' for g in catalog.get('groups', [])
                 if g.get('id') == 'live')
     check('test_catalog_consistent', catalog_ok,
-          '登记 %d 项；离线场景 %d/8、自动验收 %d 项、在线场景 %d/8' %
-          (len(catalog_cases), len(scenario_refs), len(acceptance_refs), len(live_refs)))
+          '登记 %d 项；离线场景 %d/%d、自动验收 %d 项、在线场景 %d/%d' %
+          (len(catalog_cases), len(scenario_refs), len(scenario_ids), len(acceptance_refs), len(live_refs), len(scenario_ids)))
 
     passed = sum(c['passed'] for c in checks)
     result = {

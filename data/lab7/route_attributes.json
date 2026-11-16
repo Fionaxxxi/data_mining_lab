@@ -1,0 +1,47 @@
+{
+  "version": "lab7-route-attr-1",
+  "note": "本文件只登记可核验字段与明确未知字段，不修改实验六图谱。未知字段一律保持 null，禁止按景区名推断坡度、距离或安全等级。",
+  "source_policy": {
+    "accepted": ["景区官方发布的路线/交通说明", "课程材料中已标注来源的整理表"],
+    "rejected": ["游记中的主观体感", "无出处的二手攻略", "按景区名称推断的估算值"],
+    "unverified_policy": "无可靠来源或未人工核验的字段写 null，并由 route_attr 工具列为 missing_fields"
+  },
+  "scenics": {
+    "黄山": {
+      "steps": 14,
+      "route_source": "实验六图谱 / 实验三结构化路线",
+      "distance_km": null,
+      "ascent_m": null,
+      "max_slope_pct": null,
+      "cable_car": null,
+      "duration_min": null,
+      "checked_at": null,
+      "review_status": "unknown",
+      "missing_fields": ["distance_km", "ascent_m", "max_slope_pct", "cable_car", "duration_min"]
+    },
+    "九寨沟": {
+      "steps": 11,
+      "route_source": "实验六图谱 / 实验三结构化路线",
+      "distance_km": null,
+      "ascent_m": null,
+      "max_slope_pct": null,
+      "cable_car": null,
+      "duration_min": null,
+      "checked_at": null,
+      "review_status": "unknown",
+      "missing_fields": ["distance_km", "ascent_m", "max_slope_pct", "cable_car", "duration_min"]
+    },
+    "张家界": {
+      "steps": 5,
+      "route_source": "实验六图谱 / 实验三结构化路线",
+      "distance_km": null,
+      "ascent_m": null,
+      "max_slope_pct": null,
+      "cable_car": null,
+      "duration_min": null,
+      "checked_at": null,
+      "review_status": "unknown",
+      "missing_fields": ["distance_km", "ascent_m", "max_slope_pct", "cable_car", "duration_min"]
+    }
+  }
+}

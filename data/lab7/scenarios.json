@@ -57,6 +57,34 @@
       "query": "亲子游九寨沟一天，孩子有点晕车",
       "expect": {"scenic": "九寨沟", "visitor_type": "亲子", "found": true,
                  "advice_contains": "晕车", "min_tool_calls": 2, "max_tool_calls": 4}
+    },
+    {
+      "id": "elder_zhangjiajie_two_days",
+      "tag": "老人·两日·张家界",
+      "query": "带爸妈去张家界玩两天，节奏慢一点",
+      "expect": {"scenic": "张家界", "visitor_type": "老人", "duration": 2, "found": true,
+                 "days": 2, "min_tool_calls": 2, "max_tool_calls": 4}
+    },
+    {
+      "id": "family_huangshan_two_days",
+      "tag": "亲子·两日·黄山",
+      "query": "带孩子去黄山玩两天，想看日出",
+      "expect": {"scenic": "黄山", "visitor_type": "亲子", "duration": 2, "found": true,
+                 "days": 2, "min_tool_calls": 2, "max_tool_calls": 4}
+    },
+    {
+      "id": "couple_jiuzhaigou_one_day",
+      "tag": "情侣·一日·九寨沟",
+      "query": "情侣两人去九寨沟玩一天，想拍照",
+      "expect": {"scenic": "九寨沟", "visitor_type": "情侣", "duration": 1, "found": true,
+                 "min_tool_calls": 2, "max_tool_calls": 4}
+    },
+    {
+      "id": "ordinary_zhangjiajie_one_day",
+      "tag": "普通游客·一日·张家界",
+      "query": "我一个人去张家界玩一天，走常规路线就行",
+      "expect": {"scenic": "张家界", "visitor_type": "普通", "duration": 1, "found": true,
+                 "min_tool_calls": 1, "max_tool_calls": 4}
     }
   ]
 }
