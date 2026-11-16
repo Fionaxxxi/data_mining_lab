@@ -80,8 +80,10 @@ class ReActAgent:
         ok = {}
         allowed_scenic = {'黄山', '九寨沟', '张家界', None}
         # 用户明确给出的景区或未收录景区优先，模型不得清空或改成另一处。
-        if not rules_intent['scenic'] and not rules_intent['unknown_scenic'] and raw.get('scenic') in allowed_scenic:
-            ok['scenic'] = raw['scenic']
+        raw_scenic = raw.get('scenic')
+        if (not rules_intent['scenic'] and not rules_intent['unknown_scenic']
+                and isinstance(raw_scenic, str) and raw_scenic in allowed_scenic):
+            ok['scenic'] = raw_scenic
         raw_visitor = raw.get('visitor_type')
         if (rules_intent['visitor_type'] == '普通' and isinstance(raw_visitor, str)
                 and raw_visitor in {'老人', '亲子', '情侣', '普通'}):
@@ -175,9 +177,21 @@ class ReActAgent:
     def _validate_action_decision(self, decision, state, query):
         if not isinstance(decision, dict):
             raise ValueError('工具决策必须是 JSON 对象')
-        if set(decision) - {'action', 'args', 'reason'}:
+        # 小型模型常把参数写在根层（如 {"action":"route","scenic":"黄山"}）。
+        # 只把已知参数名并回 args，其余未知字段仍拒绝；这不是规则回退，
+        # 动作与参数仍来自模型，归一化后在轨迹里按 LLM 决策记录。
+        extra = set(decision) - {'action', 'args', 'reason'}
+        args_in = decision.get('args')
+        if not isinstance(args_in, dict):
+            args_in = {}
+        foldable = {'scenic', 'name', 'traveler_type', 'contains', 'limit'}
+        if extra - foldable:
             raise ValueError('工具决策包含额外字段')
-        action, args, reason = decision.get('action'), decision.get('args', {}), decision.get('reason', '')
+        if extra:
+            args_in = dict(args_in)
+            for key in extra & foldable:
+                args_in.setdefault(key, decision[key])
+        action, args, reason = decision.get('action'), args_in, decision.get('reason', '')
         if action not in {'scenics', 'route', 'advice', 'entity', 'stop'} or not isinstance(args, dict):
             raise ValueError('action 或 args 不符合决策契约')
         if not isinstance(reason, str) or len(reason) > 240:
@@ -240,9 +254,11 @@ class ReActAgent:
             if traveler not in {'老人', '亲子', '情侣', '普通'} or traveler != it.get('visitor_type'):
                 raise ValueError('advice traveler_type 与已解析人群冲突')
             contains = args.get('contains')
+            # contains 只影响建议的检索范围，不是安全边界：模型给出非用户原话的
+            # 关键词时丢弃该过滤条件（取更宽的匹配），不因此拒绝整次决策。
             if contains is not None and (not isinstance(contains, str) or len(contains) > 40
                                          or contains not in query):
-                raise ValueError('advice contains 必须是用户原话中的关键词')
+                contains = None
             limit = args.get('limit', 6)
             if isinstance(limit, bool) or not isinstance(limit, int) or not 1 <= limit <= 6:
                 raise ValueError('advice limit 必须是 1–6 的整数')

@@ -1,17 +1,17 @@
 Lab 7 online scenario run
-started_at=2026-11-16T05:13:16.751092+00:00
+started_at=2026-11-16T13:37:08.175934+00:00
 provider=openai-compatible:qwen2.5:3b
 graph_sha256=fc3d3bebd1f8d37be2ea4e303186f484f74c6d2b7f618cb60f650cdcf26791ba
-FAIL elder_huangshan requests=5 successes=5 decisions=0/2 fallbacks=2 problems=发生模型失败或规则回退 | 一个或多个 LLM 工具决策未通过校验 | 执行轨迹没有记录真实 LLM 的工具/停止决策 | 最终回答没有复用已查询到的建议内容
+PASS elder_huangshan requests=5 successes=5 decisions=2/2 fallbacks=0 problems=
 FAIL family_jiuzhaigou requests=5 successes=5 decisions=0/2 fallbacks=2 problems=duration=2 | 发生模型失败或规则回退 | 一个或多个 LLM 工具决策未通过校验 | 执行轨迹没有记录真实 LLM 的工具/停止决策 | 最终回答没有复用已查询到的建议内容
 FAIL couple_zhangjiajie requests=5 successes=5 decisions=1/2 fallbacks=1 problems=发生模型失败或规则回退 | 一个或多个 LLM 工具决策未通过校验 | 最终回答没有复用已查询到的建议内容
-FAIL auto_pick_family requests=6 successes=6 decisions=1/3 fallbacks=3 problems=意图解析未由真实 LLM 成功提供 | 发生模型失败或规则回退 | 一个或多个 LLM 工具决策未通过校验
+FAIL auto_pick_family requests=6 successes=6 decisions=1/3 fallbacks=2 problems=发生模型失败或规则回退 | 一个或多个 LLM 工具决策未通过校验
 FAIL unknown_taishan requests=2 successes=2 decisions=0/1 fallbacks=1 problems=发生模型失败或规则回退 | 一个或多个 LLM 工具决策未通过校验 | 执行轨迹没有记录真实 LLM 的工具/停止决策
-FAIL conflict_elder_steep requests=5 successes=5 decisions=0/2 fallbacks=2 problems=发生模型失败或规则回退 | 一个或多个 LLM 工具决策未通过校验 | 执行轨迹没有记录真实 LLM 的工具/停止决策 | 最终回答没有复用已查询到的建议内容
-FAIL vague_request requests=2 successes=2 decisions=0/1 fallbacks=2 problems=意图解析未由真实 LLM 成功提供 | 发生模型失败或规则回退 | 一个或多个 LLM 工具决策未通过校验 | 执行轨迹没有记录真实 LLM 的工具/停止决策
+FAIL conflict_elder_steep requests=5 successes=5 decisions=2/2 fallbacks=0 problems=最终回答没有复用已查询到的建议内容
+FAIL vague_request requests=2 successes=2 decisions=0/1 fallbacks=1 problems=发生模型失败或规则回退 | 一个或多个 LLM 工具决策未通过校验 | 执行轨迹没有记录真实 LLM 的工具/停止决策
 FAIL family_jiuzhaigou_carsick requests=5 successes=5 decisions=1/2 fallbacks=1 problems=发生模型失败或规则回退 | 一个或多个 LLM 工具决策未通过校验 | 最终回答没有复用已查询到的建议内容
 FAIL elder_zhangjiajie_two_days requests=5 successes=5 decisions=1/2 fallbacks=1 problems=发生模型失败或规则回退 | 一个或多个 LLM 工具决策未通过校验 | 最终回答没有复用已查询到的建议内容
-FAIL family_huangshan_two_days requests=5 successes=5 decisions=1/2 fallbacks=1 problems=发生模型失败或规则回退 | 一个或多个 LLM 工具决策未通过校验
+PASS family_huangshan_two_days requests=5 successes=5 decisions=2/2 fallbacks=0 problems=
 FAIL couple_jiuzhaigou_one_day requests=5 successes=5 decisions=1/2 fallbacks=1 problems=发生模型失败或规则回退 | 一个或多个 LLM 工具决策未通过校验
-FAIL ordinary_zhangjiajie_one_day requests=4 successes=4 decisions=0/1 fallbacks=1 problems=发生模型失败或规则回退 | 一个或多个 LLM 工具决策未通过校验 | 执行轨迹没有记录真实 LLM 的工具/停止决策
-summary=0/12 passed requests=54 successes=54 decisions=6/22 fallbacks=18
+PASS ordinary_zhangjiajie_one_day requests=4 successes=4 decisions=1/1 fallbacks=0 problems=
+summary=3/12 passed requests=54 successes=54 decisions=12/22 fallbacks=10
