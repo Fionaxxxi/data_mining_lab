@@ -6,19 +6,19 @@
       "id": "scenario",
       "title": "用户场景",
       "runner": "src/lab7/tests.py",
-      "count": 8
+      "count": 12
     },
     {
       "id": "acceptance",
       "title": "结构、工具、证据、ReAct 决策和 LLM 模拟验收",
       "runner": "src/lab7/check.py",
-      "count": 47
+      "count": 49
     },
     {
       "id": "live",
       "title": "真实 LLM 在线场景",
       "runner": "src/lab7/online_tests.py",
-      "count": 8
+      "count": 12
     }
   ],
   "cases": [
@@ -399,6 +399,66 @@
       "group": "live",
       "source": "scenarios.json#family_jiuzhaigou_carsick",
       "expected": "识别亲子/九寨沟/晕车约束；返回带证据的相关建议；规划提案通过校验。 本例使用真实接口；失败仍继续后续场景，不自动重试。"
+    },
+    {
+      "id": "scenario.elder_zhangjiajie_two_days",
+      "group": "scenario",
+      "source": "scenarios.json#elder_zhangjiajie_two_days",
+      "expected": "张家界/老人/两日；切分为两天；工具调用在 2–4 次。"
+    },
+    {
+      "id": "live.elder_zhangjiajie_two_days",
+      "group": "live",
+      "source": "scenarios.json#elder_zhangjiajie_two_days",
+      "expected": "真实模型下同一断言；回退、非法动作或参数不符即判该例失败。"
+    },
+    {
+      "id": "scenario.family_huangshan_two_days",
+      "group": "scenario",
+      "source": "scenarios.json#family_huangshan_two_days",
+      "expected": "黄山/亲子/两日；至少 14 步并切分两天；工具调用在 2–4 次。"
+    },
+    {
+      "id": "live.family_huangshan_two_days",
+      "group": "live",
+      "source": "scenarios.json#family_huangshan_two_days",
+      "expected": "真实模型下同一断言；回退、非法动作或参数不符即判该例失败。"
+    },
+    {
+      "id": "scenario.couple_jiuzhaigou_one_day",
+      "group": "scenario",
+      "source": "scenarios.json#couple_jiuzhaigou_one_day",
+      "expected": "九寨沟/情侣/一日；无专属建议时回退并标注；工具调用在 2–4 次。"
+    },
+    {
+      "id": "live.couple_jiuzhaigou_one_day",
+      "group": "live",
+      "source": "scenarios.json#couple_jiuzhaigou_one_day",
+      "expected": "真实模型下同一断言；回退、非法动作或参数不符即判该例失败。"
+    },
+    {
+      "id": "scenario.ordinary_zhangjiajie_one_day",
+      "group": "scenario",
+      "source": "scenarios.json#ordinary_zhangjiajie_one_day",
+      "expected": "张家界/普通/一日；路线与建议均可取；工具调用在 2–4 次。"
+    },
+    {
+      "id": "live.ordinary_zhangjiajie_one_day",
+      "group": "live",
+      "source": "scenarios.json#ordinary_zhangjiajie_one_day",
+      "expected": "真实模型下同一断言；回退、非法动作或参数不符即判该例失败。"
+    },
+    {
+      "id": "lab2_lab4_evidence_adapter",
+      "group": "acceptance",
+      "source": "check.py#lab2_lab4_evidence_adapter",
+      "expected": "实体结果回指实验二提及位置（计数一致）与实验四已审核共指。"
+    },
+    {
+      "id": "route_attribute_gap_disclosed",
+      "group": "acceptance",
+      "source": "check.py#route_attribute_gap_disclosed",
+      "expected": "景区属性缺失时返回 null 与 missing_fields，未登记景区返回 found=false。"
     }
   ]
 }

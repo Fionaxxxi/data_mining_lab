@@ -13,7 +13,7 @@
     {
       "id": "scenario_count",
       "passed": true,
-      "detail": "实际 8 例"
+      "detail": "实际 12 例"
     },
     {
       "id": "scenario_diversity",
@@ -26,6 +26,11 @@
       "detail": "两日场景存在"
     },
     {
+      "id": "route_attribute_gap_disclosed",
+      "passed": true,
+      "detail": "黄山缺失字段 5 项且均为 null；未登记景区返回 found=false"
+    },
+    {
       "id": "plan_spots_traceable_to_lab6_steps",
       "passed": true,
       "detail": "越界步骤 0 个"
@@ -33,17 +38,17 @@
     {
       "id": "all_evidence_ids_resolve",
       "passed": true,
-      "detail": "引用 46 条，缺失 0 条"
+      "detail": "引用 48 条，缺失 0 条"
     },
     {
       "id": "multi_lab_provenance",
       "passed": true,
-      "detail": "证据来自 2 个上游文件：outputs/lab3/structured_routes.json(30)；outputs/lab5/mapping.json(16)"
+      "detail": "证据来自 2 个上游文件：outputs/lab3/structured_routes.json(30)；outputs/lab5/mapping.json(18)"
     },
     {
       "id": "advices_historical_and_referenced",
       "passed": true,
-      "detail": "建议 32 条，全部 historical_only 且有 evidence_refs"
+      "detail": "建议 48 条，全部 historical_only 且有 evidence_refs"
     },
     {
       "id": "advice_mapping_ids_unique_per_case",
@@ -63,7 +68,7 @@
     {
       "id": "tool_rejects_unknown_action",
       "passed": true,
-      "detail": "未知 action: 'plan'，允许值 ['scenics', 'route', 'advice', 'entity']"
+      "detail": "未知 action: 'plan'，允许值 ['scenics', 'route', 'advice', 'entity', 'route_attr']"
     },
     {
       "id": "tool_requires_scenic",
@@ -93,7 +98,7 @@
     {
       "id": "trace_one_per_case",
       "passed": true,
-      "detail": "轨迹 8 条 / 场景 8 例"
+      "detail": "轨迹 12 条 / 场景 12 例"
     },
     {
       "id": "react_trace_complete",
@@ -113,7 +118,7 @@
     {
       "id": "period_repairs_recorded",
       "passed": true,
-      "detail": "记录修复 2 处"
+      "detail": "记录修复 3 处"
     },
     {
       "id": "no_fabricated_current_status",
@@ -186,6 +191,11 @@
       "detail": "单实体问题调用 entity；最终答复复用图谱 mention_count 和证据"
     },
     {
+      "id": "lab2_lab4_evidence_adapter",
+      "passed": true,
+      "detail": "实验二回指 11 条（与 mention_count 11 一致）、实验四已审核共指 0 条"
+    },
+    {
       "id": "llm_advice_question_skips_route_and_uses_result",
       "passed": true,
       "detail": "单建议问题只调用 advice，最终答复使用返回建议及证据"
@@ -233,12 +243,12 @@
     {
       "id": "test_catalog_consistent",
       "passed": true,
-      "detail": "登记 63 项；离线场景 8/8、自动验收 47 项、在线场景 8/8"
+      "detail": "登记 73 项；离线场景 12/12、自动验收 49 项、在线场景 12/12"
     }
   ],
   "summary": {
-    "passed": 47,
-    "total": 47,
+    "passed": 49,
+    "total": 49,
     "all_passed": true
   },
   "evidence_sources": {
@@ -247,7 +257,7 @@
       "desc": "实验三 路线步骤"
     },
     "outputs/lab5/mapping.json": {
-      "count": 16,
+      "count": 18,
       "desc": "实验五 条件建议"
     }
   },

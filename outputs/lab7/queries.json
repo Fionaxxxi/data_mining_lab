@@ -131,5 +131,73 @@
         }
       }
     ]
+  },
+  {
+    "id": "elder_zhangjiajie_two_days",
+    "calls": [
+      {
+        "args": {
+          "action": "route",
+          "scenic": "张家界"
+        }
+      },
+      {
+        "args": {
+          "action": "advice",
+          "scenic": "张家界",
+          "traveler_type": "老人",
+          "limit": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "family_huangshan_two_days",
+    "calls": [
+      {
+        "args": {
+          "action": "route",
+          "scenic": "黄山"
+        }
+      },
+      {
+        "args": {
+          "action": "advice",
+          "scenic": "黄山",
+          "traveler_type": "亲子",
+          "limit": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "couple_jiuzhaigou_one_day",
+    "calls": [
+      {
+        "args": {
+          "action": "route",
+          "scenic": "九寨沟"
+        }
+      },
+      {
+        "args": {
+          "action": "advice",
+          "scenic": "九寨沟",
+          "traveler_type": "情侣",
+          "limit": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "ordinary_zhangjiajie_one_day",
+    "calls": [
+      {
+        "args": {
+          "action": "route",
+          "scenic": "张家界"
+        }
+      }
+    ]
   }
 ]

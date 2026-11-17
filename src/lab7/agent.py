@@ -80,8 +80,10 @@ class ReActAgent:
         ok = {}
         allowed_scenic = {'黄山', '九寨沟', '张家界', None}
         # 用户明确给出的景区或未收录景区优先，模型不得清空或改成另一处。
-        if not rules_intent['scenic'] and not rules_intent['unknown_scenic'] and raw.get('scenic') in allowed_scenic:
-            ok['scenic'] = raw['scenic']
+        raw_scenic = raw.get('scenic')
+        if (not rules_intent['scenic'] and not rules_intent['unknown_scenic']
+                and isinstance(raw_scenic, str) and raw_scenic in allowed_scenic):
+            ok['scenic'] = raw_scenic
         raw_visitor = raw.get('visitor_type')
         if (rules_intent['visitor_type'] == '普通' and isinstance(raw_visitor, str)
                 and raw_visitor in {'老人', '亲子', '情侣', '普通'}):
@@ -89,7 +91,11 @@ class ReActAgent:
         raw_duration = raw.get('duration')
         if (not rules_intent['duration_explicit'] and not isinstance(raw_duration, bool)
                 and isinstance(raw_duration, (int, str)) and str(raw_duration) in {'1', '2'}):
-            ok['duration'] = int(raw_duration)
+            # 用户没写天数时默认 1 日；模型只能提出与问句天数词一致的值，
+            # 避免把“玩一天”解析成两日或凭空扩成两日。
+            markers = {'1': ('一天', '1天', '一日', '当天'), '2': ('两天', '2天', '两日', '二日')}
+            if any(m in query for m in markers[str(raw_duration)]):
+                ok['duration'] = int(raw_duration)
         if isinstance(raw.get('preferences'), list):
             ok['preferences'] = list(dict.fromkeys(rules_intent['preferences'] +
                 [p for p in raw['preferences'] if isinstance(p, str)]))[:5]
@@ -175,9 +181,21 @@ class ReActAgent:
     def _validate_action_decision(self, decision, state, query):
         if not isinstance(decision, dict):
             raise ValueError('工具决策必须是 JSON 对象')
-        if set(decision) - {'action', 'args', 'reason'}:
+        # 小型模型常把参数写在根层（如 {"action":"route","scenic":"黄山"}）。
+        # 只把已知参数名并回 args，其余未知字段仍拒绝；这不是规则回退，
+        # 动作与参数仍来自模型，归一化后在轨迹里按 LLM 决策记录。
+        extra = set(decision) - {'action', 'args', 'reason'}
+        args_in = decision.get('args')
+        if not isinstance(args_in, dict):
+            args_in = {}
+        foldable = {'scenic', 'name', 'traveler_type', 'contains', 'limit'}
+        if extra - foldable:
             raise ValueError('工具决策包含额外字段')
-        action, args, reason = decision.get('action'), decision.get('args', {}), decision.get('reason', '')
+        if extra:
+            args_in = dict(args_in)
+            for key in extra & foldable:
+                args_in.setdefault(key, decision[key])
+        action, args, reason = decision.get('action'), args_in, decision.get('reason', '')
         if action not in {'scenics', 'route', 'advice', 'entity', 'stop'} or not isinstance(args, dict):
             raise ValueError('action 或 args 不符合决策契约')
         if not isinstance(reason, str) or len(reason) > 240:
@@ -240,9 +258,11 @@ class ReActAgent:
             if traveler not in {'老人', '亲子', '情侣', '普通'} or traveler != it.get('visitor_type'):
                 raise ValueError('advice traveler_type 与已解析人群冲突')
             contains = args.get('contains')
+            # contains 只影响建议的检索范围，不是安全边界：模型给出非用户原话的
+            # 关键词时丢弃该过滤条件（取更宽的匹配），不因此拒绝整次决策。
             if contains is not None and (not isinstance(contains, str) or len(contains) > 40
                                          or contains not in query):
-                raise ValueError('advice contains 必须是用户原话中的关键词')
+                contains = None
             limit = args.get('limit', 6)
             if isinstance(limit, bool) or not isinstance(limit, int) or not 1 <= limit <= 6:
                 raise ValueError('advice limit 必须是 1–6 的整数')
@@ -317,6 +337,15 @@ class ReActAgent:
         a.update(args or {})
         return a
 
+    @staticmethod
+    def _next_hint(state, needed):
+        """把“本轮唯一允许的动作”显式写给模型，减少顺序型决策错误。"""
+        if needed:
+            return ('本轮唯一允许执行的动作是 %s；不要执行其他动作。参数必须放进 args 对象，'
+                    '例如 {"action": "%s", "args": {...}, "reason": "..."}。'
+                    % ('、'.join(needed), needed[0]))
+        return '本轮没有剩余必需的工具动作，必须返回 {"action": "stop", "args": {}, "reason": "..."}。'
+
     # ---------- 主循环 ----------
     def run(self, query):
         trace = []
@@ -342,7 +371,8 @@ class ReActAgent:
                 try:
                     proposal = self.llm.decide_action(
                         query, it, self._decision_observations(state),
-                        action_history, TOOL_SPEC)
+                        action_history, TOOL_SPEC,
+                        next_hint=self._next_hint(state, needed))
                     decision = self._validate_action_decision(proposal, state, query)
                     self.llm.accept_decision()
                     source = 'llm'

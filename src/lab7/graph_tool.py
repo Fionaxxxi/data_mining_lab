@@ -8,19 +8,24 @@
 """
 from pathlib import Path
 from collections import defaultdict
+import csv
 import hashlib
 import json
 
 ROOT = Path(__file__).resolve().parents[2]
 LAB6 = ROOT / 'outputs/lab6'
+LAB2_ENTITIES = ROOT / 'outputs/lab2/entities.json'
+LAB4_REVIEW = ROOT / 'outputs/lab4/full_review.csv'
+ROUTE_ATTR = ROOT / 'data/lab7/route_attributes.json'
 DEFAULT_GRAPH = LAB6 / 'graph.json'
 
-ACTIONS = ['scenics', 'route', 'advice', 'entity']
+ACTIONS = ['scenics', 'route', 'advice', 'entity', 'route_attr']
 ALLOWED_KEYS = {
     'scenics': {'action'},
     'route': {'action', 'scenic'},
     'advice': {'action', 'scenic', 'traveler_type', 'contains', 'limit'},
     'entity': {'action', 'scenic', 'name'},
+    'route_attr': {'action', 'scenic'},
 }
 
 # 供 LLM 或人工阅读的工具说明（与 input_schema 一致）
@@ -31,6 +36,7 @@ TOOL_SPEC = {
         '按游客类型/关键词取条件建议、按名称查地点实体。所有结果带 evidence_refs。'
         '参数按 action 限定：scenics 仅 action；route 仅 action+scenic；'
         'advice 为 action+scenic/traveler_type/contains/limit；entity 为 action+scenic+name。'
+        'route_attr 取某景区的距离/海拔/坡度/索道等属性，并显式列出缺失字段。'
     ),
     'input_schema': {
         'type': 'object',
@@ -70,6 +76,8 @@ class KGQueryTool:
         for e in self.edges:
             self.out_edges[e['source']].append(e)
         self._route_cache = {}
+        self._lab2_cache = None
+        self._lab4_cache = None
 
     # ---------- 内部工具 ----------
     def _err(self, msg, **extra):
@@ -201,6 +209,58 @@ class KGQueryTool:
                 'matched_specific': len(specific), 'general_count': len(general),
                 'count': len(selected), 'advices': selected, 'fallback_note': fallback, 'note': note}
 
+    # ---------- 实验二/实验四证据回指（只读，不合并记录） ----------
+    def _lab2_refs(self, label, scenic, limit=5):
+        """把实体提及回指到实验二 entities.json 的原文位置。"""
+        if self._lab2_cache is None:
+            try:
+                raw = json.loads(LAB2_ENTITIES.read_text(encoding='utf-8'))
+                self._lab2_cache = raw.get('entities') or []
+            except (OSError, ValueError):
+                self._lab2_cache = []
+        hits = [e for e in self._lab2_cache
+                if e.get('scenic') == scenic and (e.get('canonical') == label or e.get('text') == label)]
+        refs = [{'source_lab': 2, 'file': 'outputs/lab2/entities.json',
+                 'doc_id': e.get('doc_id'), 'start': e.get('start'), 'end': e.get('end'),
+                 'text_type': e.get('text_type'), 'source_name': e.get('source_name')}
+                for e in hits[:limit]]
+        return {'total_mentions': len(hits), 'refs': refs,
+                'offset_convention': 'clean_text, zero-based Python character offsets, end-exclusive',
+                'locatable': bool(hits) and all(r['doc_id'] and isinstance(r['start'], int) for r in refs)}
+
+    def _lab4_refs(self, label, limit=5):
+        """把实体回指到实验四已人工审核的共指记录；uncertain 不当作结论。"""
+        if self._lab4_cache is None:
+            self._lab4_cache = []
+            try:
+                with LAB4_REVIEW.open(encoding='utf-8', newline='') as f:
+                    self._lab4_cache = list(csv.DictReader(f))
+            except OSError:
+                self._lab4_cache = []
+        hits = [r for r in self._lab4_cache if r.get('gold_antecedent') == label]
+        resolved = [r for r in hits if r.get('status') == 'resolved']
+        return {'source_lab': 4, 'file': 'outputs/lab4/full_review.csv',
+                'reviewed_total': len(hits), 'resolved_total': len(resolved),
+                'refs': [{'id': r['id'], 'gold_type': r.get('gold_type'), 'status': r.get('status')}
+                         for r in resolved[:limit]]}
+
+    def _route_attr(self, args):
+        scenic = args.get('scenic')
+        try:
+            data = json.loads(ROUTE_ATTR.read_text(encoding='utf-8'))['scenics']
+        except (OSError, ValueError) as ex:
+            return self._err('路线属性表不可用：%s' % ex)
+        rec = data.get(scenic)
+        if not rec:
+            return {'ok': True, 'found': False, 'scenic': scenic,
+                    'available_scenics': sorted(data),
+                    'note': '该景区没有登记属性；不按景区名推断距离或坡度。'}
+        missing = rec.get('missing_fields') or []
+        return {'ok': True, 'found': True, 'scenic': scenic,
+                'attributes': {k: v for k, v in rec.items() if k != 'missing_fields'},
+                'missing_fields': missing, 'unknown_count': len(missing),
+                'note': '缺失字段表示未获可靠来源；不能据此给出体力可行或安全结论。'}
+
     def _entity(self, args):
         scenic, name = args.get('scenic'), args.get('name')
         if not name:
@@ -215,7 +275,9 @@ class KGQueryTool:
                                  'document_count': n.get('document_count'),
                                  'official_mentions': n.get('official_mentions'),
                                  'tourist_mentions': n.get('tourist_mentions'),
-                                 'evidence_refs': n['evidence_refs']} for n in exact]}
+                                 'evidence_refs': n['evidence_refs'],
+                                 'lab2_evidence': self._lab2_refs(n['label'], scenic),
+                                 'lab4_coref': self._lab4_refs(n['label'])} for n in exact]}
         near = [n['label'] for n in self.nodes.values()
                 if n['scenic'] == scenic and n['type'] in ('Place', 'Transport', 'Scenic')
                 and name in n['label']][:5]
@@ -246,6 +308,10 @@ class KGQueryTool:
                 if not args.get('scenic'):
                     return self._err('advice 查询必须给 scenic')
                 return self._advice(args)
+            if action == 'route_attr':
+                if not args.get('scenic'):
+                    return self._err('route_attr 查询必须给 scenic')
+                return self._route_attr(args)
             return self._entity(args)
         except Exception as ex:  # 工具层兜底，不抛给 Agent
             return self._err('%s: %s' % (type(ex).__name__, ex))
